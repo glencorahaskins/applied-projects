@@ -1,0 +1,2185 @@
+﻿year,area,area_name,xtype,racecomp,ss
+2024,1,Alabama,"Sliding scale, universal",Total,0.10183726
+2024,1,Alabama,"Sliding scale, partial emp.",Total,0.09587321
+2024,1,Alabama,"Sliding scale, max emp.",Total,0.07466672
+2024,1,Alabama,"7% fixed, universal",Total,0.04413471
+2024,1,Alabama,"7% fixed, partial emp.",Total,0.04211615
+2024,1,Alabama,"7% fixed, max emp.",Total,0.03442566
+2024,1,Alabama,"Sliding scale, universal",White,0.10807373
+2024,1,Alabama,"Sliding scale, partial emp.",White,0.1039504
+2024,1,Alabama,"Sliding scale, max emp.",White,0.07397084
+2024,1,Alabama,"7% fixed, universal",White,0.04064144
+2024,1,Alabama,"7% fixed, partial emp.",White,0.03953083
+2024,1,Alabama,"7% fixed, max emp.",White,0.02865013
+2024,1,Alabama,"Sliding scale, universal",Black,0.09502591
+2024,1,Alabama,"Sliding scale, partial emp.",Black,0.08588892
+2024,1,Alabama,"Sliding scale, max emp.",Black,0.08111412
+2024,1,Alabama,"7% fixed, universal",Black,0.05464501
+2024,1,Alabama,"7% fixed, partial emp.",Black,0.0495053
+2024,1,Alabama,"7% fixed, max emp.",Black,0.0479613
+2024,1,Alabama,"Sliding scale, universal",Hispanic,0.0698681
+2024,1,Alabama,"Sliding scale, partial emp.",Hispanic,0.0620506
+2024,1,Alabama,"Sliding scale, max emp.",Hispanic,0.05937357
+2024,1,Alabama,"7% fixed, universal",Hispanic,0.03451589
+2024,1,Alabama,"7% fixed, partial emp.",Hispanic,0.03451589
+2024,1,Alabama,"7% fixed, max emp.",Hispanic,0.03451589
+2024,1,Alabama,"Sliding scale, universal",Asian,0.06661077
+2024,1,Alabama,"Sliding scale, partial emp.",Asian,0.06661077
+2024,1,Alabama,"Sliding scale, max emp.",Asian,0.03539972
+2024,1,Alabama,"7% fixed, universal",Asian,0.04245869
+2024,1,Alabama,"7% fixed, partial emp.",Asian,0.04245869
+2024,1,Alabama,"7% fixed, max emp.",Asian,0.02307843
+2024,1,Alabama,"Sliding scale, universal",Other,0.12295495
+2024,1,Alabama,"Sliding scale, partial emp.",Other,0.10925773
+2024,1,Alabama,"Sliding scale, max emp.",Other,0.09043872
+2024,1,Alabama,"7% fixed, universal",Other,0.04761672
+2024,1,Alabama,"7% fixed, partial emp.",Other,0.04719638
+2024,1,Alabama,"7% fixed, max emp.",Other,0.04178846
+2024,1,Alabama,"Sliding scale, universal",People of Color,0.09193215
+2024,1,Alabama,"Sliding scale, partial emp.",People of Color,0.08304457
+2024,1,Alabama,"Sliding scale, max emp.",People of Color,0.07577197
+2024,1,Alabama,"7% fixed, universal",People of Color,0.04968291
+2024,1,Alabama,"7% fixed, partial emp.",People of Color,0.0462223
+2024,1,Alabama,"7% fixed, max emp.",People of Color,0.04359867
+2024,2,Alaska,"Sliding scale, universal",Total,0.11826227
+2024,2,Alaska,"Sliding scale, partial emp.",Total,0.10403079
+2024,2,Alaska,"Sliding scale, max emp.",Total,0.06087118
+2024,2,Alaska,"7% fixed, universal",Total,0.04034366
+2024,2,Alaska,"7% fixed, partial emp.",Total,0.03745599
+2024,2,Alaska,"7% fixed, max emp.",Total,0.03080525
+2024,2,Alaska,"Sliding scale, universal",White,0.13025258
+2024,2,Alaska,"Sliding scale, partial emp.",White,0.10689016
+2024,2,Alaska,"Sliding scale, max emp.",White,0.06599063
+2024,2,Alaska,"7% fixed, universal",White,0.04798504
+2024,2,Alaska,"7% fixed, partial emp.",White,0.04422716
+2024,2,Alaska,"7% fixed, max emp.",White,0.0384233
+2024,2,Alaska,"Sliding scale, universal",Black,0.01162467
+2024,2,Alaska,"Sliding scale, partial emp.",Black,0.01162467
+2024,2,Alaska,"Sliding scale, max emp.",Black,
+2024,2,Alaska,"7% fixed, universal",Black,0.00918489
+2024,2,Alaska,"7% fixed, partial emp.",Black,0.00918489
+2024,2,Alaska,"7% fixed, max emp.",Black,
+2024,2,Alaska,"Sliding scale, universal",Hispanic,0.12469806
+2024,2,Alaska,"Sliding scale, partial emp.",Hispanic,0.12469806
+2024,2,Alaska,"Sliding scale, max emp.",Hispanic,0.1133206
+2024,2,Alaska,"7% fixed, universal",Hispanic,0.00063803
+2024,2,Alaska,"7% fixed, partial emp.",Hispanic,0.00063803
+2024,2,Alaska,"7% fixed, max emp.",Hispanic,
+2024,2,Alaska,"Sliding scale, universal",Asian,0.08523048
+2024,2,Alaska,"Sliding scale, partial emp.",Asian,0.08523048
+2024,2,Alaska,"Sliding scale, max emp.",Asian,0.08523048
+2024,2,Alaska,"7% fixed, universal",Asian,0.07415396
+2024,2,Alaska,"7% fixed, partial emp.",Asian,0.07415396
+2024,2,Alaska,"7% fixed, max emp.",Asian,0.07415396
+2024,2,Alaska,"Sliding scale, universal",Other,0.11059792
+2024,2,Alaska,"Sliding scale, partial emp.",Other,0.1049022
+2024,2,Alaska,"Sliding scale, max emp.",Other,0.03381872
+2024,2,Alaska,"7% fixed, universal",Other,0.0310239
+2024,2,Alaska,"7% fixed, partial emp.",Other,0.02795974
+2024,2,Alaska,"7% fixed, max emp.",Other,0.01631508
+2024,2,Alaska,"Sliding scale, universal",People of Color,0.10411685
+2024,2,Alaska,"Sliding scale, partial emp.",People of Color,0.10065748
+2024,2,Alaska,"Sliding scale, max emp.",People of Color,0.05483158
+2024,2,Alaska,"7% fixed, universal",People of Color,0.03132884
+2024,2,Alaska,"7% fixed, partial emp.",People of Color,0.02946779
+2024,2,Alaska,"7% fixed, max emp.",People of Color,0.02181795
+2024,4,Arizona,"Sliding scale, universal",Total,0.14675263
+2024,4,Arizona,"Sliding scale, partial emp.",Total,0.14038451
+2024,4,Arizona,"Sliding scale, max emp.",Total,0.09945826
+2024,4,Arizona,"7% fixed, universal",Total,0.07512824
+2024,4,Arizona,"7% fixed, partial emp.",Total,0.07182965
+2024,4,Arizona,"7% fixed, max emp.",Total,0.0543395
+2024,4,Arizona,"Sliding scale, universal",White,0.16743152
+2024,4,Arizona,"Sliding scale, partial emp.",White,0.16135517
+2024,4,Arizona,"Sliding scale, max emp.",White,0.11969889
+2024,4,Arizona,"7% fixed, universal",White,0.08596285
+2024,4,Arizona,"7% fixed, partial emp.",White,0.0845914
+2024,4,Arizona,"7% fixed, max emp.",White,0.068166
+2024,4,Arizona,"Sliding scale, universal",Black,0.05360452
+2024,4,Arizona,"Sliding scale, partial emp.",Black,0.05224839
+2024,4,Arizona,"Sliding scale, max emp.",Black,0.04976766
+2024,4,Arizona,"7% fixed, universal",Black,0.01891972
+2024,4,Arizona,"7% fixed, partial emp.",Black,0.01756359
+2024,4,Arizona,"7% fixed, max emp.",Black,0.01756359
+2024,4,Arizona,"Sliding scale, universal",Hispanic,0.13368293
+2024,4,Arizona,"Sliding scale, partial emp.",Hispanic,0.12585193
+2024,4,Arizona,"Sliding scale, max emp.",Hispanic,0.08863794
+2024,4,Arizona,"7% fixed, universal",Hispanic,0.06981685
+2024,4,Arizona,"7% fixed, partial emp.",Hispanic,0.06392248
+2024,4,Arizona,"7% fixed, max emp.",Hispanic,0.04487514
+2024,4,Arizona,"Sliding scale, universal",Asian,0.18039149
+2024,4,Arizona,"Sliding scale, partial emp.",Asian,0.18039149
+2024,4,Arizona,"Sliding scale, max emp.",Asian,0.05366084
+2024,4,Arizona,"7% fixed, universal",Asian,0.05773243
+2024,4,Arizona,"7% fixed, partial emp.",Asian,0.05773243
+2024,4,Arizona,"7% fixed, max emp.",Asian,0.01938323
+2024,4,Arizona,"Sliding scale, universal",Other,0.13804136
+2024,4,Arizona,"Sliding scale, partial emp.",Other,0.13043194
+2024,4,Arizona,"Sliding scale, max emp.",Other,0.09842351
+2024,4,Arizona,"7% fixed, universal",Other,0.08661462
+2024,4,Arizona,"7% fixed, partial emp.",Other,0.08226648
+2024,4,Arizona,"7% fixed, max emp.",Other,0.066806
+2024,4,Arizona,"Sliding scale, universal",People of Color,0.13076888
+2024,4,Arizona,"Sliding scale, partial emp.",People of Color,0.12417523
+2024,4,Arizona,"Sliding scale, max emp.",People of Color,0.08381325
+2024,4,Arizona,"7% fixed, universal",People of Color,0.06675363
+2024,4,Arizona,"7% fixed, partial emp.",People of Color,0.06196545
+2024,4,Arizona,"7% fixed, max emp.",People of Color,0.04365229
+2024,5,Arkansas,"Sliding scale, universal",Total,0.11319719
+2024,5,Arkansas,"Sliding scale, partial emp.",Total,0.10839462
+2024,5,Arkansas,"Sliding scale, max emp.",Total,0.07989945
+2024,5,Arkansas,"7% fixed, universal",Total,0.05017349
+2024,5,Arkansas,"7% fixed, partial emp.",Total,0.04826154
+2024,5,Arkansas,"7% fixed, max emp.",Total,0.03522152
+2024,5,Arkansas,"Sliding scale, universal",White,0.13209744
+2024,5,Arkansas,"Sliding scale, partial emp.",White,0.12781362
+2024,5,Arkansas,"Sliding scale, max emp.",White,0.09435391
+2024,5,Arkansas,"7% fixed, universal",White,0.05777405
+2024,5,Arkansas,"7% fixed, partial emp.",White,0.05645038
+2024,5,Arkansas,"7% fixed, max emp.",White,0.04179657
+2024,5,Arkansas,"Sliding scale, universal",Black,0.08962131
+2024,5,Arkansas,"Sliding scale, partial emp.",Black,0.08480512
+2024,5,Arkansas,"Sliding scale, max emp.",Black,0.08031297
+2024,5,Arkansas,"7% fixed, universal",Black,0.04841712
+2024,5,Arkansas,"7% fixed, partial emp.",Black,0.04541652
+2024,5,Arkansas,"7% fixed, max emp.",Black,0.0447774
+2024,5,Arkansas,"Sliding scale, universal",Hispanic,0.06482435
+2024,5,Arkansas,"Sliding scale, partial emp.",Hispanic,0.05659014
+2024,5,Arkansas,"Sliding scale, max emp.",Hispanic,0.03239214
+2024,5,Arkansas,"7% fixed, universal",Hispanic,0.02546865
+2024,5,Arkansas,"7% fixed, partial emp.",Hispanic,0.02222631
+2024,5,Arkansas,"7% fixed, max emp.",Hispanic,0.00890163
+2024,5,Arkansas,"Sliding scale, universal",Asian,0.07334146
+2024,5,Arkansas,"Sliding scale, partial emp.",Asian,0.07334146
+2024,5,Arkansas,"Sliding scale, max emp.",Asian,0.02629193
+2024,5,Arkansas,"7% fixed, universal",Asian,0.05828326
+2024,5,Arkansas,"7% fixed, partial emp.",Asian,0.05828326
+2024,5,Arkansas,"7% fixed, max emp.",Asian,0.02228398
+2024,5,Arkansas,"Sliding scale, universal",Other,0.09529069
+2024,5,Arkansas,"Sliding scale, partial emp.",Other,0.09013164
+2024,5,Arkansas,"Sliding scale, max emp.",Other,0.05110883
+2024,5,Arkansas,"7% fixed, universal",Other,0.02750461
+2024,5,Arkansas,"7% fixed, partial emp.",Other,0.02452954
+2024,5,Arkansas,"7% fixed, max emp.",Other,0.00629092
+2024,5,Arkansas,"Sliding scale, universal",People of Color,0.08194829
+2024,5,Arkansas,"Sliding scale, partial emp.",People of Color,0.07628805
+2024,5,Arkansas,"Sliding scale, max emp.",People of Color,0.05600104
+2024,5,Arkansas,"7% fixed, universal",People of Color,0.03760703
+2024,5,Arkansas,"7% fixed, partial emp.",People of Color,0.03472244
+2024,5,Arkansas,"7% fixed, max emp.",People of Color,0.02435061
+2024,6,California,"Sliding scale, universal",Total,0.12161662
+2024,6,California,"Sliding scale, partial emp.",Total,0.11591988
+2024,6,California,"Sliding scale, max emp.",Total,0.08800716
+2024,6,California,"7% fixed, universal",Total,0.06512522
+2024,6,California,"7% fixed, partial emp.",Total,0.0623639
+2024,6,California,"7% fixed, max emp.",Total,0.04725815
+2024,6,California,"Sliding scale, universal",White,0.13055505
+2024,6,California,"Sliding scale, partial emp.",White,0.12358451
+2024,6,California,"Sliding scale, max emp.",White,0.09061708
+2024,6,California,"7% fixed, universal",White,0.07688176
+2024,6,California,"7% fixed, partial emp.",White,0.07311645
+2024,6,California,"7% fixed, max emp.",White,0.05494042
+2024,6,California,"Sliding scale, universal",Black,0.13357968
+2024,6,California,"Sliding scale, partial emp.",Black,0.11627794
+2024,6,California,"Sliding scale, max emp.",Black,0.09519883
+2024,6,California,"7% fixed, universal",Black,0.07494938
+2024,6,California,"7% fixed, partial emp.",Black,0.06599835
+2024,6,California,"7% fixed, max emp.",Black,0.04892595
+2024,6,California,"Sliding scale, universal",Hispanic,0.11322684
+2024,6,California,"Sliding scale, partial emp.",Hispanic,0.10872238
+2024,6,California,"Sliding scale, max emp.",Hispanic,0.08580544
+2024,6,California,"7% fixed, universal",Hispanic,0.05199957
+2024,6,California,"7% fixed, partial emp.",Hispanic,0.05010553
+2024,6,California,"7% fixed, max emp.",Hispanic,0.03946969
+2024,6,California,"Sliding scale, universal",Asian,0.11672844
+2024,6,California,"Sliding scale, partial emp.",Asian,0.11387627
+2024,6,California,"Sliding scale, max emp.",Asian,0.08390481
+2024,6,California,"7% fixed, universal",Asian,0.07182575
+2024,6,California,"7% fixed, partial emp.",Asian,0.07038424
+2024,6,California,"7% fixed, max emp.",Asian,0.0519428
+2024,6,California,"Sliding scale, universal",Other,0.14269534
+2024,6,California,"Sliding scale, partial emp.",Other,0.13670724
+2024,6,California,"Sliding scale, max emp.",Other,0.09687644
+2024,6,California,"7% fixed, universal",Other,0.07526741
+2024,6,California,"7% fixed, partial emp.",Other,0.07294238
+2024,6,California,"7% fixed, max emp.",Other,0.05086026
+2024,6,California,"Sliding scale, universal",People of Color,0.11768301
+2024,6,California,"Sliding scale, partial emp.",People of Color,0.11254684
+2024,6,California,"Sliding scale, max emp.",People of Color,0.0868586
+2024,6,California,"7% fixed, universal",People of Color,0.05995143
+2024,6,California,"7% fixed, partial emp.",People of Color,0.05763194
+2024,6,California,"7% fixed, max emp.",People of Color,0.04387735
+2024,8,Colorado,"Sliding scale, universal",Total,0.18181374
+2024,8,Colorado,"Sliding scale, partial emp.",Total,0.17205995
+2024,8,Colorado,"Sliding scale, max emp.",Total,0.13256789
+2024,8,Colorado,"7% fixed, universal",Total,0.10792826
+2024,8,Colorado,"7% fixed, partial emp.",Total,0.10299244
+2024,8,Colorado,"7% fixed, max emp.",Total,0.07878827
+2024,8,Colorado,"Sliding scale, universal",White,0.20410823
+2024,8,Colorado,"Sliding scale, partial emp.",White,0.19572922
+2024,8,Colorado,"Sliding scale, max emp.",White,0.1490224
+2024,8,Colorado,"7% fixed, universal",White,0.12744005
+2024,8,Colorado,"7% fixed, partial emp.",White,0.12335612
+2024,8,Colorado,"7% fixed, max emp.",White,0.09513669
+2024,8,Colorado,"Sliding scale, universal",Black,0.12363306
+2024,8,Colorado,"Sliding scale, partial emp.",Black,0.11020929
+2024,8,Colorado,"Sliding scale, max emp.",Black,0.09045489
+2024,8,Colorado,"7% fixed, universal",Black,0.07857549
+2024,8,Colorado,"7% fixed, partial emp.",Black,0.06515171
+2024,8,Colorado,"7% fixed, max emp.",Black,0.05277021
+2024,8,Colorado,"Sliding scale, universal",Hispanic,0.15190384
+2024,8,Colorado,"Sliding scale, partial emp.",Hispanic,0.14109446
+2024,8,Colorado,"Sliding scale, max emp.",Hispanic,0.11309782
+2024,8,Colorado,"7% fixed, universal",Hispanic,0.07704273
+2024,8,Colorado,"7% fixed, partial emp.",Hispanic,0.07452544
+2024,8,Colorado,"7% fixed, max emp.",Hispanic,0.05471158
+2024,8,Colorado,"Sliding scale, universal",Asian,0.14377292
+2024,8,Colorado,"Sliding scale, partial emp.",Asian,0.12363744
+2024,8,Colorado,"Sliding scale, max emp.",Asian,0.09442208
+2024,8,Colorado,"7% fixed, universal",Asian,0.06407566
+2024,8,Colorado,"7% fixed, partial emp.",Asian,0.04593003
+2024,8,Colorado,"7% fixed, max emp.",Asian,0.02511528
+2024,8,Colorado,"Sliding scale, universal",Other,0.15267022
+2024,8,Colorado,"Sliding scale, partial emp.",Other,0.1440085
+2024,8,Colorado,"Sliding scale, max emp.",Other,0.10605045
+2024,8,Colorado,"7% fixed, universal",Other,0.09527851
+2024,8,Colorado,"7% fixed, partial emp.",Other,0.0871192
+2024,8,Colorado,"7% fixed, max emp.",Other,0.07468211
+2024,8,Colorado,"Sliding scale, universal",People of Color,0.14786696
+2024,8,Colorado,"Sliding scale, partial emp.",People of Color,0.13601985
+2024,8,Colorado,"Sliding scale, max emp.",People of Color,0.10751336
+2024,8,Colorado,"7% fixed, universal",People of Color,0.07821858
+2024,8,Colorado,"7% fixed, partial emp.",People of Color,0.07198562
+2024,8,Colorado,"7% fixed, max emp.",People of Color,0.05389529
+2024,9,Connecticut,"Sliding scale, universal",Total,0.15203642
+2024,9,Connecticut,"Sliding scale, partial emp.",Total,0.14783595
+2024,9,Connecticut,"Sliding scale, max emp.",Total,0.12302119
+2024,9,Connecticut,"7% fixed, universal",Total,0.0740191
+2024,9,Connecticut,"7% fixed, partial emp.",Total,0.07140653
+2024,9,Connecticut,"7% fixed, max emp.",Total,0.05946675
+2024,9,Connecticut,"Sliding scale, universal",White,0.19111304
+2024,9,Connecticut,"Sliding scale, partial emp.",White,0.18539725
+2024,9,Connecticut,"Sliding scale, max emp.",White,0.15093732
+2024,9,Connecticut,"7% fixed, universal",White,0.09564937
+2024,9,Connecticut,"7% fixed, partial emp.",White,0.09149357
+2024,9,Connecticut,"7% fixed, max emp.",White,0.07383455
+2024,9,Connecticut,"Sliding scale, universal",Black,0.14006942
+2024,9,Connecticut,"Sliding scale, partial emp.",Black,0.13703585
+2024,9,Connecticut,"Sliding scale, max emp.",Black,0.12630167
+2024,9,Connecticut,"7% fixed, universal",Black,0.0555669
+2024,9,Connecticut,"7% fixed, partial emp.",Black,0.05253333
+2024,9,Connecticut,"7% fixed, max emp.",Black,0.05019981
+2024,9,Connecticut,"Sliding scale, universal",Hispanic,0.08125239
+2024,9,Connecticut,"Sliding scale, partial emp.",Hispanic,0.07802978
+2024,9,Connecticut,"Sliding scale, max emp.",Hispanic,0.07127911
+2024,9,Connecticut,"7% fixed, universal",Hispanic,0.04719359
+2024,9,Connecticut,"7% fixed, partial emp.",Hispanic,0.04719359
+2024,9,Connecticut,"7% fixed, max emp.",Hispanic,0.04433753
+2024,9,Connecticut,"Sliding scale, universal",Asian,0.10250947
+2024,9,Connecticut,"Sliding scale, partial emp.",Asian,0.10250947
+2024,9,Connecticut,"Sliding scale, max emp.",Asian,0.06605114
+2024,9,Connecticut,"7% fixed, universal",Asian,0.03728693
+2024,9,Connecticut,"7% fixed, partial emp.",Asian,0.03728693
+2024,9,Connecticut,"7% fixed, max emp.",Asian,0.01982718
+2024,9,Connecticut,"Sliding scale, universal",Other,0.13067003
+2024,9,Connecticut,"Sliding scale, partial emp.",Other,0.13027715
+2024,9,Connecticut,"Sliding scale, max emp.",Other,0.10978279
+2024,9,Connecticut,"7% fixed, universal",Other,0.04838076
+2024,9,Connecticut,"7% fixed, partial emp.",Other,0.04838076
+2024,9,Connecticut,"7% fixed, max emp.",Other,0.04125274
+2024,9,Connecticut,"Sliding scale, universal",People of Color,0.10546622
+2024,9,Connecticut,"Sliding scale, partial emp.",People of Color,0.10307165
+2024,9,Connecticut,"Sliding scale, max emp.",People of Color,0.08975169
+2024,9,Connecticut,"7% fixed, universal",People of Color,0.04824088
+2024,9,Connecticut,"7% fixed, partial emp.",People of Color,0.04746748
+2024,9,Connecticut,"7% fixed, max emp.",People of Color,0.0423437
+2024,10,Delaware,"Sliding scale, universal",Total,0.13029249
+2024,10,Delaware,"Sliding scale, partial emp.",Total,0.12735673
+2024,10,Delaware,"Sliding scale, max emp.",Total,0.1165642
+2024,10,Delaware,"7% fixed, universal",Total,0.05564713
+2024,10,Delaware,"7% fixed, partial emp.",Total,0.05384236
+2024,10,Delaware,"7% fixed, max emp.",Total,0.05126755
+2024,10,Delaware,"Sliding scale, universal",White,0.13224152
+2024,10,Delaware,"Sliding scale, partial emp.",White,0.12877668
+2024,10,Delaware,"Sliding scale, max emp.",White,0.11108288
+2024,10,Delaware,"7% fixed, universal",White,0.07793588
+2024,10,Delaware,"7% fixed, partial emp.",White,0.07447103
+2024,10,Delaware,"7% fixed, max emp.",White,0.06952786
+2024,10,Delaware,"Sliding scale, universal",Black,0.19516525
+2024,10,Delaware,"Sliding scale, partial emp.",Black,0.1902574
+2024,10,Delaware,"Sliding scale, max emp.",Black,0.1902574
+2024,10,Delaware,"7% fixed, universal",Black,0.03581684
+2024,10,Delaware,"7% fixed, partial emp.",Black,0.03581684
+2024,10,Delaware,"7% fixed, max emp.",Black,0.03581684
+2024,10,Delaware,"Sliding scale, universal",Hispanic,0.07368813
+2024,10,Delaware,"Sliding scale, partial emp.",Hispanic,0.07368813
+2024,10,Delaware,"Sliding scale, max emp.",Hispanic,0.07368813
+2024,10,Delaware,"7% fixed, universal",Hispanic,0.0463342
+2024,10,Delaware,"7% fixed, partial emp.",Hispanic,0.0463342
+2024,10,Delaware,"7% fixed, max emp.",Hispanic,0.0463342
+2024,10,Delaware,"Sliding scale, universal",Asian,0.07990544
+2024,10,Delaware,"Sliding scale, partial emp.",Asian,0.07990544
+2024,10,Delaware,"Sliding scale, max emp.",Asian,0.05925926
+2024,10,Delaware,"7% fixed, universal",Asian,
+2024,10,Delaware,"7% fixed, partial emp.",Asian,
+2024,10,Delaware,"7% fixed, max emp.",Asian,
+2024,10,Delaware,"Sliding scale, universal",Other,0.01874126
+2024,10,Delaware,"Sliding scale, partial emp.",Other,0.01874126
+2024,10,Delaware,"Sliding scale, max emp.",Other,0.01874126
+2024,10,Delaware,"7% fixed, universal",Other,0.01874126
+2024,10,Delaware,"7% fixed, partial emp.",Other,0.01874126
+2024,10,Delaware,"7% fixed, max emp.",Other,0.01874126
+2024,10,Delaware,"Sliding scale, universal",People of Color,0.12817358
+2024,10,Delaware,"Sliding scale, partial emp.",People of Color,0.12581301
+2024,10,Delaware,"Sliding scale, max emp.",People of Color,0.12252329
+2024,10,Delaware,"7% fixed, universal",People of Color,0.03141558
+2024,10,Delaware,"7% fixed, partial emp.",People of Color,0.03141558
+2024,10,Delaware,"7% fixed, max emp.",People of Color,0.03141558
+2024,11,District of Columbia,"Sliding scale, universal",Total,0.15284679
+2024,11,District of Columbia,"Sliding scale, partial emp.",Total,0.14841985
+2024,11,District of Columbia,"Sliding scale, max emp.",Total,0.12928464
+2024,11,District of Columbia,"7% fixed, universal",Total,0.07800445
+2024,11,District of Columbia,"7% fixed, partial emp.",Total,0.07480621
+2024,11,District of Columbia,"7% fixed, max emp.",Total,0.06880726
+2024,11,District of Columbia,"Sliding scale, universal",White,0.27072861
+2024,11,District of Columbia,"Sliding scale, partial emp.",White,0.27072861
+2024,11,District of Columbia,"Sliding scale, max emp.",White,0.23638786
+2024,11,District of Columbia,"7% fixed, universal",White,0.17333899
+2024,11,District of Columbia,"7% fixed, partial emp.",White,0.17333899
+2024,11,District of Columbia,"7% fixed, max emp.",White,0.15644116
+2024,11,District of Columbia,"Sliding scale, universal",Black,0.08831831
+2024,11,District of Columbia,"Sliding scale, partial emp.",Black,0.08392787
+2024,11,District of Columbia,"Sliding scale, max emp.",Black,0.06844375
+2024,11,District of Columbia,"7% fixed, universal",Black,0.02328499
+2024,11,District of Columbia,"7% fixed, partial emp.",Black,0.02156017
+2024,11,District of Columbia,"7% fixed, max emp.",Black,0.02156017
+2024,11,District of Columbia,"Sliding scale, universal",Hispanic,0.18339581
+2024,11,District of Columbia,"Sliding scale, partial emp.",Hispanic,0.16493128
+2024,11,District of Columbia,"Sliding scale, max emp.",Hispanic,0.16493128
+2024,11,District of Columbia,"7% fixed, universal",Hispanic,0.08829654
+2024,11,District of Columbia,"7% fixed, partial emp.",Hispanic,0.06983201
+2024,11,District of Columbia,"7% fixed, max emp.",Hispanic,0.06983201
+2024,11,District of Columbia,"Sliding scale, universal",Asian,0.06264964
+2024,11,District of Columbia,"Sliding scale, partial emp.",Asian,0.06264964
+2024,11,District of Columbia,"Sliding scale, max emp.",Asian,0.02394254
+2024,11,District of Columbia,"7% fixed, universal",Asian,0.02114924
+2024,11,District of Columbia,"7% fixed, partial emp.",Asian,0.02114924
+2024,11,District of Columbia,"7% fixed, max emp.",Asian,
+2024,11,District of Columbia,"Sliding scale, universal",Other,0.0714088
+2024,11,District of Columbia,"Sliding scale, partial emp.",Other,0.0714088
+2024,11,District of Columbia,"Sliding scale, max emp.",Other,0.0714088
+2024,11,District of Columbia,"7% fixed, universal",Other,0.04760587
+2024,11,District of Columbia,"7% fixed, partial emp.",Other,0.04760587
+2024,11,District of Columbia,"7% fixed, max emp.",Other,0.04760587
+2024,11,District of Columbia,"Sliding scale, universal",People of Color,0.10272456
+2024,11,District of Columbia,"Sliding scale, partial emp.",People of Color,0.09641533
+2024,11,District of Columbia,"Sliding scale, max emp.",People of Color,0.08374536
+2024,11,District of Columbia,"7% fixed, universal",People of Color,0.0374691
+2024,11,District of Columbia,"7% fixed, partial emp.",People of Color,0.032911
+2024,11,District of Columbia,"7% fixed, max emp.",People of Color,0.03154615
+2024,12,Florida,"Sliding scale, universal",Total,0.09382384
+2024,12,Florida,"Sliding scale, partial emp.",Total,0.08892968
+2024,12,Florida,"Sliding scale, max emp.",Total,0.0645376
+2024,12,Florida,"7% fixed, universal",Total,0.04147638
+2024,12,Florida,"7% fixed, partial emp.",Total,0.03950046
+2024,12,Florida,"7% fixed, max emp.",Total,0.02937889
+2024,12,Florida,"Sliding scale, universal",White,0.1050608
+2024,12,Florida,"Sliding scale, partial emp.",White,0.09947879
+2024,12,Florida,"Sliding scale, max emp.",White,0.06905167
+2024,12,Florida,"7% fixed, universal",White,0.04581776
+2024,12,Florida,"7% fixed, partial emp.",White,0.04383638
+2024,12,Florida,"7% fixed, max emp.",White,0.03169767
+2024,12,Florida,"Sliding scale, universal",Black,0.08993006
+2024,12,Florida,"Sliding scale, partial emp.",Black,0.08149719
+2024,12,Florida,"Sliding scale, max emp.",Black,0.06896328
+2024,12,Florida,"7% fixed, universal",Black,0.04512028
+2024,12,Florida,"7% fixed, partial emp.",Black,0.04073376
+2024,12,Florida,"7% fixed, max emp.",Black,0.03681491
+2024,12,Florida,"Sliding scale, universal",Hispanic,0.07967593
+2024,12,Florida,"Sliding scale, partial emp.",Hispanic,0.07660038
+2024,12,Florida,"Sliding scale, max emp.",Hispanic,0.05762269
+2024,12,Florida,"7% fixed, universal",Hispanic,0.03295578
+2024,12,Florida,"7% fixed, partial emp.",Hispanic,0.03208613
+2024,12,Florida,"7% fixed, max emp.",Hispanic,0.0232552
+2024,12,Florida,"Sliding scale, universal",Asian,0.0979718
+2024,12,Florida,"Sliding scale, partial emp.",Asian,0.0979718
+2024,12,Florida,"Sliding scale, max emp.",Asian,0.05968891
+2024,12,Florida,"7% fixed, universal",Asian,0.04658082
+2024,12,Florida,"7% fixed, partial emp.",Asian,0.04658082
+2024,12,Florida,"7% fixed, max emp.",Asian,0.03018331
+2024,12,Florida,"Sliding scale, universal",Other,0.10377275
+2024,12,Florida,"Sliding scale, partial emp.",Other,0.10085917
+2024,12,Florida,"Sliding scale, max emp.",Other,0.06139275
+2024,12,Florida,"7% fixed, universal",Other,0.04600907
+2024,12,Florida,"7% fixed, partial emp.",Other,0.04334255
+2024,12,Florida,"7% fixed, max emp.",Other,0.02533281
+2024,12,Florida,"Sliding scale, universal",People of Color,0.08576568
+2024,12,Florida,"Sliding scale, partial emp.",People of Color,0.08136478
+2024,12,Florida,"Sliding scale, max emp.",People of Color,0.0613005
+2024,12,Florida,"7% fixed, universal",People of Color,0.03836312
+2024,12,Florida,"7% fixed, partial emp.",People of Color,0.03639111
+2024,12,Florida,"7% fixed, max emp.",People of Color,0.02771606
+2024,13,Georgia,"Sliding scale, universal",Total,0.0877456
+2024,13,Georgia,"Sliding scale, partial emp.",Total,0.0821456
+2024,13,Georgia,"Sliding scale, max emp.",Total,0.06304452
+2024,13,Georgia,"7% fixed, universal",Total,0.02738529
+2024,13,Georgia,"7% fixed, partial emp.",Total,0.02638014
+2024,13,Georgia,"7% fixed, max emp.",Total,0.02049155
+2024,13,Georgia,"Sliding scale, universal",White,0.09873524
+2024,13,Georgia,"Sliding scale, partial emp.",White,0.09483996
+2024,13,Georgia,"Sliding scale, max emp.",White,0.07035734
+2024,13,Georgia,"7% fixed, universal",White,0.03234555
+2024,13,Georgia,"7% fixed, partial emp.",White,0.03155201
+2024,13,Georgia,"7% fixed, max emp.",White,0.02390211
+2024,13,Georgia,"Sliding scale, universal",Black,0.07985011
+2024,13,Georgia,"Sliding scale, partial emp.",Black,0.07025476
+2024,13,Georgia,"Sliding scale, max emp.",Black,0.06182155
+2024,13,Georgia,"7% fixed, universal",Black,0.02381491
+2024,13,Georgia,"7% fixed, partial emp.",Black,0.0223959
+2024,13,Georgia,"7% fixed, max emp.",Black,0.01902365
+2024,13,Georgia,"Sliding scale, universal",Hispanic,0.07186967
+2024,13,Georgia,"Sliding scale, partial emp.",Hispanic,0.06900882
+2024,13,Georgia,"Sliding scale, max emp.",Hispanic,0.05301075
+2024,13,Georgia,"7% fixed, universal",Hispanic,0.02522459
+2024,13,Georgia,"7% fixed, partial emp.",Hispanic,0.0243664
+2024,13,Georgia,"7% fixed, max emp.",Hispanic,0.01757883
+2024,13,Georgia,"Sliding scale, universal",Asian,0.07496628
+2024,13,Georgia,"Sliding scale, partial emp.",Asian,0.07170721
+2024,13,Georgia,"Sliding scale, max emp.",Asian,0.03498632
+2024,13,Georgia,"7% fixed, universal",Asian,0.00739261
+2024,13,Georgia,"7% fixed, partial emp.",Asian,0.00739261
+2024,13,Georgia,"7% fixed, max emp.",Asian,0.00606814
+2024,13,Georgia,"Sliding scale, universal",Other,0.09135352
+2024,13,Georgia,"Sliding scale, partial emp.",Other,0.08520496
+2024,13,Georgia,"Sliding scale, max emp.",Other,0.06159963
+2024,13,Georgia,"7% fixed, universal",Other,0.03344902
+2024,13,Georgia,"7% fixed, partial emp.",Other,0.03143162
+2024,13,Georgia,"7% fixed, max emp.",Other,0.02275797
+2024,13,Georgia,"Sliding scale, universal",People of Color,0.0784224
+2024,13,Georgia,"Sliding scale, partial emp.",People of Color,0.07137617
+2024,13,Georgia,"Sliding scale, max emp.",People of Color,0.05684059
+2024,13,Georgia,"7% fixed, universal",People of Color,0.02317718
+2024,13,Georgia,"7% fixed, partial emp.",People of Color,0.02199251
+2024,13,Georgia,"7% fixed, max emp.",People of Color,0.01759817
+2024,15,Hawaii,"Sliding scale, universal",Total,0.02628705
+2024,15,Hawaii,"Sliding scale, partial emp.",Total,0.02435288
+2024,15,Hawaii,"Sliding scale, max emp.",Total,0.0220178
+2024,15,Hawaii,"7% fixed, universal",Total,0.00981931
+2024,15,Hawaii,"7% fixed, partial emp.",Total,0.00915841
+2024,15,Hawaii,"7% fixed, max emp.",Total,0.00741673
+2024,15,Hawaii,"Sliding scale, universal",White,0.02522072
+2024,15,Hawaii,"Sliding scale, partial emp.",White,0.02001931
+2024,15,Hawaii,"Sliding scale, max emp.",White,0.01279371
+2024,15,Hawaii,"7% fixed, universal",White,0.01279421
+2024,15,Hawaii,"7% fixed, partial emp.",White,0.01005239
+2024,15,Hawaii,"7% fixed, max emp.",White,0.00282679
+2024,15,Hawaii,"Sliding scale, universal",Black,0.02324695
+2024,15,Hawaii,"Sliding scale, partial emp.",Black,0.02324695
+2024,15,Hawaii,"Sliding scale, max emp.",Black,0.02324695
+2024,15,Hawaii,"7% fixed, universal",Black,0.02324695
+2024,15,Hawaii,"7% fixed, partial emp.",Black,0.02324695
+2024,15,Hawaii,"7% fixed, max emp.",Black,0.02324695
+2024,15,Hawaii,"Sliding scale, universal",Hispanic,0.01345683
+2024,15,Hawaii,"Sliding scale, partial emp.",Hispanic,0.01345683
+2024,15,Hawaii,"Sliding scale, max emp.",Hispanic,0.01345683
+2024,15,Hawaii,"7% fixed, universal",Hispanic,0.00856344
+2024,15,Hawaii,"7% fixed, partial emp.",Hispanic,0.00856344
+2024,15,Hawaii,"7% fixed, max emp.",Hispanic,0.00856344
+2024,15,Hawaii,"Sliding scale, universal",Asian,0.01555009
+2024,15,Hawaii,"Sliding scale, partial emp.",Asian,0.01554991
+2024,15,Hawaii,"Sliding scale, max emp.",Asian,0.01554848
+2024,15,Hawaii,"7% fixed, universal",Asian,0.00279669
+2024,15,Hawaii,"7% fixed, partial emp.",Asian,0.00279669
+2024,15,Hawaii,"7% fixed, max emp.",Asian,0.00279669
+2024,15,Hawaii,"Sliding scale, universal",Other,0.04880723
+2024,15,Hawaii,"Sliding scale, partial emp.",Other,0.04612719
+2024,15,Hawaii,"Sliding scale, max emp.",Other,0.04379172
+2024,15,Hawaii,"7% fixed, universal",Other,0.01638654
+2024,15,Hawaii,"7% fixed, partial emp.",Other,0.01638654
+2024,15,Hawaii,"7% fixed, max emp.",Other,0.01638654
+2024,15,Hawaii,"Sliding scale, universal",People of Color,0.02662572
+2024,15,Hawaii,"Sliding scale, partial emp.",People of Color,0.02572922
+2024,15,Hawaii,"Sliding scale, max emp.",People of Color,0.02494736
+2024,15,Hawaii,"7% fixed, universal",People of Color,0.00887449
+2024,15,Hawaii,"7% fixed, partial emp.",People of Color,0.00887449
+2024,15,Hawaii,"7% fixed, max emp.",People of Color,0.00887449
+2024,16,Idaho,"Sliding scale, universal",Total,0.16138244
+2024,16,Idaho,"Sliding scale, partial emp.",Total,0.15683894
+2024,16,Idaho,"Sliding scale, max emp.",Total,0.113861
+2024,16,Idaho,"7% fixed, universal",Total,0.07845559
+2024,16,Idaho,"7% fixed, partial emp.",Total,0.0783202
+2024,16,Idaho,"7% fixed, max emp.",Total,0.05646654
+2024,16,Idaho,"Sliding scale, universal",White,0.15905003
+2024,16,Idaho,"Sliding scale, partial emp.",White,0.15322603
+2024,16,Idaho,"Sliding scale, max emp.",White,0.10703012
+2024,16,Idaho,"7% fixed, universal",White,0.08126042
+2024,16,Idaho,"7% fixed, partial emp.",White,0.08108534
+2024,16,Idaho,"7% fixed, max emp.",White,0.05943858
+2024,16,Idaho,"Sliding scale, universal",Black,0.43005952
+2024,16,Idaho,"Sliding scale, partial emp.",Black,0.43005952
+2024,16,Idaho,"Sliding scale, max emp.",Black,0.43005952
+2024,16,Idaho,"7% fixed, universal",Black,
+2024,16,Idaho,"7% fixed, partial emp.",Black,
+2024,16,Idaho,"7% fixed, max emp.",Black,
+2024,16,Idaho,"Sliding scale, universal",Hispanic,0.17113327
+2024,16,Idaho,"Sliding scale, partial emp.",Hispanic,0.17113327
+2024,16,Idaho,"Sliding scale, max emp.",Hispanic,0.14513272
+2024,16,Idaho,"7% fixed, universal",Hispanic,0.07478231
+2024,16,Idaho,"7% fixed, partial emp.",Hispanic,0.07478231
+2024,16,Idaho,"7% fixed, max emp.",Hispanic,0.05675048
+2024,16,Idaho,"Sliding scale, universal",Asian,0.18381298
+2024,16,Idaho,"Sliding scale, partial emp.",Asian,0.18381298
+2024,16,Idaho,"Sliding scale, max emp.",Asian,0.07220829
+2024,16,Idaho,"7% fixed, universal",Asian,0.11160469
+2024,16,Idaho,"7% fixed, partial emp.",Asian,0.11160469
+2024,16,Idaho,"7% fixed, max emp.",Asian,
+2024,16,Idaho,"Sliding scale, universal",Other,0.10163565
+2024,16,Idaho,"Sliding scale, partial emp.",Other,0.10055766
+2024,16,Idaho,"Sliding scale, max emp.",Other,0.07767758
+2024,16,Idaho,"7% fixed, universal",Other,0.03367547
+2024,16,Idaho,"7% fixed, partial emp.",Other,0.03367547
+2024,16,Idaho,"7% fixed, max emp.",Other,0.03367547
+2024,16,Idaho,"Sliding scale, universal",People of Color,0.16934108
+2024,16,Idaho,"Sliding scale, partial emp.",People of Color,0.16916688
+2024,16,Idaho,"Sliding scale, max emp.",People of Color,0.13716921
+2024,16,Idaho,"7% fixed, universal",People of Color,0.068885
+2024,16,Idaho,"7% fixed, partial emp.",People of Color,0.068885
+2024,16,Idaho,"7% fixed, max emp.",People of Color,0.04632537
+2024,17,Illinois,"Sliding scale, universal",Total,0.09589275
+2024,17,Illinois,"Sliding scale, partial emp.",Total,0.09209621
+2024,17,Illinois,"Sliding scale, max emp.",Total,0.07520891
+2024,17,Illinois,"7% fixed, universal",Total,0.03896336
+2024,17,Illinois,"7% fixed, partial emp.",Total,0.03801485
+2024,17,Illinois,"7% fixed, max emp.",Total,0.03192002
+2024,17,Illinois,"Sliding scale, universal",White,0.10890646
+2024,17,Illinois,"Sliding scale, partial emp.",White,0.10467923
+2024,17,Illinois,"Sliding scale, max emp.",White,0.08523745
+2024,17,Illinois,"7% fixed, universal",White,0.05021656
+2024,17,Illinois,"7% fixed, partial emp.",White,0.0489036
+2024,17,Illinois,"7% fixed, max emp.",White,0.04044377
+2024,17,Illinois,"Sliding scale, universal",Black,0.07275492
+2024,17,Illinois,"Sliding scale, partial emp.",Black,0.06990061
+2024,17,Illinois,"Sliding scale, max emp.",Black,0.06432269
+2024,17,Illinois,"7% fixed, universal",Black,0.02662853
+2024,17,Illinois,"7% fixed, partial emp.",Black,0.02662853
+2024,17,Illinois,"7% fixed, max emp.",Black,0.02599672
+2024,17,Illinois,"Sliding scale, universal",Hispanic,0.09155972
+2024,17,Illinois,"Sliding scale, partial emp.",Hispanic,0.08905854
+2024,17,Illinois,"Sliding scale, max emp.",Hispanic,0.07633023
+2024,17,Illinois,"7% fixed, universal",Hispanic,0.02683306
+2024,17,Illinois,"7% fixed, partial emp.",Hispanic,0.02571775
+2024,17,Illinois,"7% fixed, max emp.",Hispanic,0.02387888
+2024,17,Illinois,"Sliding scale, universal",Asian,0.07551191
+2024,17,Illinois,"Sliding scale, partial emp.",Asian,0.07285129
+2024,17,Illinois,"Sliding scale, max emp.",Asian,0.04047411
+2024,17,Illinois,"7% fixed, universal",Asian,0.02364375
+2024,17,Illinois,"7% fixed, partial emp.",Asian,0.02364375
+2024,17,Illinois,"7% fixed, max emp.",Asian,0.01194178
+2024,17,Illinois,"Sliding scale, universal",Other,0.0530482
+2024,17,Illinois,"Sliding scale, partial emp.",Other,0.0434466
+2024,17,Illinois,"Sliding scale, max emp.",Other,0.02766793
+2024,17,Illinois,"7% fixed, universal",Other,0.0132116
+2024,17,Illinois,"7% fixed, partial emp.",Other,0.0132116
+2024,17,Illinois,"7% fixed, max emp.",Other,0.00885624
+2024,17,Illinois,"Sliding scale, universal",People of Color,0.07983628
+2024,17,Illinois,"Sliding scale, partial emp.",People of Color,0.07657112
+2024,17,Illinois,"Sliding scale, max emp.",People of Color,0.06283557
+2024,17,Illinois,"7% fixed, universal",People of Color,0.02507903
+2024,17,Illinois,"7% fixed, partial emp.",People of Color,0.02458017
+2024,17,Illinois,"7% fixed, max emp.",People of Color,0.02140331
+2024,18,Indiana,"Sliding scale, universal",Total,0.15239677
+2024,18,Indiana,"Sliding scale, partial emp.",Total,0.14515361
+2024,18,Indiana,"Sliding scale, max emp.",Total,0.10816889
+2024,18,Indiana,"7% fixed, universal",Total,0.08215586
+2024,18,Indiana,"7% fixed, partial emp.",Total,0.07860399
+2024,18,Indiana,"7% fixed, max emp.",Total,0.06021373
+2024,18,Indiana,"Sliding scale, universal",White,0.16845113
+2024,18,Indiana,"Sliding scale, partial emp.",White,0.15932408
+2024,18,Indiana,"Sliding scale, max emp.",White,0.11865461
+2024,18,Indiana,"7% fixed, universal",White,0.08938847
+2024,18,Indiana,"7% fixed, partial emp.",White,0.08466594
+2024,18,Indiana,"7% fixed, max emp.",White,0.06535177
+2024,18,Indiana,"Sliding scale, universal",Black,0.10374246
+2024,18,Indiana,"Sliding scale, partial emp.",Black,0.10229806
+2024,18,Indiana,"Sliding scale, max emp.",Black,0.09136659
+2024,18,Indiana,"7% fixed, universal",Black,0.05296479
+2024,18,Indiana,"7% fixed, partial emp.",Black,0.05296479
+2024,18,Indiana,"7% fixed, max emp.",Black,0.04866442
+2024,18,Indiana,"Sliding scale, universal",Hispanic,0.13765664
+2024,18,Indiana,"Sliding scale, partial emp.",Hispanic,0.13515263
+2024,18,Indiana,"Sliding scale, max emp.",Hispanic,0.09701436
+2024,18,Indiana,"7% fixed, universal",Hispanic,0.07722065
+2024,18,Indiana,"7% fixed, partial emp.",Hispanic,0.0757486
+2024,18,Indiana,"7% fixed, max emp.",Hispanic,0.0562974
+2024,18,Indiana,"Sliding scale, universal",Asian,0.08629413
+2024,18,Indiana,"Sliding scale, partial emp.",Asian,0.08629413
+2024,18,Indiana,"Sliding scale, max emp.",Asian,0.03752498
+2024,18,Indiana,"7% fixed, universal",Asian,0.05300325
+2024,18,Indiana,"7% fixed, partial emp.",Asian,0.05300325
+2024,18,Indiana,"7% fixed, max emp.",Asian,0.01767261
+2024,18,Indiana,"Sliding scale, universal",Other,0.08539761
+2024,18,Indiana,"Sliding scale, partial emp.",Other,0.07822373
+2024,18,Indiana,"Sliding scale, max emp.",Other,0.0534599
+2024,18,Indiana,"7% fixed, universal",Other,0.06478149
+2024,18,Indiana,"7% fixed, partial emp.",Other,0.06444308
+2024,18,Indiana,"7% fixed, max emp.",Other,0.04369175
+2024,18,Indiana,"Sliding scale, universal",People of Color,0.11212488
+2024,18,Indiana,"Sliding scale, partial emp.",People of Color,0.10960738
+2024,18,Indiana,"Sliding scale, max emp.",People of Color,0.08186575
+2024,18,Indiana,"7% fixed, universal",People of Color,0.06401306
+2024,18,Indiana,"7% fixed, partial emp.",People of Color,0.06339777
+2024,18,Indiana,"7% fixed, max emp.",People of Color,0.0473251
+2024,19,Iowa,"Sliding scale, universal",Total,0.14376035
+2024,19,Iowa,"Sliding scale, partial emp.",Total,0.13835865
+2024,19,Iowa,"Sliding scale, max emp.",Total,0.11374198
+2024,19,Iowa,"7% fixed, universal",Total,0.06494917
+2024,19,Iowa,"7% fixed, partial emp.",Total,0.0611945
+2024,19,Iowa,"7% fixed, max emp.",Total,0.05302373
+2024,19,Iowa,"Sliding scale, universal",White,0.15908478
+2024,19,Iowa,"Sliding scale, partial emp.",White,0.15393649
+2024,19,Iowa,"Sliding scale, max emp.",White,0.124995
+2024,19,Iowa,"7% fixed, universal",White,0.07188513
+2024,19,Iowa,"7% fixed, partial emp.",White,0.06814192
+2024,19,Iowa,"7% fixed, max emp.",White,0.0587585
+2024,19,Iowa,"Sliding scale, universal",Black,0.06335265
+2024,19,Iowa,"Sliding scale, partial emp.",Black,0.05438434
+2024,19,Iowa,"Sliding scale, max emp.",Black,0.05438434
+2024,19,Iowa,"7% fixed, universal",Black,0.02790068
+2024,19,Iowa,"7% fixed, partial emp.",Black,0.02790068
+2024,19,Iowa,"7% fixed, max emp.",Black,0.02790068
+2024,19,Iowa,"Sliding scale, universal",Hispanic,0.09204939
+2024,19,Iowa,"Sliding scale, partial emp.",Hispanic,0.08539772
+2024,19,Iowa,"Sliding scale, max emp.",Hispanic,0.07215779
+2024,19,Iowa,"7% fixed, universal",Hispanic,0.04482041
+2024,19,Iowa,"7% fixed, partial emp.",Hispanic,0.03816874
+2024,19,Iowa,"7% fixed, max emp.",Hispanic,0.03525981
+2024,19,Iowa,"Sliding scale, universal",Asian,0.10784596
+2024,19,Iowa,"Sliding scale, partial emp.",Asian,0.10784596
+2024,19,Iowa,"Sliding scale, max emp.",Asian,0.08808123
+2024,19,Iowa,"7% fixed, universal",Asian,0.06798815
+2024,19,Iowa,"7% fixed, partial emp.",Asian,0.06798815
+2024,19,Iowa,"7% fixed, max emp.",Asian,0.04822342
+2024,19,Iowa,"Sliding scale, universal",Other,0.10678779
+2024,19,Iowa,"Sliding scale, partial emp.",Other,0.10155495
+2024,19,Iowa,"Sliding scale, max emp.",Other,0.09541411
+2024,19,Iowa,"7% fixed, universal",Other,0.02932315
+2024,19,Iowa,"7% fixed, partial emp.",Other,0.02409031
+2024,19,Iowa,"7% fixed, max emp.",Other,0.02210241
+2024,19,Iowa,"Sliding scale, universal",People of Color,0.0883369
+2024,19,Iowa,"Sliding scale, partial emp.",People of Color,0.08201873
+2024,19,Iowa,"Sliding scale, max emp.",People of Color,0.07304348
+2024,19,Iowa,"7% fixed, universal",People of Color,0.03986405
+2024,19,Iowa,"7% fixed, partial emp.",People of Color,0.03606798
+2024,19,Iowa,"7% fixed, max emp.",People of Color,0.03228294
+2024,20,Kansas,"Sliding scale, universal",Total,0.12291015
+2024,20,Kansas,"Sliding scale, partial emp.",Total,0.1165127
+2024,20,Kansas,"Sliding scale, max emp.",Total,0.08796271
+2024,20,Kansas,"7% fixed, universal",Total,0.04061374
+2024,20,Kansas,"7% fixed, partial emp.",Total,0.03781075
+2024,20,Kansas,"7% fixed, max emp.",Total,0.02896773
+2024,20,Kansas,"Sliding scale, universal",White,0.12158545
+2024,20,Kansas,"Sliding scale, partial emp.",White,0.11688222
+2024,20,Kansas,"Sliding scale, max emp.",White,0.08850494
+2024,20,Kansas,"7% fixed, universal",White,0.04005458
+2024,20,Kansas,"7% fixed, partial emp.",White,0.0367746
+2024,20,Kansas,"7% fixed, max emp.",White,0.03094815
+2024,20,Kansas,"Sliding scale, universal",Black,0.09468294
+2024,20,Kansas,"Sliding scale, partial emp.",Black,0.09468294
+2024,20,Kansas,"Sliding scale, max emp.",Black,0.0859194
+2024,20,Kansas,"7% fixed, universal",Black,0.02975182
+2024,20,Kansas,"7% fixed, partial emp.",Black,0.02975182
+2024,20,Kansas,"7% fixed, max emp.",Black,0.02975182
+2024,20,Kansas,"Sliding scale, universal",Hispanic,0.15031605
+2024,20,Kansas,"Sliding scale, partial emp.",Hispanic,0.14784809
+2024,20,Kansas,"Sliding scale, max emp.",Hispanic,0.10741383
+2024,20,Kansas,"7% fixed, universal",Hispanic,0.05272035
+2024,20,Kansas,"7% fixed, partial emp.",Hispanic,0.05272035
+2024,20,Kansas,"7% fixed, max emp.",Hispanic,0.02815734
+2024,20,Kansas,"Sliding scale, universal",Asian,0.06440757
+2024,20,Kansas,"Sliding scale, partial emp.",Asian,0.03899367
+2024,20,Kansas,"Sliding scale, max emp.",Asian,0.02229594
+2024,20,Kansas,"7% fixed, universal",Asian,0.03573015
+2024,20,Kansas,"7% fixed, partial emp.",Asian,0.02537569
+2024,20,Kansas,"7% fixed, max emp.",Asian,0.00867797
+2024,20,Kansas,"Sliding scale, universal",Other,0.12969387
+2024,20,Kansas,"Sliding scale, partial emp.",Other,0.09759861
+2024,20,Kansas,"Sliding scale, max emp.",Other,0.07439372
+2024,20,Kansas,"7% fixed, universal",Other,0.02569978
+2024,20,Kansas,"7% fixed, partial emp.",Other,0.02375571
+2024,20,Kansas,"7% fixed, max emp.",Other,0.0202091
+2024,20,Kansas,"Sliding scale, universal",People of Color,0.12593071
+2024,20,Kansas,"Sliding scale, partial emp.",People of Color,0.11567014
+2024,20,Kansas,"Sliding scale, max emp.",People of Color,0.08672632
+2024,20,Kansas,"7% fixed, universal",People of Color,0.0418887
+2024,20,Kansas,"7% fixed, partial emp.",People of Color,0.04017334
+2024,20,Kansas,"7% fixed, max emp.",People of Color,0.02445202
+2024,21,Kentucky,"Sliding scale, universal",Total,0.12351369
+2024,21,Kentucky,"Sliding scale, partial emp.",Total,0.11492886
+2024,21,Kentucky,"Sliding scale, max emp.",Total,0.08805526
+2024,21,Kentucky,"7% fixed, universal",Total,0.06283597
+2024,21,Kentucky,"7% fixed, partial emp.",Total,0.05897938
+2024,21,Kentucky,"7% fixed, max emp.",Total,0.0447597
+2024,21,Kentucky,"Sliding scale, universal",White,0.13637646
+2024,21,Kentucky,"Sliding scale, partial emp.",White,0.12636207
+2024,21,Kentucky,"Sliding scale, max emp.",White,0.09730938
+2024,21,Kentucky,"7% fixed, universal",White,0.06849312
+2024,21,Kentucky,"7% fixed, partial emp.",White,0.06418808
+2024,21,Kentucky,"7% fixed, max emp.",White,0.04864584
+2024,21,Kentucky,"Sliding scale, universal",Black,0.07353809
+2024,21,Kentucky,"Sliding scale, partial emp.",Black,0.06816866
+2024,21,Kentucky,"Sliding scale, max emp.",Black,0.04634659
+2024,21,Kentucky,"7% fixed, universal",Black,0.05154623
+2024,21,Kentucky,"7% fixed, partial emp.",Black,0.04850355
+2024,21,Kentucky,"7% fixed, max emp.",Black,0.03531262
+2024,21,Kentucky,"Sliding scale, universal",Hispanic,0.06263569
+2024,21,Kentucky,"Sliding scale, partial emp.",Hispanic,0.06263569
+2024,21,Kentucky,"Sliding scale, max emp.",Hispanic,0.04816108
+2024,21,Kentucky,"7% fixed, universal",Hispanic,0.04031008
+2024,21,Kentucky,"7% fixed, partial emp.",Hispanic,0.04031008
+2024,21,Kentucky,"7% fixed, max emp.",Hispanic,0.03139716
+2024,21,Kentucky,"Sliding scale, universal",Asian,0.07512845
+2024,21,Kentucky,"Sliding scale, partial emp.",Asian,0.07512845
+2024,21,Kentucky,"Sliding scale, max emp.",Asian,0.0466882
+2024,21,Kentucky,"7% fixed, universal",Asian,
+2024,21,Kentucky,"7% fixed, partial emp.",Asian,
+2024,21,Kentucky,"7% fixed, max emp.",Asian,
+2024,21,Kentucky,"Sliding scale, universal",Other,0.09244076
+2024,21,Kentucky,"Sliding scale, partial emp.",Other,0.08746135
+2024,21,Kentucky,"Sliding scale, max emp.",Other,0.07531521
+2024,21,Kentucky,"7% fixed, universal",Other,0.04206785
+2024,21,Kentucky,"7% fixed, partial emp.",Other,0.03708844
+2024,21,Kentucky,"7% fixed, max emp.",Other,0.03146001
+2024,21,Kentucky,"Sliding scale, universal",People of Color,0.07370415
+2024,21,Kentucky,"Sliding scale, partial emp.",People of Color,0.07065515
+2024,21,Kentucky,"Sliding scale, max emp.",People of Color,0.0522198
+2024,21,Kentucky,"7% fixed, universal",People of Color,0.04092934
+2024,21,Kentucky,"7% fixed, partial emp.",People of Color,0.03880933
+2024,21,Kentucky,"7% fixed, max emp.",People of Color,0.02971108
+2024,22,Louisiana,"Sliding scale, universal",Total,0.10430103
+2024,22,Louisiana,"Sliding scale, partial emp.",Total,0.0966906
+2024,22,Louisiana,"Sliding scale, max emp.",Total,0.07416427
+2024,22,Louisiana,"7% fixed, universal",Total,0.05840028
+2024,22,Louisiana,"7% fixed, partial emp.",Total,0.05536525
+2024,22,Louisiana,"7% fixed, max emp.",Total,0.04354437
+2024,22,Louisiana,"Sliding scale, universal",White,0.12315586
+2024,22,Louisiana,"Sliding scale, partial emp.",White,0.11613556
+2024,22,Louisiana,"Sliding scale, max emp.",White,0.08570007
+2024,22,Louisiana,"7% fixed, universal",White,0.07181835
+2024,22,Louisiana,"7% fixed, partial emp.",White,0.06926963
+2024,22,Louisiana,"7% fixed, max emp.",White,0.05165809
+2024,22,Louisiana,"Sliding scale, universal",Black,0.07621581
+2024,22,Louisiana,"Sliding scale, partial emp.",Black,0.06583399
+2024,22,Louisiana,"Sliding scale, max emp.",Black,0.05747834
+2024,22,Louisiana,"7% fixed, universal",Black,0.03808137
+2024,22,Louisiana,"7% fixed, partial emp.",Black,0.03276623
+2024,22,Louisiana,"7% fixed, max emp.",Black,0.02936854
+2024,22,Louisiana,"Sliding scale, universal",Hispanic,0.0754108
+2024,22,Louisiana,"Sliding scale, partial emp.",Hispanic,0.07483802
+2024,22,Louisiana,"Sliding scale, max emp.",Hispanic,0.05593235
+2024,22,Louisiana,"7% fixed, universal",Hispanic,0.03626399
+2024,22,Louisiana,"7% fixed, partial emp.",Hispanic,0.03626399
+2024,22,Louisiana,"7% fixed, max emp.",Hispanic,0.03379358
+2024,22,Louisiana,"Sliding scale, universal",Asian,0.09062201
+2024,22,Louisiana,"Sliding scale, partial emp.",Asian,0.07505833
+2024,22,Louisiana,"Sliding scale, max emp.",Asian,0.0221979
+2024,22,Louisiana,"7% fixed, universal",Asian,0.04602167
+2024,22,Louisiana,"7% fixed, partial emp.",Asian,0.04602167
+2024,22,Louisiana,"7% fixed, max emp.",Asian,0.00134887
+2024,22,Louisiana,"Sliding scale, universal",Other,0.12996455
+2024,22,Louisiana,"Sliding scale, partial emp.",Other,0.12435584
+2024,22,Louisiana,"Sliding scale, max emp.",Other,0.10288712
+2024,22,Louisiana,"7% fixed, universal",Other,0.08246401
+2024,22,Louisiana,"7% fixed, partial emp.",Other,0.08246401
+2024,22,Louisiana,"7% fixed, max emp.",Other,0.07623867
+2024,22,Louisiana,"Sliding scale, universal",People of Color,0.08222153
+2024,22,Louisiana,"Sliding scale, partial emp.",People of Color,0.07392004
+2024,22,Louisiana,"Sliding scale, max emp.",People of Color,0.06065554
+2024,22,Louisiana,"7% fixed, universal",People of Color,0.04268736
+2024,22,Louisiana,"7% fixed, partial emp.",People of Color,0.03908285
+2024,22,Louisiana,"7% fixed, max emp.",People of Color,0.034043
+2024,23,Maine,"Sliding scale, universal",Total,0.14208556
+2024,23,Maine,"Sliding scale, partial emp.",Total,0.13536945
+2024,23,Maine,"Sliding scale, max emp.",Total,0.11353979
+2024,23,Maine,"7% fixed, universal",Total,0.08764473
+2024,23,Maine,"7% fixed, partial emp.",Total,0.08455636
+2024,23,Maine,"7% fixed, max emp.",Total,0.07048994
+2024,23,Maine,"Sliding scale, universal",White,0.14522811
+2024,23,Maine,"Sliding scale, partial emp.",White,0.13777472
+2024,23,Maine,"Sliding scale, max emp.",White,0.11521175
+2024,23,Maine,"7% fixed, universal",White,0.09081793
+2024,23,Maine,"7% fixed, partial emp.",White,0.08739052
+2024,23,Maine,"7% fixed, max emp.",White,0.07225366
+2024,23,Maine,"Sliding scale, universal",Black,0.15519766
+2024,23,Maine,"Sliding scale, partial emp.",Black,0.15519766
+2024,23,Maine,"Sliding scale, max emp.",Black,0.15519766
+2024,23,Maine,"7% fixed, universal",Black,
+2024,23,Maine,"7% fixed, partial emp.",Black,
+2024,23,Maine,"7% fixed, max emp.",Black,
+2024,23,Maine,"Sliding scale, universal",Hispanic,0.04597741
+2024,23,Maine,"Sliding scale, partial emp.",Hispanic,0.04597741
+2024,23,Maine,"Sliding scale, max emp.",Hispanic,0.04294369
+2024,23,Maine,"7% fixed, universal",Hispanic,
+2024,23,Maine,"7% fixed, partial emp.",Hispanic,
+2024,23,Maine,"7% fixed, max emp.",Hispanic,
+2024,23,Maine,"Sliding scale, universal",Asian,
+2024,23,Maine,"Sliding scale, partial emp.",Asian,
+2024,23,Maine,"Sliding scale, max emp.",Asian,
+2024,23,Maine,"7% fixed, universal",Asian,
+2024,23,Maine,"7% fixed, partial emp.",Asian,
+2024,23,Maine,"7% fixed, max emp.",Asian,
+2024,23,Maine,"Sliding scale, universal",Other,0.20321367
+2024,23,Maine,"Sliding scale, partial emp.",Other,0.20321367
+2024,23,Maine,"Sliding scale, max emp.",Other,0.16172555
+2024,23,Maine,"7% fixed, universal",Other,0.17096696
+2024,23,Maine,"7% fixed, partial emp.",Other,0.17096696
+2024,23,Maine,"7% fixed, max emp.",Other,0.15840654
+2024,23,Maine,"Sliding scale, universal",People of Color,0.11345925
+2024,23,Maine,"Sliding scale, partial emp.",People of Color,0.11345925
+2024,23,Maine,"Sliding scale, max emp.",People of Color,0.0983094
+2024,23,Maine,"7% fixed, universal",People of Color,0.0587392
+2024,23,Maine,"7% fixed, partial emp.",People of Color,0.0587392
+2024,23,Maine,"7% fixed, max emp.",People of Color,0.05442381
+2024,24,Maryland,"Sliding scale, universal",Total,0.16632083
+2024,24,Maryland,"Sliding scale, partial emp.",Total,0.15773066
+2024,24,Maryland,"Sliding scale, max emp.",Total,0.13216021
+2024,24,Maryland,"7% fixed, universal",Total,0.08962823
+2024,24,Maryland,"7% fixed, partial emp.",Total,0.08671333
+2024,24,Maryland,"7% fixed, max emp.",Total,0.07425874
+2024,24,Maryland,"Sliding scale, universal",White,0.18948874
+2024,24,Maryland,"Sliding scale, partial emp.",White,0.18001441
+2024,24,Maryland,"Sliding scale, max emp.",White,0.14734448
+2024,24,Maryland,"7% fixed, universal",White,0.10203061
+2024,24,Maryland,"7% fixed, partial emp.",White,0.09925256
+2024,24,Maryland,"7% fixed, max emp.",White,0.08590296
+2024,24,Maryland,"Sliding scale, universal",Black,0.14691671
+2024,24,Maryland,"Sliding scale, partial emp.",Black,0.13489376
+2024,24,Maryland,"Sliding scale, max emp.",Black,0.12416228
+2024,24,Maryland,"7% fixed, universal",Black,0.07821534
+2024,24,Maryland,"7% fixed, partial emp.",Black,0.0727001
+2024,24,Maryland,"7% fixed, max emp.",Black,0.06660068
+2024,24,Maryland,"Sliding scale, universal",Hispanic,0.12107967
+2024,24,Maryland,"Sliding scale, partial emp.",Hispanic,0.11665159
+2024,24,Maryland,"Sliding scale, max emp.",Hispanic,0.10217671
+2024,24,Maryland,"7% fixed, universal",Hispanic,0.05587814
+2024,24,Maryland,"7% fixed, partial emp.",Hispanic,0.05540013
+2024,24,Maryland,"7% fixed, max emp.",Hispanic,0.0512805
+2024,24,Maryland,"Sliding scale, universal",Asian,0.15479542
+2024,24,Maryland,"Sliding scale, partial emp.",Asian,0.15479542
+2024,24,Maryland,"Sliding scale, max emp.",Asian,0.08961579
+2024,24,Maryland,"7% fixed, universal",Asian,0.09767031
+2024,24,Maryland,"7% fixed, partial emp.",Asian,0.09767031
+2024,24,Maryland,"7% fixed, max emp.",Asian,0.05521681
+2024,24,Maryland,"Sliding scale, universal",Other,0.23348969
+2024,24,Maryland,"Sliding scale, partial emp.",Other,0.22787804
+2024,24,Maryland,"Sliding scale, max emp.",Other,0.20185121
+2024,24,Maryland,"7% fixed, universal",Other,0.13767145
+2024,24,Maryland,"7% fixed, partial emp.",Other,0.13767145
+2024,24,Maryland,"7% fixed, max emp.",Other,0.11623494
+2024,24,Maryland,"Sliding scale, universal",People of Color,0.14904161
+2024,24,Maryland,"Sliding scale, partial emp.",People of Color,0.14111088
+2024,24,Maryland,"Sliding scale, max emp.",People of Color,0.1208354
+2024,24,Maryland,"7% fixed, universal",People of Color,0.08037822
+2024,24,Maryland,"7% fixed, partial emp.",People of Color,0.07736124
+2024,24,Maryland,"7% fixed, max emp.",People of Color,0.06557419
+2024,25,Massachusetts,"Sliding scale, universal",Total,0.15737903
+2024,25,Massachusetts,"Sliding scale, partial emp.",Total,0.15237307
+2024,25,Massachusetts,"Sliding scale, max emp.",Total,0.1319905
+2024,25,Massachusetts,"7% fixed, universal",Total,0.08929571
+2024,25,Massachusetts,"7% fixed, partial emp.",Total,0.08743599
+2024,25,Massachusetts,"7% fixed, max emp.",Total,0.07932928
+2024,25,Massachusetts,"Sliding scale, universal",White,0.18209337
+2024,25,Massachusetts,"Sliding scale, partial emp.",White,0.17660249
+2024,25,Massachusetts,"Sliding scale, max emp.",White,0.15261914
+2024,25,Massachusetts,"7% fixed, universal",White,0.10529303
+2024,25,Massachusetts,"7% fixed, partial emp.",White,0.10345652
+2024,25,Massachusetts,"7% fixed, max emp.",White,0.09281659
+2024,25,Massachusetts,"Sliding scale, universal",Black,0.13243718
+2024,25,Massachusetts,"Sliding scale, partial emp.",Black,0.12989279
+2024,25,Massachusetts,"Sliding scale, max emp.",Black,0.10645349
+2024,25,Massachusetts,"7% fixed, universal",Black,0.06078283
+2024,25,Massachusetts,"7% fixed, partial emp.",Black,0.05823844
+2024,25,Massachusetts,"7% fixed, max emp.",Black,0.05823844
+2024,25,Massachusetts,"Sliding scale, universal",Hispanic,0.11775168
+2024,25,Massachusetts,"Sliding scale, partial emp.",Hispanic,0.11246459
+2024,25,Massachusetts,"Sliding scale, max emp.",Hispanic,0.10029425
+2024,25,Massachusetts,"7% fixed, universal",Hispanic,0.06977038
+2024,25,Massachusetts,"7% fixed, partial emp.",Hispanic,0.06688067
+2024,25,Massachusetts,"7% fixed, max emp.",Hispanic,0.06281368
+2024,25,Massachusetts,"Sliding scale, universal",Asian,0.13287116
+2024,25,Massachusetts,"Sliding scale, partial emp.",Asian,0.13287116
+2024,25,Massachusetts,"Sliding scale, max emp.",Asian,0.11371587
+2024,25,Massachusetts,"7% fixed, universal",Asian,0.08003413
+2024,25,Massachusetts,"7% fixed, partial emp.",Asian,0.08003413
+2024,25,Massachusetts,"7% fixed, max emp.",Asian,0.07084044
+2024,25,Massachusetts,"Sliding scale, universal",Other,0.11344828
+2024,25,Massachusetts,"Sliding scale, partial emp.",Other,0.10538877
+2024,25,Massachusetts,"Sliding scale, max emp.",Other,0.09434043
+2024,25,Massachusetts,"7% fixed, universal",Other,0.05260329
+2024,25,Massachusetts,"7% fixed, partial emp.",Other,0.05132531
+2024,25,Massachusetts,"7% fixed, max emp.",Other,0.04679055
+2024,25,Massachusetts,"Sliding scale, universal",People of Color,0.12245631
+2024,25,Massachusetts,"Sliding scale, partial emp.",People of Color,0.11813556
+2024,25,Massachusetts,"Sliding scale, max emp.",People of Color,0.10284109
+2024,25,Massachusetts,"7% fixed, universal",People of Color,0.06669063
+2024,25,Massachusetts,"7% fixed, partial emp.",People of Color,0.0647981
+2024,25,Massachusetts,"7% fixed, max emp.",People of Color,0.06027097
+2024,26,Michigan,"Sliding scale, universal",Total,0.14241474
+2024,26,Michigan,"Sliding scale, partial emp.",Total,0.13679944
+2024,26,Michigan,"Sliding scale, max emp.",Total,0.10219382
+2024,26,Michigan,"7% fixed, universal",Total,0.0726011
+2024,26,Michigan,"7% fixed, partial emp.",Total,0.07028518
+2024,26,Michigan,"7% fixed, max emp.",Total,0.05451643
+2024,26,Michigan,"Sliding scale, universal",White,0.14823275
+2024,26,Michigan,"Sliding scale, partial emp.",White,0.14247259
+2024,26,Michigan,"Sliding scale, max emp.",White,0.1076782
+2024,26,Michigan,"7% fixed, universal",White,0.07306437
+2024,26,Michigan,"7% fixed, partial emp.",White,0.07071308
+2024,26,Michigan,"7% fixed, max emp.",White,0.05560665
+2024,26,Michigan,"Sliding scale, universal",Black,0.11489508
+2024,26,Michigan,"Sliding scale, partial emp.",Black,0.10948537
+2024,26,Michigan,"Sliding scale, max emp.",Black,0.09146493
+2024,26,Michigan,"7% fixed, universal",Black,0.06150847
+2024,26,Michigan,"7% fixed, partial emp.",Black,0.06106064
+2024,26,Michigan,"7% fixed, max emp.",Black,0.05621519
+2024,26,Michigan,"Sliding scale, universal",Hispanic,0.10752203
+2024,26,Michigan,"Sliding scale, partial emp.",Hispanic,0.10665729
+2024,26,Michigan,"Sliding scale, max emp.",Hispanic,0.07532877
+2024,26,Michigan,"7% fixed, universal",Hispanic,0.0640964
+2024,26,Michigan,"7% fixed, partial emp.",Hispanic,0.0640964
+2024,26,Michigan,"7% fixed, max emp.",Hispanic,0.04333385
+2024,26,Michigan,"Sliding scale, universal",Asian,0.19645975
+2024,26,Michigan,"Sliding scale, partial emp.",Asian,0.18730942
+2024,26,Michigan,"Sliding scale, max emp.",Asian,0.07919392
+2024,26,Michigan,"7% fixed, universal",Asian,0.11832792
+2024,26,Michigan,"7% fixed, partial emp.",Asian,0.10917759
+2024,26,Michigan,"7% fixed, max emp.",Asian,0.05288672
+2024,26,Michigan,"Sliding scale, universal",Other,0.13699238
+2024,26,Michigan,"Sliding scale, partial emp.",Other,0.12991274
+2024,26,Michigan,"Sliding scale, max emp.",Other,0.11139167
+2024,26,Michigan,"7% fixed, universal",Other,0.06768511
+2024,26,Michigan,"7% fixed, partial emp.",Other,0.06404544
+2024,26,Michigan,"7% fixed, max emp.",Other,0.05181247
+2024,26,Michigan,"Sliding scale, universal",People of Color,0.12947784
+2024,26,Michigan,"Sliding scale, partial emp.",People of Color,0.12418467
+2024,26,Michigan,"Sliding scale, max emp.",People of Color,0.08999881
+2024,26,Michigan,"7% fixed, universal",People of Color,0.07157098
+2024,26,Michigan,"7% fixed, partial emp.",People of Color,0.0693337
+2024,26,Michigan,"7% fixed, max emp.",People of Color,0.05209222
+2024,27,Minnesota,"Sliding scale, universal",Total,0.22279009
+2024,27,Minnesota,"Sliding scale, partial emp.",Total,0.21915219
+2024,27,Minnesota,"Sliding scale, max emp.",Total,0.1843648
+2024,27,Minnesota,"7% fixed, universal",Total,0.12445238
+2024,27,Minnesota,"7% fixed, partial emp.",Total,0.12336514
+2024,27,Minnesota,"7% fixed, max emp.",Total,0.10636668
+2024,27,Minnesota,"Sliding scale, universal",White,0.2445196
+2024,27,Minnesota,"Sliding scale, partial emp.",White,0.23981672
+2024,27,Minnesota,"Sliding scale, max emp.",White,0.20544892
+2024,27,Minnesota,"7% fixed, universal",White,0.13645017
+2024,27,Minnesota,"7% fixed, partial emp.",White,0.13507259
+2024,27,Minnesota,"7% fixed, max emp.",White,0.11930833
+2024,27,Minnesota,"Sliding scale, universal",Black,0.11239205
+2024,27,Minnesota,"Sliding scale, partial emp.",Black,0.11239205
+2024,27,Minnesota,"Sliding scale, max emp.",Black,0.11239205
+2024,27,Minnesota,"7% fixed, universal",Black,0.06200399
+2024,27,Minnesota,"7% fixed, partial emp.",Black,0.06200399
+2024,27,Minnesota,"7% fixed, max emp.",Black,0.06200399
+2024,27,Minnesota,"Sliding scale, universal",Hispanic,0.15163703
+2024,27,Minnesota,"Sliding scale, partial emp.",Hispanic,0.1510746
+2024,27,Minnesota,"Sliding scale, max emp.",Hispanic,0.11150715
+2024,27,Minnesota,"7% fixed, universal",Hispanic,0.08861793
+2024,27,Minnesota,"7% fixed, partial emp.",Hispanic,0.0880555
+2024,27,Minnesota,"7% fixed, max emp.",Hispanic,0.06822773
+2024,27,Minnesota,"Sliding scale, universal",Asian,0.2311817
+2024,27,Minnesota,"Sliding scale, partial emp.",Asian,0.2311817
+2024,27,Minnesota,"Sliding scale, max emp.",Asian,0.14384206
+2024,27,Minnesota,"7% fixed, universal",Asian,0.13055676
+2024,27,Minnesota,"7% fixed, partial emp.",Asian,0.13055676
+2024,27,Minnesota,"7% fixed, max emp.",Asian,0.08287975
+2024,27,Minnesota,"Sliding scale, universal",Other,0.20237538
+2024,27,Minnesota,"Sliding scale, partial emp.",Other,0.19808204
+2024,27,Minnesota,"Sliding scale, max emp.",Other,0.17048705
+2024,27,Minnesota,"7% fixed, universal",Other,0.10834852
+2024,27,Minnesota,"7% fixed, partial emp.",Other,0.10726521
+2024,27,Minnesota,"7% fixed, max emp.",Other,0.08524971
+2024,27,Minnesota,"Sliding scale, universal",People of Color,0.16576039
+2024,27,Minnesota,"Sliding scale, partial emp.",People of Color,0.16491757
+2024,27,Minnesota,"Sliding scale, max emp.",People of Color,0.12902896
+2024,27,Minnesota,"7% fixed, universal",People of Color,0.09296384
+2024,27,Minnesota,"7% fixed, partial emp.",People of Color,0.0926386
+2024,27,Minnesota,"7% fixed, max emp.",People of Color,0.07240099
+2024,28,Mississippi,"Sliding scale, universal",Total,0.08663092
+2024,28,Mississippi,"Sliding scale, partial emp.",Total,0.08170265
+2024,28,Mississippi,"Sliding scale, max emp.",Total,0.06721193
+2024,28,Mississippi,"7% fixed, universal",Total,0.03612211
+2024,28,Mississippi,"7% fixed, partial emp.",Total,0.0341398
+2024,28,Mississippi,"7% fixed, max emp.",Total,0.02928694
+2024,28,Mississippi,"Sliding scale, universal",White,0.08107174
+2024,28,Mississippi,"Sliding scale, partial emp.",White,0.07718016
+2024,28,Mississippi,"Sliding scale, max emp.",White,0.05977854
+2024,28,Mississippi,"7% fixed, universal",White,0.03024893
+2024,28,Mississippi,"7% fixed, partial emp.",White,0.02880845
+2024,28,Mississippi,"7% fixed, max emp.",White,0.02201775
+2024,28,Mississippi,"Sliding scale, universal",Black,0.08602491
+2024,28,Mississippi,"Sliding scale, partial emp.",Black,0.07985676
+2024,28,Mississippi,"Sliding scale, max emp.",Black,0.07379516
+2024,28,Mississippi,"7% fixed, universal",Black,0.04551358
+2024,28,Mississippi,"7% fixed, partial emp.",Black,0.04230357
+2024,28,Mississippi,"7% fixed, max emp.",Black,0.04074883
+2024,28,Mississippi,"Sliding scale, universal",Hispanic,0.15273819
+2024,28,Mississippi,"Sliding scale, partial emp.",Hispanic,0.15239602
+2024,28,Mississippi,"Sliding scale, max emp.",Hispanic,0.10180151
+2024,28,Mississippi,"7% fixed, universal",Hispanic,0.03106632
+2024,28,Mississippi,"7% fixed, partial emp.",Hispanic,0.03106632
+2024,28,Mississippi,"7% fixed, max emp.",Hispanic,0.02727252
+2024,28,Mississippi,"Sliding scale, universal",Asian,0.12067821
+2024,28,Mississippi,"Sliding scale, partial emp.",Asian,0.12067821
+2024,28,Mississippi,"Sliding scale, max emp.",Asian,0.0836397
+2024,28,Mississippi,"7% fixed, universal",Asian,0.05722243
+2024,28,Mississippi,"7% fixed, partial emp.",Asian,0.05722243
+2024,28,Mississippi,"7% fixed, max emp.",Asian,0.02018392
+2024,28,Mississippi,"Sliding scale, universal",Other,0.08997181
+2024,28,Mississippi,"Sliding scale, partial emp.",Other,0.07424485
+2024,28,Mississippi,"Sliding scale, max emp.",Other,0.0650156
+2024,28,Mississippi,"7% fixed, universal",Other,0.02435019
+2024,28,Mississippi,"7% fixed, partial emp.",Other,0.02435019
+2024,28,Mississippi,"7% fixed, max emp.",Other,0.02358134
+2024,28,Mississippi,"Sliding scale, universal",People of Color,0.0931758
+2024,28,Mississippi,"Sliding scale, partial emp.",People of Color,0.08702702
+2024,28,Mississippi,"Sliding scale, max emp.",People of Color,0.07596332
+2024,28,Mississippi,"7% fixed, universal",People of Color,0.04303664
+2024,28,Mississippi,"7% fixed, partial emp.",People of Color,0.04041644
+2024,28,Mississippi,"7% fixed, max emp.",People of Color,0.03784503
+2024,29,Missouri,"Sliding scale, universal",Total,0.16412298
+2024,29,Missouri,"Sliding scale, partial emp.",Total,0.1598922
+2024,29,Missouri,"Sliding scale, max emp.",Total,0.12929055
+2024,29,Missouri,"7% fixed, universal",Total,0.08824194
+2024,29,Missouri,"7% fixed, partial emp.",Total,0.08594122
+2024,29,Missouri,"7% fixed, max emp.",Total,0.06980869
+2024,29,Missouri,"Sliding scale, universal",White,0.16966093
+2024,29,Missouri,"Sliding scale, partial emp.",White,0.16531079
+2024,29,Missouri,"Sliding scale, max emp.",White,0.13453636
+2024,29,Missouri,"7% fixed, universal",White,0.0889011
+2024,29,Missouri,"7% fixed, partial emp.",White,0.08693892
+2024,29,Missouri,"7% fixed, max emp.",White,0.07057593
+2024,29,Missouri,"Sliding scale, universal",Black,0.14249197
+2024,29,Missouri,"Sliding scale, partial emp.",Black,0.13741411
+2024,29,Missouri,"Sliding scale, max emp.",Black,0.11517114
+2024,29,Missouri,"7% fixed, universal",Black,0.08879352
+2024,29,Missouri,"7% fixed, partial emp.",Black,0.08419446
+2024,29,Missouri,"7% fixed, max emp.",Black,0.06951278
+2024,29,Missouri,"Sliding scale, universal",Hispanic,0.15852774
+2024,29,Missouri,"Sliding scale, partial emp.",Hispanic,0.15336743
+2024,29,Missouri,"Sliding scale, max emp.",Hispanic,0.1019989
+2024,29,Missouri,"7% fixed, universal",Hispanic,0.07917027
+2024,29,Missouri,"7% fixed, partial emp.",Hispanic,0.07400996
+2024,29,Missouri,"7% fixed, max emp.",Hispanic,0.05853311
+2024,29,Missouri,"Sliding scale, universal",Asian,0.10486443
+2024,29,Missouri,"Sliding scale, partial emp.",Asian,0.10486443
+2024,29,Missouri,"Sliding scale, max emp.",Asian,0.08067665
+2024,29,Missouri,"7% fixed, universal",Asian,0.092965
+2024,29,Missouri,"7% fixed, partial emp.",Asian,0.092965
+2024,29,Missouri,"7% fixed, max emp.",Asian,0.0737166
+2024,29,Missouri,"Sliding scale, universal",Other,0.16533673
+2024,29,Missouri,"Sliding scale, partial emp.",Other,0.16386627
+2024,29,Missouri,"Sliding scale, max emp.",Other,0.13798525
+2024,29,Missouri,"7% fixed, universal",Other,0.08509104
+2024,29,Missouri,"7% fixed, partial emp.",Other,0.08509104
+2024,29,Missouri,"7% fixed, max emp.",Other,0.06999137
+2024,29,Missouri,"Sliding scale, universal",People of Color,0.14699154
+2024,29,Missouri,"Sliding scale, partial emp.",People of Color,0.14312998
+2024,29,Missouri,"Sliding scale, max emp.",People of Color,0.11306283
+2024,29,Missouri,"7% fixed, universal",People of Color,0.08620286
+2024,29,Missouri,"7% fixed, partial emp.",People of Color,0.0828549
+2024,29,Missouri,"7% fixed, max emp.",People of Color,0.06743529
+2024,30,Montana,"Sliding scale, universal",Total,0.22468072
+2024,30,Montana,"Sliding scale, partial emp.",Total,0.20476624
+2024,30,Montana,"Sliding scale, max emp.",Total,0.16368633
+2024,30,Montana,"7% fixed, universal",Total,0.15045097
+2024,30,Montana,"7% fixed, partial emp.",Total,0.133127
+2024,30,Montana,"7% fixed, max emp.",Total,0.10802449
+2024,30,Montana,"Sliding scale, universal",White,0.21866466
+2024,30,Montana,"Sliding scale, partial emp.",White,0.21381013
+2024,30,Montana,"Sliding scale, max emp.",White,0.16882413
+2024,30,Montana,"7% fixed, universal",White,0.14152359
+2024,30,Montana,"7% fixed, partial emp.",White,0.13965222
+2024,30,Montana,"7% fixed, max emp.",White,0.10879505
+2024,30,Montana,"Sliding scale, universal",Black,0.84546759
+2024,30,Montana,"Sliding scale, partial emp.",Black,0.84546759
+2024,30,Montana,"Sliding scale, max emp.",Black,0.84546759
+2024,30,Montana,"7% fixed, universal",Black,0.33818923
+2024,30,Montana,"7% fixed, partial emp.",Black,0.33818923
+2024,30,Montana,"7% fixed, max emp.",Black,0.33818923
+2024,30,Montana,"Sliding scale, universal",Hispanic,0.40482775
+2024,30,Montana,"Sliding scale, partial emp.",Hispanic,0.15886666
+2024,30,Montana,"Sliding scale, max emp.",Hispanic,0.15886666
+2024,30,Montana,"7% fixed, universal",Hispanic,0.36349849
+2024,30,Montana,"7% fixed, partial emp.",Hispanic,0.1175374
+2024,30,Montana,"7% fixed, max emp.",Hispanic,0.1175374
+2024,30,Montana,"Sliding scale, universal",Asian,0.87718099
+2024,30,Montana,"Sliding scale, partial emp.",Asian,0.87718099
+2024,30,Montana,"Sliding scale, max emp.",Asian,0.65543501
+2024,30,Montana,"7% fixed, universal",Asian,0.61951217
+2024,30,Montana,"7% fixed, partial emp.",Asian,0.61951217
+2024,30,Montana,"7% fixed, max emp.",Asian,0.61951217
+2024,30,Montana,"Sliding scale, universal",Other,0.15149624
+2024,30,Montana,"Sliding scale, partial emp.",Other,0.14980805
+2024,30,Montana,"Sliding scale, max emp.",Other,0.11546754
+2024,30,Montana,"7% fixed, universal",Other,0.08831814
+2024,30,Montana,"7% fixed, partial emp.",Other,0.08814175
+2024,30,Montana,"7% fixed, max emp.",Other,0.08570861
+2024,30,Montana,"Sliding scale, universal",People of Color,0.24926446
+2024,30,Montana,"Sliding scale, partial emp.",People of Color,0.16780973
+2024,30,Montana,"Sliding scale, max emp.",People of Color,0.14269148
+2024,30,Montana,"7% fixed, universal",People of Color,0.18693135
+2024,30,Montana,"7% fixed, partial emp.",People of Color,0.10646268
+2024,30,Montana,"7% fixed, max emp.",People of Color,0.10487568
+2024,31,Nebraska,"Sliding scale, universal",Total,0.19046855
+2024,31,Nebraska,"Sliding scale, partial emp.",Total,0.18936424
+2024,31,Nebraska,"Sliding scale, max emp.",Total,0.15868423
+2024,31,Nebraska,"7% fixed, universal",Total,0.11145161
+2024,31,Nebraska,"7% fixed, partial emp.",Total,0.11126496
+2024,31,Nebraska,"7% fixed, max emp.",Total,0.09282775
+2024,31,Nebraska,"Sliding scale, universal",White,0.22072606
+2024,31,Nebraska,"Sliding scale, partial emp.",White,0.22022606
+2024,31,Nebraska,"Sliding scale, max emp.",White,0.18473195
+2024,31,Nebraska,"7% fixed, universal",White,0.13392574
+2024,31,Nebraska,"7% fixed, partial emp.",White,0.13373357
+2024,31,Nebraska,"7% fixed, max emp.",White,0.11362182
+2024,31,Nebraska,"Sliding scale, universal",Black,0.06614829
+2024,31,Nebraska,"Sliding scale, partial emp.",Black,0.06614829
+2024,31,Nebraska,"Sliding scale, max emp.",Black,0.06614829
+2024,31,Nebraska,"7% fixed, universal",Black,0.0089908
+2024,31,Nebraska,"7% fixed, partial emp.",Black,0.0089908
+2024,31,Nebraska,"7% fixed, max emp.",Black,0.0089908
+2024,31,Nebraska,"Sliding scale, universal",Hispanic,0.13905249
+2024,31,Nebraska,"Sliding scale, partial emp.",Hispanic,0.13475538
+2024,31,Nebraska,"Sliding scale, max emp.",Hispanic,0.11076382
+2024,31,Nebraska,"7% fixed, universal",Hispanic,0.0665922
+2024,31,Nebraska,"7% fixed, partial emp.",Hispanic,0.0665922
+2024,31,Nebraska,"7% fixed, max emp.",Hispanic,0.05043446
+2024,31,Nebraska,"Sliding scale, universal",Asian,0.15100103
+2024,31,Nebraska,"Sliding scale, partial emp.",Asian,0.15100103
+2024,31,Nebraska,"Sliding scale, max emp.",Asian,0.1266391
+2024,31,Nebraska,"7% fixed, universal",Asian,0.09739233
+2024,31,Nebraska,"7% fixed, partial emp.",Asian,0.09739233
+2024,31,Nebraska,"7% fixed, max emp.",Asian,0.0730304
+2024,31,Nebraska,"Sliding scale, universal",Other,0.07846235
+2024,31,Nebraska,"Sliding scale, partial emp.",Other,0.0774797
+2024,31,Nebraska,"Sliding scale, max emp.",Other,0.05998254
+2024,31,Nebraska,"7% fixed, universal",Other,0.0468515
+2024,31,Nebraska,"7% fixed, partial emp.",Other,0.04586885
+2024,31,Nebraska,"7% fixed, max emp.",Other,0.03128608
+2024,31,Nebraska,"Sliding scale, universal",People of Color,0.11890445
+2024,31,Nebraska,"Sliding scale, partial emp.",People of Color,0.11637086
+2024,31,Nebraska,"Sliding scale, max emp.",People of Color,0.09707703
+2024,31,Nebraska,"7% fixed, universal",People of Color,0.05829652
+2024,31,Nebraska,"7% fixed, partial emp.",People of Color,0.05812292
+2024,31,Nebraska,"7% fixed, max emp.",People of Color,0.0436463
+2024,32,Nevada,"Sliding scale, universal",Total,0.15167615
+2024,32,Nevada,"Sliding scale, partial emp.",Total,0.14372787
+2024,32,Nevada,"Sliding scale, max emp.",Total,0.10181492
+2024,32,Nevada,"7% fixed, universal",Total,0.08579541
+2024,32,Nevada,"7% fixed, partial emp.",Total,0.08116189
+2024,32,Nevada,"7% fixed, max emp.",Total,0.05358332
+2024,32,Nevada,"Sliding scale, universal",White,0.14944064
+2024,32,Nevada,"Sliding scale, partial emp.",White,0.14624547
+2024,32,Nevada,"Sliding scale, max emp.",White,0.10113862
+2024,32,Nevada,"7% fixed, universal",White,0.08800109
+2024,32,Nevada,"7% fixed, partial emp.",White,0.08695531
+2024,32,Nevada,"7% fixed, max emp.",White,0.05742936
+2024,32,Nevada,"Sliding scale, universal",Black,0.13470086
+2024,32,Nevada,"Sliding scale, partial emp.",Black,0.13273563
+2024,32,Nevada,"Sliding scale, max emp.",Black,0.1303859
+2024,32,Nevada,"7% fixed, universal",Black,0.08490638
+2024,32,Nevada,"7% fixed, partial emp.",Black,0.08294116
+2024,32,Nevada,"7% fixed, max emp.",Black,0.08294116
+2024,32,Nevada,"Sliding scale, universal",Hispanic,0.14675846
+2024,32,Nevada,"Sliding scale, partial emp.",Hispanic,0.1360365
+2024,32,Nevada,"Sliding scale, max emp.",Hispanic,0.09388642
+2024,32,Nevada,"7% fixed, universal",Hispanic,0.08609341
+2024,32,Nevada,"7% fixed, partial emp.",Hispanic,0.08002438
+2024,32,Nevada,"7% fixed, max emp.",Hispanic,0.05111734
+2024,32,Nevada,"Sliding scale, universal",Asian,0.15474523
+2024,32,Nevada,"Sliding scale, partial emp.",Asian,0.1513923
+2024,32,Nevada,"Sliding scale, max emp.",Asian,0.08509619
+2024,32,Nevada,"7% fixed, universal",Asian,0.07363844
+2024,32,Nevada,"7% fixed, partial emp.",Asian,0.07363844
+2024,32,Nevada,"7% fixed, max emp.",Asian,0.02193894
+2024,32,Nevada,"Sliding scale, universal",Other,0.20451829
+2024,32,Nevada,"Sliding scale, partial emp.",Other,0.17205245
+2024,32,Nevada,"Sliding scale, max emp.",Other,0.12925821
+2024,32,Nevada,"7% fixed, universal",Other,0.0902054
+2024,32,Nevada,"7% fixed, partial emp.",Other,0.06470008
+2024,32,Nevada,"7% fixed, max emp.",Other,0.05008682
+2024,32,Nevada,"Sliding scale, universal",People of Color,0.15303039
+2024,32,Nevada,"Sliding scale, partial emp.",People of Color,0.14220272
+2024,32,Nevada,"Sliding scale, max emp.",People of Color,0.10222462
+2024,32,Nevada,"7% fixed, universal",People of Color,0.08445923
+2024,32,Nevada,"7% fixed, partial emp.",People of Color,0.07765229
+2024,32,Nevada,"7% fixed, max emp.",People of Color,0.05125343
+2024,33,New Hampshire,"Sliding scale, universal",Total,0.16209945
+2024,33,New Hampshire,"Sliding scale, partial emp.",Total,0.15667288
+2024,33,New Hampshire,"Sliding scale, max emp.",Total,0.12346982
+2024,33,New Hampshire,"7% fixed, universal",Total,0.09978744
+2024,33,New Hampshire,"7% fixed, partial emp.",Total,0.09690986
+2024,33,New Hampshire,"7% fixed, max emp.",Total,0.079173
+2024,33,New Hampshire,"Sliding scale, universal",White,0.17033222
+2024,33,New Hampshire,"Sliding scale, partial emp.",White,0.16381928
+2024,33,New Hampshire,"Sliding scale, max emp.",White,0.12698616
+2024,33,New Hampshire,"7% fixed, universal",White,0.10576554
+2024,33,New Hampshire,"7% fixed, partial emp.",White,0.10231189
+2024,33,New Hampshire,"7% fixed, max emp.",White,0.08246913
+2024,33,New Hampshire,"Sliding scale, universal",Black,0.08984558
+2024,33,New Hampshire,"Sliding scale, partial emp.",Black,0.08984558
+2024,33,New Hampshire,"Sliding scale, max emp.",Black,0.08984558
+2024,33,New Hampshire,"7% fixed, universal",Black,0.08984558
+2024,33,New Hampshire,"7% fixed, partial emp.",Black,0.08984558
+2024,33,New Hampshire,"7% fixed, max emp.",Black,0.08984558
+2024,33,New Hampshire,"Sliding scale, universal",Hispanic,0.05665014
+2024,33,New Hampshire,"Sliding scale, partial emp.",Hispanic,0.05665014
+2024,33,New Hampshire,"Sliding scale, max emp.",Hispanic,0.04232532
+2024,33,New Hampshire,"7% fixed, universal",Hispanic,0.01567144
+2024,33,New Hampshire,"7% fixed, partial emp.",Hispanic,0.01567144
+2024,33,New Hampshire,"7% fixed, max emp.",Hispanic,0.00235072
+2024,33,New Hampshire,"Sliding scale, universal",Asian,0.1638715
+2024,33,New Hampshire,"Sliding scale, partial emp.",Asian,0.1638715
+2024,33,New Hampshire,"Sliding scale, max emp.",Asian,0.13333404
+2024,33,New Hampshire,"7% fixed, universal",Asian,0.11286091
+2024,33,New Hampshire,"7% fixed, partial emp.",Asian,0.11286091
+2024,33,New Hampshire,"7% fixed, max emp.",Asian,0.11286091
+2024,33,New Hampshire,"Sliding scale, universal",Other,0.20315844
+2024,33,New Hampshire,"Sliding scale, partial emp.",Other,0.20315844
+2024,33,New Hampshire,"Sliding scale, max emp.",Other,0.18817609
+2024,33,New Hampshire,"7% fixed, universal",Other,0.11675922
+2024,33,New Hampshire,"7% fixed, partial emp.",Other,0.11675922
+2024,33,New Hampshire,"7% fixed, max emp.",Other,0.11159225
+2024,33,New Hampshire,"Sliding scale, universal",People of Color,0.12097523
+2024,33,New Hampshire,"Sliding scale, partial emp.",People of Color,0.12097523
+2024,33,New Hampshire,"Sliding scale, max emp.",People of Color,0.10590504
+2024,33,New Hampshire,"7% fixed, universal",People of Color,0.06992566
+2024,33,New Hampshire,"7% fixed, partial emp.",People of Color,0.06992566
+2024,33,New Hampshire,"7% fixed, max emp.",People of Color,0.06270822
+2024,34,New Jersey,"Sliding scale, universal",Total,0.15576707
+2024,34,New Jersey,"Sliding scale, partial emp.",Total,0.15187976
+2024,34,New Jersey,"Sliding scale, max emp.",Total,0.1154974
+2024,34,New Jersey,"7% fixed, universal",Total,0.07979929
+2024,34,New Jersey,"7% fixed, partial emp.",Total,0.07743445
+2024,34,New Jersey,"7% fixed, max emp.",Total,0.06127861
+2024,34,New Jersey,"Sliding scale, universal",White,0.18650934
+2024,34,New Jersey,"Sliding scale, partial emp.",White,0.18171757
+2024,34,New Jersey,"Sliding scale, max emp.",White,0.14686862
+2024,34,New Jersey,"7% fixed, universal",White,0.09796554
+2024,34,New Jersey,"7% fixed, partial emp.",White,0.09525118
+2024,34,New Jersey,"7% fixed, max emp.",White,0.07802371
+2024,34,New Jersey,"Sliding scale, universal",Black,0.13709169
+2024,34,New Jersey,"Sliding scale, partial emp.",Black,0.1281378
+2024,34,New Jersey,"Sliding scale, max emp.",Black,0.11013195
+2024,34,New Jersey,"7% fixed, universal",Black,0.07131688
+2024,34,New Jersey,"7% fixed, partial emp.",Black,0.06395501
+2024,34,New Jersey,"7% fixed, max emp.",Black,0.05444674
+2024,34,New Jersey,"Sliding scale, universal",Hispanic,0.12135373
+2024,34,New Jersey,"Sliding scale, partial emp.",Hispanic,0.11950531
+2024,34,New Jersey,"Sliding scale, max emp.",Hispanic,0.0853289
+2024,34,New Jersey,"7% fixed, universal",Hispanic,0.05988392
+2024,34,New Jersey,"7% fixed, partial emp.",Hispanic,0.05953553
+2024,34,New Jersey,"7% fixed, max emp.",Hispanic,0.04780145
+2024,34,New Jersey,"Sliding scale, universal",Asian,0.13910748
+2024,34,New Jersey,"Sliding scale, partial emp.",Asian,0.13910748
+2024,34,New Jersey,"Sliding scale, max emp.",Asian,0.08016537
+2024,34,New Jersey,"7% fixed, universal",Asian,0.06318881
+2024,34,New Jersey,"7% fixed, partial emp.",Asian,0.06318881
+2024,34,New Jersey,"7% fixed, max emp.",Asian,0.03747327
+2024,34,New Jersey,"Sliding scale, universal",Other,0.16416445
+2024,34,New Jersey,"Sliding scale, partial emp.",Other,0.16126664
+2024,34,New Jersey,"Sliding scale, max emp.",Other,0.10084399
+2024,34,New Jersey,"7% fixed, universal",Other,0.09604332
+2024,34,New Jersey,"7% fixed, partial emp.",Other,0.0931455
+2024,34,New Jersey,"7% fixed, max emp.",Other,0.06610642
+2024,34,New Jersey,"Sliding scale, universal",People of Color,0.13178525
+2024,34,New Jersey,"Sliding scale, partial emp.",People of Color,0.12860351
+2024,34,New Jersey,"Sliding scale, max emp.",People of Color,0.09102494
+2024,34,New Jersey,"7% fixed, universal",People of Color,0.06562792
+2024,34,New Jersey,"7% fixed, partial emp.",People of Color,0.06353576
+2024,34,New Jersey,"7% fixed, max emp.",People of Color,0.04821589
+2024,35,New Mexico,"Sliding scale, universal",Total,0.12572088
+2024,35,New Mexico,"Sliding scale, partial emp.",Total,0.11883587
+2024,35,New Mexico,"Sliding scale, max emp.",Total,0.07897627
+2024,35,New Mexico,"7% fixed, universal",Total,0.07048861
+2024,35,New Mexico,"7% fixed, partial emp.",Total,0.06780374
+2024,35,New Mexico,"7% fixed, max emp.",Total,0.04418395
+2024,35,New Mexico,"Sliding scale, universal",White,0.12858224
+2024,35,New Mexico,"Sliding scale, partial emp.",White,0.12514941
+2024,35,New Mexico,"Sliding scale, max emp.",White,0.06854733
+2024,35,New Mexico,"7% fixed, universal",White,0.07542216
+2024,35,New Mexico,"7% fixed, partial emp.",White,0.07199455
+2024,35,New Mexico,"7% fixed, max emp.",White,0.03555817
+2024,35,New Mexico,"Sliding scale, universal",Black,0.13923327
+2024,35,New Mexico,"Sliding scale, partial emp.",Black,0.13923327
+2024,35,New Mexico,"Sliding scale, max emp.",Black,0.13923327
+2024,35,New Mexico,"7% fixed, universal",Black,0.03586052
+2024,35,New Mexico,"7% fixed, partial emp.",Black,0.03586052
+2024,35,New Mexico,"7% fixed, max emp.",Black,0.03586052
+2024,35,New Mexico,"Sliding scale, universal",Hispanic,0.11496064
+2024,35,New Mexico,"Sliding scale, partial emp.",Hispanic,0.10809819
+2024,35,New Mexico,"Sliding scale, max emp.",Hispanic,0.076933
+2024,35,New Mexico,"7% fixed, universal",Hispanic,0.06094651
+2024,35,New Mexico,"7% fixed, partial emp.",Hispanic,0.06050445
+2024,35,New Mexico,"7% fixed, max emp.",Hispanic,0.04666553
+2024,35,New Mexico,"Sliding scale, universal",Asian,0.28251336
+2024,35,New Mexico,"Sliding scale, partial emp.",Asian,0.28251336
+2024,35,New Mexico,"Sliding scale, max emp.",Asian,0.12258775
+2024,35,New Mexico,"7% fixed, universal",Asian,0.28251336
+2024,35,New Mexico,"7% fixed, partial emp.",Asian,0.28251336
+2024,35,New Mexico,"7% fixed, max emp.",Asian,0.12258775
+2024,35,New Mexico,"Sliding scale, universal",Other,0.13858248
+2024,35,New Mexico,"Sliding scale, partial emp.",Other,0.11888495
+2024,35,New Mexico,"Sliding scale, max emp.",Other,0.09520385
+2024,35,New Mexico,"7% fixed, universal",Other,0.07161992
+2024,35,New Mexico,"7% fixed, partial emp.",Other,0.05811534
+2024,35,New Mexico,"7% fixed, max emp.",Other,0.04131416
+2024,35,New Mexico,"Sliding scale, universal",People of Color,0.1245232
+2024,35,New Mexico,"Sliding scale, partial emp.",People of Color,0.1161932
+2024,35,New Mexico,"Sliding scale, max emp.",People of Color,0.08334153
+2024,35,New Mexico,"7% fixed, universal",People of Color,0.06842357
+2024,35,New Mexico,"7% fixed, partial emp.",People of Color,0.06604959
+2024,35,New Mexico,"7% fixed, max emp.",People of Color,0.04779445
+2024,36,New York,"Sliding scale, universal",Total,0.12936559
+2024,36,New York,"Sliding scale, partial emp.",Total,0.12434539
+2024,36,New York,"Sliding scale, max emp.",Total,0.1021378
+2024,36,New York,"7% fixed, universal",Total,0.08280282
+2024,36,New York,"7% fixed, partial emp.",Total,0.08026377
+2024,36,New York,"7% fixed, max emp.",Total,0.06676215
+2024,36,New York,"Sliding scale, universal",White,0.15400109
+2024,36,New York,"Sliding scale, partial emp.",White,0.14858285
+2024,36,New York,"Sliding scale, max emp.",White,0.11910678
+2024,36,New York,"7% fixed, universal",White,0.10405626
+2024,36,New York,"7% fixed, partial emp.",White,0.10175167
+2024,36,New York,"7% fixed, max emp.",White,0.08330098
+2024,36,New York,"Sliding scale, universal",Black,0.12268205
+2024,36,New York,"Sliding scale, partial emp.",Black,0.11614306
+2024,36,New York,"Sliding scale, max emp.",Black,0.10483974
+2024,36,New York,"7% fixed, universal",Black,0.07115097
+2024,36,New York,"7% fixed, partial emp.",Black,0.06800545
+2024,36,New York,"7% fixed, max emp.",Black,0.06407848
+2024,36,New York,"Sliding scale, universal",Hispanic,0.09268085
+2024,36,New York,"Sliding scale, partial emp.",Hispanic,0.09006421
+2024,36,New York,"Sliding scale, max emp.",Hispanic,0.07717731
+2024,36,New York,"7% fixed, universal",Hispanic,0.05417651
+2024,36,New York,"7% fixed, partial emp.",Hispanic,0.05202988
+2024,36,New York,"7% fixed, max emp.",Hispanic,0.04479267
+2024,36,New York,"Sliding scale, universal",Asian,0.09470457
+2024,36,New York,"Sliding scale, partial emp.",Asian,0.0908503
+2024,36,New York,"Sliding scale, max emp.",Asian,0.0683383
+2024,36,New York,"7% fixed, universal",Asian,0.06033162
+2024,36,New York,"7% fixed, partial emp.",Asian,0.05777646
+2024,36,New York,"7% fixed, max emp.",Asian,0.04191075
+2024,36,New York,"Sliding scale, universal",Other,0.13277205
+2024,36,New York,"Sliding scale, partial emp.",Other,0.12290757
+2024,36,New York,"Sliding scale, max emp.",Other,0.10231236
+2024,36,New York,"7% fixed, universal",Other,0.07414664
+2024,36,New York,"7% fixed, partial emp.",Other,0.0692284
+2024,36,New York,"7% fixed, max emp.",Other,0.05551483
+2024,36,New York,"Sliding scale, universal",People of Color,0.10512058
+2024,36,New York,"Sliding scale, partial emp.",People of Color,0.10049211
+2024,36,New York,"Sliding scale, max emp.",People of Color,0.0854378
+2024,36,New York,"7% fixed, universal",People of Color,0.06188627
+2024,36,New York,"7% fixed, partial emp.",People of Color,0.05911648
+2024,36,New York,"7% fixed, max emp.",People of Color,0.05048547
+2024,37,North Carolina,"Sliding scale, universal",Total,0.10389175
+2024,37,North Carolina,"Sliding scale, partial emp.",Total,0.09746966
+2024,37,North Carolina,"Sliding scale, max emp.",Total,0.07004264
+2024,37,North Carolina,"7% fixed, universal",Total,0.04677275
+2024,37,North Carolina,"7% fixed, partial emp.",Total,0.04504013
+2024,37,North Carolina,"7% fixed, max emp.",Total,0.032727
+2024,37,North Carolina,"Sliding scale, universal",White,0.11091904
+2024,37,North Carolina,"Sliding scale, partial emp.",White,0.10537454
+2024,37,North Carolina,"Sliding scale, max emp.",White,0.0725147
+2024,37,North Carolina,"7% fixed, universal",White,0.04909395
+2024,37,North Carolina,"7% fixed, partial emp.",White,0.04764142
+2024,37,North Carolina,"7% fixed, max emp.",White,0.03306781
+2024,37,North Carolina,"Sliding scale, universal",Black,0.10204394
+2024,37,North Carolina,"Sliding scale, partial emp.",Black,0.09263311
+2024,37,North Carolina,"Sliding scale, max emp.",Black,0.08111746
+2024,37,North Carolina,"7% fixed, universal",Black,0.04174856
+2024,37,North Carolina,"7% fixed, partial emp.",Black,0.03831372
+2024,37,North Carolina,"7% fixed, max emp.",Black,0.03008315
+2024,37,North Carolina,"Sliding scale, universal",Hispanic,0.07483982
+2024,37,North Carolina,"Sliding scale, partial emp.",Hispanic,0.07312976
+2024,37,North Carolina,"Sliding scale, max emp.",Hispanic,0.04702387
+2024,37,North Carolina,"7% fixed, universal",Hispanic,0.03603425
+2024,37,North Carolina,"7% fixed, partial emp.",Hispanic,0.03603425
+2024,37,North Carolina,"7% fixed, max emp.",Hispanic,0.02824067
+2024,37,North Carolina,"Sliding scale, universal",Asian,0.07568717
+2024,37,North Carolina,"Sliding scale, partial emp.",Asian,0.07294828
+2024,37,North Carolina,"Sliding scale, max emp.",Asian,0.03981398
+2024,37,North Carolina,"7% fixed, universal",Asian,0.03093129
+2024,37,North Carolina,"7% fixed, partial emp.",Asian,0.03093129
+2024,37,North Carolina,"7% fixed, max emp.",Asian,0.01619248
+2024,37,North Carolina,"Sliding scale, universal",Other,0.13663266
+2024,37,North Carolina,"Sliding scale, partial emp.",Other,0.11762895
+2024,37,North Carolina,"Sliding scale, max emp.",Other,0.08855867
+2024,37,North Carolina,"7% fixed, universal",Other,0.08195867
+2024,37,North Carolina,"7% fixed, partial emp.",Other,0.07784132
+2024,37,North Carolina,"7% fixed, max emp.",Other,0.06439598
+2024,37,North Carolina,"Sliding scale, universal",People of Color,0.09512657
+2024,37,North Carolina,"Sliding scale, partial emp.",People of Color,0.08760986
+2024,37,North Carolina,"Sliding scale, max emp.",People of Color,0.06695921
+2024,37,North Carolina,"7% fixed, universal",People of Color,0.04387751
+2024,37,North Carolina,"7% fixed, partial emp.",People of Color,0.04179552
+2024,37,North Carolina,"7% fixed, max emp.",People of Color,0.03230191
+2024,38,North Dakota,"Sliding scale, universal",Total,0.14602899
+2024,38,North Dakota,"Sliding scale, partial emp.",Total,0.14468141
+2024,38,North Dakota,"Sliding scale, max emp.",Total,0.11592329
+2024,38,North Dakota,"7% fixed, universal",Total,0.09431495
+2024,38,North Dakota,"7% fixed, partial emp.",Total,0.09390179
+2024,38,North Dakota,"7% fixed, max emp.",Total,0.07873893
+2024,38,North Dakota,"Sliding scale, universal",White,0.14855277
+2024,38,North Dakota,"Sliding scale, partial emp.",White,0.14788877
+2024,38,North Dakota,"Sliding scale, max emp.",White,0.12413399
+2024,38,North Dakota,"7% fixed, universal",White,0.10458167
+2024,38,North Dakota,"7% fixed, partial emp.",White,0.10418356
+2024,38,North Dakota,"7% fixed, max emp.",White,0.0902188
+2024,38,North Dakota,"Sliding scale, universal",Black,0.14531742
+2024,38,North Dakota,"Sliding scale, partial emp.",Black,0.14531742
+2024,38,North Dakota,"Sliding scale, max emp.",Black,0.14531742
+2024,38,North Dakota,"7% fixed, universal",Black,0.11318042
+2024,38,North Dakota,"7% fixed, partial emp.",Black,0.11318042
+2024,38,North Dakota,"7% fixed, max emp.",Black,0.11318042
+2024,38,North Dakota,"Sliding scale, universal",Hispanic,0.05720935
+2024,38,North Dakota,"Sliding scale, partial emp.",Hispanic,0.05720935
+2024,38,North Dakota,"Sliding scale, max emp.",Hispanic,0.01252189
+2024,38,North Dakota,"7% fixed, universal",Hispanic,0.04345522
+2024,38,North Dakota,"7% fixed, partial emp.",Hispanic,0.04345522
+2024,38,North Dakota,"7% fixed, max emp.",Hispanic,0.01061402
+2024,38,North Dakota,"Sliding scale, universal",Asian,0.28181829
+2024,38,North Dakota,"Sliding scale, partial emp.",Asian,0.28181829
+2024,38,North Dakota,"Sliding scale, max emp.",Asian,0.08209368
+2024,38,North Dakota,"7% fixed, universal",Asian,0.07322796
+2024,38,North Dakota,"7% fixed, partial emp.",Asian,0.07322796
+2024,38,North Dakota,"7% fixed, max emp.",Asian,0.07322796
+2024,38,North Dakota,"Sliding scale, universal",Other,0.17080383
+2024,38,North Dakota,"Sliding scale, partial emp.",Other,0.16130979
+2024,38,North Dakota,"Sliding scale, max emp.",Other,0.12294299
+2024,38,North Dakota,"7% fixed, universal",Other,0.04391322
+2024,38,North Dakota,"7% fixed, partial emp.",Other,0.04261356
+2024,38,North Dakota,"7% fixed, max emp.",Other,0.01790096
+2024,38,North Dakota,"Sliding scale, universal",People of Color,0.13867923
+2024,38,North Dakota,"Sliding scale, partial emp.",People of Color,0.13534092
+2024,38,North Dakota,"Sliding scale, max emp.",People of Color,0.09201206
+2024,38,North Dakota,"7% fixed, universal",People of Color,0.06441618
+2024,38,North Dakota,"7% fixed, partial emp.",People of Color,0.06395919
+2024,38,North Dakota,"7% fixed, max emp.",People of Color,0.04530724
+2024,39,Ohio,"Sliding scale, universal",Total,0.15692981
+2024,39,Ohio,"Sliding scale, partial emp.",Total,0.14856952
+2024,39,Ohio,"Sliding scale, max emp.",Total,0.11217316
+2024,39,Ohio,"7% fixed, universal",Total,0.09042865
+2024,39,Ohio,"7% fixed, partial emp.",Total,0.08716781
+2024,39,Ohio,"7% fixed, max emp.",Total,0.0673525
+2024,39,Ohio,"Sliding scale, universal",White,0.16660458
+2024,39,Ohio,"Sliding scale, partial emp.",White,0.15833932
+2024,39,Ohio,"Sliding scale, max emp.",White,0.11584641
+2024,39,Ohio,"7% fixed, universal",White,0.09648593
+2024,39,Ohio,"7% fixed, partial emp.",White,0.09385703
+2024,39,Ohio,"7% fixed, max emp.",White,0.07086368
+2024,39,Ohio,"Sliding scale, universal",Black,0.11190295
+2024,39,Ohio,"Sliding scale, partial emp.",Black,0.10378113
+2024,39,Ohio,"Sliding scale, max emp.",Black,0.08943049
+2024,39,Ohio,"7% fixed, universal",Black,0.05851608
+2024,39,Ohio,"7% fixed, partial emp.",Black,0.0543125
+2024,39,Ohio,"7% fixed, max emp.",Black,0.0455504
+2024,39,Ohio,"Sliding scale, universal",Hispanic,0.12434782
+2024,39,Ohio,"Sliding scale, partial emp.",Hispanic,0.10903354
+2024,39,Ohio,"Sliding scale, max emp.",Hispanic,0.09349934
+2024,39,Ohio,"7% fixed, universal",Hispanic,0.07340241
+2024,39,Ohio,"7% fixed, partial emp.",Hispanic,0.06153764
+2024,39,Ohio,"7% fixed, max emp.",Hispanic,0.05762342
+2024,39,Ohio,"Sliding scale, universal",Asian,0.18520602
+2024,39,Ohio,"Sliding scale, partial emp.",Asian,0.18520602
+2024,39,Ohio,"Sliding scale, max emp.",Asian,0.13579963
+2024,39,Ohio,"7% fixed, universal",Asian,0.12917579
+2024,39,Ohio,"7% fixed, partial emp.",Asian,0.12917579
+2024,39,Ohio,"7% fixed, max emp.",Asian,0.09637202
+2024,39,Ohio,"Sliding scale, universal",Other,0.16382256
+2024,39,Ohio,"Sliding scale, partial emp.",Other,0.15536371
+2024,39,Ohio,"Sliding scale, max emp.",Other,0.12874899
+2024,39,Ohio,"7% fixed, universal",Other,0.08716754
+2024,39,Ohio,"7% fixed, partial emp.",Other,0.08486236
+2024,39,Ohio,"7% fixed, max emp.",Other,0.07011309
+2024,39,Ohio,"Sliding scale, universal",People of Color,0.1325903
+2024,39,Ohio,"Sliding scale, partial emp.",People of Color,0.12399095
+2024,39,Ohio,"Sliding scale, max emp.",People of Color,0.10293209
+2024,39,Ohio,"7% fixed, universal",People of Color,0.07518993
+2024,39,Ohio,"7% fixed, partial emp.",People of Color,0.07033927
+2024,39,Ohio,"7% fixed, max emp.",People of Color,0.05851917
+2024,40,Oklahoma,"Sliding scale, universal",Total,0.13894738
+2024,40,Oklahoma,"Sliding scale, partial emp.",Total,0.13047677
+2024,40,Oklahoma,"Sliding scale, max emp.",Total,0.09848683
+2024,40,Oklahoma,"7% fixed, universal",Total,0.07592698
+2024,40,Oklahoma,"7% fixed, partial emp.",Total,0.07101968
+2024,40,Oklahoma,"7% fixed, max emp.",Total,0.05300877
+2024,40,Oklahoma,"Sliding scale, universal",White,0.14492085
+2024,40,Oklahoma,"Sliding scale, partial emp.",White,0.13918103
+2024,40,Oklahoma,"Sliding scale, max emp.",White,0.10644744
+2024,40,Oklahoma,"7% fixed, universal",White,0.07757423
+2024,40,Oklahoma,"7% fixed, partial emp.",White,0.0741907
+2024,40,Oklahoma,"7% fixed, max emp.",White,0.05717227
+2024,40,Oklahoma,"Sliding scale, universal",Black,0.09618789
+2024,40,Oklahoma,"Sliding scale, partial emp.",Black,0.06319565
+2024,40,Oklahoma,"Sliding scale, max emp.",Black,0.06052744
+2024,40,Oklahoma,"7% fixed, universal",Black,0.05866839
+2024,40,Oklahoma,"7% fixed, partial emp.",Black,0.03764598
+2024,40,Oklahoma,"7% fixed, max emp.",Black,0.03764598
+2024,40,Oklahoma,"Sliding scale, universal",Hispanic,0.10984258
+2024,40,Oklahoma,"Sliding scale, partial emp.",Hispanic,0.10595715
+2024,40,Oklahoma,"Sliding scale, max emp.",Hispanic,0.08135455
+2024,40,Oklahoma,"7% fixed, universal",Hispanic,0.06857731
+2024,40,Oklahoma,"7% fixed, partial emp.",Hispanic,0.06515591
+2024,40,Oklahoma,"7% fixed, max emp.",Hispanic,0.04864479
+2024,40,Oklahoma,"Sliding scale, universal",Asian,0.12042606
+2024,40,Oklahoma,"Sliding scale, partial emp.",Asian,0.12042606
+2024,40,Oklahoma,"Sliding scale, max emp.",Asian,0.07899686
+2024,40,Oklahoma,"7% fixed, universal",Asian,0.0988566
+2024,40,Oklahoma,"7% fixed, partial emp.",Asian,0.0988566
+2024,40,Oklahoma,"7% fixed, max emp.",Asian,0.05780202
+2024,40,Oklahoma,"Sliding scale, universal",Other,0.16926251
+2024,40,Oklahoma,"Sliding scale, partial emp.",Other,0.15294007
+2024,40,Oklahoma,"Sliding scale, max emp.",Other,0.10543995
+2024,40,Oklahoma,"7% fixed, universal",Other,0.07955282
+2024,40,Oklahoma,"7% fixed, partial emp.",Other,0.0724534
+2024,40,Oklahoma,"7% fixed, max emp.",Other,0.04623838
+2024,40,Oklahoma,"Sliding scale, universal",People of Color,0.13008906
+2024,40,Oklahoma,"Sliding scale, partial emp.",People of Color,0.11756883
+2024,40,Oklahoma,"Sliding scale, max emp.",People of Color,0.0866817
+2024,40,Oklahoma,"7% fixed, universal",People of Color,0.07348422
+2024,40,Oklahoma,"7% fixed, partial emp.",People of Color,0.06631724
+2024,40,Oklahoma,"7% fixed, max emp.",People of Color,0.04683453
+2024,41,Oregon,"Sliding scale, universal",Total,0.11129447
+2024,41,Oregon,"Sliding scale, partial emp.",Total,0.10763973
+2024,41,Oregon,"Sliding scale, max emp.",Total,0.08868703
+2024,41,Oregon,"7% fixed, universal",Total,0.05676102
+2024,41,Oregon,"7% fixed, partial emp.",Total,0.05545688
+2024,41,Oregon,"7% fixed, max emp.",Total,0.04564836
+2024,41,Oregon,"Sliding scale, universal",White,0.10958643
+2024,41,Oregon,"Sliding scale, partial emp.",White,0.10728689
+2024,41,Oregon,"Sliding scale, max emp.",White,0.08620296
+2024,41,Oregon,"7% fixed, universal",White,0.05227599
+2024,41,Oregon,"7% fixed, partial emp.",White,0.05113865
+2024,41,Oregon,"7% fixed, max emp.",White,0.0420726
+2024,41,Oregon,"Sliding scale, universal",Black,0.08513857
+2024,41,Oregon,"Sliding scale, partial emp.",Black,0.08513857
+2024,41,Oregon,"Sliding scale, max emp.",Black,0.05274401
+2024,41,Oregon,"7% fixed, universal",Black,0.08513857
+2024,41,Oregon,"7% fixed, partial emp.",Black,0.08513857
+2024,41,Oregon,"7% fixed, max emp.",Black,0.05274401
+2024,41,Oregon,"Sliding scale, universal",Hispanic,0.10738556
+2024,41,Oregon,"Sliding scale, partial emp.",Hispanic,0.09904813
+2024,41,Oregon,"Sliding scale, max emp.",Hispanic,0.09073728
+2024,41,Oregon,"7% fixed, universal",Hispanic,0.05254922
+2024,41,Oregon,"7% fixed, partial emp.",Hispanic,0.04982617
+2024,41,Oregon,"7% fixed, max emp.",Hispanic,0.04487425
+2024,41,Oregon,"Sliding scale, universal",Asian,0.11507777
+2024,41,Oregon,"Sliding scale, partial emp.",Asian,0.11507777
+2024,41,Oregon,"Sliding scale, max emp.",Asian,0.07334012
+2024,41,Oregon,"7% fixed, universal",Asian,0.08299617
+2024,41,Oregon,"7% fixed, partial emp.",Asian,0.08299617
+2024,41,Oregon,"7% fixed, max emp.",Asian,0.0461563
+2024,41,Oregon,"Sliding scale, universal",Other,0.14329191
+2024,41,Oregon,"Sliding scale, partial emp.",Other,0.1357328
+2024,41,Oregon,"Sliding scale, max emp.",Other,0.12964603
+2024,41,Oregon,"7% fixed, universal",Other,0.0837337
+2024,41,Oregon,"7% fixed, partial emp.",Other,0.08343359
+2024,41,Oregon,"7% fixed, max emp.",Other,0.08077004
+2024,41,Oregon,"Sliding scale, universal",People of Color,0.11468187
+2024,41,Oregon,"Sliding scale, partial emp.",People of Color,0.10833949
+2024,41,Oregon,"Sliding scale, max emp.",People of Color,0.09361346
+2024,41,Oregon,"7% fixed, universal",People of Color,0.06565579
+2024,41,Oregon,"7% fixed, partial emp.",People of Color,0.06402084
+2024,41,Oregon,"7% fixed, max emp.",People of Color,0.05273987
+2024,42,Pennsylvania,"Sliding scale, universal",Total,0.14532897
+2024,42,Pennsylvania,"Sliding scale, partial emp.",Total,0.13979356
+2024,42,Pennsylvania,"Sliding scale, max emp.",Total,0.11159898
+2024,42,Pennsylvania,"7% fixed, universal",Total,0.08713363
+2024,42,Pennsylvania,"7% fixed, partial emp.",Total,0.08483136
+2024,42,Pennsylvania,"7% fixed, max emp.",Total,0.06892796
+2024,42,Pennsylvania,"Sliding scale, universal",White,0.16211243
+2024,42,Pennsylvania,"Sliding scale, partial emp.",White,0.15588969
+2024,42,Pennsylvania,"Sliding scale, max emp.",White,0.12437537
+2024,42,Pennsylvania,"7% fixed, universal",White,0.09716578
+2024,42,Pennsylvania,"7% fixed, partial emp.",White,0.09535
+2024,42,Pennsylvania,"7% fixed, max emp.",White,0.07754597
+2024,42,Pennsylvania,"Sliding scale, universal",Black,0.13521797
+2024,42,Pennsylvania,"Sliding scale, partial emp.",Black,0.12564167
+2024,42,Pennsylvania,"Sliding scale, max emp.",Black,0.12075817
+2024,42,Pennsylvania,"7% fixed, universal",Black,0.08232401
+2024,42,Pennsylvania,"7% fixed, partial emp.",Black,0.07485112
+2024,42,Pennsylvania,"7% fixed, max emp.",Black,0.07268341
+2024,42,Pennsylvania,"Sliding scale, universal",Hispanic,0.08733721
+2024,42,Pennsylvania,"Sliding scale, partial emp.",Hispanic,0.08521077
+2024,42,Pennsylvania,"Sliding scale, max emp.",Hispanic,0.05381454
+2024,42,Pennsylvania,"7% fixed, universal",Hispanic,0.04914447
+2024,42,Pennsylvania,"7% fixed, partial emp.",Hispanic,0.04701803
+2024,42,Pennsylvania,"7% fixed, max emp.",Hispanic,0.03226345
+2024,42,Pennsylvania,"Sliding scale, universal",Asian,0.10135672
+2024,42,Pennsylvania,"Sliding scale, partial emp.",Asian,0.10135672
+2024,42,Pennsylvania,"Sliding scale, max emp.",Asian,0.06227951
+2024,42,Pennsylvania,"7% fixed, universal",Asian,0.06519903
+2024,42,Pennsylvania,"7% fixed, partial emp.",Asian,0.06519903
+2024,42,Pennsylvania,"7% fixed, max emp.",Asian,0.03600882
+2024,42,Pennsylvania,"Sliding scale, universal",Other,0.11599221
+2024,42,Pennsylvania,"Sliding scale, partial emp.",Other,0.11572868
+2024,42,Pennsylvania,"Sliding scale, max emp.",Other,0.10157463
+2024,42,Pennsylvania,"7% fixed, universal",Other,0.07008854
+2024,42,Pennsylvania,"7% fixed, partial emp.",Other,0.07008854
+2024,42,Pennsylvania,"7% fixed, max emp.",Other,0.06176114
+2024,42,Pennsylvania,"Sliding scale, universal",People of Color,0.10993568
+2024,42,Pennsylvania,"Sliding scale, partial emp.",People of Color,0.10584971
+2024,42,Pennsylvania,"Sliding scale, max emp.",People of Color,0.08465587
+2024,42,Pennsylvania,"7% fixed, universal",People of Color,0.06597763
+2024,42,Pennsylvania,"7% fixed, partial emp.",People of Color,0.06264942
+2024,42,Pennsylvania,"7% fixed, max emp.",People of Color,0.05075412
+2024,44,Rhode Island,"Sliding scale, universal",Total,0.08660437
+2024,44,Rhode Island,"Sliding scale, partial emp.",Total,0.085055
+2024,44,Rhode Island,"Sliding scale, max emp.",Total,0.05829318
+2024,44,Rhode Island,"7% fixed, universal",Total,0.03982581
+2024,44,Rhode Island,"7% fixed, partial emp.",Total,0.03827644
+2024,44,Rhode Island,"7% fixed, max emp.",Total,0.02851073
+2024,44,Rhode Island,"Sliding scale, universal",White,0.10413268
+2024,44,Rhode Island,"Sliding scale, partial emp.",White,0.10296764
+2024,44,Rhode Island,"Sliding scale, max emp.",White,0.06666415
+2024,44,Rhode Island,"7% fixed, universal",White,0.04439636
+2024,44,Rhode Island,"7% fixed, partial emp.",White,0.04323132
+2024,44,Rhode Island,"7% fixed, max emp.",White,0.03145609
+2024,44,Rhode Island,"Sliding scale, universal",Black,0.00699132
+2024,44,Rhode Island,"Sliding scale, partial emp.",Black,0.00699132
+2024,44,Rhode Island,"Sliding scale, max emp.",Black,0.00699132
+2024,44,Rhode Island,"7% fixed, universal",Black,0.00699132
+2024,44,Rhode Island,"7% fixed, partial emp.",Black,0.00699132
+2024,44,Rhode Island,"7% fixed, max emp.",Black,0.00699132
+2024,44,Rhode Island,"Sliding scale, universal",Hispanic,0.06699601
+2024,44,Rhode Island,"Sliding scale, partial emp.",Hispanic,0.06370255
+2024,44,Rhode Island,"Sliding scale, max emp.",Hispanic,0.04255504
+2024,44,Rhode Island,"7% fixed, universal",Hispanic,0.04493846
+2024,44,Rhode Island,"7% fixed, partial emp.",Hispanic,0.041645
+2024,44,Rhode Island,"7% fixed, max emp.",Hispanic,0.03011787
+2024,44,Rhode Island,"Sliding scale, universal",Asian,0.09218318
+2024,44,Rhode Island,"Sliding scale, partial emp.",Asian,0.09218318
+2024,44,Rhode Island,"Sliding scale, max emp.",Asian,0.08290565
+2024,44,Rhode Island,"7% fixed, universal",Asian,0.01658113
+2024,44,Rhode Island,"7% fixed, partial emp.",Asian,0.01658113
+2024,44,Rhode Island,"7% fixed, max emp.",Asian,0.01658113
+2024,44,Rhode Island,"Sliding scale, universal",Other,0.06840256
+2024,44,Rhode Island,"Sliding scale, partial emp.",Other,0.06840256
+2024,44,Rhode Island,"Sliding scale, max emp.",Other,0.06840256
+2024,44,Rhode Island,"7% fixed, universal",Other,0.02252532
+2024,44,Rhode Island,"7% fixed, partial emp.",Other,0.02252532
+2024,44,Rhode Island,"7% fixed, max emp.",Other,0.02252532
+2024,44,Rhode Island,"Sliding scale, universal",People of Color,0.06391231
+2024,44,Rhode Island,"Sliding scale, partial emp.",People of Color,0.06186539
+2024,44,Rhode Island,"Sliding scale, max emp.",People of Color,0.04745617
+2024,44,Rhode Island,"7% fixed, universal",People of Color,0.0339088
+2024,44,Rhode Island,"7% fixed, partial emp.",People of Color,0.03186189
+2024,44,Rhode Island,"7% fixed, max emp.",People of Color,0.02469768
+2024,45,South Carolina,"Sliding scale, universal",Total,0.14109288
+2024,45,South Carolina,"Sliding scale, partial emp.",Total,0.1350884
+2024,45,South Carolina,"Sliding scale, max emp.",Total,0.09952959
+2024,45,South Carolina,"7% fixed, universal",Total,0.07498758
+2024,45,South Carolina,"7% fixed, partial emp.",Total,0.07259467
+2024,45,South Carolina,"7% fixed, max emp.",Total,0.05513373
+2024,45,South Carolina,"Sliding scale, universal",White,0.15156169
+2024,45,South Carolina,"Sliding scale, partial emp.",White,0.14635986
+2024,45,South Carolina,"Sliding scale, max emp.",White,0.10902338
+2024,45,South Carolina,"7% fixed, universal",White,0.08421006
+2024,45,South Carolina,"7% fixed, partial emp.",White,0.08225492
+2024,45,South Carolina,"7% fixed, max emp.",White,0.06477791
+2024,45,South Carolina,"Sliding scale, universal",Black,0.11598887
+2024,45,South Carolina,"Sliding scale, partial emp.",Black,0.1091005
+2024,45,South Carolina,"Sliding scale, max emp.",Black,0.09002833
+2024,45,South Carolina,"7% fixed, universal",Black,0.05904513
+2024,45,South Carolina,"7% fixed, partial emp.",Black,0.05424884
+2024,45,South Carolina,"7% fixed, max emp.",Black,0.04557992
+2024,45,South Carolina,"Sliding scale, universal",Hispanic,0.13137668
+2024,45,South Carolina,"Sliding scale, partial emp.",Hispanic,0.13137668
+2024,45,South Carolina,"Sliding scale, max emp.",Hispanic,0.0948843
+2024,45,South Carolina,"7% fixed, universal",Hispanic,0.06191016
+2024,45,South Carolina,"7% fixed, partial emp.",Hispanic,0.06191016
+2024,45,South Carolina,"7% fixed, max emp.",Hispanic,0.03864044
+2024,45,South Carolina,"Sliding scale, universal",Asian,0.11286409
+2024,45,South Carolina,"Sliding scale, partial emp.",Asian,0.11286409
+2024,45,South Carolina,"Sliding scale, max emp.",Asian,0.02570304
+2024,45,South Carolina,"7% fixed, universal",Asian,0.03064705
+2024,45,South Carolina,"7% fixed, partial emp.",Asian,0.03064705
+2024,45,South Carolina,"7% fixed, max emp.",Asian,0.00685895
+2024,45,South Carolina,"Sliding scale, universal",Other,0.1829628
+2024,45,South Carolina,"Sliding scale, partial emp.",Other,0.15938475
+2024,45,South Carolina,"Sliding scale, max emp.",Other,0.08229706
+2024,45,South Carolina,"7% fixed, universal",Other,0.09605777
+2024,45,South Carolina,"7% fixed, partial emp.",Other,0.09605777
+2024,45,South Carolina,"7% fixed, max emp.",Other,0.04564784
+2024,45,South Carolina,"Sliding scale, universal",People of Color,0.12695635
+2024,45,South Carolina,"Sliding scale, partial emp.",People of Color,0.119868
+2024,45,South Carolina,"Sliding scale, max emp.",People of Color,0.08670966
+2024,45,South Carolina,"7% fixed, universal",People of Color,0.06253403
+2024,45,South Carolina,"7% fixed, partial emp.",People of Color,0.05954998
+2024,45,South Carolina,"7% fixed, max emp.",People of Color,0.04211074
+2024,46,South Dakota,"Sliding scale, universal",Total,0.13683134
+2024,46,South Dakota,"Sliding scale, partial emp.",Total,0.13313806
+2024,46,South Dakota,"Sliding scale, max emp.",Total,0.11273931
+2024,46,South Dakota,"7% fixed, universal",Total,0.07474384
+2024,46,South Dakota,"7% fixed, partial emp.",Total,0.07208447
+2024,46,South Dakota,"7% fixed, max emp.",Total,0.05991351
+2024,46,South Dakota,"Sliding scale, universal",White,0.13257188
+2024,46,South Dakota,"Sliding scale, partial emp.",White,0.12890126
+2024,46,South Dakota,"Sliding scale, max emp.",White,0.10709774
+2024,46,South Dakota,"7% fixed, universal",White,0.07405138
+2024,46,South Dakota,"7% fixed, partial emp.",White,0.07070606
+2024,46,South Dakota,"7% fixed, max emp.",White,0.05841792
+2024,46,South Dakota,"Sliding scale, universal",Black,0.29854625
+2024,46,South Dakota,"Sliding scale, partial emp.",Black,0.28621501
+2024,46,South Dakota,"Sliding scale, max emp.",Black,0.28621501
+2024,46,South Dakota,"7% fixed, universal",Black,0.20661508
+2024,46,South Dakota,"7% fixed, partial emp.",Black,0.20661508
+2024,46,South Dakota,"7% fixed, max emp.",Black,0.20661508
+2024,46,South Dakota,"Sliding scale, universal",Hispanic,0.1804201
+2024,46,South Dakota,"Sliding scale, partial emp.",Hispanic,0.1804201
+2024,46,South Dakota,"Sliding scale, max emp.",Hispanic,0.16690016
+2024,46,South Dakota,"7% fixed, universal",Hispanic,0.03748981
+2024,46,South Dakota,"7% fixed, partial emp.",Hispanic,0.03748981
+2024,46,South Dakota,"7% fixed, max emp.",Hispanic,0.03748981
+2024,46,South Dakota,"Sliding scale, universal",Asian,0.02427653
+2024,46,South Dakota,"Sliding scale, partial emp.",Asian,0.02427653
+2024,46,South Dakota,"Sliding scale, max emp.",Asian,0.02427653
+2024,46,South Dakota,"7% fixed, universal",Asian,
+2024,46,South Dakota,"7% fixed, partial emp.",Asian,
+2024,46,South Dakota,"7% fixed, max emp.",Asian,
+2024,46,South Dakota,"Sliding scale, universal",Other,0.13598889
+2024,46,South Dakota,"Sliding scale, partial emp.",Other,0.13155542
+2024,46,South Dakota,"Sliding scale, max emp.",Other,0.11156195
+2024,46,South Dakota,"7% fixed, universal",Other,0.0830424
+2024,46,South Dakota,"7% fixed, partial emp.",Other,0.0828348
+2024,46,South Dakota,"7% fixed, max emp.",Other,0.06337357
+2024,46,South Dakota,"Sliding scale, universal",People of Color,0.15256717
+2024,46,South Dakota,"Sliding scale, partial emp.",People of Color,0.14879018
+2024,46,South Dakota,"Sliding scale, max emp.",People of Color,0.13358109
+2024,46,South Dakota,"7% fixed, universal",People of Color,0.07730202
+2024,46,South Dakota,"7% fixed, partial emp.",People of Color,0.07717681
+2024,46,South Dakota,"7% fixed, max emp.",People of Color,0.06543874
+2024,47,Tennessee,"Sliding scale, universal",Total,0.08646517
+2024,47,Tennessee,"Sliding scale, partial emp.",Total,0.07885902
+2024,47,Tennessee,"Sliding scale, max emp.",Total,0.05469536
+2024,47,Tennessee,"7% fixed, universal",Total,0.03634621
+2024,47,Tennessee,"7% fixed, partial emp.",Total,0.03388097
+2024,47,Tennessee,"7% fixed, max emp.",Total,0.02315216
+2024,47,Tennessee,"Sliding scale, universal",White,0.09396385
+2024,47,Tennessee,"Sliding scale, partial emp.",White,0.08627944
+2024,47,Tennessee,"Sliding scale, max emp.",White,0.05657932
+2024,47,Tennessee,"7% fixed, universal",White,0.03861528
+2024,47,Tennessee,"7% fixed, partial emp.",White,0.03624536
+2024,47,Tennessee,"7% fixed, max emp.",White,0.02394416
+2024,47,Tennessee,"Sliding scale, universal",Black,0.07283557
+2024,47,Tennessee,"Sliding scale, partial emp.",Black,0.06318998
+2024,47,Tennessee,"Sliding scale, max emp.",Black,0.05947931
+2024,47,Tennessee,"7% fixed, universal",Black,0.03363784
+2024,47,Tennessee,"7% fixed, partial emp.",Black,0.0300642
+2024,47,Tennessee,"7% fixed, max emp.",Black,0.02722777
+2024,47,Tennessee,"Sliding scale, universal",Hispanic,0.05975888
+2024,47,Tennessee,"Sliding scale, partial emp.",Hispanic,0.05479184
+2024,47,Tennessee,"Sliding scale, max emp.",Hispanic,0.04329722
+2024,47,Tennessee,"7% fixed, universal",Hispanic,0.02098676
+2024,47,Tennessee,"7% fixed, partial emp.",Hispanic,0.0194072
+2024,47,Tennessee,"7% fixed, max emp.",Hispanic,0.0173709
+2024,47,Tennessee,"Sliding scale, universal",Asian,0.06798759
+2024,47,Tennessee,"Sliding scale, partial emp.",Asian,0.06323062
+2024,47,Tennessee,"Sliding scale, max emp.",Asian,0.01697078
+2024,47,Tennessee,"7% fixed, universal",Asian,0.04053768
+2024,47,Tennessee,"7% fixed, partial emp.",Asian,0.03578071
+2024,47,Tennessee,"7% fixed, max emp.",Asian,
+2024,47,Tennessee,"Sliding scale, universal",Other,0.08104297
+2024,47,Tennessee,"Sliding scale, partial emp.",Other,0.07604054
+2024,47,Tennessee,"Sliding scale, max emp.",Other,0.04845622
+2024,47,Tennessee,"7% fixed, universal",Other,0.03859708
+2024,47,Tennessee,"7% fixed, partial emp.",Other,0.03859708
+2024,47,Tennessee,"7% fixed, max emp.",Other,0.01828177
+2024,47,Tennessee,"Sliding scale, universal",People of Color,0.06996689
+2024,47,Tennessee,"Sliding scale, partial emp.",People of Color,0.06253295
+2024,47,Tennessee,"Sliding scale, max emp.",People of Color,0.05055035
+2024,47,Tennessee,"7% fixed, universal",People of Color,0.03135391
+2024,47,Tennessee,"7% fixed, partial emp.",People of Color,0.02867895
+2024,47,Tennessee,"7% fixed, max emp.",People of Color,0.02140964
+2024,48,Texas,"Sliding scale, universal",Total,0.10720775
+2024,48,Texas,"Sliding scale, partial emp.",Total,0.10140126
+2024,48,Texas,"Sliding scale, max emp.",Total,0.07093659
+2024,48,Texas,"7% fixed, universal",Total,0.05353874
+2024,48,Texas,"7% fixed, partial emp.",Total,0.05107027
+2024,48,Texas,"7% fixed, max emp.",Total,0.03601707
+2024,48,Texas,"Sliding scale, universal",White,0.10454727
+2024,48,Texas,"Sliding scale, partial emp.",White,0.0994799
+2024,48,Texas,"Sliding scale, max emp.",White,0.06593409
+2024,48,Texas,"7% fixed, universal",White,0.0541319
+2024,48,Texas,"7% fixed, partial emp.",White,0.05168384
+2024,48,Texas,"7% fixed, max emp.",White,0.03427135
+2024,48,Texas,"Sliding scale, universal",Black,0.08928893
+2024,48,Texas,"Sliding scale, partial emp.",Black,0.08040242
+2024,48,Texas,"Sliding scale, max emp.",Black,0.06504844
+2024,48,Texas,"7% fixed, universal",Black,0.04352387
+2024,48,Texas,"7% fixed, partial emp.",Black,0.04112956
+2024,48,Texas,"7% fixed, max emp.",Black,0.03546468
+2024,48,Texas,"Sliding scale, universal",Hispanic,0.11923008
+2024,48,Texas,"Sliding scale, partial emp.",Hispanic,0.11344039
+2024,48,Texas,"Sliding scale, max emp.",Hispanic,0.08178596
+2024,48,Texas,"7% fixed, universal",Hispanic,0.05757171
+2024,48,Texas,"7% fixed, partial emp.",Hispanic,0.05485697
+2024,48,Texas,"7% fixed, max emp.",Hispanic,0.03917777
+2024,48,Texas,"Sliding scale, universal",Asian,0.08731512
+2024,48,Texas,"Sliding scale, partial emp.",Asian,0.0839484
+2024,48,Texas,"Sliding scale, max emp.",Asian,0.04298145
+2024,48,Texas,"7% fixed, universal",Asian,0.04602972
+2024,48,Texas,"7% fixed, partial emp.",Asian,0.04572711
+2024,48,Texas,"7% fixed, max emp.",Asian,0.02658135
+2024,48,Texas,"Sliding scale, universal",Other,0.09165513
+2024,48,Texas,"Sliding scale, partial emp.",Other,0.08431537
+2024,48,Texas,"Sliding scale, max emp.",Other,0.06650146
+2024,48,Texas,"7% fixed, universal",Other,0.04951626
+2024,48,Texas,"7% fixed, partial emp.",Other,0.04516205
+2024,48,Texas,"7% fixed, max emp.",Other,0.03608048
+2024,48,Texas,"Sliding scale, universal",People of Color,0.10862399
+2024,48,Texas,"Sliding scale, partial emp.",People of Color,0.10242405
+2024,48,Texas,"Sliding scale, max emp.",People of Color,0.07359954
+2024,48,Texas,"7% fixed, universal",People of Color,0.05322298
+2024,48,Texas,"7% fixed, partial emp.",People of Color,0.05074365
+2024,48,Texas,"7% fixed, max emp.",People of Color,0.03694636
+2024,49,Utah,"Sliding scale, universal",Total,0.1930439
+2024,49,Utah,"Sliding scale, partial emp.",Total,0.1895966
+2024,49,Utah,"Sliding scale, max emp.",Total,0.12870195
+2024,49,Utah,"7% fixed, universal",Total,0.08849067
+2024,49,Utah,"7% fixed, partial emp.",Total,0.08762256
+2024,49,Utah,"7% fixed, max emp.",Total,0.0609189
+2024,49,Utah,"Sliding scale, universal",White,0.20191543
+2024,49,Utah,"Sliding scale, partial emp.",White,0.19828483
+2024,49,Utah,"Sliding scale, max emp.",White,0.1367585
+2024,49,Utah,"7% fixed, universal",White,0.09659671
+2024,49,Utah,"7% fixed, partial emp.",White,0.09547163
+2024,49,Utah,"7% fixed, max emp.",White,0.06765622
+2024,49,Utah,"Sliding scale, universal",Black,0.10307308
+2024,49,Utah,"Sliding scale, partial emp.",Black,0.10307308
+2024,49,Utah,"Sliding scale, max emp.",Black,0.10307308
+2024,49,Utah,"7% fixed, universal",Black,0.02208709
+2024,49,Utah,"7% fixed, partial emp.",Black,0.02208709
+2024,49,Utah,"7% fixed, max emp.",Black,0.02208709
+2024,49,Utah,"Sliding scale, universal",Hispanic,0.17603873
+2024,49,Utah,"Sliding scale, partial emp.",Hispanic,0.17175166
+2024,49,Utah,"Sliding scale, max emp.",Hispanic,0.11829648
+2024,49,Utah,"7% fixed, universal",Hispanic,0.0718682
+2024,49,Utah,"7% fixed, partial emp.",Hispanic,0.07167829
+2024,49,Utah,"7% fixed, max emp.",Hispanic,0.04735024
+2024,49,Utah,"Sliding scale, universal",Asian,0.13900254
+2024,49,Utah,"Sliding scale, partial emp.",Asian,0.13900254
+2024,49,Utah,"Sliding scale, max emp.",Asian,0.02042885
+2024,49,Utah,"7% fixed, universal",Asian,0.01381058
+2024,49,Utah,"7% fixed, partial emp.",Asian,0.01381058
+2024,49,Utah,"7% fixed, max emp.",Asian,0.00254389
+2024,49,Utah,"Sliding scale, universal",Other,0.16691536
+2024,49,Utah,"Sliding scale, partial emp.",Other,0.16644956
+2024,49,Utah,"Sliding scale, max emp.",Other,0.11090926
+2024,49,Utah,"7% fixed, universal",Other,0.07997375
+2024,49,Utah,"7% fixed, partial emp.",Other,0.07997375
+2024,49,Utah,"7% fixed, max emp.",Other,0.04756997
+2024,49,Utah,"Sliding scale, universal",People of Color,0.16739898
+2024,49,Utah,"Sliding scale, partial emp.",People of Color,0.16448154
+2024,49,Utah,"Sliding scale, max emp.",People of Color,0.10541287
+2024,49,Utah,"7% fixed, universal",People of Color,0.06505855
+2024,49,Utah,"7% fixed, partial emp.",People of Color,0.06493326
+2024,49,Utah,"7% fixed, max emp.",People of Color,0.04144333
+2024,50,Vermont,"Sliding scale, universal",Total,0.21304142
+2024,50,Vermont,"Sliding scale, partial emp.",Total,0.20639636
+2024,50,Vermont,"Sliding scale, max emp.",Total,0.17963549
+2024,50,Vermont,"7% fixed, universal",Total,0.14063858
+2024,50,Vermont,"7% fixed, partial emp.",Total,0.136618
+2024,50,Vermont,"7% fixed, max emp.",Total,0.11890475
+2024,50,Vermont,"Sliding scale, universal",White,0.21045297
+2024,50,Vermont,"Sliding scale, partial emp.",White,0.20712707
+2024,50,Vermont,"Sliding scale, max emp.",White,0.17845496
+2024,50,Vermont,"7% fixed, universal",White,0.13373823
+2024,50,Vermont,"7% fixed, partial emp.",White,0.13328409
+2024,50,Vermont,"7% fixed, max emp.",White,0.11419829
+2024,50,Vermont,"Sliding scale, universal",Black,0.24159663
+2024,50,Vermont,"Sliding scale, partial emp.",Black,0.24159663
+2024,50,Vermont,"Sliding scale, max emp.",Black,0.24159663
+2024,50,Vermont,"7% fixed, universal",Black,0.1723792
+2024,50,Vermont,"7% fixed, partial emp.",Black,0.1723792
+2024,50,Vermont,"7% fixed, max emp.",Black,0.1723792
+2024,50,Vermont,"Sliding scale, universal",Hispanic,0.2155887
+2024,50,Vermont,"Sliding scale, partial emp.",Hispanic,0.03601404
+2024,50,Vermont,"Sliding scale, max emp.",Hispanic,0.00823454
+2024,50,Vermont,"7% fixed, universal",Hispanic,0.20130448
+2024,50,Vermont,"7% fixed, partial emp.",Hispanic,0.02172982
+2024,50,Vermont,"7% fixed, max emp.",Hispanic,0.00823454
+2024,50,Vermont,"Sliding scale, universal",Asian,0.08986059
+2024,50,Vermont,"Sliding scale, partial emp.",Asian,0.08986059
+2024,50,Vermont,"Sliding scale, max emp.",Asian,0.08986059
+2024,50,Vermont,"7% fixed, universal",Asian,0.0576689
+2024,50,Vermont,"7% fixed, partial emp.",Asian,0.0576689
+2024,50,Vermont,"7% fixed, max emp.",Asian,0.0576689
+2024,50,Vermont,"Sliding scale, universal",Other,0.34526101
+2024,50,Vermont,"Sliding scale, partial emp.",Other,0.34526101
+2024,50,Vermont,"Sliding scale, max emp.",Other,0.34526101
+2024,50,Vermont,"7% fixed, universal",Other,0.32637808
+2024,50,Vermont,"7% fixed, partial emp.",Other,0.32637808
+2024,50,Vermont,"7% fixed, max emp.",Other,0.32637808
+2024,50,Vermont,"Sliding scale, universal",People of Color,0.24051226
+2024,50,Vermont,"Sliding scale, partial emp.",People of Color,0.19864153
+2024,50,Vermont,"Sliding scale, max emp.",People of Color,0.19216429
+2024,50,Vermont,"7% fixed, universal",People of Color,0.21387107
+2024,50,Vermont,"7% fixed, partial emp.",People of Color,0.17200034
+2024,50,Vermont,"7% fixed, max emp.",People of Color,0.1688537
+2024,51,Virginia,"Sliding scale, universal",Total,0.14434933
+2024,51,Virginia,"Sliding scale, partial emp.",Total,0.13835478
+2024,51,Virginia,"Sliding scale, max emp.",Total,0.10642345
+2024,51,Virginia,"7% fixed, universal",Total,0.06709919
+2024,51,Virginia,"7% fixed, partial emp.",Total,0.06488408
+2024,51,Virginia,"7% fixed, max emp.",Total,0.05228491
+2024,51,Virginia,"Sliding scale, universal",White,0.16980301
+2024,51,Virginia,"Sliding scale, partial emp.",White,0.16335367
+2024,51,Virginia,"Sliding scale, max emp.",White,0.1235319
+2024,51,Virginia,"7% fixed, universal",White,0.07874836
+2024,51,Virginia,"7% fixed, partial emp.",White,0.07612
+2024,51,Virginia,"7% fixed, max emp.",White,0.06070062
+2024,51,Virginia,"Sliding scale, universal",Black,0.11350446
+2024,51,Virginia,"Sliding scale, partial emp.",Black,0.10582053
+2024,51,Virginia,"Sliding scale, max emp.",Black,0.09395315
+2024,51,Virginia,"7% fixed, universal",Black,0.04864653
+2024,51,Virginia,"7% fixed, partial emp.",Black,0.04512673
+2024,51,Virginia,"7% fixed, max emp.",Black,0.04186846
+2024,51,Virginia,"Sliding scale, universal",Hispanic,0.10528459
+2024,51,Virginia,"Sliding scale, partial emp.",Hispanic,0.10271839
+2024,51,Virginia,"Sliding scale, max emp.",Hispanic,0.08190988
+2024,51,Virginia,"7% fixed, universal",Hispanic,0.05788853
+2024,51,Virginia,"7% fixed, partial emp.",Hispanic,0.05731087
+2024,51,Virginia,"7% fixed, max emp.",Hispanic,0.04936737
+2024,51,Virginia,"Sliding scale, universal",Asian,0.12664393
+2024,51,Virginia,"Sliding scale, partial emp.",Asian,0.12577338
+2024,51,Virginia,"Sliding scale, max emp.",Asian,0.08438732
+2024,51,Virginia,"7% fixed, universal",Asian,0.06766363
+2024,51,Virginia,"7% fixed, partial emp.",Asian,0.06766363
+2024,51,Virginia,"7% fixed, max emp.",Asian,0.0433082
+2024,51,Virginia,"Sliding scale, universal",Other,0.1218482
+2024,51,Virginia,"Sliding scale, partial emp.",Other,0.1107745
+2024,51,Virginia,"Sliding scale, max emp.",Other,0.07197577
+2024,51,Virginia,"7% fixed, universal",Other,0.03870782
+2024,51,Virginia,"7% fixed, partial emp.",Other,0.03805503
+2024,51,Virginia,"7% fixed, max emp.",Other,0.02518202
+2024,51,Virginia,"Sliding scale, universal",People of Color,0.11422344
+2024,51,Virginia,"Sliding scale, partial emp.",People of Color,0.10876716
+2024,51,Virginia,"Sliding scale, max emp.",People of Color,0.08617462
+2024,51,Virginia,"7% fixed, universal",People of Color,0.05331173
+2024,51,Virginia,"7% fixed, partial emp.",People of Color,0.05158572
+2024,51,Virginia,"7% fixed, max emp.",People of Color,0.04232444
+2024,53,Washington,"Sliding scale, universal",Total,0.15510621
+2024,53,Washington,"Sliding scale, partial emp.",Total,0.1488531
+2024,53,Washington,"Sliding scale, max emp.",Total,0.10471702
+2024,53,Washington,"7% fixed, universal",Total,0.09519073
+2024,53,Washington,"7% fixed, partial emp.",Total,0.09212988
+2024,53,Washington,"7% fixed, max emp.",Total,0.06533478
+2024,53,Washington,"Sliding scale, universal",White,0.15615783
+2024,53,Washington,"Sliding scale, partial emp.",White,0.14951903
+2024,53,Washington,"Sliding scale, max emp.",White,0.09974532
+2024,53,Washington,"7% fixed, universal",White,0.09951881
+2024,53,Washington,"7% fixed, partial emp.",White,0.09618922
+2024,53,Washington,"7% fixed, max emp.",White,0.06537802
+2024,53,Washington,"Sliding scale, universal",Black,0.18694878
+2024,53,Washington,"Sliding scale, partial emp.",Black,0.18138232
+2024,53,Washington,"Sliding scale, max emp.",Black,0.13328166
+2024,53,Washington,"7% fixed, universal",Black,0.09398827
+2024,53,Washington,"7% fixed, partial emp.",Black,0.08842181
+2024,53,Washington,"7% fixed, max emp.",Black,0.05944694
+2024,53,Washington,"Sliding scale, universal",Hispanic,0.15511259
+2024,53,Washington,"Sliding scale, partial emp.",Hispanic,0.145932
+2024,53,Washington,"Sliding scale, max emp.",Hispanic,0.12161638
+2024,53,Washington,"7% fixed, universal",Hispanic,0.08905023
+2024,53,Washington,"7% fixed, partial emp.",Hispanic,0.08524815
+2024,53,Washington,"7% fixed, max emp.",Hispanic,0.07205603
+2024,53,Washington,"Sliding scale, universal",Asian,0.13526014
+2024,53,Washington,"Sliding scale, partial emp.",Asian,0.13316967
+2024,53,Washington,"Sliding scale, max emp.",Asian,0.09282254
+2024,53,Washington,"7% fixed, universal",Asian,0.07981456
+2024,53,Washington,"7% fixed, partial emp.",Asian,0.07945308
+2024,53,Washington,"7% fixed, max emp.",Asian,0.05264887
+2024,53,Washington,"Sliding scale, universal",Other,0.16030283
+2024,53,Washington,"Sliding scale, partial emp.",Other,0.15655707
+2024,53,Washington,"Sliding scale, max emp.",Other,0.10780711
+2024,53,Washington,"7% fixed, universal",Other,0.10030978
+2024,53,Washington,"7% fixed, partial emp.",Other,0.09809585
+2024,53,Washington,"7% fixed, max emp.",Other,0.07289443
+2024,53,Washington,"Sliding scale, universal",People of Color,0.15360939
+2024,53,Washington,"Sliding scale, partial emp.",People of Color,0.14790525
+2024,53,Washington,"Sliding scale, max emp.",People of Color,0.1117935
+2024,53,Washington,"7% fixed, universal",People of Color,0.08903036
+2024,53,Washington,"7% fixed, partial emp.",People of Color,0.08635202
+2024,53,Washington,"7% fixed, max emp.",People of Color,0.06527325
+2024,54,West Virginia,"Sliding scale, universal",Total,0.12138189
+2024,54,West Virginia,"Sliding scale, partial emp.",Total,0.11651937
+2024,54,West Virginia,"Sliding scale, max emp.",Total,0.08441815
+2024,54,West Virginia,"7% fixed, universal",Total,0.05638985
+2024,54,West Virginia,"7% fixed, partial emp.",Total,0.0546459
+2024,54,West Virginia,"7% fixed, max emp.",Total,0.03969877
+2024,54,West Virginia,"Sliding scale, universal",White,0.13460397
+2024,54,West Virginia,"Sliding scale, partial emp.",White,0.12922315
+2024,54,West Virginia,"Sliding scale, max emp.",White,0.09275057
+2024,54,West Virginia,"7% fixed, universal",White,0.06192445
+2024,54,West Virginia,"7% fixed, partial emp.",White,0.06008686
+2024,54,West Virginia,"7% fixed, max emp.",White,0.04310432
+2024,54,West Virginia,"Sliding scale, universal",Black,0.02097425
+2024,54,West Virginia,"Sliding scale, partial emp.",Black,0.02097425
+2024,54,West Virginia,"Sliding scale, max emp.",Black,0.02097425
+2024,54,West Virginia,"7% fixed, universal",Black,0.00676086
+2024,54,West Virginia,"7% fixed, partial emp.",Black,0.00676086
+2024,54,West Virginia,"7% fixed, max emp.",Black,0.00676086
+2024,54,West Virginia,"Sliding scale, universal",Hispanic,0.03763994
+2024,54,West Virginia,"Sliding scale, partial emp.",Hispanic,0.03325717
+2024,54,West Virginia,"Sliding scale, max emp.",Hispanic,0.03325717
+2024,54,West Virginia,"7% fixed, universal",Hispanic,0.03259711
+2024,54,West Virginia,"7% fixed, partial emp.",Hispanic,0.02821433
+2024,54,West Virginia,"7% fixed, max emp.",Hispanic,0.02821433
+2024,54,West Virginia,"Sliding scale, universal",Asian,0.01481009
+2024,54,West Virginia,"Sliding scale, partial emp.",Asian,0.01481009
+2024,54,West Virginia,"Sliding scale, max emp.",Asian,0.01481009
+2024,54,West Virginia,"7% fixed, universal",Asian,0.01481009
+2024,54,West Virginia,"7% fixed, partial emp.",Asian,0.01481009
+2024,54,West Virginia,"7% fixed, max emp.",Asian,0.01481009
+2024,54,West Virginia,"Sliding scale, universal",Other,0.02079185
+2024,54,West Virginia,"Sliding scale, partial emp.",Other,0.02079185
+2024,54,West Virginia,"Sliding scale, max emp.",Other,0.02079185
+2024,54,West Virginia,"7% fixed, universal",Other,0.01254903
+2024,54,West Virginia,"7% fixed, partial emp.",Other,0.01254903
+2024,54,West Virginia,"7% fixed, max emp.",Other,0.01254903
+2024,54,West Virginia,"Sliding scale, universal",People of Color,0.02428506
+2024,54,West Virginia,"Sliding scale, partial emp.",People of Color,0.0232287
+2024,54,West Virginia,"Sliding scale, max emp.",People of Color,0.0232287
+2024,54,West Virginia,"7% fixed, universal",People of Color,0.01574635
+2024,54,West Virginia,"7% fixed, partial emp.",People of Color,0.01468999
+2024,54,West Virginia,"7% fixed, max emp.",People of Color,0.01468999
+2024,55,Wisconsin,"Sliding scale, universal",Total,0.21481757
+2024,55,Wisconsin,"Sliding scale, partial emp.",Total,0.20946675
+2024,55,Wisconsin,"Sliding scale, max emp.",Total,0.17717347
+2024,55,Wisconsin,"7% fixed, universal",Total,0.13024125
+2024,55,Wisconsin,"7% fixed, partial emp.",Total,0.12831736
+2024,55,Wisconsin,"7% fixed, max emp.",Total,0.11108872
+2024,55,Wisconsin,"Sliding scale, universal",White,0.22831469
+2024,55,Wisconsin,"Sliding scale, partial emp.",White,0.22368364
+2024,55,Wisconsin,"Sliding scale, max emp.",White,0.18730405
+2024,55,Wisconsin,"7% fixed, universal",White,0.13613446
+2024,55,Wisconsin,"7% fixed, partial emp.",White,0.13450554
+2024,55,Wisconsin,"7% fixed, max emp.",White,0.11560866
+2024,55,Wisconsin,"Sliding scale, universal",Black,0.16943663
+2024,55,Wisconsin,"Sliding scale, partial emp.",Black,0.1511244
+2024,55,Wisconsin,"Sliding scale, max emp.",Black,0.13194275
+2024,55,Wisconsin,"7% fixed, universal",Black,0.11810574
+2024,55,Wisconsin,"7% fixed, partial emp.",Black,0.11528012
+2024,55,Wisconsin,"7% fixed, max emp.",Black,0.09911427
+2024,55,Wisconsin,"Sliding scale, universal",Hispanic,0.22429734
+2024,55,Wisconsin,"Sliding scale, partial emp.",Hispanic,0.22229207
+2024,55,Wisconsin,"Sliding scale, max emp.",Hispanic,0.19711868
+2024,55,Wisconsin,"7% fixed, universal",Hispanic,0.13438644
+2024,55,Wisconsin,"7% fixed, partial emp.",Hispanic,0.13238117
+2024,55,Wisconsin,"7% fixed, max emp.",Hispanic,0.1191531
+2024,55,Wisconsin,"Sliding scale, universal",Asian,0.11326051
+2024,55,Wisconsin,"Sliding scale, partial emp.",Asian,0.11326051
+2024,55,Wisconsin,"Sliding scale, max emp.",Asian,0.10472755
+2024,55,Wisconsin,"7% fixed, universal",Asian,0.08436574
+2024,55,Wisconsin,"7% fixed, partial emp.",Asian,0.08436574
+2024,55,Wisconsin,"7% fixed, max emp.",Asian,0.08199065
+2024,55,Wisconsin,"Sliding scale, universal",Other,0.12985527
+2024,55,Wisconsin,"Sliding scale, partial emp.",Other,0.12257148
+2024,55,Wisconsin,"Sliding scale, max emp.",Other,0.09955726
+2024,55,Wisconsin,"7% fixed, universal",Other,0.08002466
+2024,55,Wisconsin,"7% fixed, partial emp.",Other,0.07274088
+2024,55,Wisconsin,"7% fixed, max emp.",Other,0.05975727
+2024,55,Wisconsin,"Sliding scale, universal",People of Color,0.17574988
+2024,55,Wisconsin,"Sliding scale, partial emp.",People of Color,0.16831568
+2024,55,Wisconsin,"Sliding scale, max emp.",People of Color,0.14785031
+2024,55,Wisconsin,"7% fixed, universal",People of Color,0.11318322
+2024,55,Wisconsin,"7% fixed, partial emp.",People of Color,0.11040553
+2024,55,Wisconsin,"7% fixed, max emp.",People of Color,0.09800566
+2024,56,Wyoming,"Sliding scale, universal",Total,0.12462192
+2024,56,Wyoming,"Sliding scale, partial emp.",Total,0.11967814
+2024,56,Wyoming,"Sliding scale, max emp.",Total,0.07883202
+2024,56,Wyoming,"7% fixed, universal",Total,0.07257542
+2024,56,Wyoming,"7% fixed, partial emp.",Total,0.0695677
+2024,56,Wyoming,"7% fixed, max emp.",Total,0.04326598
+2024,56,Wyoming,"Sliding scale, universal",White,0.12514264
+2024,56,Wyoming,"Sliding scale, partial emp.",White,0.12025479
+2024,56,Wyoming,"Sliding scale, max emp.",White,0.07344133
+2024,56,Wyoming,"7% fixed, universal",White,0.07886942
+2024,56,Wyoming,"7% fixed, partial emp.",White,0.07607368
+2024,56,Wyoming,"7% fixed, max emp.",White,0.04641576
+2024,56,Wyoming,"Sliding scale, universal",Black,
+2024,56,Wyoming,"Sliding scale, partial emp.",Black,
+2024,56,Wyoming,"Sliding scale, max emp.",Black,
+2024,56,Wyoming,"7% fixed, universal",Black,
+2024,56,Wyoming,"7% fixed, partial emp.",Black,
+2024,56,Wyoming,"7% fixed, max emp.",Black,
+2024,56,Wyoming,"Sliding scale, universal",Hispanic,0.07586868
+2024,56,Wyoming,"Sliding scale, partial emp.",Hispanic,0.07586868
+2024,56,Wyoming,"Sliding scale, max emp.",Hispanic,0.05905215
+2024,56,Wyoming,"7% fixed, universal",Hispanic,0.01997624
+2024,56,Wyoming,"7% fixed, partial emp.",Hispanic,0.01997624
+2024,56,Wyoming,"7% fixed, max emp.",Hispanic,0.00475072
+2024,56,Wyoming,"Sliding scale, universal",Asian,
+2024,56,Wyoming,"Sliding scale, partial emp.",Asian,
+2024,56,Wyoming,"Sliding scale, max emp.",Asian,
+2024,56,Wyoming,"7% fixed, universal",Asian,
+2024,56,Wyoming,"7% fixed, partial emp.",Asian,
+2024,56,Wyoming,"7% fixed, max emp.",Asian,
+2024,56,Wyoming,"Sliding scale, universal",Other,0.26229897
+2024,56,Wyoming,"Sliding scale, partial emp.",Other,0.24369479
+2024,56,Wyoming,"Sliding scale, max emp.",Other,0.24144752
+2024,56,Wyoming,"7% fixed, universal",Other,0.10238781
+2024,56,Wyoming,"7% fixed, partial emp.",Other,0.0879364
+2024,56,Wyoming,"7% fixed, max emp.",Other,0.0879364
+2024,56,Wyoming,"Sliding scale, universal",People of Color,0.12204982
+2024,56,Wyoming,"Sliding scale, partial emp.",People of Color,0.11682978
+2024,56,Wyoming,"Sliding scale, max emp.",People of Color,0.1054595
+2024,56,Wyoming,"7% fixed, universal",People of Color,0.04148606
+2024,56,Wyoming,"7% fixed, partial emp.",People of Color,0.03743122
+2024,56,Wyoming,"7% fixed, max emp.",People of Color,0.02770757
+2024,99999,United States,"Sliding scale, universal",Total,0.13073361
+2024,99999,United States,"Sliding scale, partial emp.",Total,0.12492633
+2024,99999,United States,"Sliding scale, max emp.",Total,0.09579232
+2024,99999,United States,"7% fixed, universal",Total,0.06826925
+2024,99999,United States,"7% fixed, partial emp.",Total,0.06580139
+2024,99999,United States,"7% fixed, max emp.",Total,0.05146413
+2024,99999,United States,"Sliding scale, universal",White,0.14709044
+2024,99999,United States,"Sliding scale, partial emp.",White,0.141271
+2024,99999,United States,"Sliding scale, max emp.",White,0.10761834
+2024,99999,United States,"7% fixed, universal",White,0.07863064
+2024,99999,United States,"7% fixed, partial emp.",White,0.07628146
+2024,99999,United States,"7% fixed, max emp.",White,0.05973895
+2024,99999,United States,"Sliding scale, universal",Black,0.10509284
+2024,99999,United States,"Sliding scale, partial emp.",Black,0.09683321
+2024,99999,United States,"Sliding scale, max emp.",Black,0.08493921
+2024,99999,United States,"7% fixed, universal",Black,0.05231691
+2024,99999,United States,"7% fixed, partial emp.",Black,0.04861412
+2024,99999,United States,"7% fixed, max emp.",Black,0.04319654
+2024,99999,United States,"Sliding scale, universal",Hispanic,0.11139632
+2024,99999,United States,"Sliding scale, partial emp.",Hispanic,0.1065243
+2024,99999,United States,"Sliding scale, max emp.",Hispanic,0.08168342
+2024,99999,United States,"7% fixed, universal",Hispanic,0.05435038
+2024,99999,United States,"7% fixed, partial emp.",Hispanic,0.05199691
+2024,99999,United States,"7% fixed, max emp.",Hispanic,0.04016311
+2024,99999,United States,"Sliding scale, universal",Asian,0.1132924
+2024,99999,United States,"Sliding scale, partial emp.",Asian,0.11083668
+2024,99999,United States,"Sliding scale, max emp.",Asian,0.07110156
+2024,99999,United States,"7% fixed, universal",Asian,0.06276143
+2024,99999,United States,"7% fixed, partial emp.",Asian,0.06167206
+2024,99999,United States,"7% fixed, max emp.",Asian,0.04012544
+2024,99999,United States,"Sliding scale, universal",Other,0.12965212
+2024,99999,United States,"Sliding scale, partial emp.",Other,0.121782
+2024,99999,United States,"Sliding scale, max emp.",Other,0.09233298
+2024,99999,United States,"7% fixed, universal",Other,0.06673881
+2024,99999,United States,"7% fixed, partial emp.",Other,0.06383523
+2024,99999,United States,"7% fixed, max emp.",Other,0.04902461
+2024,99999,United States,"Sliding scale, universal",People of Color,0.11202175
+2024,99999,United States,"Sliding scale, partial emp.",People of Color,0.10622837
+2024,99999,United States,"Sliding scale, max emp.",People of Color,0.08226359
+2024,99999,United States,"7% fixed, universal",People of Color,0.05641605
+2024,99999,United States,"7% fixed, partial emp.",People of Color,0.05381241
+2024,99999,United States,"7% fixed, max emp.",People of Color,0.04199793
