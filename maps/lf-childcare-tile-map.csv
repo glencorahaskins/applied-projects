@@ -1,0 +1,2185 @@
+﻿year,area,area_name,racecomp,scenario,model,lf
+2024,1,Alabama,Total,Universal,Sliding scale,0.02668723
+2024,1,Alabama,Total,Universal,Fixed (7%),0.01728349
+2024,1,Alabama,Total,Partial emp.,Sliding scale,0.02416392
+2024,1,Alabama,Total,Partial emp.,Fixed (7%),0.01501439
+2024,1,Alabama,Total,Max emp.,Sliding scale,0.01471221
+2024,1,Alabama,Total,Max emp.,Fixed (7%),0.00877787
+2024,2,Alaska,Total,Universal,Sliding scale,0.03320513
+2024,2,Alaska,Total,Universal,Fixed (7%),0.02402441
+2024,2,Alaska,Total,Partial emp.,Sliding scale,0.03017169
+2024,2,Alaska,Total,Partial emp.,Fixed (7%),0.02145428
+2024,2,Alaska,Total,Max emp.,Sliding scale,0.01730767
+2024,2,Alaska,Total,Max emp.,Fixed (7%),0.01178223
+2024,4,Arizona,Total,Universal,Sliding scale,0.03189984
+2024,4,Arizona,Total,Universal,Fixed (7%),0.0231548
+2024,4,Arizona,Total,Partial emp.,Sliding scale,0.02999084
+2024,4,Arizona,Total,Partial emp.,Fixed (7%),0.02147493
+2024,4,Arizona,Total,Max emp.,Sliding scale,0.01800039
+2024,4,Arizona,Total,Max emp.,Fixed (7%),0.01240309
+2024,5,Arkansas,Total,Universal,Sliding scale,0.03051781
+2024,5,Arkansas,Total,Universal,Fixed (7%),0.02075787
+2024,5,Arkansas,Total,Partial emp.,Sliding scale,0.02834485
+2024,5,Arkansas,Total,Partial emp.,Fixed (7%),0.01880161
+2024,5,Arkansas,Total,Max emp.,Sliding scale,0.01608157
+2024,5,Arkansas,Total,Max emp.,Fixed (7%),0.01008654
+2024,6,California,Total,Universal,Sliding scale,0.03189517
+2024,6,California,Total,Universal,Fixed (7%),0.02485442
+2024,6,California,Total,Partial emp.,Sliding scale,0.02996377
+2024,6,California,Total,Partial emp.,Fixed (7%),0.02307501
+2024,6,California,Total,Max emp.,Sliding scale,0.0174137
+2024,6,California,Total,Max emp.,Fixed (7%),0.0130284
+2024,8,Colorado,Total,Universal,Sliding scale,0.03322779
+2024,8,Colorado,Total,Universal,Fixed (7%),0.0254028
+2024,8,Colorado,Total,Partial emp.,Sliding scale,0.03192702
+2024,8,Colorado,Total,Partial emp.,Fixed (7%),0.02419625
+2024,8,Colorado,Total,Max emp.,Sliding scale,0.01992642
+2024,8,Colorado,Total,Max emp.,Fixed (7%),0.01446806
+2024,9,Connecticut,Total,Universal,Sliding scale,0.02544348
+2024,9,Connecticut,Total,Universal,Fixed (7%),0.01854757
+2024,9,Connecticut,Total,Partial emp.,Sliding scale,0.02422755
+2024,9,Connecticut,Total,Partial emp.,Fixed (7%),0.017428
+2024,9,Connecticut,Total,Max emp.,Sliding scale,0.01620987
+2024,9,Connecticut,Total,Max emp.,Fixed (7%),0.01122966
+2024,10,Delaware,Total,Universal,Sliding scale,0.01785606
+2024,10,Delaware,Total,Universal,Fixed (7%),0.01097407
+2024,10,Delaware,Total,Partial emp.,Sliding scale,0.01680528
+2024,10,Delaware,Total,Partial emp.,Fixed (7%),0.0100632
+2024,10,Delaware,Total,Max emp.,Sliding scale,0.01154274
+2024,10,Delaware,Total,Max emp.,Fixed (7%),0.0064388
+2024,11,District of Columbia,Total,Universal,Sliding scale,0.03642345
+2024,11,District of Columbia,Total,Universal,Fixed (7%),0.03259404
+2024,11,District of Columbia,Total,Partial emp.,Sliding scale,0.02795842
+2024,11,District of Columbia,Total,Partial emp.,Fixed (7%),0.0242659
+2024,11,District of Columbia,Total,Max emp.,Sliding scale,0.02143409
+2024,11,District of Columbia,Total,Max emp.,Fixed (7%),0.01851695
+2024,12,Florida,Total,Universal,Sliding scale,0.0259027
+2024,12,Florida,Total,Universal,Fixed (7%),0.01783982
+2024,12,Florida,Total,Partial emp.,Sliding scale,0.02407037
+2024,12,Florida,Total,Partial emp.,Fixed (7%),0.01617151
+2024,12,Florida,Total,Max emp.,Sliding scale,0.01473045
+2024,12,Florida,Total,Max emp.,Fixed (7%),0.00940577
+2024,13,Georgia,Total,Universal,Sliding scale,0.01919648
+2024,13,Georgia,Total,Universal,Fixed (7%),0.01157242
+2024,13,Georgia,Total,Partial emp.,Sliding scale,0.01779052
+2024,13,Georgia,Total,Partial emp.,Fixed (7%),0.01033524
+2024,13,Georgia,Total,Max emp.,Sliding scale,0.01089101
+2024,13,Georgia,Total,Max emp.,Fixed (7%),0.00589204
+2024,15,Hawaii,Total,Universal,Sliding scale,0.02045473
+2024,15,Hawaii,Total,Universal,Fixed (7%),0.01476488
+2024,15,Hawaii,Total,Partial emp.,Sliding scale,0.01953034
+2024,15,Hawaii,Total,Partial emp.,Fixed (7%),0.0140358
+2024,15,Hawaii,Total,Max emp.,Sliding scale,0.01110208
+2024,15,Hawaii,Total,Max emp.,Fixed (7%),0.0074844
+2024,16,Idaho,Total,Universal,Sliding scale,0.03490028
+2024,16,Idaho,Total,Universal,Fixed (7%),0.02370809
+2024,16,Idaho,Total,Partial emp.,Sliding scale,0.03314605
+2024,16,Idaho,Total,Partial emp.,Fixed (7%),0.02226279
+2024,16,Idaho,Total,Max emp.,Sliding scale,0.01963152
+2024,16,Idaho,Total,Max emp.,Fixed (7%),0.01272773
+2024,17,Illinois,Total,Universal,Sliding scale,0.01942638
+2024,17,Illinois,Total,Universal,Fixed (7%),0.0127331
+2024,17,Illinois,Total,Partial emp.,Sliding scale,0.018375
+2024,17,Illinois,Total,Partial emp.,Fixed (7%),0.01182359
+2024,17,Illinois,Total,Max emp.,Sliding scale,0.01151279
+2024,17,Illinois,Total,Max emp.,Fixed (7%),0.00699646
+2024,18,Indiana,Total,Universal,Sliding scale,0.03503867
+2024,18,Indiana,Total,Universal,Fixed (7%),0.02542489
+2024,18,Indiana,Total,Partial emp.,Sliding scale,0.03300536
+2024,18,Indiana,Total,Partial emp.,Fixed (7%),0.0235706
+2024,18,Indiana,Total,Max emp.,Sliding scale,0.02101859
+2024,18,Indiana,Total,Max emp.,Fixed (7%),0.0142974
+2024,19,Iowa,Total,Universal,Sliding scale,0.02165284
+2024,19,Iowa,Total,Universal,Fixed (7%),0.01409739
+2024,19,Iowa,Total,Partial emp.,Sliding scale,0.02086891
+2024,19,Iowa,Total,Partial emp.,Fixed (7%),0.01337137
+2024,19,Iowa,Total,Max emp.,Sliding scale,0.01408519
+2024,19,Iowa,Total,Max emp.,Fixed (7%),0.0084027
+2024,20,Kansas,Total,Universal,Sliding scale,0.02150095
+2024,20,Kansas,Total,Universal,Fixed (7%),0.01274702
+2024,20,Kansas,Total,Partial emp.,Sliding scale,0.02041018
+2024,20,Kansas,Total,Partial emp.,Fixed (7%),0.01182805
+2024,20,Kansas,Total,Max emp.,Sliding scale,0.01284456
+2024,20,Kansas,Total,Max emp.,Fixed (7%),0.00669505
+2024,21,Kentucky,Total,Universal,Sliding scale,0.03082694
+2024,21,Kentucky,Total,Universal,Fixed (7%),0.02095472
+2024,21,Kentucky,Total,Partial emp.,Sliding scale,0.02789343
+2024,21,Kentucky,Total,Partial emp.,Fixed (7%),0.01840328
+2024,21,Kentucky,Total,Max emp.,Sliding scale,0.01679247
+2024,21,Kentucky,Total,Max emp.,Fixed (7%),0.01038468
+2024,22,Louisiana,Total,Universal,Sliding scale,0.03064596
+2024,22,Louisiana,Total,Universal,Fixed (7%),0.02202999
+2024,22,Louisiana,Total,Partial emp.,Sliding scale,0.02794793
+2024,22,Louisiana,Total,Partial emp.,Fixed (7%),0.01957684
+2024,22,Louisiana,Total,Max emp.,Sliding scale,0.01783975
+2024,22,Louisiana,Total,Max emp.,Fixed (7%),0.01214826
+2024,23,Maine,Total,Universal,Sliding scale,0.03260134
+2024,23,Maine,Total,Universal,Fixed (7%),0.02341097
+2024,23,Maine,Total,Partial emp.,Sliding scale,0.03056442
+2024,23,Maine,Total,Partial emp.,Fixed (7%),0.02156014
+2024,23,Maine,Total,Max emp.,Sliding scale,0.02011004
+2024,23,Maine,Total,Max emp.,Fixed (7%),0.01373747
+2024,24,Maryland,Total,Universal,Sliding scale,0.02512998
+2024,24,Maryland,Total,Universal,Fixed (7%),0.01857603
+2024,24,Maryland,Total,Partial emp.,Sliding scale,0.02370425
+2024,24,Maryland,Total,Partial emp.,Fixed (7%),0.01726189
+2024,24,Maryland,Total,Max emp.,Sliding scale,0.01600188
+2024,24,Maryland,Total,Max emp.,Fixed (7%),0.01132735
+2024,25,Massachusetts,Total,Universal,Sliding scale,0.02861303
+2024,25,Massachusetts,Total,Universal,Fixed (7%),0.02198604
+2024,25,Massachusetts,Total,Partial emp.,Sliding scale,0.02688752
+2024,25,Massachusetts,Total,Partial emp.,Fixed (7%),0.02036753
+2024,25,Massachusetts,Total,Max emp.,Sliding scale,0.01890341
+2024,25,Massachusetts,Total,Max emp.,Fixed (7%),0.01387505
+2024,26,Michigan,Total,Universal,Sliding scale,0.03178116
+2024,26,Michigan,Total,Universal,Fixed (7%),0.02232087
+2024,26,Michigan,Total,Partial emp.,Sliding scale,0.0295529
+2024,26,Michigan,Total,Partial emp.,Fixed (7%),0.02028362
+2024,26,Michigan,Total,Max emp.,Sliding scale,0.01823368
+2024,26,Michigan,Total,Max emp.,Fixed (7%),0.01192375
+2024,27,Minnesota,Total,Universal,Sliding scale,0.02832955
+2024,27,Minnesota,Total,Universal,Fixed (7%),0.02163877
+2024,27,Minnesota,Total,Partial emp.,Sliding scale,0.0270671
+2024,27,Minnesota,Total,Partial emp.,Fixed (7%),0.02045226
+2024,27,Minnesota,Total,Max emp.,Sliding scale,0.01943528
+2024,27,Minnesota,Total,Max emp.,Fixed (7%),0.01425851
+2024,28,Mississippi,Total,Universal,Sliding scale,0.02363227
+2024,28,Mississippi,Total,Universal,Fixed (7%),0.01514272
+2024,28,Mississippi,Total,Partial emp.,Sliding scale,0.02085667
+2024,28,Mississippi,Total,Partial emp.,Fixed (7%),0.01257678
+2024,28,Mississippi,Total,Max emp.,Sliding scale,0.01448641
+2024,28,Mississippi,Total,Max emp.,Fixed (7%),0.00841892
+2024,29,Missouri,Total,Universal,Sliding scale,0.03052633
+2024,29,Missouri,Total,Universal,Fixed (7%),0.02139356
+2024,29,Missouri,Total,Partial emp.,Sliding scale,0.0288308
+2024,29,Missouri,Total,Partial emp.,Fixed (7%),0.01986688
+2024,29,Missouri,Total,Max emp.,Sliding scale,0.0192882
+2024,29,Missouri,Total,Max emp.,Fixed (7%),0.01266041
+2024,30,Montana,Total,Universal,Sliding scale,0.04147119
+2024,30,Montana,Total,Universal,Fixed (7%),0.03229807
+2024,30,Montana,Total,Partial emp.,Sliding scale,0.03856429
+2024,30,Montana,Total,Partial emp.,Fixed (7%),0.02980461
+2024,30,Montana,Total,Max emp.,Sliding scale,0.02507144
+2024,30,Montana,Total,Max emp.,Fixed (7%),0.01878957
+2024,31,Nebraska,Total,Universal,Sliding scale,0.03212984
+2024,31,Nebraska,Total,Universal,Fixed (7%),0.02443932
+2024,31,Nebraska,Total,Partial emp.,Sliding scale,0.03104034
+2024,31,Nebraska,Total,Partial emp.,Fixed (7%),0.02346085
+2024,31,Nebraska,Total,Max emp.,Sliding scale,0.02097894
+2024,31,Nebraska,Total,Max emp.,Fixed (7%),0.01529978
+2024,32,Nevada,Total,Universal,Sliding scale,0.04093389
+2024,32,Nevada,Total,Universal,Fixed (7%),0.03247435
+2024,32,Nevada,Total,Partial emp.,Sliding scale,0.03903787
+2024,32,Nevada,Total,Partial emp.,Fixed (7%),0.0307475
+2024,32,Nevada,Total,Max emp.,Sliding scale,0.02464429
+2024,32,Nevada,Total,Max emp.,Fixed (7%),0.01930597
+2024,33,New Hampshire,Total,Universal,Sliding scale,0.03030835
+2024,33,New Hampshire,Total,Universal,Fixed (7%),0.02052811
+2024,33,New Hampshire,Total,Partial emp.,Sliding scale,0.02951694
+2024,33,New Hampshire,Total,Partial emp.,Fixed (7%),0.0198194
+2024,33,New Hampshire,Total,Max emp.,Sliding scale,0.02136256
+2024,33,New Hampshire,Total,Max emp.,Fixed (7%),0.01376846
+2024,34,New Jersey,Total,Universal,Sliding scale,0.02483199
+2024,34,New Jersey,Total,Universal,Fixed (7%),0.01755186
+2024,34,New Jersey,Total,Partial emp.,Sliding scale,0.02341529
+2024,34,New Jersey,Total,Partial emp.,Fixed (7%),0.01627505
+2024,34,New Jersey,Total,Max emp.,Sliding scale,0.01530418
+2024,34,New Jersey,Total,Max emp.,Fixed (7%),0.01025287
+2024,35,New Mexico,Total,Universal,Sliding scale,0.02742324
+2024,35,New Mexico,Total,Universal,Fixed (7%),0.01975088
+2024,35,New Mexico,Total,Partial emp.,Sliding scale,0.02484329
+2024,35,New Mexico,Total,Partial emp.,Fixed (7%),0.0174567
+2024,35,New Mexico,Total,Max emp.,Sliding scale,0.01259948
+2024,35,New Mexico,Total,Max emp.,Fixed (7%),0.0084933
+2024,36,New York,Total,Universal,Sliding scale,0.03664415
+2024,36,New York,Total,Universal,Fixed (7%),0.0294115
+2024,36,New York,Total,Partial emp.,Sliding scale,0.03397068
+2024,36,New York,Total,Partial emp.,Fixed (7%),0.02690432
+2024,36,New York,Total,Max emp.,Sliding scale,0.02113015
+2024,36,New York,Total,Max emp.,Fixed (7%),0.01629002
+2024,37,North Carolina,Total,Universal,Sliding scale,0.02356394
+2024,37,North Carolina,Total,Universal,Fixed (7%),0.01543748
+2024,37,North Carolina,Total,Partial emp.,Sliding scale,0.02183978
+2024,37,North Carolina,Total,Partial emp.,Fixed (7%),0.01391045
+2024,37,North Carolina,Total,Max emp.,Sliding scale,0.01265364
+2024,37,North Carolina,Total,Max emp.,Fixed (7%),0.00761294
+2024,38,North Dakota,Total,Universal,Sliding scale,0.02754198
+2024,38,North Dakota,Total,Universal,Fixed (7%),0.01969806
+2024,38,North Dakota,Total,Partial emp.,Sliding scale,0.02695824
+2024,38,North Dakota,Total,Partial emp.,Fixed (7%),0.01917573
+2024,38,North Dakota,Total,Max emp.,Sliding scale,0.01930957
+2024,38,North Dakota,Total,Max emp.,Fixed (7%),0.01312439
+2024,39,Ohio,Total,Universal,Sliding scale,0.0354232
+2024,39,Ohio,Total,Universal,Fixed (7%),0.02665378
+2024,39,Ohio,Total,Partial emp.,Sliding scale,0.03287605
+2024,39,Ohio,Total,Partial emp.,Fixed (7%),0.02429056
+2024,39,Ohio,Total,Max emp.,Sliding scale,0.02090574
+2024,39,Ohio,Total,Max emp.,Fixed (7%),0.01492533
+2024,40,Oklahoma,Total,Universal,Sliding scale,0.03702251
+2024,40,Oklahoma,Total,Universal,Fixed (7%),0.02741889
+2024,40,Oklahoma,Total,Partial emp.,Sliding scale,0.03427177
+2024,40,Oklahoma,Total,Partial emp.,Fixed (7%),0.02490318
+2024,40,Oklahoma,Total,Max emp.,Sliding scale,0.01935697
+2024,40,Oklahoma,Total,Max emp.,Fixed (7%),0.01331786
+2024,41,Oregon,Total,Universal,Sliding scale,0.02629768
+2024,41,Oregon,Total,Universal,Fixed (7%),0.0184611
+2024,41,Oregon,Total,Partial emp.,Sliding scale,0.02490327
+2024,41,Oregon,Total,Partial emp.,Fixed (7%),0.01730124
+2024,41,Oregon,Total,Max emp.,Sliding scale,0.01483226
+2024,41,Oregon,Total,Max emp.,Fixed (7%),0.00970279
+2024,42,Pennsylvania,Total,Universal,Sliding scale,0.03181601
+2024,42,Pennsylvania,Total,Universal,Fixed (7%),0.02342963
+2024,42,Pennsylvania,Total,Partial emp.,Sliding scale,0.02983256
+2024,42,Pennsylvania,Total,Partial emp.,Fixed (7%),0.02162082
+2024,42,Pennsylvania,Total,Max emp.,Sliding scale,0.01927727
+2024,42,Pennsylvania,Total,Max emp.,Fixed (7%),0.01346
+2024,44,Rhode Island,Total,Universal,Sliding scale,0.02048589
+2024,44,Rhode Island,Total,Universal,Fixed (7%),0.01452626
+2024,44,Rhode Island,Total,Partial emp.,Sliding scale,0.01871829
+2024,44,Rhode Island,Total,Partial emp.,Fixed (7%),0.01292679
+2024,44,Rhode Island,Total,Max emp.,Sliding scale,0.01151983
+2024,44,Rhode Island,Total,Max emp.,Fixed (7%),0.00743113
+2024,45,South Carolina,Total,Universal,Sliding scale,0.02980306
+2024,45,South Carolina,Total,Universal,Fixed (7%),0.02082836
+2024,45,South Carolina,Total,Partial emp.,Sliding scale,0.02753412
+2024,45,South Carolina,Total,Partial emp.,Fixed (7%),0.01877911
+2024,45,South Carolina,Total,Max emp.,Sliding scale,0.01683277
+2024,45,South Carolina,Total,Max emp.,Fixed (7%),0.01086788
+2024,46,South Dakota,Total,Universal,Sliding scale,0.02252665
+2024,46,South Dakota,Total,Universal,Fixed (7%),0.01480369
+2024,46,South Dakota,Total,Partial emp.,Sliding scale,0.02096939
+2024,46,South Dakota,Total,Partial emp.,Fixed (7%),0.01339527
+2024,46,South Dakota,Total,Max emp.,Sliding scale,0.01477829
+2024,46,South Dakota,Total,Max emp.,Fixed (7%),0.0086698
+2024,47,Tennessee,Total,Universal,Sliding scale,0.02325739
+2024,47,Tennessee,Total,Universal,Fixed (7%),0.01420346
+2024,47,Tennessee,Total,Partial emp.,Sliding scale,0.02147706
+2024,47,Tennessee,Total,Partial emp.,Fixed (7%),0.01269582
+2024,47,Tennessee,Total,Max emp.,Sliding scale,0.0121456
+2024,47,Tennessee,Total,Max emp.,Fixed (7%),0.00658168
+2024,48,Texas,Total,Universal,Sliding scale,0.02680172
+2024,48,Texas,Total,Universal,Fixed (7%),0.01866145
+2024,48,Texas,Total,Partial emp.,Sliding scale,0.02498012
+2024,48,Texas,Total,Partial emp.,Fixed (7%),0.01701858
+2024,48,Texas,Total,Max emp.,Sliding scale,0.01449629
+2024,48,Texas,Total,Max emp.,Fixed (7%),0.00946146
+2024,49,Utah,Total,Universal,Sliding scale,0.03743253
+2024,49,Utah,Total,Universal,Fixed (7%),0.0255691
+2024,49,Utah,Total,Partial emp.,Sliding scale,0.03588682
+2024,49,Utah,Total,Partial emp.,Fixed (7%),0.02413908
+2024,49,Utah,Total,Max emp.,Sliding scale,0.01973634
+2024,49,Utah,Total,Max emp.,Fixed (7%),0.01251144
+2024,50,Vermont,Total,Universal,Sliding scale,0.03722073
+2024,50,Vermont,Total,Universal,Fixed (7%),0.02974043
+2024,50,Vermont,Total,Partial emp.,Sliding scale,0.03637922
+2024,50,Vermont,Total,Partial emp.,Fixed (7%),0.0290097
+2024,50,Vermont,Total,Max emp.,Sliding scale,0.02674959
+2024,50,Vermont,Total,Max emp.,Fixed (7%),0.02083741
+2024,51,Virginia,Total,Universal,Sliding scale,0.02861795
+2024,51,Virginia,Total,Universal,Fixed (7%),0.0209554
+2024,51,Virginia,Total,Partial emp.,Sliding scale,0.02729364
+2024,51,Virginia,Total,Partial emp.,Fixed (7%),0.01976004
+2024,51,Virginia,Total,Max emp.,Sliding scale,0.01655696
+2024,51,Virginia,Total,Max emp.,Fixed (7%),0.01142806
+2024,53,Washington,Total,Universal,Sliding scale,0.03780298
+2024,53,Washington,Total,Universal,Fixed (7%),0.02920518
+2024,53,Washington,Total,Partial emp.,Sliding scale,0.03588543
+2024,53,Washington,Total,Partial emp.,Fixed (7%),0.02747768
+2024,53,Washington,Total,Max emp.,Sliding scale,0.02068391
+2024,53,Washington,Total,Max emp.,Fixed (7%),0.01530158
+2024,54,West Virginia,Total,Universal,Sliding scale,0.04394331
+2024,54,West Virginia,Total,Universal,Fixed (7%),0.03228449
+2024,54,West Virginia,Total,Partial emp.,Sliding scale,0.04078586
+2024,54,West Virginia,Total,Partial emp.,Fixed (7%),0.02937924
+2024,54,West Virginia,Total,Max emp.,Sliding scale,0.02474123
+2024,54,West Virginia,Total,Max emp.,Fixed (7%),0.01763904
+2024,55,Wisconsin,Total,Universal,Sliding scale,0.03187081
+2024,55,Wisconsin,Total,Universal,Fixed (7%),0.02418397
+2024,55,Wisconsin,Total,Partial emp.,Sliding scale,0.03034447
+2024,55,Wisconsin,Total,Partial emp.,Fixed (7%),0.02277194
+2024,55,Wisconsin,Total,Max emp.,Sliding scale,0.02103538
+2024,55,Wisconsin,Total,Max emp.,Fixed (7%),0.01520349
+2024,56,Wyoming,Total,Universal,Sliding scale,0.02894817
+2024,56,Wyoming,Total,Universal,Fixed (7%),0.02003729
+2024,56,Wyoming,Total,Partial emp.,Sliding scale,0.02752065
+2024,56,Wyoming,Total,Partial emp.,Fixed (7%),0.01870083
+2024,56,Wyoming,Total,Max emp.,Sliding scale,0.01513527
+2024,56,Wyoming,Total,Max emp.,Fixed (7%),0.00990535
+2024,99999,United States,Total,Universal,Sliding scale,0.02926549
+2024,99999,United States,Total,Universal,Fixed (7%),0.02119872
+2024,99999,United States,Total,Partial emp.,Sliding scale,0.02739984
+2024,99999,United States,Total,Partial emp.,Fixed (7%),0.01950613
+2024,99999,United States,Total,Max emp.,Sliding scale,0.01687891
+2024,99999,United States,Total,Max emp.,Fixed (7%),0.01154182
+2024,1,Alabama,White,Universal,Sliding scale,0.02770384
+2024,1,Alabama,White,Universal,Fixed (7%),0.01705451
+2024,1,Alabama,White,Partial emp.,Sliding scale,0.02593592
+2024,1,Alabama,White,Partial emp.,Fixed (7%),0.01548544
+2024,1,Alabama,White,Max emp.,Sliding scale,0.01536792
+2024,1,Alabama,White,Max emp.,Fixed (7%),0.00869827
+2024,2,Alaska,White,Universal,Sliding scale,0.03340465
+2024,2,Alaska,White,Universal,Fixed (7%),0.02326986
+2024,2,Alaska,White,Partial emp.,Sliding scale,0.03038706
+2024,2,Alaska,White,Partial emp.,Fixed (7%),0.0210307
+2024,2,Alaska,White,Max emp.,Sliding scale,0.01714924
+2024,2,Alaska,White,Max emp.,Fixed (7%),0.01124509
+2024,4,Arizona,White,Universal,Sliding scale,0.03519613
+2024,4,Arizona,White,Universal,Fixed (7%),0.02536191
+2024,4,Arizona,White,Partial emp.,Sliding scale,0.03366502
+2024,4,Arizona,White,Partial emp.,Fixed (7%),0.02401552
+2024,4,Arizona,White,Max emp.,Sliding scale,0.02044396
+2024,4,Arizona,White,Max emp.,Fixed (7%),0.01405392
+2024,5,Arkansas,White,Universal,Sliding scale,0.03190133
+2024,5,Arkansas,White,Universal,Fixed (7%),0.02127189
+2024,5,Arkansas,White,Partial emp.,Sliding scale,0.02997627
+2024,5,Arkansas,White,Partial emp.,Fixed (7%),0.01958664
+2024,5,Arkansas,White,Max emp.,Sliding scale,0.01687631
+2024,5,Arkansas,White,Max emp.,Fixed (7%),0.01042876
+2024,6,California,White,Universal,Sliding scale,0.03357099
+2024,6,California,White,Universal,Fixed (7%),0.02623829
+2024,6,California,White,Partial emp.,Sliding scale,0.03178555
+2024,6,California,White,Partial emp.,Fixed (7%),0.024588
+2024,6,California,White,Max emp.,Sliding scale,0.01864878
+2024,6,California,White,Max emp.,Fixed (7%),0.0140678
+2024,8,Colorado,White,Universal,Sliding scale,0.03424394
+2024,8,Colorado,White,Universal,Fixed (7%),0.02570752
+2024,8,Colorado,White,Partial emp.,Sliding scale,0.03319324
+2024,8,Colorado,White,Partial emp.,Fixed (7%),0.02473246
+2024,8,Colorado,White,Max emp.,Sliding scale,0.02228952
+2024,8,Colorado,White,Max emp.,Fixed (7%),0.01609272
+2024,9,Connecticut,White,Universal,Sliding scale,0.02675072
+2024,9,Connecticut,White,Universal,Fixed (7%),0.01909105
+2024,9,Connecticut,White,Partial emp.,Sliding scale,0.0259525
+2024,9,Connecticut,White,Partial emp.,Fixed (7%),0.01837505
+2024,9,Connecticut,White,Max emp.,Sliding scale,0.01830375
+2024,9,Connecticut,White,Max emp.,Fixed (7%),0.01256962
+2024,10,Delaware,White,Universal,Sliding scale,0.01926998
+2024,10,Delaware,White,Universal,Fixed (7%),0.01154833
+2024,10,Delaware,White,Partial emp.,Sliding scale,0.01795963
+2024,10,Delaware,White,Partial emp.,Fixed (7%),0.0104194
+2024,10,Delaware,White,Max emp.,Sliding scale,0.01196055
+2024,10,Delaware,White,Max emp.,Fixed (7%),0.0063021
+2024,11,District of Columbia,White,Universal,Sliding scale,0.02799505
+2024,11,District of Columbia,White,Universal,Fixed (7%),0.02425215
+2024,11,District of Columbia,White,Partial emp.,Sliding scale,0.02773222
+2024,11,District of Columbia,White,Partial emp.,Fixed (7%),0.02399015
+2024,11,District of Columbia,White,Max emp.,Sliding scale,0.02005297
+2024,11,District of Columbia,White,Max emp.,Fixed (7%),0.01751458
+2024,12,Florida,White,Universal,Sliding scale,0.02863016
+2024,12,Florida,White,Universal,Fixed (7%),0.0195856
+2024,12,Florida,White,Partial emp.,Sliding scale,0.02701348
+2024,12,Florida,White,Partial emp.,Fixed (7%),0.01813121
+2024,12,Florida,White,Max emp.,Sliding scale,0.01597688
+2024,12,Florida,White,Max emp.,Fixed (7%),0.010178
+2024,13,Georgia,White,Universal,Sliding scale,0.02064672
+2024,13,Georgia,White,Universal,Fixed (7%),0.01153248
+2024,13,Georgia,White,Partial emp.,Sliding scale,0.01975158
+2024,13,Georgia,White,Partial emp.,Fixed (7%),0.01075294
+2024,13,Georgia,White,Max emp.,Sliding scale,0.01196124
+2024,13,Georgia,White,Max emp.,Fixed (7%),0.00599872
+2024,15,Hawaii,White,Universal,Sliding scale,0.02505727
+2024,15,Hawaii,White,Universal,Fixed (7%),0.01859185
+2024,15,Hawaii,White,Partial emp.,Sliding scale,0.02332469
+2024,15,Hawaii,White,Partial emp.,Fixed (7%),0.01711697
+2024,15,Hawaii,White,Max emp.,Sliding scale,0.01216578
+2024,15,Hawaii,White,Max emp.,Fixed (7%),0.00856178
+2024,16,Idaho,White,Universal,Sliding scale,0.03752821
+2024,16,Idaho,White,Universal,Fixed (7%),0.02569045
+2024,16,Idaho,White,Partial emp.,Sliding scale,0.03575071
+2024,16,Idaho,White,Partial emp.,Fixed (7%),0.02424108
+2024,16,Idaho,White,Max emp.,Sliding scale,0.02112244
+2024,16,Idaho,White,Max emp.,Fixed (7%),0.01383282
+2024,17,Illinois,White,Universal,Sliding scale,0.02098094
+2024,17,Illinois,White,Universal,Fixed (7%),0.01345939
+2024,17,Illinois,White,Partial emp.,Sliding scale,0.02007141
+2024,17,Illinois,White,Partial emp.,Fixed (7%),0.01269138
+2024,17,Illinois,White,Max emp.,Sliding scale,0.01318673
+2024,17,Illinois,White,Max emp.,Fixed (7%),0.00790783
+2024,18,Indiana,White,Universal,Sliding scale,0.03722645
+2024,18,Indiana,White,Universal,Fixed (7%),0.02670566
+2024,18,Indiana,White,Partial emp.,Sliding scale,0.03540158
+2024,18,Indiana,White,Partial emp.,Fixed (7%),0.02505023
+2024,18,Indiana,White,Max emp.,Sliding scale,0.02295245
+2024,18,Indiana,White,Max emp.,Fixed (7%),0.01545606
+2024,19,Iowa,White,Universal,Sliding scale,0.02205883
+2024,19,Iowa,White,Universal,Fixed (7%),0.01389373
+2024,19,Iowa,White,Partial emp.,Sliding scale,0.02120407
+2024,19,Iowa,White,Partial emp.,Fixed (7%),0.01309988
+2024,19,Iowa,White,Max emp.,Sliding scale,0.01536752
+2024,19,Iowa,White,Max emp.,Fixed (7%),0.00895621
+2024,20,Kansas,White,Universal,Sliding scale,0.02256695
+2024,20,Kansas,White,Universal,Fixed (7%),0.01290512
+2024,20,Kansas,White,Partial emp.,Sliding scale,0.02161483
+2024,20,Kansas,White,Partial emp.,Fixed (7%),0.01214058
+2024,20,Kansas,White,Max emp.,Sliding scale,0.01389378
+2024,20,Kansas,White,Max emp.,Fixed (7%),0.00698018
+2024,21,Kentucky,White,Universal,Sliding scale,0.03173114
+2024,21,Kentucky,White,Universal,Fixed (7%),0.02113887
+2024,21,Kentucky,White,Partial emp.,Sliding scale,0.02886497
+2024,21,Kentucky,White,Partial emp.,Fixed (7%),0.01866427
+2024,21,Kentucky,White,Max emp.,Sliding scale,0.0179231
+2024,21,Kentucky,White,Max emp.,Fixed (7%),0.01088701
+2024,22,Louisiana,White,Universal,Sliding scale,0.03201038
+2024,22,Louisiana,White,Universal,Fixed (7%),0.02195501
+2024,22,Louisiana,White,Partial emp.,Sliding scale,0.03008072
+2024,22,Louisiana,White,Partial emp.,Fixed (7%),0.02027002
+2024,22,Louisiana,White,Max emp.,Sliding scale,0.01884473
+2024,22,Louisiana,White,Max emp.,Fixed (7%),0.01213787
+2024,23,Maine,White,Universal,Sliding scale,0.03344133
+2024,23,Maine,White,Universal,Fixed (7%),0.02382458
+2024,23,Maine,White,Partial emp.,Sliding scale,0.03144303
+2024,23,Maine,White,Partial emp.,Fixed (7%),0.02202606
+2024,23,Maine,White,Max emp.,Sliding scale,0.02038464
+2024,23,Maine,White,Max emp.,Fixed (7%),0.01375034
+2024,24,Maryland,White,Universal,Sliding scale,0.02628806
+2024,24,Maryland,White,Universal,Fixed (7%),0.01848433
+2024,24,Maryland,White,Partial emp.,Sliding scale,0.02542281
+2024,24,Maryland,White,Partial emp.,Fixed (7%),0.01770034
+2024,24,Maryland,White,Max emp.,Sliding scale,0.01708753
+2024,24,Maryland,White,Max emp.,Fixed (7%),0.01142726
+2024,25,Massachusetts,White,Universal,Sliding scale,0.03026887
+2024,25,Massachusetts,White,Universal,Fixed (7%),0.02275424
+2024,25,Massachusetts,White,Partial emp.,Sliding scale,0.02908038
+2024,25,Massachusetts,White,Partial emp.,Fixed (7%),0.02165511
+2024,25,Massachusetts,White,Max emp.,Sliding scale,0.02117723
+2024,25,Massachusetts,White,Max emp.,Fixed (7%),0.01533289
+2024,26,Michigan,White,Universal,Sliding scale,0.03420803
+2024,26,Michigan,White,Universal,Fixed (7%),0.02345747
+2024,26,Michigan,White,Partial emp.,Sliding scale,0.03252379
+2024,26,Michigan,White,Partial emp.,Fixed (7%),0.02195544
+2024,26,Michigan,White,Max emp.,Sliding scale,0.02012608
+2024,26,Michigan,White,Max emp.,Fixed (7%),0.01285855
+2024,27,Minnesota,White,Universal,Sliding scale,0.02840921
+2024,27,Minnesota,White,Universal,Fixed (7%),0.02116171
+2024,27,Minnesota,White,Partial emp.,Sliding scale,0.02797815
+2024,27,Minnesota,White,Partial emp.,Fixed (7%),0.02076496
+2024,27,Minnesota,White,Max emp.,Sliding scale,0.0203823
+2024,27,Minnesota,White,Max emp.,Fixed (7%),0.01461765
+2024,28,Mississippi,White,Universal,Sliding scale,0.02443037
+2024,28,Mississippi,White,Universal,Fixed (7%),0.01440844
+2024,28,Mississippi,White,Partial emp.,Sliding scale,0.02271602
+2024,28,Mississippi,White,Partial emp.,Fixed (7%),0.01284578
+2024,28,Mississippi,White,Max emp.,Sliding scale,0.01490473
+2024,28,Mississippi,White,Max emp.,Fixed (7%),0.00790994
+2024,29,Missouri,White,Universal,Sliding scale,0.03163329
+2024,29,Missouri,White,Universal,Fixed (7%),0.02178855
+2024,29,Missouri,White,Partial emp.,Sliding scale,0.0300462
+2024,29,Missouri,White,Partial emp.,Fixed (7%),0.02037645
+2024,29,Missouri,White,Max emp.,Sliding scale,0.02034406
+2024,29,Missouri,White,Max emp.,Fixed (7%),0.01314374
+2024,30,Montana,White,Universal,Sliding scale,0.04314092
+2024,30,Montana,White,Universal,Fixed (7%),0.03351433
+2024,30,Montana,White,Partial emp.,Sliding scale,0.04007724
+2024,30,Montana,White,Partial emp.,Fixed (7%),0.03090677
+2024,30,Montana,White,Max emp.,Sliding scale,0.02640326
+2024,30,Montana,White,Max emp.,Fixed (7%),0.0197569
+2024,31,Nebraska,White,Universal,Sliding scale,0.03249895
+2024,31,Nebraska,White,Universal,Fixed (7%),0.02428668
+2024,31,Nebraska,White,Partial emp.,Sliding scale,0.03171114
+2024,31,Nebraska,White,Partial emp.,Fixed (7%),0.0235414
+2024,31,Nebraska,White,Max emp.,Sliding scale,0.02217147
+2024,31,Nebraska,White,Max emp.,Fixed (7%),0.01583575
+2024,32,Nevada,White,Universal,Sliding scale,0.04260446
+2024,32,Nevada,White,Universal,Fixed (7%),0.03337061
+2024,32,Nevada,White,Partial emp.,Sliding scale,0.04100562
+2024,32,Nevada,White,Partial emp.,Fixed (7%),0.03192886
+2024,32,Nevada,White,Max emp.,Sliding scale,0.02648385
+2024,32,Nevada,White,Max emp.,Fixed (7%),0.02066283
+2024,33,New Hampshire,White,Universal,Sliding scale,0.03186187
+2024,33,New Hampshire,White,Universal,Fixed (7%),0.02160209
+2024,33,New Hampshire,White,Partial emp.,Sliding scale,0.03103599
+2024,33,New Hampshire,White,Partial emp.,Fixed (7%),0.02086204
+2024,33,New Hampshire,White,Max emp.,Sliding scale,0.02305545
+2024,33,New Hampshire,White,Max emp.,Fixed (7%),0.01484457
+2024,34,New Jersey,White,Universal,Sliding scale,0.02841293
+2024,34,New Jersey,White,Universal,Fixed (7%),0.0199829
+2024,34,New Jersey,White,Partial emp.,Sliding scale,0.02727396
+2024,34,New Jersey,White,Partial emp.,Fixed (7%),0.01897259
+2024,34,New Jersey,White,Max emp.,Sliding scale,0.01858422
+2024,34,New Jersey,White,Max emp.,Fixed (7%),0.01246369
+2024,35,New Mexico,White,Universal,Sliding scale,0.02946972
+2024,35,New Mexico,White,Universal,Fixed (7%),0.02050882
+2024,35,New Mexico,White,Partial emp.,Sliding scale,0.02728109
+2024,35,New Mexico,White,Partial emp.,Fixed (7%),0.01869526
+2024,35,New Mexico,White,Max emp.,Sliding scale,0.01411992
+2024,35,New Mexico,White,Max emp.,Fixed (7%),0.00921677
+2024,36,New York,White,Universal,Sliding scale,0.04112522
+2024,36,New York,White,Universal,Fixed (7%),0.03269685
+2024,36,New York,White,Partial emp.,Sliding scale,0.03922591
+2024,36,New York,White,Partial emp.,Fixed (7%),0.03095797
+2024,36,New York,White,Max emp.,Sliding scale,0.02540729
+2024,36,New York,White,Max emp.,Fixed (7%),0.01953537
+2024,37,North Carolina,White,Universal,Sliding scale,0.02511391
+2024,37,North Carolina,White,Universal,Fixed (7%),0.0157965
+2024,37,North Carolina,White,Partial emp.,Sliding scale,0.02363295
+2024,37,North Carolina,White,Partial emp.,Fixed (7%),0.01446952
+2024,37,North Carolina,White,Max emp.,Sliding scale,0.01336452
+2024,37,North Carolina,White,Max emp.,Fixed (7%),0.00762609
+2024,38,North Dakota,White,Universal,Sliding scale,0.02909787
+2024,38,North Dakota,White,Universal,Fixed (7%),0.02037888
+2024,38,North Dakota,White,Partial emp.,Sliding scale,0.02867378
+2024,38,North Dakota,White,Partial emp.,Fixed (7%),0.02000421
+2024,38,North Dakota,White,Max emp.,Sliding scale,0.0218207
+2024,38,North Dakota,White,Max emp.,Fixed (7%),0.01464376
+2024,39,Ohio,White,Universal,Sliding scale,0.03753639
+2024,39,Ohio,White,Universal,Fixed (7%),0.02775075
+2024,39,Ohio,White,Partial emp.,Sliding scale,0.03539859
+2024,39,Ohio,White,Partial emp.,Fixed (7%),0.02579694
+2024,39,Ohio,White,Max emp.,Sliding scale,0.02219191
+2024,39,Ohio,White,Max emp.,Fixed (7%),0.01552735
+2024,40,Oklahoma,White,Universal,Sliding scale,0.04137974
+2024,40,Oklahoma,White,Universal,Fixed (7%),0.03054094
+2024,40,Oklahoma,White,Partial emp.,Sliding scale,0.03891642
+2024,40,Oklahoma,White,Partial emp.,Fixed (7%),0.02826518
+2024,40,Oklahoma,White,Max emp.,Sliding scale,0.02252557
+2024,40,Oklahoma,White,Max emp.,Fixed (7%),0.01548674
+2024,41,Oregon,White,Universal,Sliding scale,0.02760709
+2024,41,Oregon,White,Universal,Fixed (7%),0.01905835
+2024,41,Oregon,White,Partial emp.,Sliding scale,0.02587264
+2024,41,Oregon,White,Partial emp.,Fixed (7%),0.01762772
+2024,41,Oregon,White,Max emp.,Sliding scale,0.01571204
+2024,41,Oregon,White,Max emp.,Fixed (7%),0.01004517
+2024,42,Pennsylvania,White,Universal,Sliding scale,0.03462428
+2024,42,Pennsylvania,White,Universal,Fixed (7%),0.02511139
+2024,42,Pennsylvania,White,Partial emp.,Sliding scale,0.0328825
+2024,42,Pennsylvania,White,Partial emp.,Fixed (7%),0.02352164
+2024,42,Pennsylvania,White,Max emp.,Sliding scale,0.02187319
+2024,42,Pennsylvania,White,Max emp.,Fixed (7%),0.01505877
+2024,44,Rhode Island,White,Universal,Sliding scale,0.01915168
+2024,44,Rhode Island,White,Universal,Fixed (7%),0.01301843
+2024,44,Rhode Island,White,Partial emp.,Sliding scale,0.01796139
+2024,44,Rhode Island,White,Partial emp.,Fixed (7%),0.01194542
+2024,44,Rhode Island,White,Max emp.,Sliding scale,0.0128672
+2024,44,Rhode Island,White,Max emp.,Fixed (7%),0.00834121
+2024,45,South Carolina,White,Universal,Sliding scale,0.03243658
+2024,45,South Carolina,White,Universal,Fixed (7%),0.02205617
+2024,45,South Carolina,White,Partial emp.,Sliding scale,0.03042907
+2024,45,South Carolina,White,Partial emp.,Fixed (7%),0.02030494
+2024,45,South Carolina,White,Max emp.,Sliding scale,0.01893054
+2024,45,South Carolina,White,Max emp.,Fixed (7%),0.0119459
+2024,46,South Dakota,White,Universal,Sliding scale,0.0216178
+2024,46,South Dakota,White,Universal,Fixed (7%),0.01332777
+2024,46,South Dakota,White,Partial emp.,Sliding scale,0.02063216
+2024,46,South Dakota,White,Partial emp.,Fixed (7%),0.01248672
+2024,46,South Dakota,White,Max emp.,Sliding scale,0.01585265
+2024,46,South Dakota,White,Max emp.,Fixed (7%),0.00923107
+2024,47,Tennessee,White,Universal,Sliding scale,0.02364203
+2024,47,Tennessee,White,Universal,Fixed (7%),0.01386846
+2024,47,Tennessee,White,Partial emp.,Sliding scale,0.02222865
+2024,47,Tennessee,White,Partial emp.,Fixed (7%),0.01271844
+2024,47,Tennessee,White,Max emp.,Sliding scale,0.01233
+2024,47,Tennessee,White,Max emp.,Fixed (7%),0.00640618
+2024,48,Texas,White,Universal,Sliding scale,0.02784629
+2024,48,Texas,White,Universal,Fixed (7%),0.01855539
+2024,48,Texas,White,Partial emp.,Sliding scale,0.02647372
+2024,48,Texas,White,Partial emp.,Fixed (7%),0.01735513
+2024,48,Texas,White,Max emp.,Sliding scale,0.0159229
+2024,48,Texas,White,Max emp.,Fixed (7%),0.01010907
+2024,49,Utah,White,Universal,Sliding scale,0.0401134
+2024,49,Utah,White,Universal,Fixed (7%),0.0275274
+2024,49,Utah,White,Partial emp.,Sliding scale,0.03848758
+2024,49,Utah,White,Partial emp.,Fixed (7%),0.0260339
+2024,49,Utah,White,Max emp.,Sliding scale,0.02099886
+2024,49,Utah,White,Max emp.,Fixed (7%),0.01338951
+2024,50,Vermont,White,Universal,Sliding scale,0.03917984
+2024,50,Vermont,White,Universal,Fixed (7%),0.03127915
+2024,50,Vermont,White,Partial emp.,Sliding scale,0.03865763
+2024,50,Vermont,White,Partial emp.,Fixed (7%),0.03082904
+2024,50,Vermont,White,Max emp.,Sliding scale,0.0281232
+2024,50,Vermont,White,Max emp.,Fixed (7%),0.021887
+2024,51,Virginia,White,Universal,Sliding scale,0.02971895
+2024,51,Virginia,White,Universal,Fixed (7%),0.02106303
+2024,51,Virginia,White,Partial emp.,Sliding scale,0.02857166
+2024,51,Virginia,White,Partial emp.,Fixed (7%),0.02001331
+2024,51,Virginia,White,Max emp.,Sliding scale,0.01711005
+2024,51,Virginia,White,Max emp.,Fixed (7%),0.01136693
+2024,53,Washington,White,Universal,Sliding scale,0.04189153
+2024,53,Washington,White,Universal,Fixed (7%),0.03208817
+2024,53,Washington,White,Partial emp.,Sliding scale,0.03977244
+2024,53,Washington,White,Partial emp.,Fixed (7%),0.03017352
+2024,53,Washington,White,Max emp.,Sliding scale,0.02313671
+2024,53,Washington,White,Max emp.,Fixed (7%),0.0169235
+2024,54,West Virginia,White,Universal,Sliding scale,0.04612617
+2024,54,West Virginia,White,Universal,Fixed (7%),0.03386759
+2024,54,West Virginia,White,Partial emp.,Sliding scale,0.04279428
+2024,54,West Virginia,White,Partial emp.,Fixed (7%),0.03077561
+2024,54,West Virginia,White,Max emp.,Sliding scale,0.02622304
+2024,54,West Virginia,White,Max emp.,Fixed (7%),0.01867355
+2024,55,Wisconsin,White,Universal,Sliding scale,0.03261805
+2024,55,Wisconsin,White,Universal,Fixed (7%),0.02435105
+2024,55,Wisconsin,White,Partial emp.,Sliding scale,0.0315965
+2024,55,Wisconsin,White,Partial emp.,Fixed (7%),0.02342654
+2024,55,Wisconsin,White,Max emp.,Sliding scale,0.02244913
+2024,55,Wisconsin,White,Max emp.,Fixed (7%),0.01603787
+2024,56,Wyoming,White,Universal,Sliding scale,0.02953038
+2024,56,Wyoming,White,Universal,Fixed (7%),0.02054157
+2024,56,Wyoming,White,Partial emp.,Sliding scale,0.0278205
+2024,56,Wyoming,White,Partial emp.,Fixed (7%),0.01893354
+2024,56,Wyoming,White,Max emp.,Sliding scale,0.01458881
+2024,56,Wyoming,White,Max emp.,Fixed (7%),0.00949844
+2024,99999,United States,White,Universal,Sliding scale,0.03138361
+2024,99999,United States,White,Universal,Fixed (7%),0.0222063
+2024,99999,United States,White,Partial emp.,Sliding scale,0.02983434
+2024,99999,United States,White,Partial emp.,Fixed (7%),0.02082234
+2024,99999,United States,White,Max emp.,Sliding scale,0.01878296
+2024,99999,United States,White,Max emp.,Fixed (7%),0.01258352
+2024,1,Alabama,Black,Universal,Sliding scale,0.02714493
+2024,1,Alabama,Black,Universal,Fixed (7%),0.02067734
+2024,1,Alabama,Black,Partial emp.,Sliding scale,0.02132163
+2024,1,Alabama,Black,Partial emp.,Fixed (7%),0.01533833
+2024,1,Alabama,Black,Max emp.,Sliding scale,0.01639757
+2024,1,Alabama,Black,Max emp.,Fixed (7%),0.01156005
+2024,2,Alaska,Black,Universal,Sliding scale,0
+2024,2,Alaska,Black,Universal,Fixed (7%),0
+2024,2,Alaska,Black,Partial emp.,Sliding scale,0
+2024,2,Alaska,Black,Partial emp.,Fixed (7%),0
+2024,2,Alaska,Black,Max emp.,Sliding scale,0
+2024,2,Alaska,Black,Max emp.,Fixed (7%),0
+2024,4,Arizona,Black,Universal,Sliding scale,0.02708451
+2024,4,Arizona,Black,Universal,Fixed (7%),0.02119719
+2024,4,Arizona,Black,Partial emp.,Sliding scale,0.0231112
+2024,4,Arizona,Black,Partial emp.,Fixed (7%),0.01781302
+2024,4,Arizona,Black,Max emp.,Sliding scale,0.01944599
+2024,4,Arizona,Black,Max emp.,Fixed (7%),0.01465425
+2024,5,Arkansas,Black,Universal,Sliding scale,0.02682767
+2024,5,Arkansas,Black,Universal,Fixed (7%),0.02069231
+2024,5,Arkansas,Black,Partial emp.,Sliding scale,0.02143275
+2024,5,Arkansas,Black,Partial emp.,Fixed (7%),0.01563008
+2024,5,Arkansas,Black,Max emp.,Sliding scale,0.01751651
+2024,5,Arkansas,Black,Max emp.,Fixed (7%),0.0124638
+2024,6,California,Black,Universal,Sliding scale,0.02785581
+2024,6,California,Black,Universal,Fixed (7%),0.0233212
+2024,6,California,Black,Partial emp.,Sliding scale,0.0225673
+2024,6,California,Black,Partial emp.,Fixed (7%),0.01829983
+2024,6,California,Black,Max emp.,Sliding scale,0.01607496
+2024,6,California,Black,Max emp.,Fixed (7%),0.01304345
+2024,8,Colorado,Black,Universal,Sliding scale,0.04302523
+2024,8,Colorado,Black,Universal,Fixed (7%),0.03836649
+2024,8,Colorado,Black,Partial emp.,Sliding scale,0.04013168
+2024,8,Colorado,Black,Partial emp.,Fixed (7%),0.0357978
+2024,8,Colorado,Black,Max emp.,Sliding scale,0.02313876
+2024,8,Colorado,Black,Max emp.,Fixed (7%),0.01943287
+2024,9,Connecticut,Black,Universal,Sliding scale,0.02146169
+2024,9,Connecticut,Black,Universal,Fixed (7%),0.01687037
+2024,9,Connecticut,Black,Partial emp.,Sliding scale,0.02020507
+2024,9,Connecticut,Black,Partial emp.,Fixed (7%),0.01571631
+2024,9,Connecticut,Black,Max emp.,Sliding scale,0.01510558
+2024,9,Connecticut,Black,Max emp.,Fixed (7%),0.01146452
+2024,10,Delaware,Black,Universal,Sliding scale,0.01887746
+2024,10,Delaware,Black,Universal,Fixed (7%),0.01327832
+2024,10,Delaware,Black,Partial emp.,Sliding scale,0.01864925
+2024,10,Delaware,Black,Partial emp.,Fixed (7%),0.01305085
+2024,10,Delaware,Black,Max emp.,Sliding scale,0.01568056
+2024,10,Delaware,Black,Max emp.,Fixed (7%),0.01049994
+2024,11,District of Columbia,Black,Universal,Sliding scale,0.04281475
+2024,11,District of Columbia,Black,Universal,Fixed (7%),0.03926616
+2024,11,District of Columbia,Black,Partial emp.,Sliding scale,0.02470683
+2024,11,District of Columbia,Black,Partial emp.,Fixed (7%),0.02145645
+2024,11,District of Columbia,Black,Max emp.,Sliding scale,0.02040475
+2024,11,District of Columbia,Black,Max emp.,Fixed (7%),0.01755133
+2024,12,Florida,Black,Universal,Sliding scale,0.02676877
+2024,12,Florida,Black,Universal,Fixed (7%),0.02038542
+2024,12,Florida,Black,Partial emp.,Sliding scale,0.02265635
+2024,12,Florida,Black,Partial emp.,Fixed (7%),0.01654902
+2024,12,Florida,Black,Max emp.,Sliding scale,0.01625838
+2024,12,Florida,Black,Max emp.,Fixed (7%),0.0113762
+2024,13,Georgia,Black,Universal,Sliding scale,0.01839166
+2024,13,Georgia,Black,Universal,Fixed (7%),0.01252824
+2024,13,Georgia,Black,Partial emp.,Sliding scale,0.01550292
+2024,13,Georgia,Black,Partial emp.,Fixed (7%),0.00993875
+2024,13,Georgia,Black,Max emp.,Sliding scale,0.01192426
+2024,13,Georgia,Black,Max emp.,Fixed (7%),0.00737284
+2024,15,Hawaii,Black,Universal,Sliding scale,0.01713657
+2024,15,Hawaii,Black,Universal,Fixed (7%),0.01318297
+2024,15,Hawaii,Black,Partial emp.,Sliding scale,0.01696337
+2024,15,Hawaii,Black,Partial emp.,Fixed (7%),0.01302453
+2024,15,Hawaii,Black,Max emp.,Sliding scale,0.00381179
+2024,15,Hawaii,Black,Max emp.,Fixed (7%),0.00298726
+2024,16,Idaho,Black,Universal,Sliding scale,0.03167734
+2024,16,Idaho,Black,Universal,Fixed (7%),0.02402419
+2024,16,Idaho,Black,Partial emp.,Sliding scale,0.03167734
+2024,16,Idaho,Black,Partial emp.,Fixed (7%),0.02402419
+2024,16,Idaho,Black,Max emp.,Sliding scale,0.03126577
+2024,16,Idaho,Black,Max emp.,Fixed (7%),0.02367309
+2024,17,Illinois,Black,Universal,Sliding scale,0.01858828
+2024,17,Illinois,Black,Universal,Fixed (7%),0.01393378
+2024,17,Illinois,Black,Partial emp.,Sliding scale,0.01610139
+2024,17,Illinois,Black,Partial emp.,Fixed (7%),0.01158486
+2024,17,Illinois,Black,Max emp.,Sliding scale,0.01188305
+2024,17,Illinois,Black,Max emp.,Fixed (7%),0.00820768
+2024,18,Indiana,Black,Universal,Sliding scale,0.02920898
+2024,18,Indiana,Black,Universal,Fixed (7%),0.0232299
+2024,18,Indiana,Black,Partial emp.,Sliding scale,0.02405726
+2024,18,Indiana,Black,Partial emp.,Fixed (7%),0.01831431
+2024,18,Indiana,Black,Max emp.,Sliding scale,0.01943138
+2024,18,Indiana,Black,Max emp.,Fixed (7%),0.01481701
+2024,19,Iowa,Black,Universal,Sliding scale,0.01794445
+2024,19,Iowa,Black,Universal,Fixed (7%),0.0139874
+2024,19,Iowa,Black,Partial emp.,Sliding scale,0.0169885
+2024,19,Iowa,Black,Partial emp.,Fixed (7%),0.01308767
+2024,19,Iowa,Black,Max emp.,Sliding scale,0.01152925
+2024,19,Iowa,Black,Max emp.,Fixed (7%),0.00846311
+2024,20,Kansas,Black,Universal,Sliding scale,0.01579202
+2024,20,Kansas,Black,Universal,Fixed (7%),0.01194632
+2024,20,Kansas,Black,Partial emp.,Sliding scale,0.01183558
+2024,20,Kansas,Black,Partial emp.,Fixed (7%),0.00820573
+2024,20,Kansas,Black,Max emp.,Sliding scale,0.01075955
+2024,20,Kansas,Black,Max emp.,Fixed (7%),0.00758133
+2024,21,Kentucky,Black,Universal,Sliding scale,0.02386173
+2024,21,Kentucky,Black,Universal,Fixed (7%),0.01866672
+2024,21,Kentucky,Black,Partial emp.,Sliding scale,0.01906218
+2024,21,Kentucky,Black,Partial emp.,Fixed (7%),0.01424263
+2024,21,Kentucky,Black,Max emp.,Sliding scale,0.01083606
+2024,21,Kentucky,Black,Max emp.,Fixed (7%),0.00803434
+2024,22,Louisiana,Black,Universal,Sliding scale,0.02859903
+2024,22,Louisiana,Black,Universal,Fixed (7%),0.02286282
+2024,22,Louisiana,Black,Partial emp.,Sliding scale,0.02335003
+2024,22,Louisiana,Black,Partial emp.,Fixed (7%),0.01792417
+2024,22,Louisiana,Black,Max emp.,Sliding scale,0.01733862
+2024,22,Louisiana,Black,Max emp.,Fixed (7%),0.0131964
+2024,23,Maine,Black,Universal,Sliding scale,0.02496961
+2024,23,Maine,Black,Universal,Fixed (7%),0.02152483
+2024,23,Maine,Black,Partial emp.,Sliding scale,0.02011962
+2024,23,Maine,Black,Partial emp.,Fixed (7%),0.01674021
+2024,23,Maine,Black,Max emp.,Sliding scale,0.01537687
+2024,23,Maine,Black,Max emp.,Fixed (7%),0.01260611
+2024,24,Maryland,Black,Universal,Sliding scale,0.02198799
+2024,24,Maryland,Black,Universal,Fixed (7%),0.01726774
+2024,24,Maryland,Black,Partial emp.,Sliding scale,0.01912554
+2024,24,Maryland,Black,Partial emp.,Fixed (7%),0.01463208
+2024,24,Maryland,Black,Max emp.,Sliding scale,0.01538474
+2024,24,Maryland,Black,Max emp.,Fixed (7%),0.01152742
+2024,25,Massachusetts,Black,Universal,Sliding scale,0.02810414
+2024,25,Massachusetts,Black,Universal,Fixed (7%),0.02371628
+2024,25,Massachusetts,Black,Partial emp.,Sliding scale,0.02353304
+2024,25,Massachusetts,Black,Partial emp.,Fixed (7%),0.01935507
+2024,25,Massachusetts,Black,Max emp.,Sliding scale,0.01529154
+2024,25,Massachusetts,Black,Max emp.,Fixed (7%),0.01200468
+2024,26,Michigan,Black,Universal,Sliding scale,0.02712581
+2024,26,Michigan,Black,Universal,Fixed (7%),0.02163102
+2024,26,Michigan,Black,Partial emp.,Sliding scale,0.02187624
+2024,26,Michigan,Black,Partial emp.,Fixed (7%),0.01666609
+2024,26,Michigan,Black,Max emp.,Sliding scale,0.01553076
+2024,26,Michigan,Black,Max emp.,Fixed (7%),0.01156926
+2024,27,Minnesota,Black,Universal,Sliding scale,0.02891166
+2024,27,Minnesota,Black,Universal,Fixed (7%),0.02523187
+2024,27,Minnesota,Black,Partial emp.,Sliding scale,0.0234985
+2024,27,Minnesota,Black,Partial emp.,Fixed (7%),0.01995628
+2024,27,Minnesota,Black,Max emp.,Sliding scale,0.01786214
+2024,27,Minnesota,Black,Max emp.,Fixed (7%),0.01503687
+2024,28,Mississippi,Black,Universal,Sliding scale,0.02299355
+2024,28,Mississippi,Black,Universal,Fixed (7%),0.01727946
+2024,28,Mississippi,Black,Partial emp.,Sliding scale,0.01785679
+2024,28,Mississippi,Black,Partial emp.,Fixed (7%),0.01242193
+2024,28,Mississippi,Black,Max emp.,Sliding scale,0.0149028
+2024,28,Mississippi,Black,Max emp.,Fixed (7%),0.01022418
+2024,29,Missouri,Black,Universal,Sliding scale,0.02755792
+2024,29,Missouri,Black,Universal,Fixed (7%),0.02186736
+2024,29,Missouri,Black,Partial emp.,Sliding scale,0.02406396
+2024,29,Missouri,Black,Partial emp.,Fixed (7%),0.01864551
+2024,29,Missouri,Black,Max emp.,Sliding scale,0.01798205
+2024,29,Missouri,Black,Max emp.,Fixed (7%),0.01360298
+2024,30,Montana,Black,Universal,Sliding scale,0.05714822
+2024,30,Montana,Black,Universal,Fixed (7%),0.05149447
+2024,30,Montana,Black,Partial emp.,Sliding scale,0.05714822
+2024,30,Montana,Black,Partial emp.,Fixed (7%),0.05149447
+2024,30,Montana,Black,Max emp.,Sliding scale,0.00633577
+2024,30,Montana,Black,Max emp.,Fixed (7%),0.00488722
+2024,31,Nebraska,Black,Universal,Sliding scale,0.01736951
+2024,31,Nebraska,Black,Universal,Fixed (7%),0.01736951
+2024,31,Nebraska,Black,Partial emp.,Sliding scale,0.01736951
+2024,31,Nebraska,Black,Partial emp.,Fixed (7%),0.01736951
+2024,31,Nebraska,Black,Max emp.,Sliding scale,0.01736951
+2024,31,Nebraska,Black,Max emp.,Fixed (7%),0.01736951
+2024,32,Nevada,Black,Universal,Sliding scale,0.03713166
+2024,32,Nevada,Black,Universal,Fixed (7%),0.03222041
+2024,32,Nevada,Black,Partial emp.,Sliding scale,0.03150804
+2024,32,Nevada,Black,Partial emp.,Fixed (7%),0.02695111
+2024,32,Nevada,Black,Max emp.,Sliding scale,0.02257293
+2024,32,Nevada,Black,Max emp.,Fixed (7%),0.01912315
+2024,33,New Hampshire,Black,Universal,Sliding scale,0.01201694
+2024,33,New Hampshire,Black,Universal,Fixed (7%),0.0087947
+2024,33,New Hampshire,Black,Partial emp.,Sliding scale,0.01201694
+2024,33,New Hampshire,Black,Partial emp.,Fixed (7%),0.0087947
+2024,33,New Hampshire,Black,Max emp.,Sliding scale,0.00565494
+2024,33,New Hampshire,Black,Max emp.,Fixed (7%),0.0039928
+2024,34,New Jersey,Black,Universal,Sliding scale,0.02432629
+2024,34,New Jersey,Black,Universal,Fixed (7%),0.01887836
+2024,34,New Jersey,Black,Partial emp.,Sliding scale,0.02064164
+2024,34,New Jersey,Black,Partial emp.,Fixed (7%),0.01540602
+2024,34,New Jersey,Black,Max emp.,Sliding scale,0.01493532
+2024,34,New Jersey,Black,Max emp.,Fixed (7%),0.01080882
+2024,35,New Mexico,Black,Universal,Sliding scale,0.01703805
+2024,35,New Mexico,Black,Universal,Fixed (7%),0.01330491
+2024,35,New Mexico,Black,Partial emp.,Sliding scale,0.01699426
+2024,35,New Mexico,Black,Partial emp.,Fixed (7%),0.01326199
+2024,35,New Mexico,Black,Max emp.,Sliding scale,0.01056492
+2024,35,New Mexico,Black,Max emp.,Fixed (7%),0.00733984
+2024,36,New York,Black,Universal,Sliding scale,0.0344241
+2024,36,New York,Black,Universal,Fixed (7%),0.02942912
+2024,36,New York,Black,Partial emp.,Sliding scale,0.02856814
+2024,36,New York,Black,Partial emp.,Fixed (7%),0.02380946
+2024,36,New York,Black,Max emp.,Sliding scale,0.02021053
+2024,36,New York,Black,Max emp.,Fixed (7%),0.01660464
+2024,37,North Carolina,Black,Universal,Sliding scale,0.02227289
+2024,37,North Carolina,Black,Universal,Fixed (7%),0.01627625
+2024,37,North Carolina,Black,Partial emp.,Sliding scale,0.018987
+2024,37,North Carolina,Black,Partial emp.,Fixed (7%),0.01331034
+2024,37,North Carolina,Black,Max emp.,Sliding scale,0.0144932
+2024,37,North Carolina,Black,Max emp.,Fixed (7%),0.00981832
+2024,38,North Dakota,Black,Universal,Sliding scale,0.02757993
+2024,38,North Dakota,Black,Universal,Fixed (7%),0.02375017
+2024,38,North Dakota,Black,Partial emp.,Sliding scale,0.02757993
+2024,38,North Dakota,Black,Partial emp.,Fixed (7%),0.02375017
+2024,38,North Dakota,Black,Max emp.,Sliding scale,0.01849454
+2024,38,North Dakota,Black,Max emp.,Fixed (7%),0.01569932
+2024,39,Ohio,Black,Universal,Sliding scale,0.03314069
+2024,39,Ohio,Black,Universal,Fixed (7%),0.02778014
+2024,39,Ohio,Black,Partial emp.,Sliding scale,0.02770381
+2024,39,Ohio,Black,Partial emp.,Fixed (7%),0.0225823
+2024,39,Ohio,Black,Max emp.,Sliding scale,0.02133008
+2024,39,Ohio,Black,Max emp.,Fixed (7%),0.01708375
+2024,40,Oklahoma,Black,Universal,Sliding scale,0.0220779
+2024,40,Oklahoma,Black,Universal,Fixed (7%),0.01689449
+2024,40,Oklahoma,Black,Partial emp.,Sliding scale,0.0160051
+2024,40,Oklahoma,Black,Partial emp.,Fixed (7%),0.01120996
+2024,40,Oklahoma,Black,Max emp.,Sliding scale,0.01261645
+2024,40,Oklahoma,Black,Max emp.,Fixed (7%),0.00848947
+2024,41,Oregon,Black,Universal,Sliding scale,0.02192726
+2024,41,Oregon,Black,Universal,Fixed (7%),0.01851823
+2024,41,Oregon,Black,Partial emp.,Sliding scale,0.0213553
+2024,41,Oregon,Black,Partial emp.,Fixed (7%),0.0179676
+2024,41,Oregon,Black,Max emp.,Sliding scale,0.00745771
+2024,41,Oregon,Black,Max emp.,Fixed (7%),0.00626067
+2024,42,Pennsylvania,Black,Universal,Sliding scale,0.02630615
+2024,42,Pennsylvania,Black,Universal,Fixed (7%),0.02139824
+2024,42,Pennsylvania,Black,Partial emp.,Sliding scale,0.0225686
+2024,42,Pennsylvania,Black,Partial emp.,Fixed (7%),0.0177994
+2024,42,Pennsylvania,Black,Max emp.,Sliding scale,0.0162046
+2024,42,Pennsylvania,Black,Max emp.,Fixed (7%),0.01250694
+2024,44,Rhode Island,Black,Universal,Sliding scale,0.01893181
+2024,44,Rhode Island,Black,Universal,Fixed (7%),0.01406866
+2024,44,Rhode Island,Black,Partial emp.,Sliding scale,0.01360561
+2024,44,Rhode Island,Black,Partial emp.,Fixed (7%),0.0088042
+2024,44,Rhode Island,Black,Max emp.,Sliding scale,0.00862307
+2024,44,Rhode Island,Black,Max emp.,Fixed (7%),0.00516445
+2024,45,South Carolina,Black,Universal,Sliding scale,0.02601781
+2024,45,South Carolina,Black,Universal,Fixed (7%),0.01987026
+2024,45,South Carolina,Black,Partial emp.,Sliding scale,0.02201179
+2024,45,South Carolina,Black,Partial emp.,Fixed (7%),0.01610702
+2024,45,South Carolina,Black,Max emp.,Sliding scale,0.01607165
+2024,45,South Carolina,Black,Max emp.,Fixed (7%),0.01141144
+2024,46,South Dakota,Black,Universal,Sliding scale,0
+2024,46,South Dakota,Black,Universal,Fixed (7%),0
+2024,46,South Dakota,Black,Partial emp.,Sliding scale,0
+2024,46,South Dakota,Black,Partial emp.,Fixed (7%),0
+2024,46,South Dakota,Black,Max emp.,Sliding scale,0
+2024,46,South Dakota,Black,Max emp.,Fixed (7%),0
+2024,47,Tennessee,Black,Universal,Sliding scale,0.02212255
+2024,47,Tennessee,Black,Universal,Fixed (7%),0.01637804
+2024,47,Tennessee,Black,Partial emp.,Sliding scale,0.01742665
+2024,47,Tennessee,Black,Partial emp.,Fixed (7%),0.01211801
+2024,47,Tennessee,Black,Max emp.,Sliding scale,0.01288296
+2024,47,Tennessee,Black,Max emp.,Fixed (7%),0.00868757
+2024,48,Texas,Black,Universal,Sliding scale,0.02647413
+2024,48,Texas,Black,Universal,Fixed (7%),0.02040167
+2024,48,Texas,Black,Partial emp.,Sliding scale,0.0223083
+2024,48,Texas,Black,Partial emp.,Fixed (7%),0.01649409
+2024,48,Texas,Black,Max emp.,Sliding scale,0.01701317
+2024,48,Texas,Black,Max emp.,Fixed (7%),0.01244427
+2024,49,Utah,Black,Universal,Sliding scale,0.06335312
+2024,49,Utah,Black,Universal,Fixed (7%),0.05567658
+2024,49,Utah,Black,Partial emp.,Sliding scale,0.05179754
+2024,49,Utah,Black,Partial emp.,Fixed (7%),0.04413986
+2024,49,Utah,Black,Max emp.,Sliding scale,0.03097884
+2024,49,Utah,Black,Max emp.,Fixed (7%),0.02482864
+2024,50,Vermont,Black,Universal,Sliding scale,0
+2024,50,Vermont,Black,Universal,Fixed (7%),0
+2024,50,Vermont,Black,Partial emp.,Sliding scale,0
+2024,50,Vermont,Black,Partial emp.,Fixed (7%),0
+2024,50,Vermont,Black,Max emp.,Sliding scale,0
+2024,50,Vermont,Black,Max emp.,Fixed (7%),0
+2024,51,Virginia,Black,Universal,Sliding scale,0.02336837
+2024,51,Virginia,Black,Universal,Fixed (7%),0.01829837
+2024,51,Virginia,Black,Partial emp.,Sliding scale,0.02072878
+2024,51,Virginia,Black,Partial emp.,Fixed (7%),0.01593109
+2024,51,Virginia,Black,Max emp.,Sliding scale,0.01515238
+2024,51,Virginia,Black,Max emp.,Fixed (7%),0.01129771
+2024,53,Washington,Black,Universal,Sliding scale,0.04666282
+2024,53,Washington,Black,Universal,Fixed (7%),0.0394286
+2024,53,Washington,Black,Partial emp.,Sliding scale,0.0455073
+2024,53,Washington,Black,Partial emp.,Fixed (7%),0.03841416
+2024,53,Washington,Black,Max emp.,Sliding scale,0.02646907
+2024,53,Washington,Black,Max emp.,Fixed (7%),0.02199054
+2024,54,West Virginia,Black,Universal,Sliding scale,0.03243566
+2024,54,West Virginia,Black,Universal,Fixed (7%),0.02350969
+2024,54,West Virginia,Black,Partial emp.,Sliding scale,0.0318016
+2024,54,West Virginia,Black,Partial emp.,Fixed (7%),0.02287563
+2024,54,West Virginia,Black,Max emp.,Sliding scale,0.02413563
+2024,54,West Virginia,Black,Max emp.,Fixed (7%),0.01709654
+2024,55,Wisconsin,Black,Universal,Sliding scale,0.0295081
+2024,55,Wisconsin,Black,Universal,Fixed (7%),0.02648941
+2024,55,Wisconsin,Black,Partial emp.,Sliding scale,0.02334365
+2024,55,Wisconsin,Black,Partial emp.,Fixed (7%),0.0206764
+2024,55,Wisconsin,Black,Max emp.,Sliding scale,0.01687316
+2024,55,Wisconsin,Black,Max emp.,Fixed (7%),0.01479531
+2024,56,Wyoming,Black,Universal,Sliding scale,0.02712294
+2024,56,Wyoming,Black,Universal,Fixed (7%),0.01987166
+2024,56,Wyoming,Black,Partial emp.,Sliding scale,0.02712294
+2024,56,Wyoming,Black,Partial emp.,Fixed (7%),0.01987166
+2024,56,Wyoming,Black,Max emp.,Sliding scale,0.01854989
+2024,56,Wyoming,Black,Max emp.,Fixed (7%),0.01281128
+2024,99999,United States,Black,Universal,Sliding scale,0.02599334
+2024,99999,United States,Black,Universal,Fixed (7%),0.02050499
+2024,99999,United States,Black,Partial emp.,Sliding scale,0.02181091
+2024,99999,United States,Black,Partial emp.,Fixed (7%),0.01658741
+2024,99999,United States,Black,Max emp.,Sliding scale,0.01610762
+2024,99999,United States,Black,Max emp.,Fixed (7%),0.01195037
+2024,1,Alabama,Hispanic,Universal,Sliding scale,0.02381935
+2024,1,Alabama,Hispanic,Universal,Fixed (7%),0.01521494
+2024,1,Alabama,Hispanic,Partial emp.,Sliding scale,0.02287411
+2024,1,Alabama,Hispanic,Partial emp.,Fixed (7%),0.01446102
+2024,1,Alabama,Hispanic,Max emp.,Sliding scale,0.00862147
+2024,1,Alabama,Hispanic,Max emp.,Fixed (7%),0.00479918
+2024,2,Alaska,Hispanic,Universal,Sliding scale,0.03256098
+2024,2,Alaska,Hispanic,Universal,Fixed (7%),0.02236674
+2024,2,Alaska,Hispanic,Partial emp.,Sliding scale,0.02924673
+2024,2,Alaska,Hispanic,Partial emp.,Fixed (7%),0.0191968
+2024,2,Alaska,Hispanic,Max emp.,Sliding scale,0.02122834
+2024,2,Alaska,Hispanic,Max emp.,Fixed (7%),0.01358856
+2024,4,Arizona,Hispanic,Universal,Sliding scale,0.03153356
+2024,4,Arizona,Hispanic,Universal,Fixed (7%),0.02298151
+2024,4,Arizona,Hispanic,Partial emp.,Sliding scale,0.0295208
+2024,4,Arizona,Hispanic,Partial emp.,Fixed (7%),0.02120642
+2024,4,Arizona,Hispanic,Max emp.,Sliding scale,0.01706231
+2024,4,Arizona,Hispanic,Max emp.,Fixed (7%),0.01163977
+2024,5,Arkansas,Hispanic,Universal,Sliding scale,0.03123078
+2024,5,Arkansas,Hispanic,Universal,Fixed (7%),0.02083109
+2024,5,Arkansas,Hispanic,Partial emp.,Sliding scale,0.0302428
+2024,5,Arkansas,Hispanic,Partial emp.,Fixed (7%),0.01995737
+2024,5,Arkansas,Hispanic,Max emp.,Sliding scale,0.01279523
+2024,5,Arkansas,Hispanic,Max emp.,Fixed (7%),0.00718577
+2024,6,California,Hispanic,Universal,Sliding scale,0.03465452
+2024,6,California,Hispanic,Universal,Fixed (7%),0.02657034
+2024,6,California,Hispanic,Partial emp.,Sliding scale,0.03250198
+2024,6,California,Hispanic,Partial emp.,Fixed (7%),0.02458877
+2024,6,California,Hispanic,Max emp.,Sliding scale,0.0182827
+2024,6,California,Hispanic,Max emp.,Fixed (7%),0.01325827
+2024,8,Colorado,Hispanic,Universal,Sliding scale,0.03207187
+2024,8,Colorado,Hispanic,Universal,Fixed (7%),0.02457692
+2024,8,Colorado,Hispanic,Partial emp.,Sliding scale,0.03015095
+2024,8,Colorado,Hispanic,Partial emp.,Fixed (7%),0.02277921
+2024,8,Colorado,Hispanic,Max emp.,Sliding scale,0.01587715
+2024,8,Colorado,Hispanic,Max emp.,Fixed (7%),0.01116952
+2024,9,Connecticut,Hispanic,Universal,Sliding scale,0.02663782
+2024,9,Connecticut,Hispanic,Universal,Fixed (7%),0.01997561
+2024,9,Connecticut,Hispanic,Partial emp.,Sliding scale,0.02511905
+2024,9,Connecticut,Hispanic,Partial emp.,Fixed (7%),0.01856546
+2024,9,Connecticut,Hispanic,Max emp.,Sliding scale,0.01454765
+2024,9,Connecticut,Hispanic,Max emp.,Fixed (7%),0.00998713
+2024,10,Delaware,Hispanic,Universal,Sliding scale,0.01756227
+2024,10,Delaware,Hispanic,Universal,Fixed (7%),0.00963823
+2024,10,Delaware,Hispanic,Partial emp.,Sliding scale,0.01632242
+2024,10,Delaware,Hispanic,Partial emp.,Fixed (7%),0.00858163
+2024,10,Delaware,Hispanic,Max emp.,Sliding scale,0.00913743
+2024,10,Delaware,Hispanic,Max emp.,Fixed (7%),0.0043762
+2024,11,District of Columbia,Hispanic,Universal,Sliding scale,0.04393983
+2024,11,District of Columbia,Hispanic,Universal,Fixed (7%),0.03841062
+2024,11,District of Columbia,Hispanic,Partial emp.,Sliding scale,0.04305038
+2024,11,District of Columbia,Hispanic,Partial emp.,Fixed (7%),0.03757258
+2024,11,District of Columbia,Hispanic,Max emp.,Sliding scale,0.03102907
+2024,11,District of Columbia,Hispanic,Max emp.,Fixed (7%),0.02647
+2024,12,Florida,Hispanic,Universal,Sliding scale,0.02372502
+2024,12,Florida,Hispanic,Universal,Fixed (7%),0.01570613
+2024,12,Florida,Hispanic,Partial emp.,Sliding scale,0.02248851
+2024,12,Florida,Hispanic,Partial emp.,Fixed (7%),0.01459779
+2024,12,Florida,Hispanic,Max emp.,Sliding scale,0.01382558
+2024,12,Florida,Hispanic,Max emp.,Fixed (7%),0.00845035
+2024,13,Georgia,Hispanic,Universal,Sliding scale,0.02115953
+2024,13,Georgia,Hispanic,Universal,Fixed (7%),0.01330486
+2024,13,Georgia,Hispanic,Partial emp.,Sliding scale,0.02035538
+2024,13,Georgia,Hispanic,Partial emp.,Fixed (7%),0.01261949
+2024,13,Georgia,Hispanic,Max emp.,Sliding scale,0.00949665
+2024,13,Georgia,Hispanic,Max emp.,Fixed (7%),0.00517586
+2024,15,Hawaii,Hispanic,Universal,Sliding scale,0.02278766
+2024,15,Hawaii,Hispanic,Universal,Fixed (7%),0.01407002
+2024,15,Hawaii,Hispanic,Partial emp.,Sliding scale,0.02144074
+2024,15,Hawaii,Hispanic,Partial emp.,Fixed (7%),0.01334062
+2024,15,Hawaii,Hispanic,Max emp.,Sliding scale,0.01453741
+2024,15,Hawaii,Hispanic,Max emp.,Fixed (7%),0.00878638
+2024,16,Idaho,Hispanic,Universal,Sliding scale,0.02821208
+2024,16,Idaho,Hispanic,Universal,Fixed (7%),0.01812281
+2024,16,Idaho,Hispanic,Partial emp.,Sliding scale,0.02663032
+2024,16,Idaho,Hispanic,Partial emp.,Fixed (7%),0.0168739
+2024,16,Idaho,Hispanic,Max emp.,Sliding scale,0.01612361
+2024,16,Idaho,Hispanic,Max emp.,Fixed (7%),0.009699
+2024,17,Illinois,Hispanic,Universal,Sliding scale,0.01980565
+2024,17,Illinois,Hispanic,Universal,Fixed (7%),0.01307535
+2024,17,Illinois,Hispanic,Partial emp.,Sliding scale,0.01870936
+2024,17,Illinois,Hispanic,Partial emp.,Fixed (7%),0.01217747
+2024,17,Illinois,Hispanic,Max emp.,Sliding scale,0.00973291
+2024,17,Illinois,Hispanic,Max emp.,Fixed (7%),0.00575399
+2024,18,Indiana,Hispanic,Universal,Sliding scale,0.03123557
+2024,18,Indiana,Hispanic,Universal,Fixed (7%),0.02256581
+2024,18,Indiana,Hispanic,Partial emp.,Sliding scale,0.02972226
+2024,18,Indiana,Hispanic,Partial emp.,Fixed (7%),0.02125386
+2024,18,Indiana,Hispanic,Max emp.,Sliding scale,0.01594292
+2024,18,Indiana,Hispanic,Max emp.,Fixed (7%),0.01063259
+2024,19,Iowa,Hispanic,Universal,Sliding scale,0.01977886
+2024,19,Iowa,Hispanic,Universal,Fixed (7%),0.01412502
+2024,19,Iowa,Hispanic,Partial emp.,Sliding scale,0.01936475
+2024,19,Iowa,Hispanic,Partial emp.,Fixed (7%),0.01378371
+2024,19,Iowa,Hispanic,Max emp.,Sliding scale,0.00773506
+2024,19,Iowa,Hispanic,Max emp.,Fixed (7%),0.00513016
+2024,20,Kansas,Hispanic,Universal,Sliding scale,0.02171025
+2024,20,Kansas,Hispanic,Universal,Fixed (7%),0.01372845
+2024,20,Kansas,Hispanic,Partial emp.,Sliding scale,0.0207117
+2024,20,Kansas,Hispanic,Partial emp.,Fixed (7%),0.01286185
+2024,20,Kansas,Hispanic,Max emp.,Sliding scale,0.01173772
+2024,20,Kansas,Hispanic,Max emp.,Fixed (7%),0.00639707
+2024,21,Kentucky,Hispanic,Universal,Sliding scale,0.02853563
+2024,21,Kentucky,Hispanic,Universal,Fixed (7%),0.02001184
+2024,21,Kentucky,Hispanic,Partial emp.,Sliding scale,0.0262659
+2024,21,Kentucky,Hispanic,Partial emp.,Fixed (7%),0.01807715
+2024,21,Kentucky,Hispanic,Max emp.,Sliding scale,0.01107723
+2024,21,Kentucky,Hispanic,Max emp.,Fixed (7%),0.00664326
+2024,22,Louisiana,Hispanic,Universal,Sliding scale,0.03079611
+2024,22,Louisiana,Hispanic,Universal,Fixed (7%),0.0224574
+2024,22,Louisiana,Hispanic,Partial emp.,Sliding scale,0.02977782
+2024,22,Louisiana,Hispanic,Partial emp.,Fixed (7%),0.02152393
+2024,22,Louisiana,Hispanic,Max emp.,Sliding scale,0.01384055
+2024,22,Louisiana,Hispanic,Max emp.,Fixed (7%),0.0097254
+2024,23,Maine,Hispanic,Universal,Sliding scale,0.02868622
+2024,23,Maine,Hispanic,Universal,Fixed (7%),0.0214927
+2024,23,Maine,Hispanic,Partial emp.,Sliding scale,0.02844608
+2024,23,Maine,Hispanic,Partial emp.,Fixed (7%),0.02123267
+2024,23,Maine,Hispanic,Max emp.,Sliding scale,0.02337174
+2024,23,Maine,Hispanic,Max emp.,Fixed (7%),0.01726979
+2024,24,Maryland,Hispanic,Universal,Sliding scale,0.03109471
+2024,24,Maryland,Hispanic,Universal,Fixed (7%),0.02389938
+2024,24,Maryland,Hispanic,Partial emp.,Sliding scale,0.02976969
+2024,24,Maryland,Hispanic,Partial emp.,Fixed (7%),0.02265144
+2024,24,Maryland,Hispanic,Max emp.,Sliding scale,0.01828532
+2024,24,Maryland,Hispanic,Max emp.,Fixed (7%),0.01374205
+2024,25,Massachusetts,Hispanic,Universal,Sliding scale,0.03140465
+2024,25,Massachusetts,Hispanic,Universal,Fixed (7%),0.02541497
+2024,25,Massachusetts,Hispanic,Partial emp.,Sliding scale,0.02905163
+2024,25,Massachusetts,Hispanic,Partial emp.,Fixed (7%),0.02322849
+2024,25,Massachusetts,Hispanic,Max emp.,Sliding scale,0.01977483
+2024,25,Massachusetts,Hispanic,Max emp.,Fixed (7%),0.01525952
+2024,26,Michigan,Hispanic,Universal,Sliding scale,0.02915838
+2024,26,Michigan,Hispanic,Universal,Fixed (7%),0.02164396
+2024,26,Michigan,Hispanic,Partial emp.,Sliding scale,0.02528443
+2024,26,Michigan,Hispanic,Partial emp.,Fixed (7%),0.01801109
+2024,26,Michigan,Hispanic,Max emp.,Sliding scale,0.01534029
+2024,26,Michigan,Hispanic,Max emp.,Fixed (7%),0.01056445
+2024,27,Minnesota,Hispanic,Universal,Sliding scale,0.02870166
+2024,27,Minnesota,Hispanic,Universal,Fixed (7%),0.02243185
+2024,27,Minnesota,Hispanic,Partial emp.,Sliding scale,0.02437469
+2024,27,Minnesota,Hispanic,Partial emp.,Fixed (7%),0.01841197
+2024,27,Minnesota,Hispanic,Max emp.,Sliding scale,0.0126907
+2024,27,Minnesota,Hispanic,Max emp.,Fixed (7%),0.00895678
+2024,28,Mississippi,Hispanic,Universal,Sliding scale,0.02138604
+2024,28,Mississippi,Hispanic,Universal,Fixed (7%),0.0136261
+2024,28,Mississippi,Hispanic,Partial emp.,Sliding scale,0.0192693
+2024,28,Mississippi,Hispanic,Partial emp.,Fixed (7%),0.01173251
+2024,28,Mississippi,Hispanic,Max emp.,Sliding scale,0.01130899
+2024,28,Mississippi,Hispanic,Max emp.,Fixed (7%),0.00661453
+2024,29,Missouri,Hispanic,Universal,Sliding scale,0.02619805
+2024,29,Missouri,Hispanic,Universal,Fixed (7%),0.01877255
+2024,29,Missouri,Hispanic,Partial emp.,Sliding scale,0.02516929
+2024,29,Missouri,Hispanic,Partial emp.,Fixed (7%),0.01782032
+2024,29,Missouri,Hispanic,Max emp.,Sliding scale,0.01443261
+2024,29,Missouri,Hispanic,Max emp.,Fixed (7%),0.0093876
+2024,30,Montana,Hispanic,Universal,Sliding scale,0.04015092
+2024,30,Montana,Hispanic,Universal,Fixed (7%),0.03065002
+2024,30,Montana,Hispanic,Partial emp.,Sliding scale,0.04029768
+2024,30,Montana,Hispanic,Partial emp.,Fixed (7%),0.03073644
+2024,30,Montana,Hispanic,Max emp.,Sliding scale,0.02814796
+2024,30,Montana,Hispanic,Max emp.,Fixed (7%),0.02088788
+2024,31,Nebraska,Hispanic,Universal,Sliding scale,0.03318137
+2024,31,Nebraska,Hispanic,Universal,Fixed (7%),0.02586267
+2024,31,Nebraska,Hispanic,Partial emp.,Sliding scale,0.03132374
+2024,31,Nebraska,Hispanic,Partial emp.,Fixed (7%),0.0244328
+2024,31,Nebraska,Hispanic,Max emp.,Sliding scale,0.0164846
+2024,31,Nebraska,Hispanic,Max emp.,Fixed (7%),0.01245917
+2024,32,Nevada,Hispanic,Universal,Sliding scale,0.04283959
+2024,32,Nevada,Hispanic,Universal,Fixed (7%),0.03402423
+2024,32,Nevada,Hispanic,Partial emp.,Sliding scale,0.04112103
+2024,32,Nevada,Hispanic,Partial emp.,Fixed (7%),0.03246535
+2024,32,Nevada,Hispanic,Max emp.,Sliding scale,0.02424929
+2024,32,Nevada,Hispanic,Max emp.,Fixed (7%),0.01870806
+2024,33,New Hampshire,Hispanic,Universal,Sliding scale,0.02409389
+2024,33,New Hampshire,Hispanic,Universal,Fixed (7%),0.01491486
+2024,33,New Hampshire,Hispanic,Partial emp.,Sliding scale,0.02282351
+2024,33,New Hampshire,Hispanic,Partial emp.,Fixed (7%),0.01376652
+2024,33,New Hampshire,Hispanic,Max emp.,Sliding scale,0.01688042
+2024,33,New Hampshire,Hispanic,Max emp.,Fixed (7%),0.01087597
+2024,34,New Jersey,Hispanic,Universal,Sliding scale,0.02532599
+2024,34,New Jersey,Hispanic,Universal,Fixed (7%),0.01790475
+2024,34,New Jersey,Hispanic,Partial emp.,Sliding scale,0.02361935
+2024,34,New Jersey,Hispanic,Partial emp.,Fixed (7%),0.01640032
+2024,34,New Jersey,Hispanic,Max emp.,Sliding scale,0.01436922
+2024,34,New Jersey,Hispanic,Max emp.,Fixed (7%),0.00959302
+2024,35,New Mexico,Hispanic,Universal,Sliding scale,0.02746333
+2024,35,New Mexico,Hispanic,Universal,Fixed (7%),0.01991953
+2024,35,New Mexico,Hispanic,Partial emp.,Sliding scale,0.02494549
+2024,35,New Mexico,Hispanic,Partial emp.,Fixed (7%),0.01765351
+2024,35,New Mexico,Hispanic,Max emp.,Sliding scale,0.01232668
+2024,35,New Mexico,Hispanic,Max emp.,Fixed (7%),0.00846816
+2024,36,New York,Hispanic,Universal,Sliding scale,0.03385404
+2024,36,New York,Hispanic,Universal,Fixed (7%),0.0272007
+2024,36,New York,Hispanic,Partial emp.,Sliding scale,0.03027167
+2024,36,New York,Hispanic,Partial emp.,Fixed (7%),0.02380202
+2024,36,New York,Hispanic,Max emp.,Sliding scale,0.0168416
+2024,36,New York,Hispanic,Max emp.,Fixed (7%),0.01276274
+2024,37,North Carolina,Hispanic,Universal,Sliding scale,0.02464874
+2024,37,North Carolina,Hispanic,Universal,Fixed (7%),0.01678559
+2024,37,North Carolina,Hispanic,Partial emp.,Sliding scale,0.02338474
+2024,37,North Carolina,Hispanic,Partial emp.,Fixed (7%),0.01568802
+2024,37,North Carolina,Hispanic,Max emp.,Sliding scale,0.01150858
+2024,37,North Carolina,Hispanic,Max emp.,Fixed (7%),0.00724814
+2024,38,North Dakota,Hispanic,Universal,Sliding scale,0.02163367
+2024,38,North Dakota,Hispanic,Universal,Fixed (7%),0.01679929
+2024,38,North Dakota,Hispanic,Partial emp.,Sliding scale,0.02113674
+2024,38,North Dakota,Hispanic,Partial emp.,Fixed (7%),0.01630237
+2024,38,North Dakota,Hispanic,Max emp.,Sliding scale,0.00604112
+2024,38,North Dakota,Hispanic,Max emp.,Fixed (7%),0.00405826
+2024,39,Ohio,Hispanic,Universal,Sliding scale,0.0280852
+2024,39,Ohio,Hispanic,Universal,Fixed (7%),0.02129199
+2024,39,Ohio,Hispanic,Partial emp.,Sliding scale,0.02649999
+2024,39,Ohio,Hispanic,Partial emp.,Fixed (7%),0.01982334
+2024,39,Ohio,Hispanic,Max emp.,Sliding scale,0.01438018
+2024,39,Ohio,Hispanic,Max emp.,Fixed (7%),0.01033345
+2024,40,Oklahoma,Hispanic,Universal,Sliding scale,0.03436457
+2024,40,Oklahoma,Hispanic,Universal,Fixed (7%),0.02584136
+2024,40,Oklahoma,Hispanic,Partial emp.,Sliding scale,0.03054908
+2024,40,Oklahoma,Hispanic,Partial emp.,Fixed (7%),0.022404
+2024,40,Oklahoma,Hispanic,Max emp.,Sliding scale,0.01403983
+2024,40,Oklahoma,Hispanic,Max emp.,Fixed (7%),0.0098208
+2024,41,Oregon,Hispanic,Universal,Sliding scale,0.02463472
+2024,41,Oregon,Hispanic,Universal,Fixed (7%),0.01735463
+2024,41,Oregon,Hispanic,Partial emp.,Sliding scale,0.02384164
+2024,41,Oregon,Hispanic,Partial emp.,Fixed (7%),0.01669048
+2024,41,Oregon,Hispanic,Max emp.,Sliding scale,0.0135721
+2024,41,Oregon,Hispanic,Max emp.,Fixed (7%),0.0087812
+2024,42,Pennsylvania,Hispanic,Universal,Sliding scale,0.02817125
+2024,42,Pennsylvania,Hispanic,Universal,Fixed (7%),0.02122159
+2024,42,Pennsylvania,Hispanic,Partial emp.,Sliding scale,0.0255302
+2024,42,Pennsylvania,Hispanic,Partial emp.,Fixed (7%),0.01887301
+2024,42,Pennsylvania,Hispanic,Max emp.,Sliding scale,0.01309688
+2024,42,Pennsylvania,Hispanic,Max emp.,Fixed (7%),0.00922736
+2024,44,Rhode Island,Hispanic,Universal,Sliding scale,0.02519637
+2024,44,Rhode Island,Hispanic,Universal,Fixed (7%),0.01935935
+2024,44,Rhode Island,Hispanic,Partial emp.,Sliding scale,0.02222947
+2024,44,Rhode Island,Hispanic,Partial emp.,Fixed (7%),0.01667322
+2024,44,Rhode Island,Hispanic,Max emp.,Sliding scale,0.01027819
+2024,44,Rhode Island,Hispanic,Max emp.,Fixed (7%),0.00698621
+2024,45,South Carolina,Hispanic,Universal,Sliding scale,0.0279913
+2024,45,South Carolina,Hispanic,Universal,Fixed (7%),0.02030035
+2024,45,South Carolina,Hispanic,Partial emp.,Sliding scale,0.02705176
+2024,45,South Carolina,Hispanic,Partial emp.,Fixed (7%),0.01946136
+2024,45,South Carolina,Hispanic,Max emp.,Sliding scale,0.0107061
+2024,45,South Carolina,Hispanic,Max emp.,Fixed (7%),0.00688828
+2024,46,South Dakota,Hispanic,Universal,Sliding scale,0.02219471
+2024,46,South Dakota,Hispanic,Universal,Fixed (7%),0.01516107
+2024,46,South Dakota,Hispanic,Partial emp.,Sliding scale,0.0217935
+2024,46,South Dakota,Hispanic,Partial emp.,Fixed (7%),0.01476073
+2024,46,South Dakota,Hispanic,Max emp.,Sliding scale,0.01527164
+2024,46,South Dakota,Hispanic,Max emp.,Fixed (7%),0.01049174
+2024,47,Tennessee,Hispanic,Universal,Sliding scale,0.02604438
+2024,47,Tennessee,Hispanic,Universal,Fixed (7%),0.016903
+2024,47,Tennessee,Hispanic,Partial emp.,Sliding scale,0.02472344
+2024,47,Tennessee,Hispanic,Partial emp.,Fixed (7%),0.01582296
+2024,47,Tennessee,Hispanic,Max emp.,Sliding scale,0.01181975
+2024,47,Tennessee,Hispanic,Max emp.,Fixed (7%),0.00641603
+2024,48,Texas,Hispanic,Universal,Sliding scale,0.0286986
+2024,48,Texas,Hispanic,Universal,Fixed (7%),0.02028231
+2024,48,Texas,Hispanic,Partial emp.,Sliding scale,0.02685811
+2024,48,Texas,Hispanic,Partial emp.,Fixed (7%),0.0186105
+2024,48,Texas,Hispanic,Max emp.,Sliding scale,0.01449963
+2024,48,Texas,Hispanic,Max emp.,Fixed (7%),0.00940264
+2024,49,Utah,Hispanic,Universal,Sliding scale,0.02888258
+2024,49,Utah,Hispanic,Universal,Fixed (7%),0.01884127
+2024,49,Utah,Hispanic,Partial emp.,Sliding scale,0.02804861
+2024,49,Utah,Hispanic,Partial emp.,Fixed (7%),0.0180557
+2024,49,Utah,Hispanic,Max emp.,Sliding scale,0.01622168
+2024,49,Utah,Hispanic,Max emp.,Fixed (7%),0.00969716
+2024,50,Vermont,Hispanic,Universal,Sliding scale,0.006475
+2024,50,Vermont,Hispanic,Universal,Fixed (7%),0.00571494
+2024,50,Vermont,Hispanic,Partial emp.,Sliding scale,0.00654326
+2024,50,Vermont,Hispanic,Partial emp.,Fixed (7%),0.00577394
+2024,50,Vermont,Hispanic,Max emp.,Sliding scale,0.00509267
+2024,50,Vermont,Hispanic,Max emp.,Fixed (7%),0.00433497
+2024,51,Virginia,Hispanic,Universal,Sliding scale,0.03503335
+2024,51,Virginia,Hispanic,Universal,Fixed (7%),0.02669374
+2024,51,Virginia,Hispanic,Partial emp.,Sliding scale,0.03402934
+2024,51,Virginia,Hispanic,Partial emp.,Fixed (7%),0.02578567
+2024,51,Virginia,Hispanic,Max emp.,Sliding scale,0.01939697
+2024,51,Virginia,Hispanic,Max emp.,Fixed (7%),0.0137957
+2024,53,Washington,Hispanic,Universal,Sliding scale,0.03367009
+2024,53,Washington,Hispanic,Universal,Fixed (7%),0.02582672
+2024,53,Washington,Hispanic,Partial emp.,Sliding scale,0.03107866
+2024,53,Washington,Hispanic,Partial emp.,Fixed (7%),0.02352927
+2024,53,Washington,Hispanic,Max emp.,Sliding scale,0.01707517
+2024,53,Washington,Hispanic,Max emp.,Fixed (7%),0.012102
+2024,54,West Virginia,Hispanic,Universal,Sliding scale,0.0257095
+2024,54,West Virginia,Hispanic,Universal,Fixed (7%),0.01886132
+2024,54,West Virginia,Hispanic,Partial emp.,Sliding scale,0.0257095
+2024,54,West Virginia,Hispanic,Partial emp.,Fixed (7%),0.01886132
+2024,54,West Virginia,Hispanic,Max emp.,Sliding scale,0.00510882
+2024,54,West Virginia,Hispanic,Max emp.,Fixed (7%),0.00383501
+2024,55,Wisconsin,Hispanic,Universal,Sliding scale,0.0325456
+2024,55,Wisconsin,Hispanic,Universal,Fixed (7%),0.02514768
+2024,55,Wisconsin,Hispanic,Partial emp.,Sliding scale,0.03129362
+2024,55,Wisconsin,Hispanic,Partial emp.,Fixed (7%),0.02397932
+2024,55,Wisconsin,Hispanic,Max emp.,Sliding scale,0.01734516
+2024,55,Wisconsin,Hispanic,Max emp.,Fixed (7%),0.01236428
+2024,56,Wyoming,Hispanic,Universal,Sliding scale,0.02483639
+2024,56,Wyoming,Hispanic,Universal,Fixed (7%),0.01633105
+2024,56,Wyoming,Hispanic,Partial emp.,Sliding scale,0.02483845
+2024,56,Wyoming,Hispanic,Partial emp.,Fixed (7%),0.01633223
+2024,56,Wyoming,Hispanic,Max emp.,Sliding scale,0.01722045
+2024,56,Wyoming,Hispanic,Max emp.,Fixed (7%),0.01128167
+2024,99999,United States,Hispanic,Universal,Sliding scale,0.02963407
+2024,99999,United States,Hispanic,Universal,Fixed (7%),0.02172789
+2024,99999,United States,Hispanic,Partial emp.,Sliding scale,0.02775384
+2024,99999,United States,Hispanic,Partial emp.,Fixed (7%),0.02002203
+2024,99999,United States,Hispanic,Max emp.,Sliding scale,0.01540436
+2024,99999,United States,Hispanic,Max emp.,Fixed (7%),0.01053264
+2024,1,Alabama,Asian,Universal,Sliding scale,0.01669553
+2024,1,Alabama,Asian,Universal,Fixed (7%),0.00934797
+2024,1,Alabama,Asian,Partial emp.,Sliding scale,0.01641541
+2024,1,Alabama,Asian,Partial emp.,Fixed (7%),0.00908999
+2024,1,Alabama,Asian,Max emp.,Sliding scale,0.00873438
+2024,1,Alabama,Asian,Max emp.,Fixed (7%),0.00461925
+2024,2,Alaska,Asian,Universal,Sliding scale,0.03486867
+2024,2,Alaska,Asian,Universal,Fixed (7%),0.02673062
+2024,2,Alaska,Asian,Partial emp.,Sliding scale,0.03356892
+2024,2,Alaska,Asian,Partial emp.,Fixed (7%),0.02568318
+2024,2,Alaska,Asian,Max emp.,Sliding scale,0.01690265
+2024,2,Alaska,Asian,Max emp.,Fixed (7%),0.01295998
+2024,4,Arizona,Asian,Universal,Sliding scale,0.01860205
+2024,4,Arizona,Asian,Universal,Fixed (7%),0.0121568
+2024,4,Arizona,Asian,Partial emp.,Sliding scale,0.01846099
+2024,4,Arizona,Asian,Partial emp.,Fixed (7%),0.01206597
+2024,4,Arizona,Asian,Max emp.,Sliding scale,0.00802522
+2024,4,Arizona,Asian,Max emp.,Fixed (7%),0.00505595
+2024,5,Arkansas,Asian,Universal,Sliding scale,0.01132228
+2024,5,Arkansas,Asian,Universal,Fixed (7%),0.00613992
+2024,5,Arkansas,Asian,Partial emp.,Sliding scale,0.01059327
+2024,5,Arkansas,Asian,Partial emp.,Fixed (7%),0.00541164
+2024,5,Arkansas,Asian,Max emp.,Sliding scale,0.00418301
+2024,5,Arkansas,Asian,Max emp.,Fixed (7%),0.00206537
+2024,6,California,Asian,Universal,Sliding scale,0.02398458
+2024,6,California,Asian,Universal,Fixed (7%),0.01897106
+2024,6,California,Asian,Partial emp.,Sliding scale,0.02322966
+2024,6,California,Asian,Partial emp.,Fixed (7%),0.01833493
+2024,6,California,Asian,Max emp.,Sliding scale,0.01378924
+2024,6,California,Asian,Max emp.,Fixed (7%),0.0107148
+2024,8,Colorado,Asian,Universal,Sliding scale,0.02669353
+2024,8,Colorado,Asian,Universal,Fixed (7%),0.02106065
+2024,8,Colorado,Asian,Partial emp.,Sliding scale,0.02617794
+2024,8,Colorado,Asian,Partial emp.,Fixed (7%),0.02058618
+2024,8,Colorado,Asian,Max emp.,Sliding scale,0.01452991
+2024,8,Colorado,Asian,Max emp.,Fixed (7%),0.01139223
+2024,9,Connecticut,Asian,Universal,Sliding scale,0.01386698
+2024,9,Connecticut,Asian,Universal,Fixed (7%),0.00885348
+2024,9,Connecticut,Asian,Partial emp.,Sliding scale,0.01360209
+2024,9,Connecticut,Asian,Partial emp.,Fixed (7%),0.0086326
+2024,9,Connecticut,Asian,Max emp.,Sliding scale,0.00739305
+2024,9,Connecticut,Asian,Max emp.,Fixed (7%),0.00441974
+2024,10,Delaware,Asian,Universal,Sliding scale,0.00988466
+2024,10,Delaware,Asian,Universal,Fixed (7%),0.00569123
+2024,10,Delaware,Asian,Partial emp.,Sliding scale,0.00864671
+2024,10,Delaware,Asian,Partial emp.,Fixed (7%),0.00463092
+2024,10,Delaware,Asian,Max emp.,Sliding scale,0.00395426
+2024,10,Delaware,Asian,Max emp.,Fixed (7%),0.00123354
+2024,11,District of Columbia,Asian,Universal,Sliding scale,0.0206472
+2024,11,District of Columbia,Asian,Universal,Fixed (7%),0.0176208
+2024,11,District of Columbia,Asian,Partial emp.,Sliding scale,0.0206472
+2024,11,District of Columbia,Asian,Partial emp.,Fixed (7%),0.0176208
+2024,11,District of Columbia,Asian,Max emp.,Sliding scale,0.0126255
+2024,11,District of Columbia,Asian,Max emp.,Fixed (7%),0.01065417
+2024,12,Florida,Asian,Universal,Sliding scale,0.01679194
+2024,12,Florida,Asian,Universal,Fixed (7%),0.01074299
+2024,12,Florida,Asian,Partial emp.,Sliding scale,0.015871
+2024,12,Florida,Asian,Partial emp.,Fixed (7%),0.010001
+2024,12,Florida,Asian,Max emp.,Sliding scale,0.00729841
+2024,12,Florida,Asian,Max emp.,Fixed (7%),0.00407895
+2024,13,Georgia,Asian,Universal,Sliding scale,0.01070443
+2024,13,Georgia,Asian,Universal,Fixed (7%),0.00625783
+2024,13,Georgia,Asian,Partial emp.,Sliding scale,0.01053821
+2024,13,Georgia,Asian,Partial emp.,Fixed (7%),0.00613247
+2024,13,Georgia,Asian,Max emp.,Sliding scale,0.00418478
+2024,13,Georgia,Asian,Max emp.,Fixed (7%),0.00210624
+2024,15,Hawaii,Asian,Universal,Sliding scale,0.01647685
+2024,15,Hawaii,Asian,Universal,Fixed (7%),0.01172973
+2024,15,Hawaii,Asian,Partial emp.,Sliding scale,0.01615377
+2024,15,Hawaii,Asian,Partial emp.,Fixed (7%),0.01147549
+2024,15,Hawaii,Asian,Max emp.,Sliding scale,0.00886921
+2024,15,Hawaii,Asian,Max emp.,Fixed (7%),0.0058532
+2024,16,Idaho,Asian,Universal,Sliding scale,0.01495767
+2024,16,Idaho,Asian,Universal,Fixed (7%),0.00901311
+2024,16,Idaho,Asian,Partial emp.,Sliding scale,0.01249605
+2024,16,Idaho,Asian,Partial emp.,Fixed (7%),0.00663716
+2024,16,Idaho,Asian,Max emp.,Sliding scale,0.0037719
+2024,16,Idaho,Asian,Max emp.,Fixed (7%),0.00193982
+2024,17,Illinois,Asian,Universal,Sliding scale,0.01139641
+2024,17,Illinois,Asian,Universal,Fixed (7%),0.00694204
+2024,17,Illinois,Asian,Partial emp.,Sliding scale,0.01121688
+2024,17,Illinois,Asian,Partial emp.,Fixed (7%),0.00679084
+2024,17,Illinois,Asian,Max emp.,Sliding scale,0.00577397
+2024,17,Illinois,Asian,Max emp.,Fixed (7%),0.00331627
+2024,18,Indiana,Asian,Universal,Sliding scale,0.02312202
+2024,18,Indiana,Asian,Universal,Fixed (7%),0.01672603
+2024,18,Indiana,Asian,Partial emp.,Sliding scale,0.02191773
+2024,18,Indiana,Asian,Partial emp.,Fixed (7%),0.01571544
+2024,18,Indiana,Asian,Max emp.,Sliding scale,0.00972642
+2024,18,Indiana,Asian,Max emp.,Fixed (7%),0.00626822
+2024,19,Iowa,Asian,Universal,Sliding scale,0.02988402
+2024,19,Iowa,Asian,Universal,Fixed (7%),0.02297362
+2024,19,Iowa,Asian,Partial emp.,Sliding scale,0.02988402
+2024,19,Iowa,Asian,Partial emp.,Fixed (7%),0.02297362
+2024,19,Iowa,Asian,Max emp.,Sliding scale,0.01245639
+2024,19,Iowa,Asian,Max emp.,Fixed (7%),0.00806274
+2024,20,Kansas,Asian,Universal,Sliding scale,0.0148477
+2024,20,Kansas,Asian,Universal,Fixed (7%),0.01010185
+2024,20,Kansas,Asian,Partial emp.,Sliding scale,0.01469357
+2024,20,Kansas,Asian,Partial emp.,Fixed (7%),0.01001628
+2024,20,Kansas,Asian,Max emp.,Sliding scale,0.00913098
+2024,20,Kansas,Asian,Max emp.,Fixed (7%),0.00633133
+2024,21,Kentucky,Asian,Universal,Sliding scale,0.0282548
+2024,21,Kentucky,Asian,Universal,Fixed (7%),0.01969635
+2024,21,Kentucky,Asian,Partial emp.,Sliding scale,0.02651943
+2024,21,Kentucky,Asian,Partial emp.,Fixed (7%),0.01823316
+2024,21,Kentucky,Asian,Max emp.,Sliding scale,0.01700709
+2024,21,Kentucky,Asian,Max emp.,Fixed (7%),0.01138953
+2024,22,Louisiana,Asian,Universal,Sliding scale,0.01356022
+2024,22,Louisiana,Asian,Universal,Fixed (7%),0.00737366
+2024,22,Louisiana,Asian,Partial emp.,Sliding scale,0.01241547
+2024,22,Louisiana,Asian,Partial emp.,Fixed (7%),0.00642176
+2024,22,Louisiana,Asian,Max emp.,Sliding scale,0.00671809
+2024,22,Louisiana,Asian,Max emp.,Fixed (7%),0.00289942
+2024,23,Maine,Asian,Universal,Sliding scale,0.03244196
+2024,23,Maine,Asian,Universal,Fixed (7%),0.02469135
+2024,23,Maine,Asian,Partial emp.,Sliding scale,0.03244196
+2024,23,Maine,Asian,Partial emp.,Fixed (7%),0.02469135
+2024,23,Maine,Asian,Max emp.,Sliding scale,0.02224801
+2024,23,Maine,Asian,Max emp.,Fixed (7%),0.01722412
+2024,24,Maryland,Asian,Universal,Sliding scale,0.02163186
+2024,24,Maryland,Asian,Universal,Fixed (7%),0.01600015
+2024,24,Maryland,Asian,Partial emp.,Sliding scale,0.02118998
+2024,24,Maryland,Asian,Partial emp.,Fixed (7%),0.01559887
+2024,24,Maryland,Asian,Max emp.,Sliding scale,0.01042017
+2024,24,Maryland,Asian,Max emp.,Fixed (7%),0.00728561
+2024,25,Massachusetts,Asian,Universal,Sliding scale,0.01684113
+2024,25,Massachusetts,Asian,Universal,Fixed (7%),0.01231206
+2024,25,Massachusetts,Asian,Partial emp.,Sliding scale,0.01621561
+2024,25,Massachusetts,Asian,Partial emp.,Fixed (7%),0.01171268
+2024,25,Massachusetts,Asian,Max emp.,Sliding scale,0.00940442
+2024,25,Massachusetts,Asian,Max emp.,Fixed (7%),0.00647188
+2024,26,Michigan,Asian,Universal,Sliding scale,0.02078784
+2024,26,Michigan,Asian,Universal,Fixed (7%),0.01385333
+2024,26,Michigan,Asian,Partial emp.,Sliding scale,0.02030371
+2024,26,Michigan,Asian,Partial emp.,Fixed (7%),0.01346705
+2024,26,Michigan,Asian,Max emp.,Sliding scale,0.00950213
+2024,26,Michigan,Asian,Max emp.,Fixed (7%),0.00618375
+2024,27,Minnesota,Asian,Universal,Sliding scale,0.0301726
+2024,27,Minnesota,Asian,Universal,Fixed (7%),0.02390365
+2024,27,Minnesota,Asian,Partial emp.,Sliding scale,0.02999931
+2024,27,Minnesota,Asian,Partial emp.,Fixed (7%),0.02373652
+2024,27,Minnesota,Asian,Max emp.,Sliding scale,0.02279273
+2024,27,Minnesota,Asian,Max emp.,Fixed (7%),0.01817341
+2024,28,Mississippi,Asian,Universal,Sliding scale,0.02312396
+2024,28,Mississippi,Asian,Universal,Fixed (7%),0.01295538
+2024,28,Mississippi,Asian,Partial emp.,Sliding scale,0.02104089
+2024,28,Mississippi,Asian,Partial emp.,Fixed (7%),0.01152574
+2024,28,Mississippi,Asian,Max emp.,Sliding scale,0.01245841
+2024,28,Mississippi,Asian,Max emp.,Fixed (7%),0.00681448
+2024,29,Missouri,Asian,Universal,Sliding scale,0.02188076
+2024,29,Missouri,Asian,Universal,Fixed (7%),0.01573454
+2024,29,Missouri,Asian,Partial emp.,Sliding scale,0.0207799
+2024,29,Missouri,Asian,Partial emp.,Fixed (7%),0.01464508
+2024,29,Missouri,Asian,Max emp.,Sliding scale,0.01026156
+2024,29,Missouri,Asian,Max emp.,Fixed (7%),0.00664644
+2024,30,Montana,Asian,Universal,Sliding scale,0.03254682
+2024,30,Montana,Asian,Universal,Fixed (7%),0.0225292
+2024,30,Montana,Asian,Partial emp.,Sliding scale,0.03290043
+2024,30,Montana,Asian,Partial emp.,Fixed (7%),0.02288281
+2024,30,Montana,Asian,Max emp.,Sliding scale,0.00689397
+2024,30,Montana,Asian,Max emp.,Fixed (7%),0.00548146
+2024,31,Nebraska,Asian,Universal,Sliding scale,0.024771
+2024,31,Nebraska,Asian,Universal,Fixed (7%),0.01966532
+2024,31,Nebraska,Asian,Partial emp.,Sliding scale,0.02139739
+2024,31,Nebraska,Asian,Partial emp.,Fixed (7%),0.01634666
+2024,31,Nebraska,Asian,Max emp.,Sliding scale,0.01506378
+2024,31,Nebraska,Asian,Max emp.,Fixed (7%),0.01143445
+2024,32,Nevada,Asian,Universal,Sliding scale,0.03335932
+2024,32,Nevada,Asian,Universal,Fixed (7%),0.0252927
+2024,32,Nevada,Asian,Partial emp.,Sliding scale,0.03218457
+2024,32,Nevada,Asian,Partial emp.,Fixed (7%),0.02429671
+2024,32,Nevada,Asian,Max emp.,Sliding scale,0.0187528
+2024,32,Nevada,Asian,Max emp.,Fixed (7%),0.01415297
+2024,33,New Hampshire,Asian,Universal,Sliding scale,0.02760121
+2024,33,New Hampshire,Asian,Universal,Fixed (7%),0.0181159
+2024,33,New Hampshire,Asian,Partial emp.,Sliding scale,0.02733196
+2024,33,New Hampshire,Asian,Partial emp.,Fixed (7%),0.01791273
+2024,33,New Hampshire,Asian,Max emp.,Sliding scale,0.02186583
+2024,33,New Hampshire,Asian,Max emp.,Fixed (7%),0.01420348
+2024,34,New Jersey,Asian,Universal,Sliding scale,0.01323113
+2024,34,New Jersey,Asian,Universal,Fixed (7%),0.00838812
+2024,34,New Jersey,Asian,Partial emp.,Sliding scale,0.01302401
+2024,34,New Jersey,Asian,Partial emp.,Fixed (7%),0.00821281
+2024,34,New Jersey,Asian,Max emp.,Sliding scale,0.00729949
+2024,34,New Jersey,Asian,Max emp.,Fixed (7%),0.00434902
+2024,35,New Mexico,Asian,Universal,Sliding scale,0.01924663
+2024,35,New Mexico,Asian,Universal,Fixed (7%),0.0125996
+2024,35,New Mexico,Asian,Partial emp.,Sliding scale,0.01985442
+2024,35,New Mexico,Asian,Partial emp.,Fixed (7%),0.01320069
+2024,35,New Mexico,Asian,Max emp.,Sliding scale,0.00675977
+2024,35,New Mexico,Asian,Max emp.,Fixed (7%),0.00317381
+2024,36,New York,Asian,Universal,Sliding scale,0.02710941
+2024,36,New York,Asian,Universal,Fixed (7%),0.02151432
+2024,36,New York,Asian,Partial emp.,Sliding scale,0.02591339
+2024,36,New York,Asian,Partial emp.,Fixed (7%),0.0203935
+2024,36,New York,Asian,Max emp.,Sliding scale,0.01355825
+2024,36,New York,Asian,Max emp.,Fixed (7%),0.01033281
+2024,37,North Carolina,Asian,Universal,Sliding scale,0.01253886
+2024,37,North Carolina,Asian,Universal,Fixed (7%),0.00805466
+2024,37,North Carolina,Asian,Partial emp.,Sliding scale,0.01157089
+2024,37,North Carolina,Asian,Partial emp.,Fixed (7%),0.00733006
+2024,37,North Carolina,Asian,Max emp.,Sliding scale,0.00490675
+2024,37,North Carolina,Asian,Max emp.,Fixed (7%),0.00292483
+2024,38,North Dakota,Asian,Universal,Sliding scale,0.03338891
+2024,38,North Dakota,Asian,Universal,Fixed (7%),0.02313872
+2024,38,North Dakota,Asian,Partial emp.,Sliding scale,0.03338891
+2024,38,North Dakota,Asian,Partial emp.,Fixed (7%),0.02313872
+2024,38,North Dakota,Asian,Max emp.,Sliding scale,0.01836989
+2024,38,North Dakota,Asian,Max emp.,Fixed (7%),0.01201598
+2024,39,Ohio,Asian,Universal,Sliding scale,0.02236099
+2024,39,Ohio,Asian,Universal,Fixed (7%),0.0162946
+2024,39,Ohio,Asian,Partial emp.,Sliding scale,0.02066876
+2024,39,Ohio,Asian,Partial emp.,Fixed (7%),0.01472578
+2024,39,Ohio,Asian,Max emp.,Sliding scale,0.01126364
+2024,39,Ohio,Asian,Max emp.,Fixed (7%),0.00773232
+2024,40,Oklahoma,Asian,Universal,Sliding scale,0.02368214
+2024,40,Oklahoma,Asian,Universal,Fixed (7%),0.0165494
+2024,40,Oklahoma,Asian,Partial emp.,Sliding scale,0.02328555
+2024,40,Oklahoma,Asian,Partial emp.,Fixed (7%),0.01625134
+2024,40,Oklahoma,Asian,Max emp.,Sliding scale,0.00935848
+2024,40,Oklahoma,Asian,Max emp.,Fixed (7%),0.00584694
+2024,41,Oregon,Asian,Universal,Sliding scale,0.01921205
+2024,41,Oregon,Asian,Universal,Fixed (7%),0.01456798
+2024,41,Oregon,Asian,Partial emp.,Sliding scale,0.01896941
+2024,41,Oregon,Asian,Partial emp.,Fixed (7%),0.01436047
+2024,41,Oregon,Asian,Max emp.,Sliding scale,0.00871738
+2024,41,Oregon,Asian,Max emp.,Fixed (7%),0.00653673
+2024,42,Pennsylvania,Asian,Universal,Sliding scale,0.01802652
+2024,42,Pennsylvania,Asian,Universal,Fixed (7%),0.0134203
+2024,42,Pennsylvania,Asian,Partial emp.,Sliding scale,0.01702031
+2024,42,Pennsylvania,Asian,Partial emp.,Fixed (7%),0.01260894
+2024,42,Pennsylvania,Asian,Max emp.,Sliding scale,0.00794034
+2024,42,Pennsylvania,Asian,Max emp.,Fixed (7%),0.005686
+2024,44,Rhode Island,Asian,Universal,Sliding scale,0.01668286
+2024,44,Rhode Island,Asian,Universal,Fixed (7%),0.01268005
+2024,44,Rhode Island,Asian,Partial emp.,Sliding scale,0.01666393
+2024,44,Rhode Island,Asian,Partial emp.,Fixed (7%),0.01266706
+2024,44,Rhode Island,Asian,Max emp.,Sliding scale,0.00610618
+2024,44,Rhode Island,Asian,Max emp.,Fixed (7%),0.00390039
+2024,45,South Carolina,Asian,Universal,Sliding scale,0.01639289
+2024,45,South Carolina,Asian,Universal,Fixed (7%),0.01027767
+2024,45,South Carolina,Asian,Partial emp.,Sliding scale,0.01621386
+2024,45,South Carolina,Asian,Partial emp.,Fixed (7%),0.01009864
+2024,45,South Carolina,Asian,Max emp.,Sliding scale,0.00819038
+2024,45,South Carolina,Asian,Max emp.,Fixed (7%),0.00443529
+2024,46,South Dakota,Asian,Universal,Sliding scale,0.01631286
+2024,46,South Dakota,Asian,Universal,Fixed (7%),0.01094337
+2024,46,South Dakota,Asian,Partial emp.,Sliding scale,0.01622945
+2024,46,South Dakota,Asian,Partial emp.,Fixed (7%),0.01090477
+2024,46,South Dakota,Asian,Max emp.,Sliding scale,0.01244548
+2024,46,South Dakota,Asian,Max emp.,Fixed (7%),0.00889294
+2024,47,Tennessee,Asian,Universal,Sliding scale,0.01334999
+2024,47,Tennessee,Asian,Universal,Fixed (7%),0.00726875
+2024,47,Tennessee,Asian,Partial emp.,Sliding scale,0.01312116
+2024,47,Tennessee,Asian,Partial emp.,Fixed (7%),0.00707827
+2024,47,Tennessee,Asian,Max emp.,Sliding scale,0.0054699
+2024,47,Tennessee,Asian,Max emp.,Fixed (7%),0.0024104
+2024,48,Texas,Asian,Universal,Sliding scale,0.0153959
+2024,48,Texas,Asian,Universal,Fixed (7%),0.01034109
+2024,48,Texas,Asian,Partial emp.,Sliding scale,0.01456436
+2024,48,Texas,Asian,Partial emp.,Fixed (7%),0.0096809
+2024,48,Texas,Asian,Max emp.,Sliding scale,0.00645914
+2024,48,Texas,Asian,Max emp.,Fixed (7%),0.00410267
+2024,49,Utah,Asian,Universal,Sliding scale,0.02416725
+2024,49,Utah,Asian,Universal,Fixed (7%),0.0154418
+2024,49,Utah,Asian,Partial emp.,Sliding scale,0.02351008
+2024,49,Utah,Asian,Partial emp.,Fixed (7%),0.01483459
+2024,49,Utah,Asian,Max emp.,Sliding scale,0.01129894
+2024,49,Utah,Asian,Max emp.,Fixed (7%),0.00634831
+2024,50,Vermont,Asian,Universal,Sliding scale,0.02594294
+2024,50,Vermont,Asian,Universal,Fixed (7%),0.02040448
+2024,50,Vermont,Asian,Partial emp.,Sliding scale,0.02137124
+2024,50,Vermont,Asian,Partial emp.,Fixed (7%),0.01649678
+2024,50,Vermont,Asian,Max emp.,Sliding scale,0.01978466
+2024,50,Vermont,Asian,Max emp.,Fixed (7%),0.01503112
+2024,51,Virginia,Asian,Universal,Sliding scale,0.02228807
+2024,51,Virginia,Asian,Universal,Fixed (7%),0.0168622
+2024,51,Virginia,Asian,Partial emp.,Sliding scale,0.0220393
+2024,51,Virginia,Asian,Partial emp.,Fixed (7%),0.01663958
+2024,51,Virginia,Asian,Max emp.,Sliding scale,0.01242547
+2024,51,Virginia,Asian,Max emp.,Fixed (7%),0.0090988
+2024,53,Washington,Asian,Universal,Sliding scale,0.02620687
+2024,53,Washington,Asian,Universal,Fixed (7%),0.02039145
+2024,53,Washington,Asian,Partial emp.,Sliding scale,0.02550034
+2024,53,Washington,Asian,Partial emp.,Fixed (7%),0.01971153
+2024,53,Washington,Asian,Max emp.,Sliding scale,0.01453536
+2024,53,Washington,Asian,Max emp.,Fixed (7%),0.01117982
+2024,54,West Virginia,Asian,Universal,Sliding scale,0.02082009
+2024,54,West Virginia,Asian,Universal,Fixed (7%),0.0165544
+2024,54,West Virginia,Asian,Partial emp.,Sliding scale,0.02082009
+2024,54,West Virginia,Asian,Partial emp.,Fixed (7%),0.0165544
+2024,54,West Virginia,Asian,Max emp.,Sliding scale,0.01143373
+2024,54,West Virginia,Asian,Max emp.,Fixed (7%),0.00858518
+2024,55,Wisconsin,Asian,Universal,Sliding scale,0.02897279
+2024,55,Wisconsin,Asian,Universal,Fixed (7%),0.02231828
+2024,55,Wisconsin,Asian,Partial emp.,Sliding scale,0.02539569
+2024,55,Wisconsin,Asian,Partial emp.,Fixed (7%),0.01884933
+2024,55,Wisconsin,Asian,Max emp.,Sliding scale,0.01787002
+2024,55,Wisconsin,Asian,Max emp.,Fixed (7%),0.01318399
+2024,56,Wyoming,Asian,Universal,Sliding scale,0.04109625
+2024,56,Wyoming,Asian,Universal,Fixed (7%),0.02989238
+2024,56,Wyoming,Asian,Partial emp.,Sliding scale,0.04109625
+2024,56,Wyoming,Asian,Partial emp.,Fixed (7%),0.02989238
+2024,56,Wyoming,Asian,Max emp.,Sliding scale,0.00447811
+2024,56,Wyoming,Asian,Max emp.,Fixed (7%),0.00126892
+2024,99999,United States,Asian,Universal,Sliding scale,0.02041683
+2024,99999,United States,Asian,Universal,Fixed (7%),0.01505461
+2024,99999,United States,Asian,Partial emp.,Sliding scale,0.01968824
+2024,99999,United States,Asian,Partial emp.,Fixed (7%),0.01442503
+2024,99999,United States,Asian,Max emp.,Sliding scale,0.01067279
+2024,99999,United States,Asian,Max emp.,Fixed (7%),0.00763722
+2024,1,Alabama,Other,Universal,Sliding scale,0.01854211
+2024,1,Alabama,Other,Universal,Fixed (7%),0.01194964
+2024,1,Alabama,Other,Partial emp.,Sliding scale,0.01631195
+2024,1,Alabama,Other,Partial emp.,Fixed (7%),0.00995959
+2024,1,Alabama,Other,Max emp.,Sliding scale,0.00989817
+2024,1,Alabama,Other,Max emp.,Fixed (7%),0.00546889
+2024,2,Alaska,Other,Universal,Sliding scale,0.03297662
+2024,2,Alaska,Other,Universal,Fixed (7%),0.02488305
+2024,2,Alaska,Other,Partial emp.,Sliding scale,0.03146979
+2024,2,Alaska,Other,Partial emp.,Fixed (7%),0.02334158
+2024,2,Alaska,Other,Max emp.,Sliding scale,0.01762178
+2024,2,Alaska,Other,Max emp.,Fixed (7%),0.0125407
+2024,4,Arizona,Other,Universal,Sliding scale,0.02757532
+2024,4,Arizona,Other,Universal,Fixed (7%),0.02058655
+2024,4,Arizona,Other,Partial emp.,Sliding scale,0.02413464
+2024,4,Arizona,Other,Partial emp.,Fixed (7%),0.01748166
+2024,4,Arizona,Other,Max emp.,Sliding scale,0.01494815
+2024,4,Arizona,Other,Max emp.,Fixed (7%),0.01058673
+2024,5,Arkansas,Other,Universal,Sliding scale,0.03087441
+2024,5,Arkansas,Other,Universal,Fixed (7%),0.02227469
+2024,5,Arkansas,Other,Partial emp.,Sliding scale,0.02912867
+2024,5,Arkansas,Other,Partial emp.,Fixed (7%),0.0206055
+2024,5,Arkansas,Other,Max emp.,Sliding scale,0.01706602
+2024,5,Arkansas,Other,Max emp.,Fixed (7%),0.0113717
+2024,6,California,Other,Universal,Sliding scale,0.02881302
+2024,6,California,Other,Universal,Fixed (7%),0.02335499
+2024,6,California,Other,Partial emp.,Sliding scale,0.02671731
+2024,6,California,Other,Partial emp.,Fixed (7%),0.0213658
+2024,6,California,Other,Max emp.,Sliding scale,0.01610674
+2024,6,California,Other,Max emp.,Fixed (7%),0.01271175
+2024,8,Colorado,Other,Universal,Sliding scale,0.02376022
+2024,8,Colorado,Other,Universal,Fixed (7%),0.01847937
+2024,8,Colorado,Other,Partial emp.,Sliding scale,0.02297216
+2024,8,Colorado,Other,Partial emp.,Fixed (7%),0.0177295
+2024,8,Colorado,Other,Max emp.,Sliding scale,0.01225693
+2024,8,Colorado,Other,Max emp.,Fixed (7%),0.00873913
+2024,9,Connecticut,Other,Universal,Sliding scale,0.02959583
+2024,9,Connecticut,Other,Universal,Fixed (7%),0.02287451
+2024,9,Connecticut,Other,Partial emp.,Sliding scale,0.02436062
+2024,9,Connecticut,Other,Partial emp.,Fixed (7%),0.01788084
+2024,9,Connecticut,Other,Max emp.,Sliding scale,0.01503753
+2024,9,Connecticut,Other,Max emp.,Fixed (7%),0.01096142
+2024,10,Delaware,Other,Universal,Sliding scale,0.00754328
+2024,10,Delaware,Other,Universal,Fixed (7%),0.00505478
+2024,10,Delaware,Other,Partial emp.,Sliding scale,0.0069611
+2024,10,Delaware,Other,Partial emp.,Fixed (7%),0.00451188
+2024,10,Delaware,Other,Max emp.,Sliding scale,0.00677765
+2024,10,Delaware,Other,Max emp.,Fixed (7%),0.004395
+2024,11,District of Columbia,Other,Universal,Sliding scale,0.0405104
+2024,11,District of Columbia,Other,Universal,Fixed (7%),0.03759373
+2024,11,District of Columbia,Other,Partial emp.,Sliding scale,0.02275777
+2024,11,District of Columbia,Other,Partial emp.,Fixed (7%),0.02002541
+2024,11,District of Columbia,Other,Max emp.,Sliding scale,0.02277973
+2024,11,District of Columbia,Other,Max emp.,Fixed (7%),0.02004184
+2024,12,Florida,Other,Universal,Sliding scale,0.02235
+2024,12,Florida,Other,Universal,Fixed (7%),0.01583992
+2024,12,Florida,Other,Partial emp.,Sliding scale,0.02050934
+2024,12,Florida,Other,Partial emp.,Fixed (7%),0.01408267
+2024,12,Florida,Other,Max emp.,Sliding scale,0.0119242
+2024,12,Florida,Other,Max emp.,Fixed (7%),0.00796626
+2024,13,Georgia,Other,Universal,Sliding scale,0.01583067
+2024,13,Georgia,Other,Universal,Fixed (7%),0.00928237
+2024,13,Georgia,Other,Partial emp.,Sliding scale,0.01416001
+2024,13,Georgia,Other,Partial emp.,Fixed (7%),0.00791744
+2024,13,Georgia,Other,Max emp.,Sliding scale,0.00773461
+2024,13,Georgia,Other,Max emp.,Fixed (7%),0.00378982
+2024,15,Hawaii,Other,Universal,Sliding scale,0.02181005
+2024,15,Hawaii,Other,Universal,Fixed (7%),0.01660067
+2024,15,Hawaii,Other,Partial emp.,Sliding scale,0.02078243
+2024,15,Hawaii,Other,Partial emp.,Fixed (7%),0.01573623
+2024,15,Hawaii,Other,Max emp.,Sliding scale,0.01282965
+2024,15,Hawaii,Other,Max emp.,Fixed (7%),0.00896283
+2024,16,Idaho,Other,Universal,Sliding scale,0.02586624
+2024,16,Idaho,Other,Universal,Fixed (7%),0.0184855
+2024,16,Idaho,Other,Partial emp.,Sliding scale,0.02405857
+2024,16,Idaho,Other,Partial emp.,Fixed (7%),0.01671586
+2024,16,Idaho,Other,Max emp.,Sliding scale,0.01433853
+2024,16,Idaho,Other,Max emp.,Fixed (7%),0.0096299
+2024,17,Illinois,Other,Universal,Sliding scale,0.01364986
+2024,17,Illinois,Other,Universal,Fixed (7%),0.00896502
+2024,17,Illinois,Other,Partial emp.,Sliding scale,0.01292946
+2024,17,Illinois,Other,Partial emp.,Fixed (7%),0.00832668
+2024,17,Illinois,Other,Max emp.,Sliding scale,0.00788891
+2024,17,Illinois,Other,Max emp.,Fixed (7%),0.00490975
+2024,18,Indiana,Other,Universal,Sliding scale,0.03142219
+2024,18,Indiana,Other,Universal,Fixed (7%),0.02415084
+2024,18,Indiana,Other,Partial emp.,Sliding scale,0.03034504
+2024,18,Indiana,Other,Partial emp.,Fixed (7%),0.02321052
+2024,18,Indiana,Other,Max emp.,Sliding scale,0.0157202
+2024,18,Indiana,Other,Max emp.,Fixed (7%),0.0109071
+2024,19,Iowa,Other,Universal,Sliding scale,0.01705142
+2024,19,Iowa,Other,Universal,Fixed (7%),0.01138524
+2024,19,Iowa,Other,Partial emp.,Sliding scale,0.01641815
+2024,19,Iowa,Other,Partial emp.,Fixed (7%),0.01075864
+2024,19,Iowa,Other,Max emp.,Sliding scale,0.00923116
+2024,19,Iowa,Other,Max emp.,Fixed (7%),0.00569796
+2024,20,Kansas,Other,Universal,Sliding scale,0.01755492
+2024,20,Kansas,Other,Universal,Fixed (7%),0.0104769
+2024,20,Kansas,Other,Partial emp.,Sliding scale,0.01579693
+2024,20,Kansas,Other,Partial emp.,Fixed (7%),0.00886915
+2024,20,Kansas,Other,Max emp.,Sliding scale,0.00723963
+2024,20,Kansas,Other,Max emp.,Fixed (7%),0.00305628
+2024,21,Kentucky,Other,Universal,Sliding scale,0.03125974
+2024,21,Kentucky,Other,Universal,Fixed (7%),0.02368853
+2024,21,Kentucky,Other,Partial emp.,Sliding scale,0.02844894
+2024,21,Kentucky,Other,Partial emp.,Fixed (7%),0.02124068
+2024,21,Kentucky,Other,Max emp.,Sliding scale,0.01510124
+2024,21,Kentucky,Other,Max emp.,Fixed (7%),0.01045756
+2024,22,Louisiana,Other,Universal,Sliding scale,0.03197367
+2024,22,Louisiana,Other,Universal,Fixed (7%),0.02398994
+2024,22,Louisiana,Other,Partial emp.,Sliding scale,0.02933744
+2024,22,Louisiana,Other,Partial emp.,Fixed (7%),0.02160807
+2024,22,Louisiana,Other,Max emp.,Sliding scale,0.02151913
+2024,22,Louisiana,Other,Max emp.,Fixed (7%),0.01587847
+2024,23,Maine,Other,Universal,Sliding scale,0.0232032
+2024,23,Maine,Other,Universal,Fixed (7%),0.01732963
+2024,23,Maine,Other,Partial emp.,Sliding scale,0.01938354
+2024,23,Maine,Other,Partial emp.,Fixed (7%),0.01374098
+2024,23,Maine,Other,Max emp.,Sliding scale,0.0129877
+2024,23,Maine,Other,Max emp.,Fixed (7%),0.00932921
+2024,24,Maryland,Other,Universal,Sliding scale,0.01982726
+2024,24,Maryland,Other,Universal,Fixed (7%),0.01482718
+2024,24,Maryland,Other,Partial emp.,Sliding scale,0.01887525
+2024,24,Maryland,Other,Partial emp.,Fixed (7%),0.01388807
+2024,24,Maryland,Other,Max emp.,Sliding scale,0.01318627
+2024,24,Maryland,Other,Max emp.,Fixed (7%),0.00957793
+2024,25,Massachusetts,Other,Universal,Sliding scale,0.02631014
+2024,25,Massachusetts,Other,Universal,Fixed (7%),0.0204423
+2024,25,Massachusetts,Other,Partial emp.,Sliding scale,0.02289097
+2024,25,Massachusetts,Other,Partial emp.,Fixed (7%),0.01715917
+2024,25,Massachusetts,Other,Max emp.,Sliding scale,0.01557198
+2024,25,Massachusetts,Other,Max emp.,Fixed (7%),0.01142175
+2024,26,Michigan,Other,Universal,Sliding scale,0.02588901
+2024,26,Michigan,Other,Universal,Fixed (7%),0.01897902
+2024,26,Michigan,Other,Partial emp.,Sliding scale,0.0237035
+2024,26,Michigan,Other,Partial emp.,Fixed (7%),0.016924
+2024,26,Michigan,Other,Max emp.,Sliding scale,0.01299053
+2024,26,Michigan,Other,Max emp.,Fixed (7%),0.00858584
+2024,27,Minnesota,Other,Universal,Sliding scale,0.02139822
+2024,27,Minnesota,Other,Universal,Fixed (7%),0.01636621
+2024,27,Minnesota,Other,Partial emp.,Sliding scale,0.01932429
+2024,27,Minnesota,Other,Partial emp.,Fixed (7%),0.01456893
+2024,27,Minnesota,Other,Max emp.,Sliding scale,0.0145906
+2024,27,Minnesota,Other,Max emp.,Fixed (7%),0.01062771
+2024,28,Mississippi,Other,Universal,Sliding scale,0.01792946
+2024,28,Mississippi,Other,Universal,Fixed (7%),0.01226528
+2024,28,Mississippi,Other,Partial emp.,Sliding scale,0.01591405
+2024,28,Mississippi,Other,Partial emp.,Fixed (7%),0.01067338
+2024,28,Mississippi,Other,Max emp.,Sliding scale,0.00823832
+2024,28,Mississippi,Other,Max emp.,Fixed (7%),0.00446571
+2024,29,Missouri,Other,Universal,Sliding scale,0.02988432
+2024,29,Missouri,Other,Universal,Fixed (7%),0.02151195
+2024,29,Missouri,Other,Partial emp.,Sliding scale,0.02859061
+2024,29,Missouri,Other,Partial emp.,Fixed (7%),0.02031763
+2024,29,Missouri,Other,Max emp.,Sliding scale,0.01715963
+2024,29,Missouri,Other,Max emp.,Fixed (7%),0.01144453
+2024,30,Montana,Other,Universal,Sliding scale,0.02910867
+2024,30,Montana,Other,Universal,Fixed (7%),0.0234167
+2024,30,Montana,Other,Partial emp.,Sliding scale,0.02568419
+2024,30,Montana,Other,Partial emp.,Fixed (7%),0.02034792
+2024,30,Montana,Other,Max emp.,Sliding scale,0.01561537
+2024,30,Montana,Other,Max emp.,Fixed (7%),0.01198994
+2024,31,Nebraska,Other,Universal,Sliding scale,0.02930957
+2024,31,Nebraska,Other,Universal,Fixed (7%),0.02417034
+2024,31,Nebraska,Other,Partial emp.,Sliding scale,0.02819533
+2024,31,Nebraska,Other,Partial emp.,Fixed (7%),0.02315115
+2024,31,Nebraska,Other,Max emp.,Sliding scale,0.01939786
+2024,31,Nebraska,Other,Max emp.,Fixed (7%),0.01524814
+2024,32,Nevada,Other,Universal,Sliding scale,0.03760641
+2024,32,Nevada,Other,Universal,Fixed (7%),0.03055746
+2024,32,Nevada,Other,Partial emp.,Sliding scale,0.03628808
+2024,32,Nevada,Other,Partial emp.,Fixed (7%),0.02930591
+2024,32,Nevada,Other,Max emp.,Sliding scale,0.02741135
+2024,32,Nevada,Other,Max emp.,Fixed (7%),0.02252118
+2024,33,New Hampshire,Other,Universal,Sliding scale,0.02360707
+2024,33,New Hampshire,Other,Universal,Fixed (7%),0.01733564
+2024,33,New Hampshire,Other,Partial emp.,Sliding scale,0.02337024
+2024,33,New Hampshire,Other,Partial emp.,Fixed (7%),0.0171277
+2024,33,New Hampshire,Other,Max emp.,Sliding scale,0.00865219
+2024,33,New Hampshire,Other,Max emp.,Fixed (7%),0.00560796
+2024,34,New Jersey,Other,Universal,Sliding scale,0.02380594
+2024,34,New Jersey,Other,Universal,Fixed (7%),0.01675478
+2024,34,New Jersey,Other,Partial emp.,Sliding scale,0.0230164
+2024,34,New Jersey,Other,Partial emp.,Fixed (7%),0.01602048
+2024,34,New Jersey,Other,Max emp.,Sliding scale,0.01329181
+2024,34,New Jersey,Other,Max emp.,Fixed (7%),0.00866439
+2024,35,New Mexico,Other,Universal,Sliding scale,0.02652164
+2024,35,New Mexico,Other,Universal,Fixed (7%),0.02042659
+2024,35,New Mexico,Other,Partial emp.,Sliding scale,0.02102128
+2024,35,New Mexico,Other,Partial emp.,Fixed (7%),0.01529377
+2024,35,New Mexico,Other,Max emp.,Sliding scale,0.01191709
+2024,35,New Mexico,Other,Max emp.,Fixed (7%),0.00837692
+2024,36,New York,Other,Universal,Sliding scale,0.02896676
+2024,36,New York,Other,Universal,Fixed (7%),0.02280073
+2024,36,New York,Other,Partial emp.,Sliding scale,0.02617841
+2024,36,New York,Other,Partial emp.,Fixed (7%),0.02020815
+2024,36,New York,Other,Max emp.,Sliding scale,0.01474306
+2024,36,New York,Other,Max emp.,Fixed (7%),0.01081224
+2024,37,North Carolina,Other,Universal,Sliding scale,0.02116037
+2024,37,North Carolina,Other,Universal,Fixed (7%),0.01437507
+2024,37,North Carolina,Other,Partial emp.,Sliding scale,0.0195373
+2024,37,North Carolina,Other,Partial emp.,Fixed (7%),0.01306137
+2024,37,North Carolina,Other,Max emp.,Sliding scale,0.01148339
+2024,37,North Carolina,Other,Max emp.,Fixed (7%),0.00723502
+2024,38,North Dakota,Other,Universal,Sliding scale,0.01637684
+2024,38,North Dakota,Other,Universal,Fixed (7%),0.01126441
+2024,38,North Dakota,Other,Partial emp.,Sliding scale,0.01360516
+2024,38,North Dakota,Other,Partial emp.,Fixed (7%),0.00879346
+2024,38,North Dakota,Other,Max emp.,Sliding scale,0.00995459
+2024,38,North Dakota,Other,Max emp.,Fixed (7%),0.00612197
+2024,39,Ohio,Other,Universal,Sliding scale,0.02958783
+2024,39,Ohio,Other,Universal,Fixed (7%),0.02335352
+2024,39,Ohio,Other,Partial emp.,Sliding scale,0.02563387
+2024,39,Ohio,Other,Partial emp.,Fixed (7%),0.01959179
+2024,39,Ohio,Other,Max emp.,Sliding scale,0.01718785
+2024,39,Ohio,Other,Max emp.,Fixed (7%),0.01291053
+2024,40,Oklahoma,Other,Universal,Sliding scale,0.03133853
+2024,40,Oklahoma,Other,Universal,Fixed (7%),0.02328053
+2024,40,Oklahoma,Other,Partial emp.,Sliding scale,0.02912418
+2024,40,Oklahoma,Other,Partial emp.,Fixed (7%),0.02131996
+2024,40,Oklahoma,Other,Max emp.,Sliding scale,0.0174129
+2024,40,Oklahoma,Other,Max emp.,Fixed (7%),0.01207668
+2024,41,Oregon,Other,Universal,Sliding scale,0.02736395
+2024,41,Oregon,Other,Universal,Fixed (7%),0.02009418
+2024,41,Oregon,Other,Partial emp.,Sliding scale,0.02603456
+2024,41,Oregon,Other,Partial emp.,Fixed (7%),0.01890811
+2024,41,Oregon,Other,Max emp.,Sliding scale,0.01899859
+2024,41,Oregon,Other,Max emp.,Fixed (7%),0.01373404
+2024,42,Pennsylvania,Other,Universal,Sliding scale,0.02711567
+2024,42,Pennsylvania,Other,Universal,Fixed (7%),0.02061127
+2024,42,Pennsylvania,Other,Partial emp.,Sliding scale,0.02521119
+2024,42,Pennsylvania,Other,Partial emp.,Fixed (7%),0.01896525
+2024,42,Pennsylvania,Other,Max emp.,Sliding scale,0.0168587
+2024,42,Pennsylvania,Other,Max emp.,Fixed (7%),0.0124128
+2024,44,Rhode Island,Other,Universal,Sliding scale,0.01666307
+2024,44,Rhode Island,Other,Universal,Fixed (7%),0.00910717
+2024,44,Rhode Island,Other,Partial emp.,Sliding scale,0.01618819
+2024,44,Rhode Island,Other,Partial emp.,Fixed (7%),0.00906422
+2024,44,Rhode Island,Other,Max emp.,Sliding scale,0.01102416
+2024,44,Rhode Island,Other,Max emp.,Fixed (7%),0.00536131
+2024,45,South Carolina,Other,Universal,Sliding scale,0.02494737
+2024,45,South Carolina,Other,Universal,Fixed (7%),0.01696933
+2024,45,South Carolina,Other,Partial emp.,Sliding scale,0.0228553
+2024,45,South Carolina,Other,Partial emp.,Fixed (7%),0.01491852
+2024,45,South Carolina,Other,Max emp.,Sliding scale,0.01178273
+2024,45,South Carolina,Other,Max emp.,Fixed (7%),0.007155
+2024,46,South Dakota,Other,Universal,Sliding scale,0.03077506
+2024,46,South Dakota,Other,Universal,Fixed (7%),0.02595908
+2024,46,South Dakota,Other,Partial emp.,Sliding scale,0.02434227
+2024,46,South Dakota,Other,Partial emp.,Fixed (7%),0.01980398
+2024,46,South Dakota,Other,Max emp.,Sliding scale,0.00738305
+2024,46,South Dakota,Other,Max emp.,Fixed (7%),0.00371272
+2024,47,Tennessee,Other,Universal,Sliding scale,0.01996426
+2024,47,Tennessee,Other,Universal,Fixed (7%),0.01149974
+2024,47,Tennessee,Other,Partial emp.,Sliding scale,0.01881709
+2024,47,Tennessee,Other,Partial emp.,Fixed (7%),0.01049683
+2024,47,Tennessee,Other,Max emp.,Sliding scale,0.01174589
+2024,47,Tennessee,Other,Max emp.,Fixed (7%),0.00620491
+2024,48,Texas,Other,Universal,Sliding scale,0.02177568
+2024,48,Texas,Other,Universal,Fixed (7%),0.01532912
+2024,48,Texas,Other,Partial emp.,Sliding scale,0.02008516
+2024,48,Texas,Other,Partial emp.,Fixed (7%),0.01378348
+2024,48,Texas,Other,Max emp.,Sliding scale,0.01148834
+2024,48,Texas,Other,Max emp.,Fixed (7%),0.00745943
+2024,49,Utah,Other,Universal,Sliding scale,0.02610861
+2024,49,Utah,Other,Universal,Fixed (7%),0.01692363
+2024,49,Utah,Other,Partial emp.,Sliding scale,0.0249655
+2024,49,Utah,Other,Partial emp.,Fixed (7%),0.01590839
+2024,49,Utah,Other,Max emp.,Sliding scale,0.0145236
+2024,49,Utah,Other,Max emp.,Fixed (7%),0.00935173
+2024,50,Vermont,Other,Universal,Sliding scale,0
+2024,50,Vermont,Other,Universal,Fixed (7%),0
+2024,50,Vermont,Other,Partial emp.,Sliding scale,0
+2024,50,Vermont,Other,Partial emp.,Fixed (7%),0
+2024,50,Vermont,Other,Max emp.,Sliding scale,0
+2024,50,Vermont,Other,Max emp.,Fixed (7%),0
+2024,51,Virginia,Other,Universal,Sliding scale,0.02772683
+2024,51,Virginia,Other,Universal,Fixed (7%),0.02047184
+2024,51,Virginia,Other,Partial emp.,Sliding scale,0.02589614
+2024,51,Virginia,Other,Partial emp.,Fixed (7%),0.01891658
+2024,51,Virginia,Other,Max emp.,Sliding scale,0.01505433
+2024,51,Virginia,Other,Max emp.,Fixed (7%),0.01056042
+2024,53,Washington,Other,Universal,Sliding scale,0.03176596
+2024,53,Washington,Other,Universal,Fixed (7%),0.0247734
+2024,53,Washington,Other,Partial emp.,Sliding scale,0.0300626
+2024,53,Washington,Other,Partial emp.,Fixed (7%),0.02327102
+2024,53,Washington,Other,Max emp.,Sliding scale,0.01762714
+2024,53,Washington,Other,Max emp.,Fixed (7%),0.01339795
+2024,54,West Virginia,Other,Universal,Sliding scale,0.02733128
+2024,54,West Virginia,Other,Universal,Fixed (7%),0.02038211
+2024,54,West Virginia,Other,Partial emp.,Sliding scale,0.02282668
+2024,54,West Virginia,Other,Partial emp.,Fixed (7%),0.01678414
+2024,54,West Virginia,Other,Max emp.,Sliding scale,0.01266612
+2024,54,West Virginia,Other,Max emp.,Fixed (7%),0.0092866
+2024,55,Wisconsin,Other,Universal,Sliding scale,0.0226243
+2024,55,Wisconsin,Other,Universal,Fixed (7%),0.01731092
+2024,55,Wisconsin,Other,Partial emp.,Sliding scale,0.01986204
+2024,55,Wisconsin,Other,Partial emp.,Fixed (7%),0.01473666
+2024,55,Wisconsin,Other,Max emp.,Sliding scale,0.01361978
+2024,55,Wisconsin,Other,Max emp.,Fixed (7%),0.009827
+2024,56,Wyoming,Other,Universal,Sliding scale,0.02491845
+2024,56,Wyoming,Other,Universal,Fixed (7%),0.01675135
+2024,56,Wyoming,Other,Partial emp.,Sliding scale,0.0246872
+2024,56,Wyoming,Other,Partial emp.,Fixed (7%),0.01664984
+2024,56,Wyoming,Other,Max emp.,Sliding scale,0.02169507
+2024,56,Wyoming,Other,Max emp.,Fixed (7%),0.01522644
+2024,99999,United States,Other,Universal,Sliding scale,0.02573217
+2024,99999,United States,Other,Universal,Fixed (7%),0.01922028
+2024,99999,United States,Other,Partial emp.,Sliding scale,0.02360273
+2024,99999,United States,Other,Partial emp.,Fixed (7%),0.0172654
+2024,99999,United States,Other,Max emp.,Sliding scale,0.01424996
+2024,99999,United States,Other,Max emp.,Fixed (7%),0.0100475
+2024,1,Alabama,People of Color,Universal,Sliding scale,0.02474133
+2024,1,Alabama,People of Color,Universal,Fixed (7%),0.01771579
+2024,1,Alabama,People of Color,Partial emp.,Sliding scale,0.02077789
+2024,1,Alabama,People of Color,Partial emp.,Fixed (7%),0.01411208
+2024,1,Alabama,People of Color,Max emp.,Sliding scale,0.01345777
+2024,1,Alabama,People of Color,Max emp.,Fixed (7%),0.00892744
+2024,2,Alaska,People of Color,Universal,Sliding scale,0.0329155
+2024,2,Alaska,People of Color,Universal,Fixed (7%),0.02493553
+2024,2,Alaska,People of Color,Partial emp.,Sliding scale,0.02986602
+2024,2,Alaska,People of Color,Partial emp.,Fixed (7%),0.02195594
+2024,2,Alaska,People of Color,Max emp.,Sliding scale,0.01748387
+2024,2,Alaska,People of Color,Max emp.,Fixed (7%),0.01243737
+2024,4,Arizona,People of Color,Universal,Sliding scale,0.02930519
+2024,4,Arizona,People of Color,Universal,Fixed (7%),0.02141754
+2024,4,Arizona,People of Color,Partial emp.,Sliding scale,0.02709857
+2024,4,Arizona,People of Color,Partial emp.,Fixed (7%),0.01947503
+2024,4,Arizona,People of Color,Max emp.,Sliding scale,0.01607679
+2024,4,Arizona,People of Color,Max emp.,Fixed (7%),0.01110354
+2024,5,Arkansas,People of Color,Universal,Sliding scale,0.02784503
+2024,5,Arkansas,People of Color,Universal,Fixed (7%),0.01976437
+2024,5,Arkansas,People of Color,Partial emp.,Sliding scale,0.02519356
+2024,5,Arkansas,People of Color,Partial emp.,Fixed (7%),0.01728495
+2024,5,Arkansas,People of Color,Max emp.,Sliding scale,0.0145463
+2024,5,Arkansas,People of Color,Max emp.,Fixed (7%),0.00942528
+2024,6,California,People of Color,Universal,Sliding scale,0.03116715
+2024,6,California,People of Color,Universal,Fixed (7%),0.02425282
+2024,6,California,People of Color,Partial emp.,Sliding scale,0.02917102
+2024,6,California,People of Color,Partial emp.,Fixed (7%),0.02241612
+2024,6,California,People of Color,Max emp.,Sliding scale,0.01687544
+2024,6,California,People of Color,Max emp.,Fixed (7%),0.01257496
+2024,8,Colorado,People of Color,Universal,Sliding scale,0.03155294
+2024,8,Colorado,People of Color,Universal,Fixed (7%),0.02489502
+2024,8,Colorado,People of Color,Partial emp.,Sliding scale,0.02984338
+2024,8,Colorado,People of Color,Partial emp.,Fixed (7%),0.02331007
+2024,8,Colorado,People of Color,Max emp.,Sliding scale,0.01605202
+2024,8,Colorado,People of Color,Max emp.,Fixed (7%),0.01180409
+2024,9,Connecticut,People of Color,Universal,Sliding scale,0.02380161
+2024,9,Connecticut,People of Color,Universal,Fixed (7%),0.01786283
+2024,9,Connecticut,People of Color,Partial emp.,Sliding scale,0.02206353
+2024,9,Connecticut,People of Color,Partial emp.,Fixed (7%),0.01623878
+2024,9,Connecticut,People of Color,Max emp.,Sliding scale,0.01358656
+2024,9,Connecticut,People of Color,Max emp.,Fixed (7%),0.00955066
+2024,10,Delaware,People of Color,Universal,Sliding scale,0.01616003
+2024,10,Delaware,People of Color,Universal,Fixed (7%),0.01028055
+2024,10,Delaware,People of Color,Partial emp.,Sliding scale,0.01541781
+2024,10,Delaware,People of Color,Partial emp.,Fixed (7%),0.00962895
+2024,10,Delaware,People of Color,Max emp.,Sliding scale,0.0110337
+2024,10,Delaware,People of Color,Max emp.,Fixed (7%),0.00659252
+2024,11,District of Columbia,People of Color,Universal,Sliding scale,0.0410705
+2024,11,District of Columbia,People of Color,Universal,Fixed (7%),0.03720367
+2024,11,District of Columbia,People of Color,Partial emp.,Sliding scale,0.02800301
+2024,11,District of Columbia,People of Color,Partial emp.,Fixed (7%),0.0243494
+2024,11,District of Columbia,People of Color,Max emp.,Sliding scale,0.02214964
+2024,11,District of Columbia,People of Color,Max emp.,Fixed (7%),0.01902749
+2024,12,Florida,People of Color,Universal,Sliding scale,0.02387616
+2024,12,Florida,People of Color,Universal,Fixed (7%),0.01654266
+2024,12,Florida,People of Color,Partial emp.,Sliding scale,0.02188361
+2024,12,Florida,People of Color,Partial emp.,Fixed (7%),0.01471542
+2024,12,Florida,People of Color,Max emp.,Sliding scale,0.01380431
+2024,12,Florida,People of Color,Max emp.,Fixed (7%),0.00883198
+2024,13,Georgia,People of Color,Universal,Sliding scale,0.01785334
+2024,13,Georgia,People of Color,Universal,Fixed (7%),0.01160994
+2024,13,Georgia,People of Color,Partial emp.,Sliding scale,0.01597393
+2024,13,Georgia,People of Color,Partial emp.,Fixed (7%),0.0099486
+2024,13,Georgia,People of Color,Max emp.,Sliding scale,0.00989968
+2024,13,Georgia,People of Color,Max emp.,Fixed (7%),0.00579343
+2024,15,Hawaii,People of Color,Universal,Sliding scale,0.01905499
+2024,15,Hawaii,People of Color,Universal,Fixed (7%),0.0136053
+2024,15,Hawaii,People of Color,Partial emp.,Sliding scale,0.0183713
+2024,15,Hawaii,People of Color,Partial emp.,Fixed (7%),0.01309809
+2024,15,Hawaii,People of Color,Max emp.,Sliding scale,0.01076641
+2024,15,Hawaii,People of Color,Max emp.,Fixed (7%),0.00715159
+2024,16,Idaho,People of Color,Universal,Sliding scale,0.02651754
+2024,16,Idaho,People of Color,Universal,Fixed (7%),0.017384
+2024,16,Idaho,People of Color,Partial emp.,Sliding scale,0.02483719
+2024,16,Idaho,People of Color,Partial emp.,Fixed (7%),0.01595139
+2024,16,Idaho,People of Color,Max emp.,Sliding scale,0.01487564
+2024,16,Idaho,People of Color,Max emp.,Fixed (7%),0.00920221
+2024,17,Illinois,People of Color,Universal,Sliding scale,0.01743367
+2024,17,Illinois,People of Color,Universal,Fixed (7%),0.01180192
+2024,17,Illinois,People of Color,Partial emp.,Sliding scale,0.01620061
+2024,17,Illinois,People of Color,Partial emp.,Fixed (7%),0.01071116
+2024,17,Illinois,People of Color,Max emp.,Sliding scale,0.00936759
+2024,17,Illinois,People of Color,Max emp.,Fixed (7%),0.00582846
+2024,18,Indiana,People of Color,Universal,Sliding scale,0.0295128
+2024,18,Indiana,People of Color,Universal,Fixed (7%),0.02218232
+2024,18,Indiana,People of Color,Partial emp.,Sliding scale,0.02696134
+2024,18,Indiana,People of Color,Partial emp.,Fixed (7%),0.01983354
+2024,18,Indiana,People of Color,Max emp.,Sliding scale,0.01614949
+2024,18,Indiana,People of Color,Max emp.,Fixed (7%),0.01137749
+2024,19,Iowa,People of Color,Universal,Sliding scale,0.02015406
+2024,19,Iowa,People of Color,Universal,Fixed (7%),0.01475181
+2024,19,Iowa,People of Color,Partial emp.,Sliding scale,0.01961989
+2024,19,Iowa,People of Color,Partial emp.,Fixed (7%),0.01426488
+2024,19,Iowa,People of Color,Max emp.,Sliding scale,0.00956322
+2024,19,Iowa,People of Color,Max emp.,Fixed (7%),0.00644174
+2024,20,Kansas,People of Color,Universal,Sliding scale,0.01910026
+2024,20,Kansas,People of Color,Universal,Fixed (7%),0.0123834
+2024,20,Kansas,People of Color,Partial emp.,Sliding scale,0.01770036
+2024,20,Kansas,People of Color,Partial emp.,Fixed (7%),0.01111984
+2024,20,Kansas,People of Color,Max emp.,Sliding scale,0.01048826
+2024,20,Kansas,People of Color,Max emp.,Fixed (7%),0.00605216
+2024,21,Kentucky,People of Color,Universal,Sliding scale,0.02743752
+2024,21,Kentucky,People of Color,Universal,Fixed (7%),0.02025141
+2024,21,Kentucky,People of Color,Partial emp.,Sliding scale,0.02425622
+2024,21,Kentucky,People of Color,Partial emp.,Fixed (7%),0.01741656
+2024,21,Kentucky,People of Color,Max emp.,Sliding scale,0.01257356
+2024,21,Kentucky,People of Color,Max emp.,Fixed (7%),0.00850765
+2024,22,Louisiana,People of Color,Universal,Sliding scale,0.02874531
+2024,22,Louisiana,People of Color,Universal,Fixed (7%),0.02212706
+2024,22,Louisiana,People of Color,Partial emp.,Sliding scale,0.02498314
+2024,22,Louisiana,People of Color,Partial emp.,Fixed (7%),0.01860999
+2024,22,Louisiana,People of Color,Max emp.,Sliding scale,0.01644128
+2024,22,Louisiana,People of Color,Max emp.,Fixed (7%),0.01215887
+2024,23,Maine,People of Color,Universal,Sliding scale,0.02659642
+2024,23,Maine,People of Color,Universal,Fixed (7%),0.02042206
+2024,23,Maine,People of Color,Partial emp.,Sliding scale,0.0242988
+2024,23,Maine,People of Color,Partial emp.,Fixed (7%),0.01821423
+2024,23,Maine,People of Color,Max emp.,Sliding scale,0.0181058
+2024,23,Maine,People of Color,Max emp.,Fixed (7%),0.01358779
+2024,24,Maryland,People of Color,Universal,Sliding scale,0.02422437
+2024,24,Maryland,People of Color,Universal,Fixed (7%),0.01864937
+2024,24,Maryland,People of Color,Partial emp.,Sliding scale,0.02235927
+2024,24,Maryland,People of Color,Partial emp.,Fixed (7%),0.01691964
+2024,24,Maryland,People of Color,Max emp.,Sliding scale,0.0151523
+2024,24,Maryland,People of Color,Max emp.,Fixed (7%),0.01124995
+2024,25,Massachusetts,People of Color,Universal,Sliding scale,0.02621024
+2024,25,Massachusetts,People of Color,Universal,Fixed (7%),0.02086617
+2024,25,Massachusetts,People of Color,Partial emp.,Sliding scale,0.02371194
+2024,25,Massachusetts,People of Color,Partial emp.,Fixed (7%),0.01850023
+2024,25,Massachusetts,People of Color,Max emp.,Sliding scale,0.01561588
+2024,25,Massachusetts,People of Color,Max emp.,Fixed (7%),0.01176625
+2024,26,Michigan,People of Color,Universal,Sliding scale,0.02619234
+2024,26,Michigan,People of Color,Universal,Fixed (7%),0.01968984
+2024,26,Michigan,People of Color,Partial emp.,Sliding scale,0.02272838
+2024,26,Michigan,People of Color,Partial emp.,Fixed (7%),0.01643656
+2024,26,Michigan,People of Color,Max emp.,Sliding scale,0.01388764
+2024,26,Michigan,People of Color,Max emp.,Fixed (7%),0.00977162
+2024,27,Minnesota,People of Color,Universal,Sliding scale,0.0280707
+2024,27,Minnesota,People of Color,Universal,Fixed (7%),0.02276304
+2024,27,Minnesota,People of Color,Partial emp.,Sliding scale,0.02476779
+2024,27,Minnesota,People of Color,Partial emp.,Fixed (7%),0.01963821
+2024,27,Minnesota,People of Color,Max emp.,Sliding scale,0.01706457
+2024,27,Minnesota,People of Color,Max emp.,Fixed (7%),0.01334414
+2024,28,Mississippi,People of Color,Universal,Sliding scale,0.02241134
+2024,28,Mississippi,People of Color,Universal,Fixed (7%),0.01626246
+2024,28,Mississippi,People of Color,Partial emp.,Sliding scale,0.01801554
+2024,28,Mississippi,People of Color,Partial emp.,Fixed (7%),0.01216483
+2024,28,Mississippi,People of Color,Max emp.,Sliding scale,0.01384627
+2024,28,Mississippi,People of Color,Max emp.,Fixed (7%),0.00919528
+2024,29,Missouri,People of Color,Universal,Sliding scale,0.02678829
+2024,29,Missouri,People of Color,Universal,Fixed (7%),0.02005755
+2024,29,Missouri,People of Color,Partial emp.,Sliding scale,0.02472751
+2024,29,Missouri,People of Color,Partial emp.,Fixed (7%),0.01814495
+2024,29,Missouri,People of Color,Max emp.,Sliding scale,0.01572472
+2024,29,Missouri,People of Color,Max emp.,Fixed (7%),0.01102843
+2024,30,Montana,People of Color,Universal,Sliding scale,0.03363852
+2024,30,Montana,People of Color,Universal,Fixed (7%),0.0265901
+2024,30,Montana,People of Color,Partial emp.,Sliding scale,0.03146583
+2024,30,Montana,People of Color,Partial emp.,Fixed (7%),0.02463146
+2024,30,Montana,People of Color,Max emp.,Sliding scale,0.01883352
+2024,30,Montana,People of Color,Max emp.,Fixed (7%),0.01425813
+2024,31,Nebraska,People of Color,Universal,Sliding scale,0.03122522
+2024,31,Nebraska,People of Color,Universal,Fixed (7%),0.02479945
+2024,31,Nebraska,People of Color,Partial emp.,Sliding scale,0.02940646
+2024,31,Nebraska,People of Color,Partial emp.,Fixed (7%),0.02325735
+2024,31,Nebraska,People of Color,Max emp.,Sliding scale,0.01808695
+2024,31,Nebraska,People of Color,Max emp.,Fixed (7%),0.01399782
+2024,32,Nevada,People of Color,Universal,Sliding scale,0.03989091
+2024,32,Nevada,People of Color,Universal,Fixed (7%),0.03191614
+2024,32,Nevada,People of Color,Partial emp.,Sliding scale,0.03780817
+2024,32,Nevada,People of Color,Partial emp.,Fixed (7%),0.03001018
+2024,32,Nevada,People of Color,Max emp.,Sliding scale,0.02349318
+2024,32,Nevada,People of Color,Max emp.,Fixed (7%),0.01845706
+2024,33,New Hampshire,People of Color,Universal,Sliding scale,0.02295622
+2024,33,New Hampshire,People of Color,Universal,Fixed (7%),0.01544693
+2024,33,New Hampshire,People of Color,Partial emp.,Sliding scale,0.02232836
+2024,33,New Hampshire,People of Color,Partial emp.,Fixed (7%),0.01488683
+2024,33,New Hampshire,People of Color,Max emp.,Sliding scale,0.01339061
+2024,33,New Hampshire,People of Color,Max emp.,Fixed (7%),0.00870032
+2024,34,New Jersey,People of Color,Universal,Sliding scale,0.02181462
+2024,34,New Jersey,People of Color,Universal,Fixed (7%),0.01550359
+2024,34,New Jersey,People of Color,Partial emp.,Sliding scale,0.02016314
+2024,34,New Jersey,People of Color,Partial emp.,Fixed (7%),0.0140015
+2024,34,New Jersey,People of Color,Max emp.,Sliding scale,0.01253865
+2024,34,New Jersey,People of Color,Max emp.,Fixed (7%),0.00838883
+2024,35,New Mexico,People of Color,Universal,Sliding scale,0.02657278
+2024,35,New Mexico,People of Color,Universal,Fixed (7%),0.01943562
+2024,35,New Mexico,People of Color,Partial emp.,Sliding scale,0.02383044
+2024,35,New Mexico,People of Color,Partial emp.,Fixed (7%),0.01694196
+2024,35,New Mexico,People of Color,Max emp.,Sliding scale,0.01196786
+2024,35,New Mexico,People of Color,Max emp.,Fixed (7%),0.00819268
+2024,36,New York,People of Color,Universal,Sliding scale,0.03194863
+2024,36,New York,People of Color,Universal,Fixed (7%),0.02596789
+2024,36,New York,People of Color,Partial emp.,Sliding scale,0.02846768
+2024,36,New York,People of Color,Partial emp.,Fixed (7%),0.02265928
+2024,36,New York,People of Color,Max emp.,Sliding scale,0.01665405
+2024,36,New York,People of Color,Max emp.,Fixed (7%),0.0128936
+2024,37,North Carolina,People of Color,Universal,Sliding scale,0.02141392
+2024,37,North Carolina,People of Color,Universal,Fixed (7%),0.01494052
+2024,37,North Carolina,People of Color,Partial emp.,Sliding scale,0.01935183
+2024,37,North Carolina,People of Color,Partial emp.,Fixed (7%),0.01313551
+2024,37,North Carolina,People of Color,Max emp.,Sliding scale,0.01166774
+2024,37,North Carolina,People of Color,Max emp.,Fixed (7%),0.00759547
+2024,38,North Dakota,People of Color,Universal,Sliding scale,0.02268734
+2024,38,North Dakota,People of Color,Universal,Fixed (7%),0.01749224
+2024,38,North Dakota,People of Color,Partial emp.,Sliding scale,0.02164183
+2024,38,North Dakota,People of Color,Partial emp.,Fixed (7%),0.01654262
+2024,38,North Dakota,People of Color,Max emp.,Sliding scale,0.01174249
+2024,38,North Dakota,People of Color,Max emp.,Fixed (7%),0.00853053
+2024,39,Ohio,People of Color,Universal,Sliding scale,0.02957688
+2024,39,Ohio,People of Color,Universal,Fixed (7%),0.02361738
+2024,39,Ohio,People of Color,Partial emp.,Sliding scale,0.02589896
+2024,39,Ohio,People of Color,Partial emp.,Fixed (7%),0.02012321
+2024,39,Ohio,People of Color,Max emp.,Sliding scale,0.01734756
+2024,39,Ohio,People of Color,Max emp.,Fixed (7%),0.01325892
+2024,40,Oklahoma,People of Color,Universal,Sliding scale,0.03056204
+2024,40,Oklahoma,People of Color,Universal,Fixed (7%),0.0227897
+2024,40,Oklahoma,People of Color,Partial emp.,Sliding scale,0.02738588
+2024,40,Oklahoma,People of Color,Partial emp.,Fixed (7%),0.01991888
+2024,40,Oklahoma,People of Color,Max emp.,Sliding scale,0.01465999
+2024,40,Oklahoma,People of Color,Max emp.,Fixed (7%),0.0101028
+2024,41,Oregon,People of Color,Universal,Sliding scale,0.0238709
+2024,41,Oregon,People of Color,Universal,Fixed (7%),0.01735482
+2024,41,Oregon,People of Color,Partial emp.,Sliding scale,0.02310722
+2024,41,Oregon,People of Color,Partial emp.,Fixed (7%),0.01669717
+2024,41,Oregon,People of Color,Max emp.,Sliding scale,0.01320146
+2024,41,Oregon,People of Color,Max emp.,Fixed (7%),0.00906851
+2024,42,Pennsylvania,People of Color,Universal,Sliding scale,0.02547242
+2024,42,Pennsylvania,People of Color,Universal,Fixed (7%),0.01962512
+2024,42,Pennsylvania,People of Color,Partial emp.,Sliding scale,0.02294907
+2024,42,Pennsylvania,People of Color,Partial emp.,Fixed (7%),0.01732697
+2024,42,Pennsylvania,People of Color,Max emp.,Sliding scale,0.01342625
+2024,42,Pennsylvania,People of Color,Max emp.,Fixed (7%),0.00985447
+2024,44,Rhode Island,People of Color,Universal,Sliding scale,0.02224284
+2024,44,Rhode Island,People of Color,Universal,Fixed (7%),0.01654281
+2024,44,Rhode Island,People of Color,Partial emp.,Sliding scale,0.01968955
+2024,44,Rhode Island,People of Color,Partial emp.,Fixed (7%),0.01422678
+2024,44,Rhode Island,People of Color,Max emp.,Sliding scale,0.00962993
+2024,44,Rhode Island,People of Color,Max emp.,Fixed (7%),0.00615586
+2024,45,South Carolina,People of Color,Universal,Sliding scale,0.02568502
+2024,45,South Carolina,People of Color,Universal,Fixed (7%),0.01890601
+2024,45,South Carolina,People of Color,Partial emp.,Sliding scale,0.02300912
+2024,45,South Carolina,People of Color,Partial emp.,Fixed (7%),0.01639263
+2024,45,South Carolina,People of Color,Max emp.,Sliding scale,0.0135549
+2024,45,South Carolina,People of Color,Max emp.,Fixed (7%),0.00918263
+2024,46,South Dakota,People of Color,Universal,Sliding scale,0.02595994
+2024,46,South Dakota,People of Color,Universal,Fixed (7%),0.02041912
+2024,46,South Dakota,People of Color,Partial emp.,Sliding scale,0.0222202
+2024,46,South Dakota,People of Color,Partial emp.,Fixed (7%),0.01684414
+2024,46,South Dakota,People of Color,Max emp.,Sliding scale,0.01064382
+2024,46,South Dakota,People of Color,Max emp.,Fixed (7%),0.00650812
+2024,47,Tennessee,People of Color,Universal,Sliding scale,0.02229425
+2024,47,Tennessee,People of Color,Universal,Fixed (7%),0.0150491
+2024,47,Tennessee,People of Color,Partial emp.,Sliding scale,0.01959035
+2024,47,Tennessee,People of Color,Partial emp.,Fixed (7%),0.01264144
+2024,47,Tennessee,People of Color,Max emp.,Sliding scale,0.01168407
+2024,47,Tennessee,People of Color,Max emp.,Fixed (7%),0.0070245
+2024,48,Texas,People of Color,Universal,Sliding scale,0.02621224
+2024,48,Texas,People of Color,Universal,Fixed (7%),0.01872595
+2024,48,Texas,People of Color,Partial emp.,Sliding scale,0.02413435
+2024,48,Texas,People of Color,Partial emp.,Fixed (7%),0.01683047
+2024,48,Texas,People of Color,Max emp.,Sliding scale,0.01368641
+2024,48,Texas,People of Color,Max emp.,Fixed (7%),0.00909444
+2024,49,Utah,People of Color,Universal,Sliding scale,0.02902929
+2024,49,Utah,People of Color,Universal,Fixed (7%),0.01943303
+2024,49,Utah,People of Color,Partial emp.,Sliding scale,0.02773521
+2024,49,Utah,People of Color,Partial emp.,Fixed (7%),0.0182027
+2024,49,Utah,People of Color,Max emp.,Sliding scale,0.01577622
+2024,49,Utah,People of Color,Max emp.,Fixed (7%),0.00975879
+2024,50,Vermont,People of Color,Universal,Sliding scale,0.01875142
+2024,50,Vermont,People of Color,Universal,Fixed (7%),0.01523174
+2024,50,Vermont,People of Color,Partial emp.,Sliding scale,0.0149355
+2024,50,Vermont,People of Color,Partial emp.,Fixed (7%),0.0118868
+2024,50,Vermont,People of Color,Max emp.,Sliding scale,0.01379665
+2024,50,Vermont,People of Color,Max emp.,Fixed (7%),0.01093793
+2024,51,Virginia,People of Color,Universal,Sliding scale,0.02723023
+2024,51,Virginia,People of Color,Universal,Fixed (7%),0.02081846
+2024,51,Virginia,People of Color,Partial emp.,Sliding scale,0.0256832
+2024,51,Virginia,People of Color,Partial emp.,Fixed (7%),0.01943988
+2024,51,Virginia,People of Color,Max emp.,Sliding scale,0.01585968
+2024,51,Virginia,People of Color,Max emp.,Fixed (7%),0.01150419
+2024,53,Washington,People of Color,Universal,Sliding scale,0.03217925
+2024,53,Washington,People of Color,Universal,Fixed (7%),0.02524003
+2024,53,Washington,People of Color,Partial emp.,Sliding scale,0.03053889
+2024,53,Washington,People of Color,Partial emp.,Fixed (7%),0.02376996
+2024,53,Washington,People of Color,Max emp.,Sliding scale,0.01730985
+2024,53,Washington,People of Color,Max emp.,Fixed (7%),0.01307069
+2024,54,West Virginia,People of Color,Universal,Sliding scale,0.02787637
+2024,54,West Virginia,People of Color,Universal,Fixed (7%),0.02063201
+2024,54,West Virginia,People of Color,Partial emp.,Sliding scale,0.02600278
+2024,54,West Virginia,People of Color,Partial emp.,Fixed (7%),0.01910088
+2024,54,West Virginia,People of Color,Max emp.,Sliding scale,0.01383584
+2024,54,West Virginia,People of Color,Max emp.,Fixed (7%),0.01002549
+2024,55,Wisconsin,People of Color,Universal,Sliding scale,0.0295734
+2024,55,Wisconsin,People of Color,Universal,Fixed (7%),0.02365205
+2024,55,Wisconsin,People of Color,Partial emp.,Sliding scale,0.02651961
+2024,55,Wisconsin,People of Color,Partial emp.,Fixed (7%),0.02076483
+2024,55,Wisconsin,People of Color,Max emp.,Sliding scale,0.01673058
+2024,55,Wisconsin,People of Color,Max emp.,Fixed (7%),0.01265985
+2024,56,Wyoming,People of Color,Universal,Sliding scale,0.02613206
+2024,56,Wyoming,People of Color,Universal,Fixed (7%),0.01760124
+2024,56,Wyoming,People of Color,Partial emp.,Sliding scale,0.02606259
+2024,56,Wyoming,People of Color,Partial emp.,Fixed (7%),0.0175709
+2024,56,Wyoming,People of Color,Max emp.,Sliding scale,0.01775265
+2024,56,Wyoming,People of Color,Max emp.,Fixed (7%),0.01185509
+2024,99999,United States,People of Color,Universal,Sliding scale,0.02674826
+2024,99999,United States,People of Color,Universal,Fixed (7%),0.02000204
+2024,99999,United States,People of Color,Partial emp.,Sliding scale,0.02450596
+2024,99999,United States,People of Color,Partial emp.,Fixed (7%),0.01794204
+2024,99999,United States,People of Color,Max emp.,Sliding scale,0.01461512
+2024,99999,United States,People of Color,Max emp.,Fixed (7%),0.01030354
