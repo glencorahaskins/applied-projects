@@ -1,0 +1,787 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+#map-tile-root,
+#map-tile-root * {
+  box-sizing: border-box;
+  font-family: "Inter", Arial, Helvetica, sans-serif !important;
+}
+
+html, body {
+  min-height: calc(100vh - 80px);
+  margin: 0;
+}
+
+#map-tile-root {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 2rem;
+  color: var(--color-text-primary, #191919);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+
+/* ── Left: 60% map ── */
+#mtm-left {
+  flex: 0 0 60%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mtm-controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: flex-end;
+  margin-bottom: 14px;
+}
+
+.mtm-ctrl label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--color-text-secondary, #666);
+  margin-bottom: 5px;
+}
+
+.mtm-ctrl select {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 32px 8px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--color-border-secondary, #d6d6d6);
+  background-color: var(--color-background-primary, #fff);
+  color: var(--color-text-primary, #191919);
+  min-width: 160px;
+}
+
+.mtm-segmented {
+  display: inline-flex;
+  align-items: stretch;
+  border: 1px solid var(--color-border-secondary, #d6d6d6);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--color-background-primary, #fff);
+}
+
+.mtm-xbtn {
+  appearance: none;
+  border: 0;
+  border-right: 1px solid var(--color-border-secondary, #d6d6d6);
+  background: var(--color-background-primary, #fff);
+  color: var(--color-text-primary, #191919);
+  padding: 9px 13px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition: background .12s, color .12s;
+  border-radius: 0;
+}
+
+.mtm-xbtn:last-child { border-right: 0; }
+.mtm-xbtn:hover { background: var(--color-background-secondary, #f5f5f5); }
+.mtm-xbtn.is-active { background: #191919; color: #fff; }
+
+.mtm-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-secondary, #666);
+  flex-wrap: wrap;
+}
+
+.mtm-legend-bar {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,.08);
+}
+
+.mtm-chart-scroll {
+  overflow-x: auto;
+  width: 100%;
+}
+
+#mtm-wrap { position: relative; }
+#mtm-map  { position: relative; }
+
+/* ── Right: 40% stacked tables ── */
+#mtm-right {
+  flex: 0 0 40%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* area title row above the tables */
+#mtm-area-header {
+  margin-bottom: 12px;
+}
+
+.mtm-area-title {
+  font-weight: 800;
+  font-size: 16px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.mtm-area-subtitle {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-text-secondary, #888);
+  margin-top: 3px;
+}
+
+.mtm-unpin-btn {
+  font-size: 11px;
+  font-weight: 700;
+  color: #888;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.mtm-unpin-btn:hover { color: #191919; }
+
+/* One card per model */
+.mtm-model-block {
+  border: 1px solid var(--color-border-secondary, #e0e0e0);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.mtm-model-block.is-sticky {
+  border-color: #191919;
+}
+
+.mtm-model-label {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--color-text-secondary, #555);
+  background: var(--color-background-secondary, #f5f5f5);
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--color-border-secondary, #e0e0e0);
+}
+
+.mtm-mini-table-wrap {
+  overflow-x: auto;
+}
+
+.mtm-mini-table {
+  border-collapse: collapse;
+  font-size: 10.5px;
+  width: 100%;
+}
+
+.mtm-mini-table th,
+.mtm-mini-table td {
+  border: 1px solid rgba(0,0,0,.07);
+  padding: 6px 9px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.mtm-mini-table th {
+  background: var(--color-background-secondary, #f5f5f5);
+  font-weight: 800;
+  text-align: center;
+  font-size: 10px;
+}
+
+.mtm-mini-table th:first-child { text-align: left; }
+
+.mtm-mini-rowhead {
+  font-weight: 700;
+  background: var(--color-background-secondary, #fafafa);
+  font-size: 10.5px;
+}
+
+.mtm-mini-cell { min-width: 72px; }
+
+.mtm-mini-value {
+  font-weight: 800;
+  font-size: 10.5px;
+  margin-bottom: 2px;
+}
+
+.mtm-mini-bar {
+  width: 80%;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(0,0,0,.08);
+  overflow: hidden;
+}
+
+.mtm-mini-fill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.mtm-mini-muted {
+  color: #aaa;
+  font-weight: 600;
+  font-size: 10px;
+}
+</style>
+
+<div id="map-tile-root">
+
+  <!-- Left: map -->
+  <div id="mtm-left">
+    <div class="mtm-controls">
+      <div class="mtm-ctrl">
+        <label>Model</label>
+        <div id="mtm-model-buttons" class="mtm-segmented"></div>
+      </div>
+      <div class="mtm-ctrl">
+        <label for="mtm-scenario">Scenario</label>
+        <select id="mtm-scenario"></select>
+      </div>
+      <div class="mtm-ctrl">
+        <label for="mtm-race">Race/ethnicity</label>
+        <select id="mtm-race"></select>
+      </div>
+    </div>
+
+    <div class="mtm-legend">
+      <span id="mtm-leg-min"></span>
+      <div class="mtm-legend-bar" id="mtm-leg-bar"></div>
+      <span id="mtm-leg-max"></span>
+    </div>
+
+    <div class="mtm-chart-scroll">
+      <div id="mtm-wrap">
+        <div id="mtm-map"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: stacked model tables -->
+  <div id="mtm-right">
+    <div id="mtm-area-header">
+      <div class="mtm-area-title"><span id="mtm-area-name">Loading…</span></div>
+      <div class="mtm-area-subtitle" id="mtm-area-sub"></div>
+    </div>
+    <div id="mtm-tables"></div>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script>
+(function () {
+  const CSV_URL       = "https://raw.githubusercontent.com/glencorahaskins/applied-projects/refs/heads/main/maps/lf-childcare-tile-map.csv";
+  const TILE_JSON_URL = "https://raw.githubusercontent.com/glencorahaskins/applied-projects/refs/heads/main/maps/us-states-square_dc.json";
+
+  // TILE_SIZE and TILE_GAP are computed dynamically in buildMap()
+  const TILE_GAP_RATIO = 7 / 58; // gap as fraction of tile size
+  const NO_DATA_COLOR = "#C8C5BC";
+  const US_AREA = "99999";
+
+  // All-blues: light → dark (25 steps)
+  const PALETTE = [
+    "#dce8f5","#cfe0f2","#c1d8ee","#b3cfea","#a4c6e6",
+    "#95bce1","#86b2db","#77a8d5","#689dce","#5992c7",
+    "#4b87bf","#3e7bb7","#326fae","#2763a5","#1d579b",
+    "#164c91","#104186","#0b367b","#072b6f","#042163",
+    "#031858","#02104d","#010a42","#010537","#00022c"
+  ];
+
+  let allData    = [];
+  let states     = [];
+  let tiles      = {};
+  let latestYear = null;
+  let latestYearIsNumeric = true;
+  let fixedBreaks   = [];
+  let fixedMin      = null;
+  let fixedMax      = null;
+  let scenarioValues = [];
+  let modelValues    = [];
+  let raceValues     = [];
+  let selectedScenario = "";
+  let selectedModel    = "";
+  let stickyFips = null;
+
+  /* ── utils ── */
+  const esc = v => String(v ?? "").replace(/[&<>"']/g, c =>
+    ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+
+  function fmtPct(v) {
+    const n = Number(v);
+    if (!Number.isFinite(n)) return "—";
+    return `${(n * 100).toFixed(1)}%`;
+  }
+
+  function titleCase(s) {
+    return String(s||"").toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+  }
+
+  function luma(hex) {
+    const n = parseInt(hex.replace("#",""),16);
+    const r=(n>>16)&255, g=(n>>8)&255, b=n&255;
+    return (0.299*r+0.587*g+0.114*b)/255;
+  }
+
+  function uniqueOrdered(data, key) {
+    const seen = new Set(), out = [];
+    data.forEach(d => {
+      const v = String(d[key]??'');
+      if (v && !seen.has(v)) { seen.add(v); out.push(v); }
+    });
+    return out;
+  }
+
+  function medianDiff(vals) {
+    const u = [...new Set(vals.filter(Number.isFinite).map(v=>+v.toFixed(2)))].sort((a,b)=>a-b);
+    const diffs = [];
+    for (let i=1;i<u.length;i++) { const d=+(u[i]-u[i-1]).toFixed(4); if(d>0.0001) diffs.push(d); }
+    if (!diffs.length) return 0.1;
+    diffs.sort((a,b)=>a-b);
+    return diffs[Math.floor(diffs.length/2)];
+  }
+
+  /* ── topology ── */
+  function readStates(raw) {
+    const topo  = raw.content||raw;
+    const geoms = topo?.objects?.regions?.geometries||topo?.objects?.states?.geometries||[];
+    const parsed = geoms.map(g => {
+      const p = g.properties||{};
+      const fips = String(p.id??p.STATEFP??"").padStart(2,"0");
+      let abbr = String(p.state_id||p.postal||p.abbr||"").toUpperCase();
+      if (abbr==="DCC") abbr="DC";
+      return { fips, abbr, name: p.name_lc||titleCase(p.name)||abbr, cx:Number(p.cx), cy:Number(p.cy) };
+    }).filter(d=>d.fips&&d.abbr&&Number.isFinite(d.cx)&&Number.isFinite(d.cy));
+
+    const xs=parsed.map(d=>d.cx), ys=parsed.map(d=>d.cy);
+    const minX=Math.min(...xs), maxY=Math.max(...ys);
+    const sx=medianDiff(xs), sy=medianDiff(ys);
+    parsed.forEach(d=>{ d.c=Math.round((d.cx-minX)/sx); d.r=Math.round((maxY-d.cy)/sy); });
+    const mc=Math.min(...parsed.map(d=>d.c)), mr=Math.min(...parsed.map(d=>d.r));
+    parsed.forEach(d=>{ d.c-=mc; d.r-=mr; });
+    return parsed;
+  }
+
+  /* ── CSV normalisation ──
+     Expects columns: year, area, area_name, scenario, model, racecomp, ss
+     Falls back gracefully if scenario/model are absent and xtype is present
+     (splits xtype on last comma into model + scenario). */
+  function normalizeArea(val, a2f) {
+    if (val==null) return "";
+    const raw = String(val).trim();
+    if (!raw) return "";
+    if (a2f[raw.toUpperCase()]) return a2f[raw.toUpperCase()];
+    if (/^\d+$/.test(raw)) return raw;
+    return "";
+  }
+
+  function pick(row, names) {
+    for (const n of names) if (row[n]!==undefined&&row[n]!==null&&row[n]!=="") return row[n];
+    return "";
+  }
+
+  function normalizeRows(rows) {
+    const a2f = {};
+    states.forEach(s=>{ a2f[s.abbr]=s.fips; });
+
+    return rows.map((row,i)=>{
+      const clean={};
+      Object.keys(row).forEach(k=>{
+        const key=String(k).trim().replace(/^\uFEFF/,"");
+        clean[key]=typeof row[k]==="string"?row[k].trim():row[k];
+      });
+
+      // Support both new (scenario+model) and old (xtype) schemas
+      let scenario = String(pick(clean,["scenario","Scenario","SCENARIO"]));
+      let model    = String(pick(clean,["model","Model","MODEL"]));
+
+      if ((!scenario||!model) && pick(clean,["xtype","XTYPE"])) {
+        // fallback: split xtype "Sliding scale, universal" → model="Sliding scale", scenario="universal"
+        const xtype = String(pick(clean,["xtype","XTYPE"]));
+        const parts = xtype.split(",").map(s=>s.trim());
+        model    = parts.slice(0,-1).join(", ") || xtype;
+        scenario = parts[parts.length-1] || xtype;
+      }
+
+      return {
+        _i: i,
+        year:      pick(clean,["year","Year","YEAR"]),
+        area:      normalizeArea(pick(clean,["area","fips","state_fips","state","state_id","id"]),a2f),
+        area_name: pick(clean,["area_name","state_name","name"]),
+        scenario,
+        model,
+        racecomp:  String(pick(clean,["racecomp","race_comp","race","RACECOMP"])),
+        ss:        Number(pick(clean,["ss","SS","value","Value","exp", "lf"]))
+      };
+    }).filter(d=>d.area&&Number.isFinite(d.ss));
+  }
+
+  /* ── year ── */
+  function setLatestYear(data) {
+    const ny = data.map(d=>Number(d.year)).filter(Number.isFinite);
+    if (ny.length) { latestYearIsNumeric=true; latestYear=Math.max(...ny); return; }
+    latestYearIsNumeric=false; latestYear=uniqueOrdered(data,"year").at(-1);
+  }
+  function isLatest(d) {
+    if (latestYear==null||latestYear==="") return true;
+    return latestYearIsNumeric?Number(d.year)===latestYear:String(d.year)===String(latestYear);
+  }
+
+  /* ── colour scale (quantile) ── */
+  function buildLinearScale(values) {
+    const sorted = values.map(Number).filter(Number.isFinite).sort((a,b)=>a-b);
+    if (!sorted.length) return { min:0, max:1, breaks:[] };
+    const n = PALETTE.length;
+    const breaks = Array.from({length:n+1}, (_,i) => {
+      const idx = (sorted.length-1)*(i/n);
+      const lo = Math.floor(idx), hi = Math.ceil(idx), h = idx-lo;
+      return sorted[lo]*(1-h)+(sorted[hi]??sorted[lo])*h;
+    });
+    return { min: breaks[0], max: breaks[breaks.length-1], breaks };
+  }
+
+  function colorFor(v, breaks) {
+    const n = Number(v);
+    if (!Number.isFinite(n)||!breaks.length) return NO_DATA_COLOR;
+    for (let i=1;i<breaks.length;i++) if(n<=breaks[i]) return PALETTE[i-1];
+    return PALETTE[PALETTE.length-1];
+  }
+
+  function barPct(v) {
+    if (fixedMin===null||fixedMax===null||fixedMax===fixedMin) return 0;
+    return Math.max(0,Math.min(100,((Number(v)-fixedMin)/(fixedMax-fixedMin))*100));
+  }
+
+  /* ── data queries ── */
+  function getAreaRows(areaCode) {
+    return allData.filter(d=>isLatest(d)&&String(d.area)===String(areaCode));
+  }
+
+  function fipsToArea(fips) {
+    const n = parseInt(fips,10);
+    const m = allData.find(d=>parseInt(d.area,10)===n);
+    return m?m.area:String(n);
+  }
+
+  function areaName(areaCode) {
+    if (String(areaCode)===US_AREA) return "United States";
+    const n=parseInt(areaCode,10);
+    const st=states.find(s=>parseInt(s.fips,10)===n);
+    if (st) return st.name;
+    return getAreaRows(areaCode)[0]?.area_name||String(areaCode);
+  }
+
+  /* ── render right panel ── */
+  function renderPanel(areaCode, isSticky) {
+    const name = areaName(areaCode);
+    const rows = getAreaRows(areaCode);
+
+    // index by model+scenario+race
+    const idx = {};
+    rows.forEach(d=>{
+      const k=`${d.model}|||${d.scenario}|||${d.racecomp}`;
+      if (!idx[k]) idx[k]=d;
+    });
+
+    // header
+    document.getElementById("mtm-area-name").textContent = name;
+    document.getElementById("mtm-area-sub").textContent  =
+      isSticky ? "Pinned — click tile again or unpin to return to U.S." : "Hover over a state to explore";
+
+    // unpin btn
+    const titleEl = document.querySelector(".mtm-area-title");
+    const existing = document.getElementById("mtm-unpin-btn");
+    if (existing) existing.remove();
+    if (isSticky) {
+      const btn = document.createElement("button");
+      btn.className="mtm-unpin-btn"; btn.id="mtm-unpin-btn"; btn.textContent="✕ unpin";
+      btn.addEventListener("click",()=>{
+        if(stickyFips){ const p=tiles[stickyFips]; if(p){p.style.outline="";p.style.filter="";p.style.transform="";} }
+        stickyFips=null;
+        renderPanel(US_AREA,false);
+      });
+      titleEl.appendChild(btn);
+    }
+
+    // sticky border on all cards
+    document.querySelectorAll(".mtm-model-block").forEach(b=>b.classList.toggle("is-sticky",!!isSticky));
+
+    // build one table per model
+    const tablesEl = document.getElementById("mtm-tables");
+    tablesEl.innerHTML="";
+
+    modelValues.forEach(model=>{
+      const block = document.createElement("div");
+      block.className="mtm-model-block"+(isSticky?" is-sticky":"");
+
+      const label = document.createElement("div");
+      label.className="mtm-model-label";
+      label.textContent=model;
+      block.appendChild(label);
+
+      const wrap = document.createElement("div");
+      wrap.className="mtm-mini-table-wrap";
+
+      let html=`<table class="mtm-mini-table"><thead><tr>
+        <th>Race/ethnicity</th>
+        ${scenarioValues.map(s=>`<th>${esc(s)}</th>`).join("")}
+      </tr></thead><tbody>`;
+
+      raceValues.forEach(race=>{
+        html+=`<tr><td class="mtm-mini-rowhead">${esc(race)}</td>`;
+        scenarioValues.forEach(scen=>{
+          const d=idx[`${model}|||${scen}|||${race}`];
+          const v=d?Number(d.ss):NaN;
+          const color=Number.isFinite(v)?colorFor(v,fixedBreaks):"#bbb";
+          const pct=barPct(v);
+          html+=`<td class="mtm-mini-cell">
+            ${Number.isFinite(v)
+              ?`<div class="mtm-mini-value">${fmtPct(v)}</div>
+                <div class="mtm-mini-bar"><div class="mtm-mini-fill" style="width:${pct}%;background:${color}"></div></div>`
+              :`<span class="mtm-mini-muted">—</span>`}
+          </td>`;
+        });
+        html+=`</tr>`;
+      });
+
+      html+=`</tbody></table>`;
+      wrap.innerHTML=html;
+      block.appendChild(wrap);
+      tablesEl.appendChild(block);
+    });
+  }
+
+  /* ── tile map ── */
+  function computeTileSize() {
+    const leftEl = document.getElementById("mtm-left");
+    const availW = leftEl ? leftEl.getBoundingClientRect().width - 32 : 500;
+    const maxC   = Math.max(...states.map(s=>s.c));
+    const cols   = maxC + 1;
+    // tile + gap fills cols * (tile + gap) - gap = availW
+    // tile = (availW + gap) / cols - gap, but gap = tile * TILE_GAP_RATIO
+    // tile * cols * (1 + TILE_GAP_RATIO) - tile * TILE_GAP_RATIO = availW
+    // tile = availW / (cols * (1 + TILE_GAP_RATIO) - TILE_GAP_RATIO)
+    const t = availW / (cols * (1 + TILE_GAP_RATIO) - TILE_GAP_RATIO);
+    return { tileSize: Math.max(20, Math.min(58, Math.floor(t))), tileGap: Math.max(2, Math.floor(t * TILE_GAP_RATIO)) };
+  }
+
+  function buildMap() {
+    const map=document.getElementById("mtm-map");
+    const wrap=document.getElementById("mtm-wrap");
+    map.innerHTML=""; tiles={};
+
+    const { tileSize: TILE_SIZE, tileGap: TILE_GAP } = computeTileSize();
+
+    const maxC=Math.max(...states.map(s=>s.c)), maxR=Math.max(...states.map(s=>s.r));
+    const W=(maxC+1)*(TILE_SIZE+TILE_GAP)-TILE_GAP, H=(maxR+1)*(TILE_SIZE+TILE_GAP)-TILE_GAP;
+    map.style.width=`${W}px`; map.style.height=`${H}px`; wrap.style.width=`${W}px`;
+
+    // Scale font with tile size
+    const fontSize = Math.max(8, Math.floor(TILE_SIZE * 0.21));
+
+    states.forEach(s=>{
+      const tile=document.createElement("div");
+      tile.style.cssText=`
+        position:absolute;
+        left:${s.c*(TILE_SIZE+TILE_GAP)}px;
+        top:${s.r*(TILE_SIZE+TILE_GAP)}px;
+        width:${TILE_SIZE}px; height:${TILE_SIZE}px;
+        border-radius:${Math.max(2, Math.floor(TILE_SIZE*0.07))}px;
+        display:flex; align-items:center; justify-content:center;
+        font-size:${fontSize}px; font-weight:800;
+        cursor:pointer; user-select:none;
+        transition:filter .12s, transform .12s;
+        background:${NO_DATA_COLOR}; color:rgba(90,90,90,.58);
+      `;
+      tile.textContent=s.abbr; tile.id=`tl-${s.fips}`;
+
+      tile.addEventListener("mouseenter",()=>{
+        if(stickyFips) return;
+        renderPanel(fipsToArea(s.fips),false);
+        tile.style.filter="brightness(1.08)"; tile.style.transform="translateY(-1px)";
+      });
+      tile.addEventListener("mouseleave",()=>{
+        if(stickyFips) return;
+        renderPanel(US_AREA,false);
+        tile.style.filter=""; tile.style.transform="";
+      });
+      tile.addEventListener("click",()=>{
+        const area=fipsToArea(s.fips);
+        if(stickyFips===s.fips){
+          stickyFips=null;
+          tile.style.outline=""; tile.style.filter=""; tile.style.transform="";
+          renderPanel(US_AREA,false);
+        } else {
+          if(stickyFips){ const p=tiles[stickyFips]; if(p){p.style.outline="";p.style.filter="";p.style.transform="";} }
+          stickyFips=s.fips;
+          tile.style.outline="2px solid #191919"; tile.style.outlineOffset="1px";
+          tile.style.filter="brightness(1.08)"; tile.style.transform="translateY(-1px)";
+          renderPanel(area,true);
+        }
+      });
+
+      tiles[s.fips]=tile;
+      map.appendChild(tile);
+    });
+
+    map.addEventListener("click",e=>{
+      if(e.target===map&&stickyFips){
+        const p=tiles[stickyFips]; if(p){p.style.outline="";p.style.filter="";p.style.transform="";}
+        stickyFips=null; renderPanel(US_AREA,false);
+      }
+    });
+  }
+
+  /* ── populate filters ── */
+  function populateFilters(data) {
+    const latest=data.filter(isLatest);
+    scenarioValues = uniqueOrdered(latest,"scenario");
+    modelValues    = uniqueOrdered(latest,"model");
+    raceValues     = uniqueOrdered(latest,"racecomp");
+    selectedScenario = scenarioValues[0]||"";
+    selectedModel    = modelValues[0]||"";
+
+    function fill(id, values) {
+      const sel=document.getElementById(id); sel.replaceChildren();
+      values.forEach(v=>sel.appendChild(new Option(v,v)));
+      if(values.length) sel.value=values[0];
+    }
+    fill("mtm-scenario", scenarioValues);
+    fill("mtm-race",     raceValues);
+
+    // Model: segmented button group
+    const btnWrap = document.getElementById("mtm-model-buttons");
+    btnWrap.innerHTML = "";
+    modelValues.forEach(v => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "mtm-xbtn" + (String(v) === String(selectedModel) ? " is-active" : "");
+      btn.textContent = v;
+      btn.dataset.value = v;
+      btn.addEventListener("click", () => {
+        selectedModel = v;
+        document.querySelectorAll("#mtm-model-buttons .mtm-xbtn").forEach(b =>
+          b.classList.toggle("is-active", String(b.dataset.value) === String(v))
+        );
+        updateMap();
+      });
+      btnWrap.appendChild(btn);
+    });
+  }
+
+  /* ── update tile colours ── */
+  function updateMap() {
+    const race     = document.getElementById("mtm-race").value;
+    const filtered = allData.filter(d=>
+      isLatest(d)&&
+      String(d.scenario)===String(selectedScenario)&&
+      String(d.model)===String(selectedModel)&&
+      String(d.racecomp)===String(race)
+    );
+
+    const byArea={};
+    filtered.forEach(d=>{ const k=parseInt(d.area,10); if(!byArea[k]) byArea[k]=d; });
+
+    Object.keys(tiles).forEach(fips=>{
+      const tile=tiles[fips]; const row=byArea[parseInt(fips,10)];
+      if(row&&Number.isFinite(Number(row.ss))){
+        const v=Number(row.ss), color=colorFor(v,fixedBreaks);
+        tile.style.background=color;
+        tile.style.color=luma(color)>0.58?"rgba(35,25,15,.82)":"rgba(255,255,255,.92)";
+        tile.dataset.val=v;
+      } else {
+        tile.style.background=NO_DATA_COLOR; tile.style.color="rgba(90,90,90,.58)"; tile.dataset.val="";
+      }
+    });
+
+    if(stickyFips) renderPanel(fipsToArea(stickyFips),true);
+    else renderPanel(US_AREA,false);
+  }
+
+  /* ── legend ── */
+  function buildLegend() {
+    const bar=document.getElementById("mtm-leg-bar");
+    const minEl=document.getElementById("mtm-leg-min"), maxEl=document.getElementById("mtm-leg-max");
+    bar.innerHTML="";
+    if(!fixedBreaks.length){minEl.textContent="";maxEl.textContent="";return;}
+    PALETTE.forEach((color,i)=>{
+      const sw=document.createElement("div");
+      sw.style.cssText=`width:${Math.max(8,Math.floor(300/PALETTE.length))}px;height:14px;background:${color}`;
+      sw.title=`${fmtPct(fixedBreaks[i])} – ${fmtPct(fixedBreaks[i+1])}`;
+      bar.appendChild(sw);
+    });
+    minEl.textContent=fmtPct(fixedMin);
+    maxEl.textContent=fmtPct(fixedMax);
+  }
+
+  /* ── init ── */
+  async function init() {
+    try {
+      const [csvText,tileJson]=await Promise.all([
+        fetch(CSV_URL).then(r=>{if(!r.ok)throw new Error(`CSV ${r.status}`);return r.text();}),
+        fetch(TILE_JSON_URL).then(r=>{if(!r.ok)throw new Error(`JSON ${r.status}`);return r.json();})
+      ]);
+
+      states  = readStates(tileJson);
+      const p = Papa.parse(csvText,{header:true,skipEmptyLines:true,dynamicTyping:false});
+      allData = normalizeRows(p.data);
+      setLatestYear(allData);
+
+      const latest     = allData.filter(isLatest);
+      // Global linear scale across all state rows (exclude US)
+      const stateVals  = latest.filter(d=>String(d.area)!==US_AREA).map(d=>Number(d.ss)).filter(Number.isFinite);
+      const scale      = buildLinearScale(stateVals);
+      fixedBreaks = scale.breaks; fixedMin=scale.min; fixedMax=scale.max;
+
+      buildMap();
+      populateFilters(allData);
+      buildLegend();
+      updateMap();
+    } catch(err) {
+      console.error(err);
+      document.getElementById("mtm-area-name").textContent="Error loading data";
+      document.getElementById("mtm-area-sub").textContent=String(err);
+    }
+  }
+
+  document.getElementById("mtm-scenario").addEventListener("change",e=>{ selectedScenario=e.target.value; updateMap(); });
+  document.getElementById("mtm-race").addEventListener("change", updateMap);
+
+  // Rebuild map when container resizes (e.g. iframe resize)
+  let resizeTimer = null;
+  const ro = new ResizeObserver(() => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      if (!states.length) return;
+      buildMap();
+      updateMap();
+    }, 120);
+  });
+  ro.observe(document.getElementById("mtm-left"));
+
+  init();
+})();
+</script>
