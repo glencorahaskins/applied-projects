@@ -33,7 +33,7 @@ body {
   width: 100%;
   min-height: 100vh;
   padding: 2rem 1rem;
-  color: var(--color-text-primary, #222);
+  color: var(--color-text-primary, #191919);
 
   display: flex;
   flex-direction: column;
@@ -74,7 +74,7 @@ body {
   border-radius: 4px;
   border: 1px solid var(--color-border-secondary, #d6d6d6);
   background-color: var(--color-background-primary, #fff);
-  color: var(--color-text-primary, #222);
+  color: var(--color-text-primary, #191919);
   min-width: 170px;
 }
 
@@ -90,9 +90,9 @@ body {
 .mtm-xbtn {
   appearance: none;
   border: 0;
-  border-right: 1px solid var(--color-border-secondary, #d6d6d6);
+  border-right: 1px solid var(--color-border-secondary, #191919);
   background: var(--color-background-primary, #fff);
-  color: var(--color-text-primary, #222);
+  color: var(--color-text-primary, #191919);
   padding: 9px 13px;
   font-size: 13px;
   font-weight: 700;
@@ -111,7 +111,7 @@ body {
 }
 
 .mtm-xbtn.is-active {
-  background: #172b5f;
+  background: #191919;
   color: #fff;
 }
 
@@ -154,15 +154,15 @@ body {
   position: absolute;
   background: var(--color-background-primary, #fff);
   border: 1px solid var(--color-border-secondary, #ddd);
-  border-radius: 12px;
+  border-radius: 4px;
   padding: 12px;
-  font-size: 11px;
-  line-height: 1.35;
+  font-size: 8px;
+  line-height: 1.1;
   pointer-events: none;
   display: none;
   z-index: 20;
-  color: var(--color-text-primary, #222);
-  box-shadow: 0 14px 34px rgba(0,0,0,.18);
+  color: var(--color-text-primary, #191919);
+  box-shadow: 0 0px 0px rgba(0,0,0,.18);
   max-width: min(620px, calc(100vw - 36px));
   overflow: hidden;
 }
@@ -180,7 +180,7 @@ body {
 
 .mtm-mini-table {
   border-collapse: collapse;
-  font-size: 11px;
+  font-size: 10px;
   min-width: 100%;
 }
 
@@ -213,8 +213,8 @@ body {
 
 .mtm-mini-value {
   font-weight: 800;
-  font-size: 11px;
-  margin-bottom: 4px;
+  font-size: 10px;
+  margin-bottom: 2px;
 }
 
 .mtm-mini-bar {
@@ -568,63 +568,63 @@ body {
   }
 
   function makeTooltipTable(state) {
-    const rows = getStateRows(state.fips);
-    const byCombo = {};
+  const rows = getStateRows(state.fips);
+  const byCombo = {};
 
-    rows.forEach(d => {
-      const key = `${d.xtype}|||${d.racecomp}`;
-      if (!byCombo[key]) byCombo[key] = d;
+  rows.forEach(d => {
+    const key = `${d.xtype}|||${d.racecomp}`;
+    if (!byCombo[key]) byCombo[key] = d;
+  });
+
+  let html = `
+    <div class="mtm-tip-title">${esc(state.name)}</div>
+    <div class="mtm-mini-table-wrap">
+      <table class="mtm-mini-table">
+        <thead>
+          <tr>
+            <th>Race/ethnicity</th>
+            ${xtypeValues.map(x => `<th>${esc(x)}</th>`).join("")}  <!-- 1. was raceValues -->
+          </tr>
+        </thead>
+        <tbody>
+  `;
+
+  raceValues.forEach(r => {   // 2. was xtypeValues
+    html += `<tr><td class="mtm-mini-rowhead">${esc(r)}</td>`;
+
+    xtypeValues.forEach(x => {   // 3. was raceValues
+      const row = byCombo[`${x}|||${r}`];   // key order stays the same — no change needed here
+      const v = row ? Number(row.ss) : NaN;
+      const color = Number.isFinite(v) ? colorForValue(v, fixedBreaks) : "#bbb";
+      const pct = barPct(v);
+
+      html += `
+        <td class="mtm-mini-cell">
+          ${
+            Number.isFinite(v)
+              ? `
+                <div class="mtm-mini-value">${fmtSS(v)}</div>
+                <div class="mtm-mini-bar">
+                  <div class="mtm-mini-fill" style="width:${pct}%;background:${color};"></div>
+                </div>
+              `
+              : `<span class="mtm-mini-muted">—</span>`
+          }
+        </td>
+      `;
     });
 
-    let html = `
-      <div class="mtm-tip-title">${esc(state.name)}</div>
-      <div class="mtm-mini-table-wrap">
-        <table class="mtm-mini-table">
-          <thead>
-            <tr>
-              <th>Family type</th>
-              ${raceValues.map(r => `<th>${esc(r)}</th>`).join("")}
-            </tr>
-          </thead>
-          <tbody>
-    `;
+    html += `</tr>`;
+  });
 
-    xtypeValues.forEach(x => {
-      html += `<tr><td class="mtm-mini-rowhead">${esc(x)}</td>`;
+  html += `
+        </tbody>
+      </table>
+    </div>
+  `;
 
-      raceValues.forEach(r => {
-        const row = byCombo[`${x}|||${r}`];
-        const v = row ? Number(row.ss) : NaN;
-        const color = Number.isFinite(v) ? colorForValue(v, fixedBreaks) : "#bbb";
-        const pct = barPct(v);
-
-        html += `
-          <td class="mtm-mini-cell">
-            ${
-              Number.isFinite(v)
-                ? `
-                  <div class="mtm-mini-value">${fmtSS(v)}</div>
-                  <div class="mtm-mini-bar">
-                    <div class="mtm-mini-fill" style="width:${pct}%;background:${color};"></div>
-                  </div>
-                `
-                : `<span class="mtm-mini-muted">—</span>`
-            }
-          </td>
-        `;
-      });
-
-      html += `</tr>`;
-    });
-
-    html += `
-          </tbody>
-        </table>
-      </div>
-    `;
-
-    return html;
-  }
+  return html;
+}
 
   function buildMap() {
     const map = document.getElementById("mtm-map");
