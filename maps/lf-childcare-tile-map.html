@@ -40,10 +40,11 @@ html, body {
 .mtm-controls {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 18px;
   align-items: flex-end;
   margin-bottom: 14px;
+  overflow-x: auto;
 }
 
 .mtm-ctrl label {
@@ -64,7 +65,7 @@ html, body {
   border: 1px solid var(--color-border-secondary, #d6d6d6);
   background-color: var(--color-background-primary, #fff);
   color: var(--color-text-primary, #191919);
-  min-width: 160px;
+  min-width: 120px;
 }
 
 .mtm-segmented {
