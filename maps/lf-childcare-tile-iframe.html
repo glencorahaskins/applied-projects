@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Childcare Labor Force Participation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      overflow: hidden;
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #111;
+    }
+
+    /* Pin the whole UI to the viewport — nothing can overflow */
+    #root {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      flex: 0 0 auto;
+      padding: 24px 28px 20px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .header h1 {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.35;
+      margin-bottom: 4px;
+    }
+
+    .header .subtitle {
+      font-size: 13px;
+      color: #444;
+      margin-bottom: 16px;
+    }
+
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .toggle-label {
+      color: #888;
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.2s;
+    }
+
+    .toggle-label.active {
+      color: #111;
+      font-weight: 500;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 36px;
+      height: 20px;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+      position: absolute;
+    }
+
+    .track {
+      position: absolute;
+      inset: 0;
+      border-radius: 999px;
+      background: #ccc;
+      transition: background 0.25s;
+    }
+
+    .switch input:checked + .track { background: #111; }
+
+    .knob {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #fff;
+      transition: transform 0.25s;
+      pointer-events: none;
+    }
+
+    .switch input:checked ~ .knob { transform: translateX(16px); }
+
+    iframe {
+      flex: 1 1 0;
+      min-height: 0;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div class="header">
+      <h1>Predicted increase from observed labor force participation rates at affordability-capped childcare cost thresholds</h1>
+      <p class="subtitle">Parents with children aged 0–12, 2024</p>
+      <div class="toggle-row">
+        <span class="toggle-label active" id="label-left">View by race</span>
+        <label class="switch">
+          <input type="checkbox" id="toggle" />
+          <span class="track"></span>
+          <span class="knob"></span>
+        </label>
+        <span class="toggle-label" id="label-right">View by sex/marital status</span>
+      </div>
+    </div>
+
+    <iframe id="map-frame"
+      src="https://glencorahaskins.github.io/applied-projects/maps/lf-childcare-tile-map.html"
+      scrolling="no"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <script>
+    const toggle = document.getElementById('toggle');
+    const frame  = document.getElementById('map-frame');
+    const left   = document.getElementById('label-left');
+    const right  = document.getElementById('label-right');
+
+    const RACE_URL   = 'https://glencorahaskins.github.io/applied-projects/maps/lf-childcare-tile-map.html';
+    const FAMILY_URL = 'https://glencorahaskins.github.io/applied-projects/maps/lf-ptype-childcare-tile-map.html';
+
+    toggle.addEventListener('change', () => {
+      if (toggle.checked) {
+        frame.src = FAMILY_URL;
+        left.classList.remove('active');
+        right.classList.add('active');
+      } else {
+        frame.src = RACE_URL;
+        left.classList.add('active');
+        right.classList.remove('active');
+      }
+    });
+  </script>
+</body>
+</html>
