@@ -1,3 +1,4 @@
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -40,11 +41,11 @@ html, body {
 .mtm-controls {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;  
+  flex-wrap: nowrap;
   gap: 18px;
   align-items: flex-end;
   margin-bottom: 14px;
-  overflow-x: auto; 
+  overflow-x: auto;
 }
 
 .mtm-ctrl label {
@@ -221,13 +222,26 @@ html, body {
   font-size: 10.5px;
 }
 
-.mtm-mini-cell { min-width: 72px; }
+.mtm-mini-cell { min-width: 88px; }
 
 .mtm-mini-value {
   font-weight: 800;
   font-size: 10.5px;
   margin-bottom: 2px;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
 }
+
+/* lf delta shown inline after the base value */
+.mtm-lf-delta {
+  font-weight: 400;
+  font-size: 9.5px;
+  color: var(--color-text-secondary, #666);
+  white-space: nowrap;
+}
+.mtm-lf-delta.pos { color: #1a7a3c; }
+.mtm-lf-delta.neg { color: #b91c1c; }
 
 .mtm-mini-bar {
   width: 80%;
@@ -263,7 +277,7 @@ html, body {
         <select id="mtm-scenario"></select>
       </div>
       <div class="mtm-ctrl">
-        <label for="mtm-race">Sex/marital status</label>
+        <label for="mtm-race">Family type</label>
         <select id="mtm-race"></select>
       </div>
     </div>
@@ -298,12 +312,10 @@ html, body {
   const CSV_URL       = "https://raw.githubusercontent.com/glencorahaskins/applied-projects/refs/heads/main/maps/lf-ptype-childcare-tile-map.csv";
   const TILE_JSON_URL = "https://raw.githubusercontent.com/glencorahaskins/applied-projects/refs/heads/main/maps/us-states-square_dc.json";
 
-  // TILE_SIZE and TILE_GAP are computed dynamically in buildMap()
-  const TILE_GAP_RATIO = 7 / 58; // gap as fraction of tile size
+  const TILE_GAP_RATIO = 7 / 58;
   const NO_DATA_COLOR = "#C8C5BC";
   const US_AREA = "99999";
 
-  // All-blues: light → dark (25 steps)
   const PALETTE = [
     "#dce8f5","#cfe0f2","#c1d8ee","#b3cfea","#a4c6e6",
     "#95bce1","#86b2db","#77a8d5","#689dce","#5992c7",
@@ -335,6 +347,30 @@ html, body {
     const n = Number(v);
     if (!Number.isFinite(n)) return "—";
     return `${(n * 100).toFixed(1)}%`;
+  }
+
+  /* Format a number as abbreviated: 1234 → "1.2k", 1200000 → "1.2M" */
+function fmtK(v) {
+  const n = Number(v);
+  if (!Number.isFinite(n)) return "—";
+
+  const abs = Math.abs(n);
+  const sign = n >= 0 ? "+" : "−";
+
+  if (abs >= 1e9) return `${sign}${(abs / 1e9).toFixed(1)}B`;
+  if (abs >= 1e6) return `${sign}${(abs / 1e6).toFixed(1)}M`;
+  if (abs >= 1e3) return `${sign}${(abs / 1e3).toFixed(1)}k`;
+
+  return `${sign}${Math.round(abs)}`;
+}
+
+  /* Format lf delta with explicit +/- sign */
+  function fmtLfDelta(lf) {
+    const n = Number(lf);
+    if (!Number.isFinite(n)) return null;
+    const sign = n >= 0 ? "+" : "−";
+    // lf is a proportion (like 0.032), show as percentage points
+    return `${sign}${(Math.abs(n) * 100).toFixed(1)}%`;
   }
 
   function titleCase(s) {
@@ -386,10 +422,7 @@ html, body {
     return parsed;
   }
 
-  /* ── CSV normalisation ──
-     Expects columns: year, area, area_name, scenario, model, racecomp, ss
-     Falls back gracefully if scenario/model are absent and xtype is present
-     (splits xtype on last comma into model + scenario). */
+  /* ── CSV normalisation ── */
   function normalizeArea(val, a2f) {
     if (val==null) return "";
     const raw = String(val).trim();
@@ -415,17 +448,19 @@ html, body {
         clean[key]=typeof row[k]==="string"?row[k].trim():row[k];
       });
 
-      // Support both new (scenario+model) and old (xtype) schemas
       let scenario = String(pick(clean,["scenario","Scenario","SCENARIO"]));
       let model    = String(pick(clean,["model","Model","MODEL"]));
 
       if ((!scenario||!model) && pick(clean,["xtype","XTYPE"])) {
-        // fallback: split xtype "Sliding scale, universal" → model="Sliding scale", scenario="universal"
         const xtype = String(pick(clean,["xtype","XTYPE"]));
         const parts = xtype.split(",").map(s=>s.trim());
         model    = parts.slice(0,-1).join(", ") || xtype;
         scenario = parts[parts.length-1] || xtype;
       }
+
+      // Extract base (count) and lf (labor-force delta) separately
+      const baseRaw = pick(clean,["base","Base","BASE","base_count","base_value"]);
+      const lfRaw   = pick(clean,["lf","LF","ss","SS","value","Value","exp"]);
 
       return {
         _i: i,
@@ -434,10 +469,13 @@ html, body {
         area_name: pick(clean,["area_name","state_name","name"]),
         scenario,
         model,
-        racecomp:  String(pick(clean,["racecomp","race_comp","race","RACECOMP", "ptypeb"])),
-        ss:        Number(pick(clean,["ss","SS","value","Value","exp", "lf"]))
+        racecomp:  String(pick(clean,["ptype", "ptypeb"])),
+        base:      baseRaw !== "" ? Number(baseRaw) : NaN,
+        lf:        lfRaw   !== "" ? Number(lfRaw)   : NaN,
+        // ss is still used for the color scale (use lf if available, else base)
+        ss:        lfRaw !== "" ? Number(lfRaw) : (baseRaw !== "" ? Number(baseRaw) : NaN)
       };
-    }).filter(d=>d.area&&Number.isFinite(d.ss));
+    }).filter(d=>d.area&&(Number.isFinite(d.ss)||Number.isFinite(d.base)||Number.isFinite(d.lf)));
   }
 
   /* ── year ── */
@@ -500,19 +538,16 @@ html, body {
     const name = areaName(areaCode);
     const rows = getAreaRows(areaCode);
 
-    // index by model+scenario+race
     const idx = {};
     rows.forEach(d=>{
       const k=`${d.model}|||${d.scenario}|||${d.racecomp}`;
       if (!idx[k]) idx[k]=d;
     });
 
-    // header
     document.getElementById("mtm-area-name").textContent = name;
     document.getElementById("mtm-area-sub").textContent  =
       isSticky ? "Pinned — click tile again or unpin to return to U.S." : "Hover over a state to explore";
 
-    // unpin btn
     const titleEl = document.querySelector(".mtm-area-title");
     const existing = document.getElementById("mtm-unpin-btn");
     if (existing) existing.remove();
@@ -527,12 +562,14 @@ html, body {
       titleEl.appendChild(btn);
     }
 
-    // sticky border on all cards
     document.querySelectorAll(".mtm-model-block").forEach(b=>b.classList.toggle("is-sticky",!!isSticky));
 
-    // build one table per model
     const tablesEl = document.getElementById("mtm-tables");
     tablesEl.innerHTML="";
+
+    // Detect whether we have real `base` data to show
+    const hasBase = rows.some(d => Number.isFinite(d.base));
+    const hasLf   = rows.some(d => Number.isFinite(d.lf));
 
     modelValues.forEach(model=>{
       const block = document.createElement("div");
@@ -547,22 +584,54 @@ html, body {
       wrap.className="mtm-mini-table-wrap";
 
       let html=`<table class="mtm-mini-table"><thead><tr>
-        <th>Sex/marital status</th>
+        <th>Family type</th>
         ${scenarioValues.map(s=>`<th>${esc(s)}</th>`).join("")}
       </tr></thead><tbody>`;
 
       raceValues.forEach(race=>{
         html+=`<tr><td class="mtm-mini-rowhead">${esc(race)}</td>`;
         scenarioValues.forEach(scen=>{
-          const d=idx[`${model}|||${scen}|||${race}`];
-          const v=d?Number(d.ss):NaN;
-          const color=Number.isFinite(v)?colorFor(v,fixedBreaks):"#bbb";
-          const pct=barPct(v);
+          const d = idx[`${model}|||${scen}|||${race}`];
+
+          const baseVal = d ? d.base : NaN;
+          const lfVal   = d ? d.lf   : NaN;
+          // Use ss for the color bar (lf or base whichever is available)
+          const ssVal   = d ? d.ss   : NaN;
+
+          const hasBaseVal = Number.isFinite(baseVal);
+          const hasLfVal   = Number.isFinite(lfVal);
+          const hasSsVal   = Number.isFinite(ssVal);
+
+          if (!hasSsVal && !hasBaseVal && !hasLfVal) {
+            html+=`<td class="mtm-mini-cell"><span class="mtm-mini-muted">—</span></td>`;
+            return;
+          }
+
+          const color = hasSsVal ? colorFor(ssVal, fixedBreaks) : "#bbb";
+          const pct   = barPct(ssVal);
+
+          // Build the delta span for lf
+          let deltaHtml = "";
+          if (hasLfVal) {
+            const delta = fmtLfDelta(lfVal);
+            if (delta) {
+              const sign = lfVal >= 0 ? "pos" : "neg";
+              deltaHtml = `<span class="mtm-lf-delta ${sign}">(${delta})</span>`;
+            }
+          }
+
+          // Primary display: base count if available, else lf as pct
+          let primaryHtml = "";
+          if (hasBaseVal) {
+            primaryHtml = fmtK(baseVal);
+          } else if (hasLfVal) {
+            primaryHtml = fmtPct(lfVal);
+            deltaHtml = ""; // don't double-show lf
+          }
+
           html+=`<td class="mtm-mini-cell">
-            ${Number.isFinite(v)
-              ?`<div class="mtm-mini-value">${fmtPct(v)}</div>
-                <div class="mtm-mini-bar"><div class="mtm-mini-fill" style="width:${pct}%;background:${color}"></div></div>`
-              :`<span class="mtm-mini-muted">—</span>`}
+            <div class="mtm-mini-value">${primaryHtml}${deltaHtml}</div>
+            <div class="mtm-mini-bar"><div class="mtm-mini-fill" style="width:${pct}%;background:${color}"></div></div>
           </td>`;
         });
         html+=`</tr>`;
@@ -581,10 +650,6 @@ html, body {
     const availW = leftEl ? leftEl.getBoundingClientRect().width - 32 : 500;
     const maxC   = Math.max(...states.map(s=>s.c));
     const cols   = maxC + 1;
-    // tile + gap fills cols * (tile + gap) - gap = availW
-    // tile = (availW + gap) / cols - gap, but gap = tile * TILE_GAP_RATIO
-    // tile * cols * (1 + TILE_GAP_RATIO) - tile * TILE_GAP_RATIO = availW
-    // tile = availW / (cols * (1 + TILE_GAP_RATIO) - TILE_GAP_RATIO)
     const t = availW / (cols * (1 + TILE_GAP_RATIO) - TILE_GAP_RATIO);
     return { tileSize: Math.max(20, Math.min(58, Math.floor(t))), tileGap: Math.max(2, Math.floor(t * TILE_GAP_RATIO)) };
   }
@@ -600,7 +665,6 @@ html, body {
     const W=(maxC+1)*(TILE_SIZE+TILE_GAP)-TILE_GAP, H=(maxR+1)*(TILE_SIZE+TILE_GAP)-TILE_GAP;
     map.style.width=`${W}px`; map.style.height=`${H}px`; wrap.style.width=`${W}px`;
 
-    // Scale font with tile size
     const fontSize = Math.max(8, Math.floor(TILE_SIZE * 0.21));
 
     states.forEach(s=>{
@@ -673,7 +737,6 @@ html, body {
     fill("mtm-scenario", scenarioValues);
     fill("mtm-race",     raceValues);
 
-    // Model: segmented button group
     const btnWrap = document.getElementById("mtm-model-buttons");
     btnWrap.innerHTML = "";
     modelValues.forEach(v => {
@@ -752,7 +815,6 @@ html, body {
       setLatestYear(allData);
 
       const latest     = allData.filter(isLatest);
-      // Global linear scale across all state rows (exclude US)
       const stateVals  = latest.filter(d=>String(d.area)!==US_AREA).map(d=>Number(d.ss)).filter(Number.isFinite);
       const scale      = buildLinearScale(stateVals);
       fixedBreaks = scale.breaks; fixedMin=scale.min; fixedMax=scale.max;
@@ -771,7 +833,6 @@ html, body {
   document.getElementById("mtm-scenario").addEventListener("change",e=>{ selectedScenario=e.target.value; updateMap(); });
   document.getElementById("mtm-race").addEventListener("change", updateMap);
 
-  // Rebuild map when container resizes (e.g. iframe resize)
   let resizeTimer = null;
   const ro = new ResizeObserver(() => {
     clearTimeout(resizeTimer);
