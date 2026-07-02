@@ -4,67 +4,60 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Childcare Labor Force Participation</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
   <style>
-    *, *::before, *::after {
-      box-sizing: border-box;
-      font-family: "Inter", Arial, Helvetica, sans-serif;
-    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     html, body {
-      margin: 0;
-      font-family: "Inter", Arial, Helvetica, sans-serif;
+      overflow: hidden;
+      font-family: 'Inter', sans-serif;
       background: #fff;
-      color: #191919;
+      color: #111;
     }
 
+    /* Pin the whole UI to the viewport — nothing can overflow */
     #root {
-      width: min(100%, 1000px);
-      margin: 0 auto;
+      position: fixed;
+      inset: 0;
       display: flex;
       flex-direction: column;
     }
 
     .header {
       flex: 0 0 auto;
-      padding: 0;
-      width: 100%;
-      margin: 0 auto 18px auto;
+      padding: 24px 28px 20px;
+      border-bottom: 1px solid #e5e5e5;
     }
 
     .header h1 {
       font-size: 18px;
       font-weight: 600;
-      line-height: 1.2;
-      margin: 0 0 5px 0;
+      line-height: 1.35;
+      margin-bottom: 4px;
     }
 
     .header .subtitle {
-      font-size: 15px;
-      line-height: 1.25;
-      font-weight: 400;
-      color: #191919;
-      margin: 0 0 18px 0;
+      font-size: 13px;
+      color: #444;
+      margin-bottom: 16px;
     }
 
     .toggle-row {
-      display: inline-flex;
+      display: flex;
       align-items: center;
       gap: 10px;
       font-size: 13px;
-      margin-bottom: 0;
     }
 
     .toggle-label {
-      color: #666;
+      color: #888;
       cursor: pointer;
       user-select: none;
-      transition: color .2s;
-      white-space: nowrap;
+      transition: color 0.2s;
     }
 
     .toggle-label.active {
-      color: #191919;
+      color: #111;
       font-weight: 500;
     }
 
@@ -89,12 +82,10 @@
       inset: 0;
       border-radius: 999px;
       background: #ccc;
-      transition: background .25s;
+      transition: background 0.25s;
     }
 
-    .switch input:checked + .track {
-      background: #191919;
-    }
+    .switch input:checked + .track { background: #111; }
 
     .knob {
       position: absolute;
@@ -104,56 +95,17 @@
       height: 14px;
       border-radius: 50%;
       background: #fff;
-      transition: transform .25s;
+      transition: transform 0.25s;
       pointer-events: none;
     }
 
-    .switch input:checked ~ .knob {
-      transform: translateX(16px);
-    }
-
-    .frame-shell {
-      width: 100%;
-    }
+    .switch input:checked ~ .knob { transform: translateX(16px); }
 
     iframe {
-      width: 100%;
-      height: 1240px;
+      flex: 1 1 0;
+      min-height: 0;
       border: none;
       display: block;
-    }
-
-    .source {
-      width: 100%;
-      margin: 22px auto 0 auto;
-      font-size: 13px;
-      line-height: 1.25;
-      font-weight: 300;
-      color: rgb(102, 102, 102);
-    }
-
-    .source strong {
-      font-weight: 700;
-    }
-
-    .source a {
-      color: inherit;
-      text-decoration: underline;
-    }
-
-    @media (max-width: 680px) {
-      #root {
-        width: 100%;
-      }
-
-      .toggle-row {
-        gap: 8px;
-        flex-wrap: wrap;
-      }
-
-      iframe {
-        height: 1240px;
-      }
     }
   </style>
 </head>
@@ -161,7 +113,7 @@
   <div id="root">
     <div class="header">
       <h1>Predicted increase from observed labor force participation rates at affordability-capped childcare cost thresholds</h1>
-      <p class="subtitle">Parents with children aged 0-12, 2024</p>
+      <p class="subtitle">Parents with children aged 0–12, 2024</p>
       <div class="toggle-row">
         <span class="toggle-label active" id="label-left">View by race</span>
         <label class="switch">
@@ -173,74 +125,31 @@
       </div>
     </div>
 
-    <div class="frame-shell">
-      <iframe id="map-frame"
-        src="lf-childcare-tile-map.html?embedded=1"
-        scrolling="no"
-        allowfullscreen>
-      </iframe>
-    </div>
-
-    <p class="source">
-      <strong>Source:</strong>
-      <a href="https://www.brookings.edu/articles/states-of-affordability-a-series-on-where-and-why-us-households-struggle-to-make-ends-meet/" target="_blank" rel="noopener">Brookings Metro States of Affordability database</a>
-    </p>
+    <iframe id="map-frame"
+      src="https://glencorahaskins.github.io/applied-projects/maps/lf-childcare-tile-map.html"
+      scrolling="no"
+      allowfullscreen>
+    </iframe>
   </div>
 
   <script>
-    const toggle = document.getElementById("toggle");
-    const frame  = document.getElementById("map-frame");
-    const left   = document.getElementById("label-left");
-    const right  = document.getElementById("label-right");
+    const toggle = document.getElementById('toggle');
+    const frame  = document.getElementById('map-frame');
+    const left   = document.getElementById('label-left');
+    const right  = document.getElementById('label-right');
 
-    const RACE_URL   = "lf-childcare-tile-map.html?embedded=1";
-    const FAMILY_URL = "lf-ptype-childcare-tile-map.html?embedded=1";
-    let frameResizeObserver = null;
+    const RACE_URL   = 'https://glencorahaskins.github.io/applied-projects/maps/lf-childcare-tile-map.html';
+    const FAMILY_URL = 'https://glencorahaskins.github.io/applied-projects/maps/lf-ptype-childcare-tile-map.html';
 
-    function resizeFrameToContent() {
-      try {
-        const doc = frame.contentDocument;
-        if (!doc) return;
-        const height = Math.max(
-          doc.body?.scrollHeight || 0,
-          doc.documentElement?.scrollHeight || 0
-        );
-        if (height) frame.style.height = `${height}px`;
-      } catch (err) {
-        // Keep the CSS fallback height if iframe content is not directly readable.
-      }
-    }
-
-    function watchFrameContent() {
-      if (frameResizeObserver) {
-        frameResizeObserver.disconnect();
-        frameResizeObserver = null;
-      }
-
-      resizeFrameToContent();
-
-      try {
-        const doc = frame.contentDocument;
-        if (!doc || !window.ResizeObserver) return;
-        frameResizeObserver = new ResizeObserver(resizeFrameToContent);
-        frameResizeObserver.observe(doc.documentElement);
-        if (doc.body) frameResizeObserver.observe(doc.body);
-      } catch (err) {
-        // Keep the CSS fallback height if iframe content is not directly readable.
-      }
-    }
-
-    frame.addEventListener("load", watchFrameContent);
-    window.addEventListener("resize", resizeFrameToContent);
-    toggle.addEventListener("change", () => {
+    toggle.addEventListener('change', () => {
       if (toggle.checked) {
         frame.src = FAMILY_URL;
-        left.classList.remove("active");
-        right.classList.add("active");
+        left.classList.remove('active');
+        right.classList.add('active');
       } else {
         frame.src = RACE_URL;
-        left.classList.add("active");
-        right.classList.remove("active");
+        left.classList.add('active');
+        right.classList.remove('active');
       }
     });
   </script>
