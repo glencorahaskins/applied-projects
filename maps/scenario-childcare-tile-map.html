@@ -1022,3 +1022,33 @@ function fmtK(v) {
   init();
 })();
 </script>
+<script>
+(function () {
+  function sendChartHeight() {
+    const root = document.getElementById("map-tile-root");
+    const source = document.querySelector(".mtm-source");
+    const rootRect = root?.getBoundingClientRect();
+    const sourceRect = source?.getBoundingClientRect();
+    const height = Math.ceil(Math.max(
+      rootRect?.bottom || 0,
+      sourceRect?.bottom || 0
+    ));
+
+    window.parent.postMessage({
+      type: "soa-chart-resize",
+      src: window.location.href,
+      chart: window.location.pathname.split("/").pop(),
+      height
+    }, "*");
+  }
+
+  window.addEventListener("load", sendChartHeight);
+  window.addEventListener("resize", sendChartHeight);
+  if ("ResizeObserver" in window) {
+    const target = document.getElementById("map-tile-root") || document.body;
+    new ResizeObserver(sendChartHeight).observe(target);
+  }
+  window.setTimeout(sendChartHeight, 250);
+  window.setTimeout(sendChartHeight, 750);
+})();
+</script>

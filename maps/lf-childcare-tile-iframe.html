@@ -118,7 +118,7 @@
 
     iframe {
       width: 100%;
-      height: 900px;
+      height: 760px;
       border: none;
       display: block;
     }
@@ -133,9 +133,7 @@
         flex-wrap: wrap;
       }
 
-      iframe {
-        height: 1100px;
-      }
+      iframe { height: 980px; }
     }
   </style>
 </head>
@@ -175,6 +173,24 @@
     const FAMILY_URL = "lf-ptype-childcare-tile-map.html?embedded=1";
     let frameResizeObserver = null;
 
+    function sendChartHeight() {
+      const root = document.getElementById("root");
+      const rect = root?.getBoundingClientRect();
+      const height = Math.ceil(Math.max(
+        rect?.bottom || 0,
+        root?.scrollHeight || 0,
+        document.body?.scrollHeight || 0,
+        document.documentElement?.scrollHeight || 0
+      ));
+
+      window.parent.postMessage({
+        type: "soa-chart-resize",
+        src: window.location.href,
+        chart: window.location.pathname.split("/").pop(),
+        height
+      }, "*");
+    }
+
     function resizeFrameToContent() {
       try {
         const doc = frame.contentDocument;
@@ -189,7 +205,8 @@
         const height = chart
           ? Math.ceil(contentBottom + 12)
           : Math.ceil(doc.body?.scrollHeight || 0);
-        if (height) frame.style.height = `${Math.max(height, 900)}px`;
+        if (height) frame.style.height = `${height}px`;
+        sendChartHeight();
       } catch (err) {
         // Keep the CSS fallback height if iframe content is not directly readable.
       }
@@ -204,6 +221,7 @@
       resizeFrameToContent();
       window.setTimeout(resizeFrameToContent, 250);
       window.setTimeout(resizeFrameToContent, 750);
+      window.setTimeout(sendChartHeight, 900);
 
       try {
         const doc = frame.contentDocument;
@@ -222,7 +240,14 @@
     }
 
     frame.addEventListener("load", watchFrameContent);
-    window.addEventListener("resize", resizeFrameToContent);
+    window.addEventListener("load", sendChartHeight);
+    window.addEventListener("resize", () => {
+      resizeFrameToContent();
+      sendChartHeight();
+    });
+    if ("ResizeObserver" in window) {
+      new ResizeObserver(sendChartHeight).observe(document.getElementById("root"));
+    }
     toggle.addEventListener("change", () => {
       if (toggle.checked) {
         frame.src = FAMILY_URL;
@@ -233,6 +258,7 @@
         left.classList.add("active");
         right.classList.remove("active");
       }
+      window.setTimeout(sendChartHeight, 250);
     });
   </script>
 </body>
