@@ -24,112 +24,9 @@ html, body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
-.mtm-header {
-  width: min(100%, 1200px);
-  margin: 0 auto 18px auto;
-}
-
-.is-embedded .mtm-header {
-  display: none;
-}
-
-.mtm-title {
-  margin: 0 0 5px 0;
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: 600;
-  color: var(--color-text-primary, #191919);
-}
-
-.mtm-subtitle {
-  margin: 0;
-  font-size: 15px;
-  line-height: 1.25;
-  font-weight: 400;
-  color: var(--color-text-primary, #191919);
-}
-
-.mtm-view-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 18px;
-  font-size: 13px;
-  line-height: 1.2;
-}
-
-.mtm-toggle-label {
-  color: var(--color-text-secondary, #666);
-  cursor: pointer;
-  user-select: none;
-  white-space: nowrap;
-}
-
-.mtm-toggle-label.is-active {
-  color: var(--color-text-primary, #191919);
-  font-weight: 500;
-}
-
-.mtm-switch {
-  position: relative;
-  display: inline-block;
-  width: 36px;
-  height: 20px;
-  flex: 0 0 36px;
-  cursor: pointer;
-}
-
-.mtm-switch input {
-  position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.mtm-switch-track {
-  position: absolute;
-  inset: 0;
-  border-radius: 999px;
-  background: #ccc;
-  transition: background .2s;
-}
-
-.mtm-switch input:checked + .mtm-switch-track {
-  background: #191919;
-}
-
-.mtm-switch-knob {
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: #fff;
-  transition: transform .2s;
-  pointer-events: none;
-}
-
-.mtm-switch input:checked ~ .mtm-switch-knob {
-  transform: translateX(16px);
-}
-
-.mtm-embedded-view {
-  display: none;
-  width: 100%;
-  max-width: 1200px;
-  min-height: 980px;
-  margin: 0 auto;
-  border: 0;
-}
-
-.mtm-embedded-view.is-active {
-  display: block;
-}
-
 #map-tile-root {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   min-height: 0;
   margin: 0 auto;
   padding: 0;
@@ -436,7 +333,7 @@ html, body {
 }
 
 .mtm-source {
-  width: min(100%, 1200px);
+  width: min(100%, 1000px);
   margin: 22px auto 0 auto;
   font-size: 13px;
   line-height: 1.25;
@@ -490,27 +387,8 @@ html, body {
   .mtm-controls {
     flex-wrap: wrap;
   }
-
-  .mtm-view-toggle {
-    gap: 8px;
-    flex-wrap: wrap;
-  }
 }
 </style>
-
-<div class="mtm-header">
-  <h2 class="mtm-title">Predicted increase from observed labor force participation rates at affordability-capped childcare cost thresholds</h2>
-  <p class="mtm-subtitle">Parents with children aged 0-12, 2024</p>
-  <div class="mtm-view-toggle">
-    <span class="mtm-toggle-label is-active" id="mtm-toggle-race-label">View by race</span>
-    <label class="mtm-switch" aria-label="Switch chart view">
-      <input type="checkbox" id="mtm-view-switch">
-      <span class="mtm-switch-track"></span>
-      <span class="mtm-switch-knob"></span>
-    </label>
-    <span class="mtm-toggle-label" id="mtm-toggle-family-label">View by sex/marital status</span>
-  </div>
-</div>
 
 <div id="map-tile-root">
 
@@ -554,95 +432,12 @@ html, body {
 
 </div>
 
-<iframe
-  id="mtm-ptype-frame"
-  class="mtm-embedded-view"
-  title="View by sex/marital status"
-  scrolling="no">
-</iframe>
-
 <p class="mtm-source">
   <strong>Source:</strong>
   <a href="https://www.brookings.edu/articles/states-of-affordability-a-series-on-where-and-why-us-households-struggle-to-make-ends-meet/" target="_blank" rel="noopener">Brookings Metro States of Affordability database</a>
 </p>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-<script>
-(function () {
-  const viewSwitch = document.getElementById("mtm-view-switch");
-  const raceLabel = document.getElementById("mtm-toggle-race-label");
-  const familyLabel = document.getElementById("mtm-toggle-family-label");
-  const raceView = document.getElementById("map-tile-root");
-  const familyFrame = document.getElementById("mtm-ptype-frame");
-  let frameResizeObserver = null;
-
-  function embeddedFamilyUrl() {
-    const params = new URLSearchParams(window.location.search);
-    params.set("embedded", "1");
-    const suffix = params.toString() ? `?${params.toString()}` : "";
-    return `lf-ptype-childcare-tile-map.html${suffix}`;
-  }
-
-  function resizeFamilyFrame() {
-    try {
-      const doc = familyFrame.contentDocument;
-      if (!doc) return;
-      const height = Math.max(
-        doc.body?.scrollHeight || 0,
-        doc.documentElement?.scrollHeight || 0
-      );
-      if (height) familyFrame.style.height = `${height}px`;
-    } catch (err) {
-      // Keep the CSS fallback height if iframe content is not directly readable.
-    }
-  }
-
-  function watchFamilyFrame() {
-    if (frameResizeObserver) {
-      frameResizeObserver.disconnect();
-      frameResizeObserver = null;
-    }
-
-    resizeFamilyFrame();
-
-    try {
-      const doc = familyFrame.contentDocument;
-      if (!doc || !window.ResizeObserver) return;
-      frameResizeObserver = new ResizeObserver(resizeFamilyFrame);
-      frameResizeObserver.observe(doc.documentElement);
-      if (doc.body) frameResizeObserver.observe(doc.body);
-    } catch (err) {
-      // Keep the CSS fallback height if iframe content is not directly readable.
-    }
-  }
-
-  function setView(showFamily) {
-    viewSwitch.checked = showFamily;
-    raceLabel.classList.toggle("is-active", !showFamily);
-    familyLabel.classList.toggle("is-active", showFamily);
-    raceView.style.display = showFamily ? "none" : "";
-    familyFrame.classList.toggle("is-active", showFamily);
-
-    if (showFamily && !familyFrame.src) {
-      familyFrame.src = embeddedFamilyUrl();
-    } else if (showFamily) {
-      resizeFamilyFrame();
-    }
-  }
-
-  familyFrame.addEventListener("load", watchFamilyFrame);
-  window.addEventListener("resize", resizeFamilyFrame);
-  viewSwitch.addEventListener("change", () => {
-    setView(viewSwitch.checked);
-  });
-  raceLabel.addEventListener("click", () => {
-    setView(false);
-  });
-  familyLabel.addEventListener("click", () => {
-    setView(true);
-  });
-})();
-</script>
 <script>
 (function () {
   const CSV_URL       = "https://raw.githubusercontent.com/glencorahaskins/applied-projects/refs/heads/main/maps/lf-childcare-tile-map.csv";
