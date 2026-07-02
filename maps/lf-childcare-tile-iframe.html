@@ -173,6 +173,13 @@
     const FAMILY_URL = "lf-ptype-childcare-tile-map.html?embedded=1";
     let frameResizeObserver = null;
 
+    function setFrameHeight(height) {
+      const nextHeight = Math.ceil(Number(height));
+      if (!Number.isFinite(nextHeight) || nextHeight <= 0) return;
+      frame.style.height = `${nextHeight}px`;
+      window.requestAnimationFrame(sendChartHeight);
+    }
+
     function sendChartHeight() {
       const root = document.getElementById("root");
       const rect = root?.getBoundingClientRect();
@@ -202,11 +209,14 @@
           const rect = el?.getBoundingClientRect();
           return Math.max(max, rect?.bottom || 0);
         }, 0);
-        const height = chart
-          ? Math.ceil(contentBottom + 12)
-          : Math.ceil(doc.body?.scrollHeight || 0);
-        if (height) frame.style.height = `${height}px`;
-        sendChartHeight();
+        const fullHeight = Math.max(
+          contentBottom,
+          doc.body?.scrollHeight || 0,
+          doc.documentElement?.scrollHeight || 0,
+          doc.body?.offsetHeight || 0,
+          doc.documentElement?.offsetHeight || 0
+        );
+        setFrameHeight(fullHeight + 2);
       } catch (err) {
         // Keep the CSS fallback height if iframe content is not directly readable.
       }
@@ -240,6 +250,11 @@
     }
 
     frame.addEventListener("load", watchFrameContent);
+    window.addEventListener("message", event => {
+      if (event.source !== frame.contentWindow) return;
+      if (!event.data || event.data.type !== "soa-chart-resize") return;
+      setFrameHeight(event.data.height);
+    });
     window.addEventListener("load", sendChartHeight);
     window.addEventListener("resize", () => {
       resizeFrameToContent();
