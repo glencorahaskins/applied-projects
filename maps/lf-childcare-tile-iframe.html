@@ -114,6 +114,19 @@ html, body {
   transform: translateX(16px);
 }
 
+.mtm-embedded-view {
+  display: none;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 980px;
+  margin: 0 auto;
+  border: 0;
+}
+
+.mtm-embedded-view.is-active {
+  display: block;
+}
+
 #map-tile-root {
   width: 100%;
   max-width: 1200px;
@@ -541,6 +554,13 @@ html, body {
 
 </div>
 
+<iframe
+  id="mtm-ptype-frame"
+  class="mtm-embedded-view"
+  title="View by sex/marital status"
+  scrolling="no">
+</iframe>
+
 <p class="mtm-source">
   <strong>Source:</strong>
   <a href="https://www.brookings.edu/articles/states-of-affordability-a-series-on-where-and-why-us-households-struggle-to-make-ends-meet/" target="_blank" rel="noopener">Brookings Metro States of Affordability database</a>
@@ -552,22 +572,74 @@ html, body {
   const viewSwitch = document.getElementById("mtm-view-switch");
   const raceLabel = document.getElementById("mtm-toggle-race-label");
   const familyLabel = document.getElementById("mtm-toggle-family-label");
+  const raceView = document.getElementById("map-tile-root");
+  const familyFrame = document.getElementById("mtm-ptype-frame");
+  let frameResizeObserver = null;
 
-  function goTo(target) {
+  function embeddedFamilyUrl() {
     const params = new URLSearchParams(window.location.search);
+    params.set("embedded", "1");
     const suffix = params.toString() ? `?${params.toString()}` : "";
-    window.location.href = `${target}${suffix}`;
+    return `lf-ptype-childcare-tile-map.html${suffix}`;
   }
 
+  function resizeFamilyFrame() {
+    try {
+      const doc = familyFrame.contentDocument;
+      if (!doc) return;
+      const height = Math.max(
+        doc.body?.scrollHeight || 0,
+        doc.documentElement?.scrollHeight || 0
+      );
+      if (height) familyFrame.style.height = `${height}px`;
+    } catch (err) {
+      // Keep the CSS fallback height if iframe content is not directly readable.
+    }
+  }
+
+  function watchFamilyFrame() {
+    if (frameResizeObserver) {
+      frameResizeObserver.disconnect();
+      frameResizeObserver = null;
+    }
+
+    resizeFamilyFrame();
+
+    try {
+      const doc = familyFrame.contentDocument;
+      if (!doc || !window.ResizeObserver) return;
+      frameResizeObserver = new ResizeObserver(resizeFamilyFrame);
+      frameResizeObserver.observe(doc.documentElement);
+      if (doc.body) frameResizeObserver.observe(doc.body);
+    } catch (err) {
+      // Keep the CSS fallback height if iframe content is not directly readable.
+    }
+  }
+
+  function setView(showFamily) {
+    viewSwitch.checked = showFamily;
+    raceLabel.classList.toggle("is-active", !showFamily);
+    familyLabel.classList.toggle("is-active", showFamily);
+    raceView.style.display = showFamily ? "none" : "";
+    familyFrame.classList.toggle("is-active", showFamily);
+
+    if (showFamily && !familyFrame.src) {
+      familyFrame.src = embeddedFamilyUrl();
+    } else if (showFamily) {
+      resizeFamilyFrame();
+    }
+  }
+
+  familyFrame.addEventListener("load", watchFamilyFrame);
+  window.addEventListener("resize", resizeFamilyFrame);
   viewSwitch.addEventListener("change", () => {
-    if (viewSwitch.checked) goTo("lf-ptype-childcare-tile-map.html");
+    setView(viewSwitch.checked);
   });
   raceLabel.addEventListener("click", () => {
-    viewSwitch.checked = false;
+    setView(false);
   });
   familyLabel.addEventListener("click", () => {
-    viewSwitch.checked = true;
-    goTo("lf-ptype-childcare-tile-map.html");
+    setView(true);
   });
 })();
 </script>
