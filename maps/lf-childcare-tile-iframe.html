@@ -24,6 +24,31 @@ html, body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
+.mtm-header {
+  width: min(100%, 1000px);
+  margin: 0 auto 18px auto;
+}
+
+.is-embedded .mtm-header {
+  display: none;
+}
+
+.mtm-title {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: var(--color-text-primary, #191919);
+}
+
+.mtm-subtitle {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: var(--color-text-primary, #191919);
+}
+
 #map-tile-root {
   width: 100%;
   max-width: 1000px;
@@ -389,6 +414,11 @@ html, body {
   }
 }
 </style>
+
+<div class="mtm-header">
+  <h2 class="mtm-title">Predicted increase from observed labor force participation rates at affordability-capped childcare cost thresholds</h2>
+  <p class="mtm-subtitle">Parents with children aged 0-12, 2024</p>
+</div>
 
 <div id="map-tile-root">
 
