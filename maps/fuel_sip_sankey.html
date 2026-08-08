@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FUEL's 5-Year Strategic and Implementation Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-sankey/0.12.3/d3-sankey.min.js"></script>
+<style>
+  :root{
+    --navy:#123745;
+    --ink:#1c3a45;
+    --paper:#ffffff;
+    --eco:#5FB8B5;
+    --uir:#105972;
+    --tech:#359E6F;
+    --wf:#DDAA01;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--paper);font-family:'Inter',sans-serif;color:var(--ink);height:100%;overflow:hidden;}
+  .page{max-width:1400px;margin:0 auto;padding:18px 40px 16px;height:100vh;display:flex;flex-direction:column;box-sizing:border-box;overflow:hidden;}
+  .topline{display:flex;justify-content:flex-end;flex:0 0 auto;}
+  .topline span{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--uir);}
+  h1{font-size:28px;margin:4px 0 12px;color:var(--navy);font-weight:800;flex:0 0 auto;}
+  .subnote{font-size:12px;color:#5a6b72;font-style:italic;margin:-8px 0 10px;flex:0 0 auto;}
+  .col-headers{display:flex;justify-content:space-between;padding:0 6px;margin-bottom:4px;flex:0 0 auto;}
+  .col-headers .lbl{font-size:13px;font-weight:800;letter-spacing:.03em;color:var(--navy);}
+  .col-headers .lbl.right{text-align:right;}
+  #chart-wrap{position:relative;background:#fff;border-radius:6px;padding:8px 6px 0;flex:1 1 auto;min-height:0;overflow:hidden;}
+  #chart{width:100%;height:100%;display:block;}
+  .node-rect{cursor:pointer;transition:opacity .15s ease;}
+  .node-rect:hover{filter:brightness(1.08);}
+  .tick-rect{cursor:pointer;transition:opacity .15s ease;}
+  .link-path{transition:fill-opacity .2s ease;}
+  .node-label{font-size:12.5px;font-weight:700;pointer-events:none;}
+  .tick-label{font-size:9.5px;fill:#123745;font-weight:700;pointer-events:none;text-anchor:middle;}
+  .item-label{font-size:9px;pointer-events:none;}
+  .mission-label{font-size:14px;font-weight:800;fill:#fff;letter-spacing:.05em;pointer-events:none;}
+  .axis-line{stroke:var(--navy);stroke-width:1.4;}
+  .axis-cap{stroke:var(--navy);stroke-width:1.4;}
+  .axis-text{font-size:12px;font-weight:700;fill:var(--navy);text-anchor:middle;}
+  .hint{font-size:12px;color:#7a8890;text-align:center;margin-top:2px;padding-bottom:10px;}
+
+  .divider{border:none;border-top:1px solid #cfd9dc;margin:14px 0 10px;flex:0 0 auto;}
+  .footer-title{font-size:13px;font-weight:800;color:var(--navy);margin-bottom:8px;flex:0 0 auto;}
+  .footer-title em{font-style:normal;font-weight:600;color:#3b4b52;}
+  .activities-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px 30px;font-size:12px;line-height:1.3;flex:0 0 auto;}
+  .activities-grid .item{display:flex;gap:8px;}
+  .activities-grid .num{font-weight:700;color:var(--uir);flex:0 0 auto;}
+  .fig-caption{margin-top:22px;font-size:13px;}
+  .fig-caption b{color:var(--navy);}
+  .report-footer{margin-top:26px;display:flex;justify-content:space-between;align-items:center;border-top:2px solid var(--navy);padding-top:10px;font-size:12px;font-weight:700;color:var(--navy);}
+
+  /* ---- Drill-down panel ---- */
+  #overlay{position:fixed;inset:0;background:rgba(10,25,30,.45);opacity:0;pointer-events:none;transition:opacity .2s ease;z-index:40;}
+  #overlay.show{opacity:1;pointer-events:auto;}
+  #panel{position:fixed;top:0;right:0;height:100%;width:min(760px,92vw);background:#fff;box-shadow:-8px 0 30px rgba(0,0,0,.25);
+    transform:translateX(100%);transition:transform .25s ease;z-index:41;display:flex;flex-direction:column;}
+  #panel.show{transform:translateX(0);}
+  #panel-head{padding:22px 26px 16px;color:#fff;position:relative;flex:0 0 auto;}
+  #panel-head .eyebrow{font-size:12px;letter-spacing:.08em;font-weight:700;opacity:.85;}
+  #panel-head h2{margin:4px 0 8px;font-size:24px;font-weight:800;}
+  #panel-head p{margin:0;font-size:13.5px;line-height:1.5;max-width:640px;opacity:.96;}
+  #panel-close{position:absolute;top:16px;right:20px;background:rgba(255,255,255,.18);border:none;color:#fff;
+    width:32px;height:32px;border-radius:50%;font-size:18px;cursor:pointer;line-height:1;}
+  #panel-close:hover{background:rgba(255,255,255,.32);}
+  #goal-tabs{display:flex;gap:6px;padding:14px 26px 0;flex:0 0 auto;flex-wrap:wrap;}
+  .goal-tab{border:none;padding:8px 14px;border-radius:6px 6px 0 0;font-size:12.5px;font-weight:700;cursor:pointer;
+    background:#eef2f3;color:#5a6b72;}
+  .goal-tab.active{color:#fff;}
+  #legend-row{display:flex;gap:14px;align-items:center;padding:14px 26px;flex:0 0 auto;flex-wrap:wrap;border-bottom:1px solid #e5eaec;}
+  #legend-row .key-lbl{font-size:11px;font-weight:800;color:#5a6b72;letter-spacing:.06em;}
+  .swatch{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:#3b4b52;}
+  .swatch i{width:16px;height:16px;border-radius:3px;display:inline-block;}
+  #panel-body{padding:20px 26px 40px;overflow-y:auto;flex:1 1 auto;}
+  .goal-title{font-size:16px;font-weight:800;color:var(--navy);margin:0 0 16px;padding:10px 14px;border-left:5px solid #ccc;background:#f5f7f8;border-radius:3px;}
+  .tree-root{display:flex;flex-direction:column;gap:14px;}
+  .tree-branch{display:flex;align-items:center;}
+  .tree-box{padding:10px 14px;border-radius:5px;font-size:12.5px;font-weight:600;line-height:1.35;min-width:150px;max-width:230px;box-shadow:0 1px 2px rgba(0,0,0,.08);}
+  .tree-box.tier-primary,.tree-box.tier-secondary{color:#fff;font-weight:700;}
+  .tree-box.tier-activity,.tree-box.tier-project{color:#1c3a45;}
+  .tree-children{display:flex;flex-direction:column;margin-left:22px;padding-left:20px;border-left:2px solid #d7dee0;gap:10px;position:relative;}
+  .tree-children .tree-branch{position:relative;}
+  .tree-children .tree-branch::before{content:"";position:absolute;left:-20px;top:50%;width:20px;height:2px;background:#d7dee0;}
+  .obj-list{display:flex;flex-direction:column;gap:8px;}
+  .obj-list .row{display:flex;gap:10px;padding:10px 12px;background:#f5f7f8;border-radius:5px;font-size:13px;}
+  .obj-list .row b{color:var(--uir);min-width:20px;}
+  .target-feed{display:flex;flex-direction:column;gap:10px;}
+  .target-feed .row{padding:12px 14px;border-radius:6px;background:#f5f7f8;font-size:13.5px;font-weight:700;display:flex;justify-content:space-between;align-items:center;}
+  .target-feed .row span.tag{font-size:11px;font-weight:800;color:#fff;padding:3px 9px;border-radius:10px;}
+
+  @media (max-width:900px){
+    .activities-grid{grid-template-columns:1fr 1fr;}
+    .page{padding:12px 16px;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <!-- <div class="topline"><span>V. IMPLEMENTATION PLAN</span></div> -->
+  <!-- <h1>FUEL&rsquo;s 5-Year Strategic and Implementation Plan</h1> -->
+  <!-- <p class="subnote">Click any Core Programmatic Objective, Mission goal, or Target below to drill into its detail. Hover to trace a flow.</p> -->
+
+  <hr class="divider">
+  <div class="footer-title">CORE PROGRAMMATIC OBJECTIVES: <em>ACTIVITIES AND PROJECTS</em></div>
+  <div class="activities-grid" id="activities-grid"></div>
+  <hr class="divider">
+
+  <div class="col-headers">
+    <span class="lbl">CORE&nbsp;PROGRAMMATIC&nbsp;OBJECTIVES</span>
+    <span class="lbl right">TARGETS</span>
+  </div>
+
+  <div id="chart-wrap">
+    <svg id="chart" viewBox="0 0 1320 800" preserveAspectRatio="xMidYMid meet"></svg>
+  </div>
+
+  <!-- <p class="fig-caption"><b>FIGURE 7:</b> <i>Sankey chart of FUEL&rsquo;s 5-Year Strategic and Implementation Plan (interactive replica).</i></p> -->
+  <!--  <div class="report-footer"> -->
+   <!--  <span>NSF FUEL Engine in Louisiana&nbsp;&nbsp;|&nbsp;&nbsp;5-Year Strategic and Implementation Plan</span> -->
+  <!-- </div> -->
+</div>
+
+<div id="overlay"></div>
+<div id="panel">
+  <div id="panel-head">
+    <button id="panel-close">&times;</button>
+    <div class="eyebrow" id="panel-eyebrow">MISSION 1</div>
+    <h2 id="panel-title">Title</h2>
+    <p id="panel-desc">Description</p>
+  </div>
+  <div id="goal-tabs"></div>
+  <div id="legend-row">
+    <span class="key-lbl">KEY:</span>
+    <span class="swatch"><i style="background:#123745"></i>PRIMARY KPI</span>
+    <span class="swatch"><i style="background:#5a6b72"></i>SECONDARY KPI</span>
+    <span class="swatch"><i style="background:#aab6ba"></i>ACTIVITY</span>
+    <span class="swatch"><i style="background:#d9e0e2"></i>PROJECT</span>
+  </div>
+  <div id="panel-body"></div>
+</div>
+
+<script>
+/* ============================= DATA ============================= */
+const ACTIVITIES = {
+  1:"LSU Institute for Energy Innovation Community Survey",
+  2:"Emergent Method subawards (2)",
+  3:"Use-Inspired Research and Development subcommittee",
+  4:"Technology Commercialization subcommittee",
+  5:"Workforce Development subcommittee",
+  6:"Strategic Partnerships subcommittee",
+  7:"GNO, Inc. Cooperative Endeavor Agreement (Newlab NOLA)",
+  8:"One (1) University Capacity Building RFP subaward",
+  9:"Six (6) Outside of RFP subawards",
+  10:"Five (5) Published RFP from industry RFI",
+  11:"Seven (7) RFP awards under published RFP",
+  12:"TechInnovent consulting contract",
+  13:"Trepwise consulting contract",
+  14:"Seven (7) proof-of-concept subawards",
+  15:"Three (3) super prize subawards",
+  16:"A3/33 consulting contract",
+  17:"Callais Capital consulting contract",
+  18:"ProFab technical services contract",
+  19:"FUEL/Newlab Spinout Bootcamp",
+  20:"Six (6) Seed RFP subawards",
+  21:"Seven (7) Scale RFP subawards"
+};
+
+const OBJECTIVES = [
+  {id:"obj-eco",  name:"ECOSYSTEM BUILDING",              color:"#5FB8B5", items:[1,2,3,4,5,6,7]},
+  {id:"obj-uir",  name:"USE-INSPIRED RESEARCH",           color:"#105972", items:[8,9,10,11,12]},
+  {id:"obj-tech", name:"TECHNOLOGY COMMERCIALIZATION",    color:"#359E6F", items:[13,14,15,16,17,18]},
+  {id:"obj-wf",   name:"WORKFORCE DEVELOPMENT",           color:"#DDAA01", items:[19,20,21]}
+];
+
+const TARGETS = [
+  {id:"tgt-size",         name:"SIZE OF THE FUEL ECOSYSTEM",              color:"#5FB8B5"},
+  {id:"tgt-valuation",    name:"VALUATION OF THE FUEL ECOSYSTEM",         color:"#105972"},
+  {id:"tgt-employ-fuel",  name:"EMPLOYMENT IN THE FUEL ECOSYSTEM",        color:"#359E6F"},
+  {id:"tgt-employ-lasink",name:"EMPLOYMENT IN THE LOUISIANA CARBON SINK", color:"#DDAA01"}
+];
+
+// Mission colour ramps: [base(header), primary, secondary, activity, project]
+const MISSIONS = [
+  { id:"m1", name:"MISSION 1", base:"#105972",
+    ramp:["#123745","#1F6478","#5B8FA0","#A9C7D1","#E1EAED"],
+    desc:"Build a thriving innovation ecosystem in Louisiana consisting of intellectual-property-enabled growth within companies that develop and scale commercial products centered around carbon management technologies.",
+    goals:[
+      { title:"Inspiring and broadening participation in use-inspired research to generate new IP",
+        tree:[ { tier:"primary", label:"Increase IP licensing in CCU by 25% annually", children:[
+          { tier:"secondary", label:"Conduct one RFI cycle per year", children:[
+            { tier:"activity", label:"Creating focused connections and translating industry RFIs to RFPs", children:[
+              { tier:"project", label:"IAB Liaison Consultant" } ] } ] },
+          { tier:"secondary", label:"Increase participation in RFPs from academic institutions by 25% annually", children:[
+            { tier:"activity", label:"FUEL Annual Innovation Fair", children:[] },
+            { tier:"activity", label:"Innovation Ambassadors", children:[
+              { tier:"project", label:"Core Subawards" } ] } ] },
+          { tier:"secondary", label:"At least 50% of funded UIRD projects result in IP disclosures", children:[
+            { tier:"activity", label:"UIRD-RFP", children:[
+              { tier:"project", label:"UIRD Subawards" } ] } ] }
+        ] } ] },
+      { title:"Develop pathways for 60+ companies to be added to the FUEL Innovation Ecosystem by Year 5",
+        tree:[ { tier:"primary", label:"Support 12 seed-stage companies per year and 12 growth-stage companies by Year 5, and participate in recruiting three scale-stage companies by Year 5", children:[
+          { tier:"secondary", label:"Non-dilutive Investment in more than five seed companies per year", children:[
+            { tier:"activity", label:"Proof-of-Concept (PoC) Program", children:[ { tier:"project", label:"PoC subawards" } ] } ] },
+          { tier:"secondary", label:"Five IP-enabled University spinouts per year", children:[
+            { tier:"activity", label:"Use-Inspired Clusters", children:[ { tier:"project", label:"5 Anchors: ULL, TU, LSU, LATech, XULA" } ] } ] },
+          { tier:"secondary", label:"Recruit two companies through ESO coalition and other strategic partners per year", children:[
+            { tier:"activity", label:"Entrepreneur Support Organization coalition", children:[ { tier:"project", label:"FUEL ESO Subawards" } ] } ] },
+          { tier:"secondary", label:"Support to progress up to seven companies from seed to growth stage (40% progression in three years)", children:[
+            { tier:"activity", label:"IA + FUELr + Newlab NOLA (An LA.IO Initiative)", children:[ { tier:"project", label:"FUELr consultant / FUEL IA consultant" } ] } ] },
+          { tier:"secondary", label:"Recruiting at least five growth and three scale-stage companies per year", children:[
+            { tier:"activity", label:"Newlab NOLA (An LA.IO Initiative) + Cornerstone", children:[] } ] }
+        ] } ] },
+      { title:"Accelerate startup value-creation in the FUEL ecosystem by recruiting risk capital to Louisiana",
+        tree:[ { tier:"primary", label:"Achieve median valuation of $5M for seed-, $20M for growth- and $100M for scale-stage companies", children:[
+          { tier:"secondary", label:"Attract at least 10 new investors per year", children:[ { tier:"activity", label:"Investor Education Program", children:[ { tier:"project", label:"Venture South" } ] } ] },
+          { tier:"secondary", label:"Raise early-stage risk capital of up to $50M", children:[ { tier:"activity", label:"FUELr", children:[ { tier:"project", label:"Callais Capital" } ] } ] },
+          { tier:"secondary", label:"Attract at least one VC firm outside of LA to participate in a funding round per year", children:[ { tier:"activity", label:"Annual Investor Summit", children:[] } ] },
+          { tier:"secondary", label:"Return on investment exceeds peer benchmark by Year 5", children:[
+            { tier:"activity", label:"Investor Alliance (IA)", children:[ { tier:"project", label:"A3 Solutions & 33 Strategies" } ] },
+            { tier:"activity", label:"Evaluate technologies & venture landscape", children:[ { tier:"project", label:"PitchBook" } ] } ] }
+        ] } ] },
+      { title:"Strategic co-investing in infrastructure that enables CCU TRL progression and value creation",
+        tree:[ { tier:"primary", label:"Three incubators completed or under construction in the state by Year 5 for seed-, growth-, and scale-stage carbon management technology companies", children:[
+          { tier:"secondary", label:"Participate in three joint ventures building infrastructure in support of the growth of carbon management technology companies by Year 5", children:[
+            { tier:"activity", label:"BTR Manufacturing", children:[ { tier:"project", label:"BRAF subaward" } ] },
+            { tier:"activity", label:"Newlab NOLA (An LA.IO Initiative)", children:[ { tier:"project", label:"GNO, Inc. CEA" } ] },
+            { tier:"activity", label:"Cornerstone Chem Co.", children:[ { tier:"project", label:"HYCO1 subaward" } ] },
+            { tier:"activity", label:"Strategic planning for a future North LA site", children:[ { tier:"project", label:"Subaward for Infrastructure" } ] }
+          ] } ] } ] }
+    ]
+  },
+  { id:"m2", name:"MISSION 2", base:"#359E6F",
+    ramp:["#1e5c40","#2E9B69","#6FBF97","#B7E0CA","#E7F4EC"],
+    desc:"Create jobs and wealth-building opportunities through innovation-based economic development that attracts and retains world-class talent, especially Louisiana innovators so they may develop their ideas within the state.",
+    goals:[
+      { title:"Grow the number of energy-related founders in FUEL's Entrepreneurial Network of founders from 15 to more than 80 by Year 5",
+        tree:[
+          { tier:"secondary", label:"Add up to 15 founders in FUEL's ecosystem each year", children:[ { tier:"activity", label:"Partner with regional ESO networks in Louisiana", children:[ { tier:"project", label:"FUEL ESO Coalition" } ] } ] },
+          { tier:"secondary", label:"Connect five founders to existing university IP each year", children:[ { tier:"activity", label:"Partner with tech transfer offices at FUEL universities", children:[ { tier:"project", label:"FUEL IP Management system" } ] } ] }
+        ] },
+      { title:"Increase the number of individuals who work in our energy ecosystem who move back to Louisiana",
+        tree:[
+          { tier:"secondary", label:"At least 20% of employees in the FUEL ecosystem of 60 companies will be returning from outside of Louisiana by Year 5", children:[
+            { tier:"activity", label:"STEM alumni outreach (see also Goal 4, Mission 3)", children:[ { tier:"project", label:"FUEL Administered RFP for Academic Alumni Associations" } ] },
+            { tier:"activity", label:"Partner with LED's Come Home, Louisiana campaign", children:[ { tier:"project", label:"Emergent Method" } ] } ] },
+          { tier:"secondary", label:"Award 100% of FUEL relocation award annually", children:[
+            { tier:"activity", label:"Create a FUEL relocation award incentive administered by state or regional EDO", children:[ { tier:"project", label:"EDO RFP" } ] } ] }
+        ] },
+      { title:"Increase the number of individuals (moonlighters and retirees) who join the FUEL ecosystem as either a founder or early hire",
+        tree:[
+          { tier:"secondary", label:"Add at least four retirees each year who join the entrepreneur network", children:[
+            { tier:"activity", label:"Partner with retiree groups that promote lifelong learning, such as retired teachers' associations and the AARP", children:[] } ] },
+          { tier:"secondary", label:"Recruit one moonlighter each year to join the entrepreneurship network", children:[
+            { tier:"activity", label:"Partner with industry retiree clubs and groups to engage their members in FUEL's entrepreneur network", children:[] },
+            { tier:"activity", label:"Partner with regional ESO networks in Louisiana to encourage and teach “entrepreneurial moonlighting”", children:[ { tier:"project", label:"Pilot a moonlighting program at Nexus" } ] } ] }
+        ] },
+      { title:"Transition veterans into new careers within FUEL's innovation ecosystem",
+        tree:[
+          { tier:"secondary", label:"Host an annual Veteran Energy Exploration Day, serving 55 veterans per year, in partnership with an industry leader", children:[
+            { tier:"activity", label:"Veterans-to-Ventures Boot Camps to translate enlisted technical skills into startup and innovation roles", children:[ { tier:"project", label:"LA Boot Partnership" } ] },
+            { tier:"activity", label:"Energy Awareness Campaign (see also Mission 3, Goal 4)", children:[ { tier:"project", label:"Emergent Method" } ] } ] },
+          { tier:"secondary", label:"Add at least 20 veterans to FUEL's entrepreneurship network", children:[
+            { tier:"activity", label:"Veteran-Entrepreneur Pairings", children:[ { tier:"project", label:"Maven Scouts" } ] },
+            { tier:"activity", label:"Transition military-affiliated IP and innovators into Louisiana's energy ecosystem", children:[ { tier:"project", label:"Maven Scouts" } ] } ] }
+        ] }
+    ]
+  },
+  { id:"m3", name:"MISSION 3", base:"#DDAA01",
+    ramp:["#8a6a10","#DDAA01","#E9C558","#F1DDA0","#FBF3DA"],
+    desc:"Prepare an innovative energy workforce from across all Louisiana communities to fill and sustain the jobs created and retained.",
+    goals:[
+      { title:"Create an energy innovator pathway and related programming to intentionally equip 45–60 Louisiana higher education students with skills to launch and/or manage a startup company",
+        tree:[ { tier:"primary", label:"50% retention of Founder's Intensive program participants in FUEL's Innovation Ecosystem upon graduation", children:[
+          { tier:"secondary", label:"Expose 300 higher education students and faculty annually to energy start-up opportunities", children:[
+            { tier:"activity", label:"Energy innovator awareness activities: lunch/learn, speaker events, curriculum development proposal", children:[] } ] },
+          { tier:"secondary", label:"15–20 higher education students participating in founders intensive", children:[
+            { tier:"activity", label:"Founders Intensive", children:[ { tier:"project", label:"Subaward to Activate" } ] } ] },
+          { tier:"secondary", label:"An average of 1–3 energy companies created by Louisiana higher education graduates annually", children:[
+            { tier:"activity", label:"Founders Intensive", children:[ { tier:"project", label:"Subaward to Activate" } ] } ] }
+        ] } ] },
+      { title:"Increase the number of higher education learners in community colleges, four-year schools and graduate programs attaining degrees, certifications and/or credentials that align directly with high-wage, high-demand careers in Louisiana's energy sector by 20% year over year",
+        tree:[
+          { tier:"secondary", label:"100 student annual increase in IBCs/Associate's Degrees", children:[ { tier:"activity", label:"Create stipend fund tied to energy programs", children:[ { tier:"project", label:"LCTCS administered support fund" } ] } ] },
+          { tier:"secondary", label:"Five to ten programs created/evolved to enhance energy workforce by Year 5", children:[ { tier:"activity", label:"Competitive grant/RFP process for higher ed partners", children:[ { tier:"project", label:"LCTCS administered RFP process" }, { tier:"project", label:"FUEL administered RFP process for four-year schools" } ] } ] },
+          { tier:"secondary", label:"Over >100K unique views of energy workforce data by Year 5", children:[ { tier:"activity", label:"Build energy workforce supply/demand dashboard", children:[ { tier:"project", label:"FUEL administered RFP process for four-year schools" } ] } ] }
+        ] },
+      { title:"Grow the number of high school students directly exposed to energy industry opportunities through either attaining industry-based credentials (IBCs) in craft skills and/or participating in work-based learning opportunities with energy-related employers by 100% by Year 5",
+        tree:[
+          { tier:"secondary", label:"Growing high school internship opportunities in the energy landscape to 150 by Year 5", children:[ { tier:"activity", label:"Recruit/build coalition of energy-related employers", children:[ { tier:"project", label:"LABI subaward to build employer coalition" } ] } ] },
+          { tier:"secondary", label:"Increase the number of high school students attaining energy-relevant IBC/certificates of technical studies by an average of 100 students per year by Year 5", children:[ { tier:"activity", label:"Build/expand support services for school districts", children:[ { tier:"project", label:"YFN subaward for school district support/outreach" } ] } ] },
+          { tier:"secondary", label:"Create energy career exposure opportunities for K–8 students in 30% of Louisiana school districts by Year 5", children:[ { tier:"activity", label:"Establish/implement strategy to grow energy-IBC attainment", children:[ { tier:"project", label:"YFN subaward for school district support/outreach" } ] } ] },
+          { tier:"secondary", label:"Increase the number of K–12 teachers directly exposed to energy careers and relevant curriculum by 20% year over year", children:[
+            { tier:"activity", label:"Implement and scale K–8 energy career awareness", children:[ { tier:"project", label:"FUEL administered RFP" } ] },
+            { tier:"activity", label:"Scale teacher professional development", children:[ { tier:"project", label:"FUEL administered RFP" } ] } ] }
+        ] },
+      { title:"Inform, engage, and inspire Louisiana citizens to participate in and/or support the FUEL Innovation Engine",
+        tree:[
+          { tier:"secondary", label:"200 individuals educated in Louisiana engaged in Come Home, Louisiana recruiting trips each year", children:[ { tier:"activity", label:"STEM alumni outreach (see also Mission 2, Goal 2)", children:[ { tier:"project", label:"FUEL administered RFP for Academic Alumni Associations" } ] } ] },
+          { tier:"secondary", label:"1M views of FUEL-related social media", children:[
+            { tier:"activity", label:"Energy Awareness Campaign (see also Mission 2, Goal 4)", children:[ { tier:"project", label:"Emergent Method" } ] },
+            { tier:"activity", label:"Build and maintain engaging communication of all FUEL activities", children:[ { tier:"project", label:"Emergent Method" } ] } ] },
+          { tier:"secondary", label:"200 faith leaders and fenceline community members engaged in 15 meetings", children:[ { tier:"activity", label:"Faith-based/fenceline community meetings", children:[ { tier:"project", label:"Faith Based Consultant" } ] } ] }
+        ] }
+    ]
+  }
+];
+
+/* Explicit activity -> goal(s) mapping.
+   This is now the single source of truth for every ribbon on the left half of the
+   chart: each numbered activity lists every Mission-Goal it feeds (an activity can
+   fan out to more than one goal). LINKS_OBJ_TO_GOAL below is generated directly
+   from this table, so the tick you see for activity N is always exactly the set of
+   ribbons activity N produces -- nothing is inferred from generic link-stacking. */
+const ITEM_TO_GOALS = {
+  1:["m3g3","m3g4"],
+  2:["m2g2","m3g4"],
+  3:["m1g1"],
+  4:["m1g2","m1g3","m2g1"],
+  5:["m1g1","m2g2"],
+  6:["m1g4","m2g4","m3g4"],
+  7:["m1g4"],
+  8:["m1g1"],
+  9:["m1g1","m1g2"],
+  10:["m1g1"],
+  11:["m1g1","m1g2"],
+  12:["m1g1","m1g2"],
+  13:["m1g2","m2g1"],
+  14:["m1g2","m1g4"],
+  15:["m1g2","m2g3"],
+  16:["m1g3"],
+  17:["m1g3"],
+  18:["m1g2"],
+  19:["m2g1","m3g1"],
+  20:["m3g2","m3g3"],
+  21:["m3g2","m3g3"]
+};
+
+// Derived, not hand-maintained: one entry per (activity, goal) pair, tagged with
+// the activity number (4th element) so we can pin its ribbon to the right tick.
+const LINKS_OBJ_TO_GOAL = [];
+OBJECTIVES.forEach(o=>{
+  o.items.forEach(num=>{
+    ITEM_TO_GOALS[num].forEach(goalId=>{
+      LINKS_OBJ_TO_GOAL.push([o.id, goalId, 1, num]);
+    });
+  });
+});
+
+// Goal -> Target flows (conserved in/out per goal)
+const LINKS_GOAL_TO_TGT = [
+  ["m1g1","tgt-size",1],["m1g1","tgt-valuation",1],
+  ["m1g2","tgt-size",1],["m1g2","tgt-employ-fuel",1],
+  ["m1g3","tgt-valuation",1],["m1g3","tgt-size",1],
+  ["m1g4","tgt-valuation",1],
+  ["m2g1","tgt-employ-fuel",1],["m2g1","tgt-size",1],
+  ["m2g2","tgt-employ-fuel",1],["m2g2","tgt-valuation",1],
+  ["m2g3","tgt-employ-fuel",1],
+  ["m2g4","tgt-employ-fuel",1],["m2g4","tgt-employ-lasink",1],
+  ["m3g1","tgt-employ-lasink",1],["m3g1","tgt-employ-fuel",1],
+  ["m3g2","tgt-employ-lasink",1],["m3g2","tgt-employ-fuel",1],
+  ["m3g3","tgt-employ-lasink",1],["m3g3","tgt-employ-fuel",1],
+  ["m3g4","tgt-employ-lasink",1]
+];
+
+/* Give the Target column its own numbered ticks, the same way the activities on
+   the left are numbered 1-21 -- just continuing that sequence across the four
+   Target blocks (top to bottom, in the order each flow appears above). This is
+   what every incoming ribbon gets pinned to, so Targets fill evenly instead of
+   feeding in sparsely. */
+let _tgtTickSeq = 1;
+const TARGET_TICK_BY_LINK = new Map(); // index into LINKS_GOAL_TO_TGT -> tick number
+const TARGET_ITEMS = {};
+TARGETS.forEach(t=>{
+  const nums = [];
+  LINKS_GOAL_TO_TGT.forEach((l,li)=>{
+    if(l[1]===t.id){
+      const num = _tgtTickSeq++;
+      TARGET_TICK_BY_LINK.set(li, num);
+      nums.push(num);
+    }
+  });
+  TARGET_ITEMS[t.id] = nums;
+});
+
+/* ============================= BUILD GRAPH + RENDER (re-run on resize) ============================= */
+function luminance(hex){
+  const c = d3.color(hex).rgb();
+  return (0.299*c.r + 0.587*c.g + 0.114*c.b);
+}
+function textColorFor(hex){ return luminance(hex) > 150 ? "#123745" : "#ffffff"; }
+
+const svg = d3.select("#chart");
+
+function renderChart(){
+  const wrapEl = document.getElementById("chart-wrap");
+  const cw = wrapEl.clientWidth || 1000;
+  const ch = wrapEl.clientHeight || 600;
+
+  const W = 1320;
+  const MARGIN = {top:10,right:230,bottom:60,left:210};
+  const GAP = 10;
+  const totalGap = GAP*2;
+
+  // Pick a sankey extent height (H) so that the FINAL rendered viewBox's aspect
+  // ratio exactly matches the container's aspect ratio. With matching aspect
+  // ratios, "xMidYMid meet" scales uniformly (no letterboxing, no distortion) --
+  // the chart always fills the full width, and only the vertical proportions
+  // (node spacing / link curvature) change to use whatever height is available.
+  let targetTotalH = W * (ch/cw);
+  let H = targetTotalH - 65 - totalGap + MARGIN.bottom;
+  H = Math.max(420, H); // never compress below a legible minimum
+
+  const nodes = [];
+  OBJECTIVES.forEach(o=>nodes.push({id:o.id, kind:"objective", name:o.name, color:o.color, items:o.items}));
+  MISSIONS.forEach((m,mi)=>{
+    for(let g=0; g<4; g++){
+      nodes.push({id:m.id+"g"+(g+1), kind:"goal", missionIndex:mi, goalIndex:g, name:String(g+1)});
+    }
+  });
+  TARGETS.forEach(t=>nodes.push({id:t.id, kind:"target", name:t.name, color:t.color, items:TARGET_ITEMS[t.id]}));
+
+  const links = [];
+  LINKS_OBJ_TO_GOAL.forEach(([s,t,v,num])=>links.push({source:s,target:t,value:v,itemNum:num}));
+  LINKS_GOAL_TO_TGT.forEach(([s,t,v],li)=>links.push({source:s,target:t,value:v,tgtTick:TARGET_TICK_BY_LINK.get(li)}));
+
+  const nodeIndex = new Map(nodes.map((n,i)=>[n.id,i]));
+  const graphLinks = links.map(l=>({source:nodeIndex.get(l.source), target:nodeIndex.get(l.target), value:l.value, sId:l.source, tId:l.target, itemNum:l.itemNum, tgtTick:l.tgtTick}));
+
+  const sankeyGen = d3.sankey()
+    .nodeId(d=>d.index)
+    .nodeWidth(16)
+    .nodePadding(5)
+    .nodeSort(null)
+    .extent([[MARGIN.left, MARGIN.top], [W-MARGIN.right, H-MARGIN.bottom]]);
+
+  const graph = sankeyGen({
+    nodes: nodes.map((d,i)=>Object.assign({},d,{index:i})),
+    links: graphLinks.map(d=>Object.assign({},d))
+  });
+
+  // ---- widen the objective (source) and target blocks into full labeled panels ----
+  const BLOCK_W = 200;
+  graph.nodes.forEach(n=>{
+    if(n.kind==="objective") n.x0 = n.x1 - BLOCK_W;
+    if(n.kind==="target") n.x1 = n.x0 + BLOCK_W;
+  });
+
+  // ---- make each mission's goal ticks uniform height, AND give the three
+  // missions roughly equal total height -- all three have exactly 4 goals, so an
+  // equal three-way split (rather than sizing by how much flow value happens to
+  // pass through each) is what actually reflects that structure ----
+  const goalNodes = graph.nodes.filter(n=>n.kind==="goal");
+  const byMission = [[],[],[]];
+  goalNodes.forEach(n=> byMission[n.missionIndex].push(n));
+  const colTop = MARGIN.top, colBottom = H - MARGIN.bottom;
+  const missionH = (colBottom-colTop) / byMission.length;
+  byMission.forEach((group,mi)=>{
+    group.sort((a,b)=>a.goalIndex-b.goalIndex);
+    const groupTop = colTop + mi*missionH;
+    const groupBottom = groupTop + missionH;
+    const each = (groupBottom-groupTop)/group.length;
+    group.forEach((n,i)=>{
+      const newY0 = groupTop + i*each;
+      // Evenly space this goal's links along its new tick height -- rather than
+      // proportionally remapping wherever the original layout happened to stack
+      // them, which can leave near-zero gaps between some links when a goal has
+      // many incoming flows (and forces those particular ribbons to render wafer-thin).
+      const srcSorted = n.sourceLinks.slice().sort((a,b)=>a.y0-b.y0);
+      const srcRow = each/(srcSorted.length || 1);
+      srcSorted.forEach((l,idx)=>{ l.y0 = newY0 + idx*srcRow + srcRow/2; });
+
+      const tgtSorted = n.targetLinks.slice().sort((a,b)=>a.y1-b.y1);
+      const tgtRow = each/(tgtSorted.length || 1);
+      tgtSorted.forEach((l,idx)=>{ l.y1 = newY0 + idx*tgtRow + tgtRow/2; });
+
+      n.y0 = newY0; n.y1 = newY0+each;
+    });
+  });
+
+  // ---- add extra vertical gap between mission groups within the goal column ----
+  goalNodes.sort((a,b)=>a.y0-b.y0);
+  let shiftForMission = [0,0,0];
+  {
+    let cum = 0;
+    for(let mi=0; mi<3; mi++){
+      shiftForMission[mi] = cum;
+      cum += GAP;
+    }
+  }
+  goalNodes.forEach(n=>{
+    const delta = shiftForMission[n.missionIndex];
+    if(delta){
+      n.y0 += delta; n.y1 += delta;
+      n.sourceLinks.forEach(l=>l.y0 += delta);
+      n.targetLinks.forEach(l=>l.y1 += delta);
+    }
+  });
+  const newBottom = H - MARGIN.bottom + totalGap;
+  const svgHeight = newBottom + 65;
+
+  // ---- size objective & target blocks proportionally to how many "end nodes" they
+  // carry (ticks for objectives, incoming flow weight for targets) instead of forcing
+  // every block to the same height. Blocks can differ in height from each other, but
+  // together they always span the exact same top-to-bottom range as the goal column --
+  // no leftover blank space inside a block, and no overshoot past the last one. ----
+  const endGap = 6;
+  ["objective","target"].forEach(kind=>{
+    const list = graph.nodes.filter(n=>n.kind===kind);
+    list.sort((a,b)=>a.y0-b.y0);
+    const top = MARGIN.top, bottom = newBottom;
+    const n = list.length;
+    const totalGapAll = (n-1)*endGap;
+    const availableH = bottom - top - totalGapAll;
+    const totalWeight = d3.sum(list, node => kind==="objective" ? node.items.length : node.value);
+    let cursor = top;
+    list.forEach(node=>{
+      const oldY0=node.y0, oldH=node.y1-node.y0;
+      const w = kind==="objective" ? node.items.length : node.value;
+      const h = availableH * (w/totalWeight);
+      const newY0 = cursor;
+
+      if(kind==="objective"){
+        // Pin every activity's ribbon(s) to its own dedicated row (in item order),
+        // so the flow(s) leaving tick N are unambiguously activity N's -- and if
+        // activity N fans out to multiple goals, its row splits evenly between them.
+        const rowH = h/node.items.length;
+        node.items.forEach((num,i)=>{
+          const rowY0 = newY0 + i*rowH;
+          const linksForItem = node.sourceLinks.filter(l=>l.itemNum===num);
+          const subH = rowH/linksForItem.length;
+          linksForItem.forEach((l,j)=>{ l.y0 = rowY0 + j*subH + subH/2; });
+        });
+      } else {
+        // Mirror the objective side: give each numbered incoming flow its own
+        // dedicated row, so Targets fill evenly top-to-bottom instead of
+        // clustering wherever the raw layout happened to stack them.
+        const rowH = h/node.items.length;
+        const byTick = new Map(node.targetLinks.map(l=>[l.tgtTick, l]));
+        node.items.forEach((num,i)=>{
+          const l = byTick.get(num);
+          if(l) l.y1 = newY0 + i*rowH + rowH/2;
+        });
+      }
+
+      node.y0 = newY0; node.y1 = newY0+h;
+      cursor += h + endGap;
+    });
+  });
+
+  svg.selectAll("*").remove();
+  svg.attr("viewBox", `0 0 ${W} ${svgHeight}`).attr("preserveAspectRatio", "xMidYMid meet");
+  const defs = svg.append("defs");
+
+  // gradient defs for obj->goal and goal->target links, based on source color -> target tint
+  graph.links.forEach((l,i)=>{
+    const grad = defs.append("linearGradient").attr("id","grad"+i).attr("gradientUnits","userSpaceOnUse")
+      .attr("x1", l.source.x1).attr("x2", l.target.x0);
+    let c0, c1;
+    if(l.sId.startsWith("obj-")){
+      c0 = OBJECTIVES.find(o=>o.id===l.sId).color;
+      c1 = MISSIONS[l.target.missionIndex].base;
+    } else {
+      c0 = MISSIONS[l.source.missionIndex].base;
+      c1 = TARGETS.find(t=>t.id===l.tId).color;
+    }
+    grad.append("stop").attr("offset","0%").attr("stop-color",c0);
+    grad.append("stop").attr("offset","100%").attr("stop-color",c1);
+  });
+
+  // ---- give every link a safe width AT EACH END SEPARATELY, then draw it as a
+  // tapered ribbon rather than a constant-width stroke. A flow is allowed to be
+  // roomier at one end than the other (e.g. wide where few other activities
+  // compete for space, narrower where a goal is crowded with many incoming
+  // flows) -- forcing one uniform width across the whole link is what was
+  // shrinking otherwise-fine flows down to slivers. ----
+  function safeWidths(nodes, side){
+    const out = new Map();
+    nodes.forEach(node=>{
+      const arr = side==="source" ? node.sourceLinks : node.targetLinks;
+      if(!arr || !arr.length) return;
+      const getY = l => side==="source" ? l.y0 : l.y1;
+      const sorted = arr.slice().sort((a,b)=>getY(a)-getY(b));
+      sorted.forEach((l,i)=>{
+        const y = getY(l);
+        const prevGap = i===0 ? (y-node.y0)*2 : (y-getY(sorted[i-1]));
+        const nextGap = i===sorted.length-1 ? (node.y1-y)*2 : (getY(sorted[i+1])-y);
+        const slot = Math.max(1, Math.min(prevGap,nextGap));
+        out.set(l, Math.min(out.get(l) ?? Infinity, slot));
+      });
+    });
+    return out;
+  }
+  const srcSlots = safeWidths(graph.nodes, "source");
+  const tgtSlots = safeWidths(graph.nodes, "target");
+  graph.links.forEach(l=>{
+    l.wSource = Math.max(1.5, Math.min(l.width, (srcSlots.get(l) ?? l.width)*0.82));
+    l.wTarget = Math.max(1.5, Math.min(l.width, (tgtSlots.get(l) ?? l.width)*0.82));
+  });
+
+  function ribbonPath(l){
+    const x0 = l.source.x1, x1 = l.target.x0;
+    const xm = (x0+x1)/2;
+    const sy0 = l.y0 - l.wSource/2, sy1 = l.y0 + l.wSource/2;
+    const ty0 = l.y1 - l.wTarget/2, ty1 = l.y1 + l.wTarget/2;
+    return `M${x0},${sy0}C${xm},${sy0} ${xm},${ty0} ${x1},${ty0}L${x1},${ty1}C${xm},${ty1} ${xm},${sy1} ${x0},${sy1}Z`;
+  }
+
+  const linkG = svg.append("g");
+  const linkPaths = linkG.selectAll("path").data(graph.links).join("path")
+    .attr("class","link-path")
+    .attr("d", ribbonPath)
+    .attr("fill", (d,i)=>`url(#grad${i})`)
+    .attr("stroke","none")
+    .attr("fill-opacity", 0.45);
+
+  function highlight(nodeId){
+    if(!nodeId){
+      linkPaths.attr("fill-opacity", 0.45);
+      return;
+    }
+    const ids = Array.isArray(nodeId) ? new Set(nodeId) : new Set([nodeId]);
+    linkPaths.attr("fill-opacity", l => (ids.has(l.sId) || ids.has(l.tId)) ? 0.85 : 0.08);
+  }
+
+  /* ---- Objective & Target block nodes ---- */
+  const blockNodes = graph.nodes.filter(n=>n.kind!=="goal");
+  const blockG = svg.append("g").selectAll("g").data(blockNodes).join("g")
+    .attr("class","block-node")
+    .style("cursor","pointer")
+    .on("mouseenter", (e,d)=>highlight(d.id))
+    .on("mouseleave", ()=>highlight(null))
+    .on("click", (e,d)=> d.kind==="objective" ? openObjective(d) : openTarget(d));
+
+  blockG.append("rect")
+    .attr("class","node-rect")
+    .attr("x", d=>d.x0).attr("y", d=>d.y0)
+    .attr("width", d=>d.x1-d.x0).attr("height", d=>Math.max(2,d.y1-d.y0))
+    .attr("fill", d=>d.color)
+    .attr("rx", 3);
+
+  // objective tick marks + item numbers (near the right edge, where flows emerge)
+  const TICK_ZONE = 26;
+  blockG.filter(d=>d.kind==="objective").each(function(d){
+    const g = d3.select(this);
+    const h = d.y1-d.y0;
+    const n = d.items.length;
+    const each = h/n;
+    const txtColor = textColorFor(d.color);
+    d.items.forEach((num,i)=>{
+      const y = d.y0 + i*each;
+      if(i>0){
+        g.append("line").attr("x1",d.x1-TICK_ZONE).attr("x2",d.x1).attr("y1",y).attr("y2",y)
+          .attr("stroke", txtColor).attr("stroke-width",1.1).attr("opacity",0.55);
+      }
+      g.append("text").attr("class","item-label")
+        .attr("x", d.x1-TICK_ZONE/2).attr("y", y+each/2+3)
+        .attr("text-anchor","middle")
+        .attr("fill", txtColor).text(num);
+    });
+    // vertical divider between name area and tick zone
+    g.append("line").attr("x1",d.x1-TICK_ZONE).attr("x2",d.x1-TICK_ZONE).attr("y1",d.y0).attr("y2",d.y1)
+      .attr("stroke", txtColor).attr("stroke-width",1).attr("opacity",0.4);
+  });
+
+  // objective name labels (centered inside the block, left of the tick zone)
+  blockG.filter(d=>d.kind==="objective").append("text")
+    .attr("class","node-label")
+    .attr("y", d=>(d.y0+d.y1)/2)
+    .attr("text-anchor","middle").attr("dominant-baseline","middle")
+    .attr("fill", d=>textColorFor(d.color))
+    .each(function(d){
+      const cx = d.x0 + (d.x1-d.x0-TICK_ZONE)/2;
+      const words = d.name.split(" ");
+      const mid = Math.ceil(words.length/2);
+      const l1 = words.slice(0,mid).join(" "), l2 = words.slice(mid).join(" ");
+      d3.select(this).attr("fill", textColorFor(d.color));
+      d3.select(this).append("tspan").attr("x", cx).attr("dy","-0.3em").text(l1);
+      d3.select(this).append("tspan").attr("x", cx).attr("dy","1.15em").text(l2);
+    });
+
+  // target tick marks + numbers (near the LEFT edge, where flows arrive) --
+  // continues the same 1-21 numbering used on the objective side
+  blockG.filter(d=>d.kind==="target").each(function(d){
+    const g = d3.select(this);
+    const h = d.y1-d.y0;
+    const n = d.items.length;
+    const each = h/n;
+    const txtColor = textColorFor(d.color);
+    d.items.forEach((num,i)=>{
+      const y = d.y0 + i*each;
+      if(i>0){
+        g.append("line").attr("x1",d.x0).attr("x2",d.x0+TICK_ZONE).attr("y1",y).attr("y2",y)
+          .attr("stroke", txtColor).attr("stroke-width",1.1).attr("opacity",0.55);
+      }
+      g.append("text").attr("class","item-label")
+        .attr("x", d.x0+TICK_ZONE/2).attr("y", y+each/2+3)
+        .attr("text-anchor","middle")
+        .attr("fill", txtColor).text(num);
+    });
+    // vertical divider between the tick zone and the name area
+    g.append("line").attr("x1",d.x0+TICK_ZONE).attr("x2",d.x0+TICK_ZONE).attr("y1",d.y0).attr("y2",d.y1)
+      .attr("stroke", txtColor).attr("stroke-width",1).attr("opacity",0.4);
+  });
+
+  // target labels (inside block, right of the tick zone, wrapped)
+  blockG.filter(d=>d.kind==="target").each(function(d){
+    const g = d3.select(this);
+    const cx = d.x0 + TICK_ZONE + (d.x1-d.x0-TICK_ZONE)/2, cy=(d.y0+d.y1)/2;
+    const words = d.name.split(" ");
+    const lines = [];
+    let line = [];
+    words.forEach(w=>{
+      const test = line.concat([w]).join(" ");
+      if(test.length>17 && line.length){ lines.push(line.join(" ")); line=[w]; }
+      else line.push(w);
+    });
+    if(line.length) lines.push(line.join(" "));
+    const t = g.append("text").attr("class","node-label").attr("x",cx).attr("y",cy)
+      .attr("text-anchor","middle").attr("dominant-baseline","middle")
+      .attr("fill", textColorFor(d.color));
+    const startDy = -(lines.length-1)*0.6;
+    lines.forEach((l,i)=> t.append("tspan").attr("x",cx).attr("dy", i===0? startDy+"em" : "1.2em").text(l));
+  });
+
+  /* ---- Mission bars (decorative label, drawn first so goal ticks sit on top of the link start) ---- */
+  const missionBarW = 46;
+  MISSIONS.forEach((m,mi)=>{
+    const gnodes = goalNodes.filter(n=>n.missionIndex===mi);
+    const y0 = d3.min(gnodes,n=>n.y0), y1 = d3.max(gnodes,n=>n.y1);
+    const x0 = gnodes[0].x1 - 0; // right edge of tick column
+    const barX0 = x0, barX1 = x0 + missionBarW;
+    // extend goal node x1 to bar's right edge conceptually for link start point
+    gnodes.forEach(n=>{ n.x1 = barX1; });
+    svg.append("rect").attr("x", barX0).attr("y", y0).attr("width", barX1-barX0).attr("height", y1-y0)
+      .attr("fill", m.base).attr("rx",2)
+      .style("cursor","pointer")
+      .on("mouseenter", ()=>highlight(gnodes.map(n=>n.id)))
+      .on("mouseleave", ()=>highlight(null))
+      .on("click", ()=>openMission(mi, 0));
+    const cx = (barX0+barX1)/2, cy=(y0+y1)/2;
+    svg.append("text").attr("class","mission-label")
+      .attr("x", cx).attr("y", cy)
+      .attr("text-anchor","middle").attr("dominant-baseline","middle")
+      .attr("transform", `rotate(-90 ${cx} ${cy})`)
+      .style("pointer-events","none")
+      .text(m.name);
+  });
+
+  // NOTE: because we mutated goal node x1 AFTER path generation for obj->goal (target side)
+  // and BEFORE goal->target (source side), recompute the paths now that x1 changed.
+  linkPaths.attr("d", ribbonPath);
+  // refresh gradient x2/x1 endpoints to match new positions
+  graph.links.forEach((l,i)=>{
+    d3.select("#grad"+i).attr("x1", l.source.x1).attr("x2", l.target.x0);
+  });
+
+  /* ---- goal tick nodes (drawn above bars/links) ---- */
+  const tickG = svg.append("g").selectAll("g").data(goalNodes).join("g")
+    .style("cursor","pointer")
+    .on("mouseenter", (e,d)=>highlight(d.id))
+    .on("mouseleave", ()=>highlight(null))
+    .on("click", (e,d)=>openMission(d.missionIndex, d.goalIndex));
+
+  const tickWidth = 16;
+  tickG.append("rect")
+    .attr("class","tick-rect")
+    .attr("x", d=>d.x0).attr("y", d=>d.y0)
+    .attr("width", tickWidth).attr("height", d=>Math.max(2,d.y1-d.y0))
+    .attr("fill", d=> d3.color(MISSIONS[d.missionIndex].base).brighter(0.9))
+    .attr("stroke", d=>MISSIONS[d.missionIndex].base).attr("stroke-width",1);
+
+  tickG.append("text").attr("class","tick-label")
+    .attr("x", d=>d.x0+tickWidth/2).attr("y", d=>(d.y0+d.y1)/2+3)
+    .attr("fill","#123745")
+    .text(d=>d.goalIndex+1);
+
+  /* ---- Years axis ---- */
+  const axisY = newBottom + 25;
+  const axisGap = 20;
+  const axisLeft = d3.min(graph.nodes.filter(n=>n.kind==="objective"), n=>n.x0);
+  const axisRight = d3.max(graph.nodes.filter(n=>n.kind==="target"), n=>n.x1);
+  const axisHalfW = (axisRight - axisLeft - axisGap) / 2;
+
+  function axisSpan(x0,x1,label){
+    const g = svg.append("g");
+    g.append("line").attr("class","axis-line").attr("x1",x0+6).attr("x2",x1-6).attr("y1",axisY).attr("y2",axisY);
+    g.append("line").attr("class","axis-cap").attr("x1",x0+6).attr("x2",x0+6).attr("y1",axisY-6).attr("y2",axisY+6);
+    g.append("line").attr("class","axis-cap").attr("x1",x1-6).attr("x2",x1-6).attr("y1",axisY-6).attr("y2",axisY+6);
+    g.append("text").attr("class","axis-text").attr("x",(x0+x1)/2).attr("y",axisY-10).text(label);
+  }
+  axisSpan(axisLeft, axisLeft+axisHalfW, "YEARS 1-2");
+  axisSpan(axisLeft+axisHalfW+axisGap, axisRight, "YEARS 3-5");
+}
+
+function debounce(fn, ms){
+  let t;
+  return function(){ clearTimeout(t); t = setTimeout(fn, ms); };
+}
+
+/* ============================= ACTIVITIES FOOTER LIST ============================= */
+const gridEl = document.getElementById("activities-grid");
+for(let i=1;i<=21;i++){
+  const div = document.createElement("div");
+  div.className="item";
+  div.innerHTML = `<span class="num">${i}.</span><span>${ACTIVITIES[i]}</span>`;
+  gridEl.appendChild(div);
+}
+
+// Build/rebuild the chart now that the layout (including the activities list
+// above it) has settled, and again whenever the window resizes.
+renderChart();
+window.addEventListener("resize", debounce(renderChart, 150));
+
+/* ============================= DRILL-DOWN PANEL ============================= */
+const overlay = document.getElementById("overlay");
+const panel = document.getElementById("panel");
+const panelHead = document.getElementById("panel-head");
+const panelEyebrow = document.getElementById("panel-eyebrow");
+const panelTitle = document.getElementById("panel-title");
+const panelDesc = document.getElementById("panel-desc");
+const goalTabsEl = document.getElementById("goal-tabs");
+const panelBody = document.getElementById("panel-body");
+const legendRow = document.getElementById("legend-row");
+
+function closePanel(){
+  overlay.classList.remove("show");
+  panel.classList.remove("show");
+}
+document.getElementById("panel-close").addEventListener("click", closePanel);
+overlay.addEventListener("click", closePanel);
+
+function renderTreeNode(node, ramp){
+  const tierColor = {primary:ramp[1], secondary:ramp[2], activity:ramp[3], project:ramp[4]}[node.tier];
+  const wrap = document.createElement("div");
+  wrap.className = "tree-branch";
+  const box = document.createElement("div");
+  box.className = "tree-box tier-"+node.tier;
+  box.style.background = tierColor;
+  box.textContent = node.label;
+  wrap.appendChild(box);
+  if(node.children && node.children.length){
+    const kids = document.createElement("div");
+    kids.className = "tree-children";
+    node.children.forEach(c=>kids.appendChild(renderTreeNode(c, ramp)));
+    wrap.appendChild(kids);
+  }
+  return wrap;
+}
+
+function openMission(missionIndex, goalIndex){
+  const m = MISSIONS[missionIndex];
+  panelHead.style.background = m.base;
+  panelEyebrow.textContent = m.name;
+  panelTitle.textContent = "Implementation Plan";
+  panelDesc.textContent = m.desc;
+  legendRow.style.display = "flex";
+  const swatches = legendRow.querySelectorAll(".swatch i");
+  swatches[0].style.background = m.ramp[1];
+  swatches[1].style.background = m.ramp[2];
+  swatches[2].style.background = m.ramp[3];
+  swatches[3].style.background = m.ramp[4];
+
+  goalTabsEl.innerHTML = "";
+  m.goals.forEach((g,i)=>{
+    const b = document.createElement("button");
+    b.className = "goal-tab" + (i===goalIndex ? " active" : "");
+    b.style.background = i===goalIndex ? m.base : "#eef2f3";
+    b.textContent = "GOAL " + (i+1);
+    b.addEventListener("click", ()=>openMission(missionIndex, i));
+    goalTabsEl.appendChild(b);
+  });
+
+  panelBody.innerHTML = "";
+  const goal = m.goals[goalIndex];
+  const titleEl = document.createElement("div");
+  titleEl.className = "goal-title";
+  titleEl.style.borderLeftColor = m.base;
+  titleEl.textContent = "GOAL " + (goalIndex+1) + ":  " + goal.title;
+  panelBody.appendChild(titleEl);
+
+  const root = document.createElement("div");
+  root.className = "tree-root";
+  goal.tree.forEach(n=>root.appendChild(renderTreeNode(n, m.ramp)));
+  panelBody.appendChild(root);
+
+  overlay.classList.add("show");
+  panel.classList.add("show");
+}
+
+function openObjective(d){
+  panelHead.style.background = d.color;
+  panelEyebrow.textContent = "CORE PROGRAMMATIC OBJECTIVE";
+  panelTitle.textContent = d.name;
+  panelDesc.textContent = "Years 1–2 foundational activities and projects that build toward FUEL’s three Missions.";
+  legendRow.style.display = "none";
+  goalTabsEl.innerHTML = "";
+
+  panelBody.innerHTML = "";
+  const list = document.createElement("div");
+  list.className = "obj-list";
+  d.items.forEach(num=>{
+    const row = document.createElement("div");
+    row.className = "row";
+    row.innerHTML = `<b>${num}.</b><span>${ACTIVITIES[num]}</span>`;
+    list.appendChild(row);
+  });
+  panelBody.appendChild(list);
+
+  overlay.classList.add("show");
+  panel.classList.add("show");
+}
+
+function openTarget(d){
+  panelHead.style.background = d.color;
+  panelEyebrow.textContent = "TARGET";
+  panelTitle.textContent = d.name;
+  panelDesc.textContent = "Outcome measured across Years 3–5, fed by the Mission goals below.";
+  legendRow.style.display = "none";
+  goalTabsEl.innerHTML = "";
+
+  panelBody.innerHTML = "";
+  const feeders = LINKS_GOAL_TO_TGT.filter(l=>l[1]===d.id).map(l=>l[0]);
+  const wrap = document.createElement("div");
+  wrap.className = "target-feed";
+  feeders.forEach(gid=>{
+    const mi = MISSIONS.findIndex(m=>gid.startsWith(m.id));
+    const gi = parseInt(gid.slice(-1),10)-1;
+    const m = MISSIONS[mi];
+    const row = document.createElement("div");
+    row.className = "row";
+    row.innerHTML = `<span>${m.name} — Goal ${gi+1}: ${m.goals[gi].title}</span><span class="tag" style="background:${m.base}">VIEW</span>`;
+    row.style.cursor = "pointer";
+    row.addEventListener("click", ()=>openMission(mi, gi));
+    wrap.appendChild(row);
+  });
+  panelBody.appendChild(wrap);
+
+  overlay.classList.add("show");
+  panel.classList.add("show");
+}
+</script>
+</body>
+</html>
