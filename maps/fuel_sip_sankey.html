@@ -186,6 +186,7 @@ const TARGETS = [
 const MISSIONS = [
   { id:"m1", name:"MISSION 1", base:"#105972",
     ramp:["#123745","#1F6478","#5B8FA0","#A9C7D1","#E1EAED"],
+    head:"IP-ENABLED GROWTH",
     desc:"Build a thriving innovation ecosystem in Louisiana consisting of intellectual-property-enabled growth within companies that develop and scale commercial products centered around carbon management technologies.",
     goals:[
       { title:"Inspiring and broadening participation in use-inspired research to generate new IP",
@@ -235,6 +236,7 @@ const MISSIONS = [
   },
   { id:"m2", name:"MISSION 2", base:"#359E6F",
     ramp:["#1e5c40","#2E9B69","#6FBF97","#B7E0CA","#E7F4EC"],
+    head:"TALENT ATTRACTION & RETENTION",
     desc:"Create jobs and wealth-building opportunities through innovation-based economic development that attracts and retains world-class talent, especially Louisiana innovators so they may develop their ideas within the state.",
     goals:[
       { title:"Grow the number of energy-related founders in FUEL's Entrepreneurial Network of founders from 15 to more than 80 by Year 5",
@@ -271,6 +273,7 @@ const MISSIONS = [
   },
   { id:"m3", name:"MISSION 3", base:"#DDAA01",
     ramp:["#8a6a10","#DDAA01","#E9C558","#F1DDA0","#FBF3DA"],
+    head:"ENERGY JOBS",
     desc:"Prepare an innovative energy workforce from across all Louisiana communities to fill and sustain the jobs created and retained.",
     goals:[
       { title:"Create an energy innovator pathway and related programming to intentionally equip 45–60 Louisiana higher education students with skills to launch and/or manage a startup company",
@@ -855,7 +858,7 @@ function openMission(missionIndex, goalIndex){
   const m = MISSIONS[missionIndex];
   panelHead.style.background = m.base;
   panelEyebrow.textContent = m.name;
-  panelTitle.textContent = "Implementation Plan";
+  panelTitle.textContent = m.head;
   panelDesc.textContent = m.desc;
   legendRow.style.display = "flex";
   const swatches = legendRow.querySelectorAll(".swatch i");
